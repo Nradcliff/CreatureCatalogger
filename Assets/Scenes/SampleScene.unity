@@ -1477,6 +1477,10 @@ PrefabInstance:
       propertyPath: manager
       value: 
       objectReference: {fileID: 488190238}
+    - target: {fileID: 8509968906500155300, guid: 8531920d440b66c468580480600f0283, type: 3}
+      propertyPath: windowName
+      value: AAAAAAAAAA
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1958,6 +1962,10 @@ PrefabInstance:
       propertyPath: manager
       value: 
       objectReference: {fileID: 488190238}
+    - target: {fileID: 8509968906500155300, guid: 8531920d440b66c468580480600f0283, type: 3}
+      propertyPath: windowName
+      value: Hi
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2747,6 +2755,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -4.7796
       objectReference: {fileID: 0}
+    - target: {fileID: 800876703030191724, guid: 8531920d440b66c468580480600f0283, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.40600628
+      objectReference: {fileID: 0}
+    - target: {fileID: 800876703030191724, guid: 8531920d440b66c468580480600f0283, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -93.4
+      objectReference: {fileID: 0}
     - target: {fileID: 1351724839843718325, guid: 8531920d440b66c468580480600f0283, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -61.2
@@ -2827,6 +2843,10 @@ PrefabInstance:
       propertyPath: manager
       value: 
       objectReference: {fileID: 488190238}
+    - target: {fileID: 8509968906500155300, guid: 8531920d440b66c468580480600f0283, type: 3}
+      propertyPath: windowName
+      value: Sorting
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
