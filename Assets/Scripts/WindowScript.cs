@@ -1,6 +1,8 @@
+using Unity.VisualScripting;
 using UnityEditor.ShaderGraph.Serialization;
 using UnityEditor.Timeline;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.UI;
 
 public class WindowScript : MonoBehaviour
@@ -20,6 +22,7 @@ public class WindowScript : MonoBehaviour
     public Vector3 basePos, targetPos;
     //LockPos - used to keep position before minimizing in pPos and basePos
     bool lockPos;
+    public GameObject windowHeader,buttonsInHeader;
 
     //Minimize Button Variables
     public Button mimizeButton;
@@ -27,6 +30,17 @@ public class WindowScript : MonoBehaviour
     public float timeLerped = 1;
     public float speed;
 
+    //Close Button Variables
+    public Button closeButton;
+
+    //Sorting Layer Variables
+    public GameObject background, shadow,content,contentCanvas;
+    public int headerLayer, backgroundLayer, shadowLayer, contentLayers;
+    public int posInArray;
+    public bool priority;
+    public SortingGroup sortingGroup;
+    //change to require WindowLayerManagement
+    public GameObject manager;
 
     void Start()
     {
@@ -38,10 +52,29 @@ public class WindowScript : MonoBehaviour
         targetScaleX = baseScaleX / 10;
         targetScaleY = baseScaleY / 10;
         targetScale = new Vector3(targetScaleX, targetScaleY, transform.localScale.z);
+
+        manager = GameObject.Find("WindowLayerManager");
+        manager.GetComponent<WindowLayerManagement>().windowSortList.Add(this.gameObject);
     }
     
     void Update()
     {
+        //Sorting Layer
+        sortingGroup.sortingOrder = posInArray * 8;
+        headerLayer = 3 + sortingGroup.sortingOrder;
+        backgroundLayer = 1 + sortingGroup.sortingOrder;
+        shadowLayer = 0 + sortingGroup.sortingOrder;
+        contentLayers = 2 + sortingGroup.sortingOrder;
+
+        //Apply layer change
+        
+        windowHeader.GetComponent<SpriteRenderer>().sortingOrder = headerLayer;
+        buttonsInHeader.GetComponent<Canvas>().sortingOrder = headerLayer;
+        background.GetComponent<SpriteRenderer>().sortingOrder = backgroundLayer;
+        shadow.GetComponent<SpriteRenderer>().sortingOrder = shadowLayer;
+        content.GetComponent<SortingGroup>().sortingOrder = contentLayers;
+        contentCanvas.GetComponent<Canvas>().sortingOrder = contentLayers;
+
         //If not currently being minimized or unminimized
         if (!pressed && !lockPos)
         {
@@ -97,5 +130,10 @@ public class WindowScript : MonoBehaviour
         timeLerped = .1f;
         lockPos = true;
         pressed = !pressed;
+    }
+
+    public void closeButtonScript()
+    {
+        gameObject.SetActive(false);
     }
 }
