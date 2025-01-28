@@ -1,6 +1,4 @@
-using Unity.VisualScripting;
-using UnityEditor.ShaderGraph.Serialization;
-using UnityEditor.Timeline;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.UI;
@@ -33,6 +31,10 @@ public class WindowScript : MonoBehaviour
     //Close Button Variables
     public Button closeButton;
 
+    //Misc
+    public TextMeshProUGUI windowNameTMP;
+    public string windowName;
+
     //Sorting Layer Variables
     public GameObject background, shadow,content,contentCanvas;
     public int headerLayer, backgroundLayer, shadowLayer, contentLayers;
@@ -52,9 +54,13 @@ public class WindowScript : MonoBehaviour
         targetScaleX = baseScaleX / 10;
         targetScaleY = baseScaleY / 10;
         targetScale = new Vector3(targetScaleX, targetScaleY, transform.localScale.z);
-
+        
+        //Setting Manager
         manager = GameObject.Find("WindowLayerManager");
         manager.GetComponent<WindowLayerManagement>().windowSortList.Add(this.gameObject);
+
+        //Setting Window Name
+        windowNameTMP.text = windowName;
     }
     
     void Update()
@@ -73,7 +79,7 @@ public class WindowScript : MonoBehaviour
         background.GetComponent<SpriteRenderer>().sortingOrder = backgroundLayer;
         shadow.GetComponent<SpriteRenderer>().sortingOrder = shadowLayer;
         content.GetComponent<SortingGroup>().sortingOrder = contentLayers;
-        contentCanvas.GetComponent<Canvas>().sortingOrder = contentLayers;
+        contentCanvas.GetComponent<Canvas>().sortingOrder = contentLayers+3;
 
         //If not currently being minimized or unminimized
         if (!pressed && !lockPos)
