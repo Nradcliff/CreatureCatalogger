@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 510413f31503f8843afc6b8bfc85c6b9, type: 3}
+  m_Name: Mothman
+  m_EditorClassIdentifier: 
+  name: Mothman
+  description: "You are a worm through time.  The thunder song distorts you.  Happiness
+    comes.  White pearls, but yellow and red in the eye.  Through a mirror, inverted
+    is made right.  Leave your insides by the door.  Push the fingers through the
+    surface into the wet.  You\u2019ve always been the new you.  You want this to
+    be true.  We stand around you while you dream.  You can almost hear our words
+    but you forget.  This happens more and more now.  You gave us the permission
+    in your regulations.  We wait in the stains.  The word that describes this is
+    redacted.  Repeat the word.  The name of the sound.  It resonates in your house. 
+    After the song, time for applause.  We build you till nothing remains.  The egg
+    cracks and the truth will emerge out of you.  You are home.  You remind us of
+    home.  You\u2019ve taken your boss with your boss with you.  All hair must be
+    eaten.  Under the conceptual reality behind this reality you must want these
+    waves to drag you away.  After the song, time for applause.  This clich\xE9 is
+    death out of time, breaking the first the second the third the fourth wall, the
+    fifth wall, floor; no floor: you fall!  How do you say \u201Cinsane\u201D?  Hurts
+    to be happy.  An earworm is a tune you can\u2019t stop humming in a dream: \u201Cbaby
+    baby baby yeah\u201D.  Just plastic.  So, safe and nothing to worry about.  Ha
+    ha, funny.  The last egg breaks now.  The hole in your room is a hole in you. 
+    You came and we let you in through the hole in you.  You have always been here,
+    the only child.  A copy of a copy of a copy.  Orange peel.  The picture is you
+    holding the picture.  When you hear this you will know you\u2019re in new you. 
+    You want to listen.  You want to dream.  You want to smile.  You want to hurt. 
+    You don\u2019t want to be."
+  artwork: {fileID: 0}
+  id: 0
+  threat: T1
+  type: Humanoid
