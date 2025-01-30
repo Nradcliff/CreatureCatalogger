@@ -73,13 +73,12 @@ public class WindowScript : MonoBehaviour
         contentLayers = 2 + sortingGroup.sortingOrder;
 
         //Apply layer change
-        
         windowHeader.GetComponent<SpriteRenderer>().sortingOrder = headerLayer;
         buttonsInHeader.GetComponent<Canvas>().sortingOrder = headerLayer;
         background.GetComponent<SpriteRenderer>().sortingOrder = backgroundLayer;
         shadow.GetComponent<SpriteRenderer>().sortingOrder = shadowLayer;
         content.GetComponent<SortingGroup>().sortingOrder = contentLayers;
-        contentCanvas.GetComponent<Canvas>().sortingOrder = contentLayers+3;
+        contentCanvas.GetComponent<Canvas>().sortingOrder = contentLayers;
 
         //If not currently being minimized or unminimized
         if (!pressed && !lockPos)
