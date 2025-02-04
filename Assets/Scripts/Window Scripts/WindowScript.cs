@@ -36,13 +36,16 @@ public class WindowScript : MonoBehaviour
     public string windowName;
 
     //Sorting Layer Variables
-    public GameObject background, shadow,content,contentCanvas;
+    public GameObject background, shadow,content,contentCanvas,border;
     public int headerLayer, backgroundLayer, shadowLayer, contentLayers;
     public int posInArray;
     public bool priority;
     public SortingGroup sortingGroup;
     //change to require WindowLayerManagement
     public GameObject manager;
+
+    //Taskbar Stuff
+    public GameObject taskBarManager;
 
     void Start()
     {
@@ -55,9 +58,11 @@ public class WindowScript : MonoBehaviour
         targetScaleY = baseScaleY / 10;
         targetScale = new Vector3(targetScaleX, targetScaleY, transform.localScale.z);
         
-        //Setting Manager
+        //Setting Managers
         manager = GameObject.Find("WindowLayerManager");
         manager.GetComponent<WindowLayerManagement>().windowSortList.Add(this.gameObject);
+        taskBarManager = GameObject.Find("WindowLayerManager");
+        taskBarManager.GetComponent<CheckIfOpen>().windowList.Add(this.gameObject);
 
         //Setting Window Name
         windowNameTMP.text = windowName;
@@ -66,7 +71,7 @@ public class WindowScript : MonoBehaviour
     void Update()
     {
         //Sorting Layer
-        sortingGroup.sortingOrder = posInArray * 8;
+        sortingGroup.sortingOrder = posInArray * 10;
         headerLayer = 3 + sortingGroup.sortingOrder;
         backgroundLayer = 1 + sortingGroup.sortingOrder;
         shadowLayer = 0 + sortingGroup.sortingOrder;
@@ -79,6 +84,10 @@ public class WindowScript : MonoBehaviour
         shadow.GetComponent<SpriteRenderer>().sortingOrder = shadowLayer;
         content.GetComponent<SortingGroup>().sortingOrder = contentLayers;
         contentCanvas.GetComponent<Canvas>().sortingOrder = contentLayers;
+        if (border != null)
+        {
+            border.GetComponent<SpriteRenderer>().sortingOrder = headerLayer;
+        }
 
         //If not currently being minimized or unminimized
         if (!pressed && !lockPos)
@@ -140,5 +149,10 @@ public class WindowScript : MonoBehaviour
     public void closeButtonScript()
     {
         gameObject.SetActive(false);
+    }
+
+    public void bringToFront()
+    {
+        priority = true;
     }
 }

@@ -1,26 +1,57 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class OpenWindowFromIcon : MonoBehaviour
+public class DesktopIcon : MonoBehaviour
 {
     public GameObject AssignedWindow;
-    public TextMeshProUGUI programName;
-    public Sprite icon;
+    public Button selfButton;
+    public TextMeshProUGUI nameOnIcon;
+
+    public string ProgramName;
+    public Image icon;
+
+    public int clickCount;
+
+    public float timeToOpen;
 
     public void Start()
     {
-        programName.text = AssignedWindow.GetComponent<WindowScript>().windowName;
-    }
-    public void Update()
-    {
-        AssignedWindow.GetComponent<WindowScript>().targetPosX = this.transform.position.x;
-        AssignedWindow.GetComponent<WindowScript>().targetPosY = this.transform.position.y;
+        ProgramName = AssignedWindow.GetComponent<WindowScript>().windowName;
+        nameOnIcon.text = ProgramName;
     }
 
-    public void openWindow()
+    public void Update()
     {
-        if (AssignedWindow != null) {
-            
+        if(timeToOpen < 1)
+        {
+            timeToOpen += Time.deltaTime;
+        }
+        else
+        {
+            clickCount = 0;
+        }
+    }
+
+    public void checkForOpen()
+    {
+        if(clickCount >= 1)
+        {
+            clickCount = 0;
+            openWindowfromDesktop();
+        }
+        else if (clickCount < 1)
+        {
+            timeToOpen = 0;
+            clickCount++;
+        }
+    }
+
+    public void openWindowfromDesktop()
+    {
+        if (AssignedWindow != null)
+        {
+
             if (AssignedWindow.activeSelf == false)
             {
                 AssignedWindow.SetActive(true);
@@ -28,6 +59,7 @@ public class OpenWindowFromIcon : MonoBehaviour
                 AssignedWindow.GetComponent<WindowScript>().priority = true;
                 AssignedWindow.transform.localScale = AssignedWindow.GetComponent<WindowScript>().baseScale;
                 AssignedWindow.transform.position = AssignedWindow.GetComponent<WindowScript>().basePos;
+                //Add icon to taskbar     - done in another script
             }
             else
             {
