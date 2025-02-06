@@ -16,5 +16,5 @@ MonoBehaviour:
   description: An undead creature
   artwork: {fileID: 0}
   id: 3
-  threat: T1
+  threat: Threat Level 2
   type: Humanoid

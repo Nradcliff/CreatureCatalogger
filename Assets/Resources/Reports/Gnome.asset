@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 510413f31503f8843afc6b8bfc85c6b9, type: 3}
-  m_Name: Werewolf
+  m_Name: Gnome
   m_EditorClassIdentifier: 
-  name: Werewolf
-  description: Its a full moon
+  name: Gnome
+  description: Just a little guy.
   artwork: {fileID: 0}
-  id: 6
-  threat: T1
+  id: 1
+  threat: Threat Level 0
   type: Humanoid

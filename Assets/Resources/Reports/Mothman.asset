@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 510413f31503f8843afc6b8bfc85c6b9, type: 3}
-  m_Name: Specter
+  m_Name: Mothman
   m_EditorClassIdentifier: 
-  name: Specter
-  description: Moons haunted
+  name: Mothman
+  description: He likes light
   artwork: {fileID: 0}
-  id: 4
-  threat: T1
-  type: Humanoid
+  id: 0
+  threat: Threat Level 1
+  type: Beast

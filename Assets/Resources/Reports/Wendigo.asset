@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 510413f31503f8843afc6b8bfc85c6b9, type: 3}
-  m_Name: Gnome
+  m_Name: Wendigo
   m_EditorClassIdentifier: 
-  name: Gnome
-  description: Just a little guy.
+  name: 
+  description: 
   artwork: {fileID: 0}
-  id: 1
-  threat: T0
-  type: Humanoid
+  id: 8
+  threat: Threat Level 2
+  type: Beast
