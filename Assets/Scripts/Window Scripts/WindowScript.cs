@@ -12,6 +12,10 @@ public class WindowScript : MonoBehaviour
     public float targetScaleX, targetScaleY;
     public Vector3 baseScale, targetScale;
 
+    public bool grabbed;
+    public float grabbedScaleX, grabbedScaleY;
+    public Vector3 grabbedScale;
+
     //Position Variables
     //basePos - Position before minimizing, not origin
     public float basePosX, basePosY;
@@ -57,6 +61,10 @@ public class WindowScript : MonoBehaviour
         targetScaleX = baseScaleX / 10;
         targetScaleY = baseScaleY / 10;
         targetScale = new Vector3(targetScaleX, targetScaleY, transform.localScale.z);
+        //Defining scale of grabbed window;
+        grabbedScaleX = baseScaleX * 1.01f;
+        grabbedScaleY = baseScaleY * 1.01f;
+        grabbedScale = new Vector3(grabbedScaleX, grabbedScaleY, transform.localScale.z);
         
         //Setting Managers
         manager = GameObject.Find("WindowLayerManager");
@@ -76,6 +84,8 @@ public class WindowScript : MonoBehaviour
         backgroundLayer = 1 + sortingGroup.sortingOrder;
         shadowLayer = 0 + sortingGroup.sortingOrder;
         contentLayers = 2 + sortingGroup.sortingOrder;
+
+        
 
         //Apply layer change
         windowHeader.GetComponent<SpriteRenderer>().sortingOrder = headerLayer;
@@ -103,6 +113,7 @@ public class WindowScript : MonoBehaviour
         //If minimizing
         if (pressed)
         {
+            grabbed = false;
             //Scale down and move to icon position
             transform.localScale = Vector3.MoveTowards(baseScale, targetScale, speed*timeLerped);
             if (lockPos)
@@ -120,20 +131,41 @@ public class WindowScript : MonoBehaviour
         }
         else
         {
-            //Scale up and move to last position
-            transform.localScale = Vector3.MoveTowards(targetScale, baseScale, speed * timeLerped);
-            if (lockPos)
+            //Grabbed bool is here for edge-case related reasons. Just duplicate any changes.
+            if (grabbed)
             {
-                transform.localPosition = Vector3.MoveTowards(targetPos, basePos, speed * timeLerped);
-            }
-            //If one second has passed, lock the movement of the window via drag.  Else, add to timer.
-            if (timeLerped >= 1)
-            {
-                lockPos = false;
+                transform.localScale = grabbedScale;
+                if (lockPos)
+                {
+                    transform.localPosition = Vector3.MoveTowards(targetPos, basePos, speed * timeLerped);
+                }
+                //If one second has passed, lock the movement of the window via drag.  Else, add to timer.
+                if (timeLerped >= .5f)
+                {
+                    lockPos = false;
+                }
+                else
+                {
+                    timeLerped += Time.deltaTime;
+                }
             }
             else
             {
-                timeLerped += Time.deltaTime;
+                //Scale up and move to last position
+                transform.localScale = Vector3.MoveTowards(targetScale, baseScale, speed * timeLerped);
+                if (lockPos)
+                {
+                    transform.localPosition = Vector3.MoveTowards(targetPos, basePos, speed * timeLerped);
+                }
+                //If one second has passed, lock the movement of the window via drag.  Else, add to timer.
+                if (timeLerped >= .5f)
+                {
+                    lockPos = false;
+                }
+                else
+                {
+                    timeLerped += Time.deltaTime;
+                }
             }
         }
     }

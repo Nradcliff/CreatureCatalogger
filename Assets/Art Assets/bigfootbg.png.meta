@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bigfootbg_0: -5874731287503066172
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

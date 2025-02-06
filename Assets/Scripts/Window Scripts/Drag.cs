@@ -16,6 +16,8 @@ public class Drag : MonoBehaviour
 
         screenPoint = Camera.main.WorldToScreenPoint(gameObject.transform.position);
 
+        windowSelf.GetComponent<WindowScript>().grabbed = true;
+
         offset = gameObject.transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z));
         windowSelf.GetComponent<WindowScript>().priority = true;
     }
@@ -27,6 +29,11 @@ public class Drag : MonoBehaviour
         Vector3 curPosition = Camera.main.ScreenToWorldPoint(curScreenPoint) + offset;
         transform.position = curPosition;
 
+    }
+
+    private void OnMouseUp()
+    {
+        windowSelf.GetComponent<WindowScript>().grabbed = false;
     }
 
 }
