@@ -17,16 +17,18 @@ public class ReportDisplay : MonoBehaviour
     public Transform parentTransform; //Transform of the parent that the buttons will become children of
     public GameObject reportButton; //Varible to store button prefab
 
-    //private int selectedReport = 0;
+    public TMP_Dropdown currentReport;
 
     public void Start()
     {
+        currentReport.options.Clear();
         reportArr = Resources.LoadAll("Reports", typeof(ReportWindow)).Cast<ReportWindow>().ToArray(); //Loads all of the reports in resources folder into an array
 
         List<ReportWindow> tempReports = new List<ReportWindow>(); //A temp list to avoid duplicate reports when being selected
-        
 
-        for(int i = 0; i < reportArr.Length; i++ ) //Copies the reports of the reportArr into this temporary list so we can avoid duplicate selections later
+
+
+        for (int i = 0; i < reportArr.Length; i++ ) //Copies the reports of the reportArr into this temporary list so we can avoid duplicate selections later
         {
             tempReports.Add(reportArr[i]);
         }
@@ -46,8 +48,10 @@ public class ReportDisplay : MonoBehaviour
             TMP_Text buttonText = duplicate.GetComponentInChildren<TMP_Text>();
             if (buttonText != null)
             {
-                buttonText.text = "Report " + (i + 1); //Making sure the text says report and does't start at 0
+                buttonText.text = duplicate.GetComponent<SwitchTab>().report.name; //Sets the name of the creature as the report name
             }
+
+            currentReport.options.Add(new TMP_Dropdown.OptionData(duplicate.GetComponent<SwitchTab>().report.name));
         }
     }
 }

@@ -1563,7 +1563,6 @@ GameObject:
   - component: {fileID: 645000824}
   - component: {fileID: 645000823}
   - component: {fileID: 645000822}
-  - component: {fileID: 645000825}
   m_Layer: 5
   m_Name: CreatureType
   m_TagString: Untagged
@@ -1588,10 +1587,10 @@ RectTransform:
   - {fileID: 332187866}
   m_Father: {fileID: 1840684444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 540, y: -25}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &645000822
 MonoBehaviour:
@@ -1659,9 +1658,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 645000825}
+      - m_Target: {fileID: 1840684446}
         m_TargetAssemblyTypeName: CheckSystem, Assembly-CSharp
-        m_MethodName: GetDropdownValue
+        m_MethodName: CheckComparison
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1710,21 +1709,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 645000820}
   m_CullTransparentMesh: 1
---- !u!114 &645000825
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 645000820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 069dcee1b5308d1488051f20ed49d5ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentReport: {fileID: 0}
-  currentThreat: {fileID: 0}
-  currentType: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2336,7 +2320,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &864860681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3938,7 +3922,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Report 1
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4029,7 +4013,6 @@ GameObject:
   - component: {fileID: 1692991716}
   - component: {fileID: 1692991715}
   - component: {fileID: 1692991714}
-  - component: {fileID: 1692991717}
   m_Layer: 5
   m_Name: CurrentCreature
   m_TagString: Untagged
@@ -4054,10 +4037,10 @@ RectTransform:
   - {fileID: 542066287}
   m_Father: {fileID: 1840684444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 100, y: -25}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1692991714
 MonoBehaviour:
@@ -4109,31 +4092,13 @@ MonoBehaviour:
   m_Value: 0
   m_MultiSelect: 0
   m_Options:
-    m_Options:
-    - m_Text: Report 1
-      m_Image: {fileID: 0}
-      m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Report 2
-      m_Image: {fileID: 0}
-      m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Report 3
-      m_Image: {fileID: 0}
-      m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Report 4
-      m_Image: {fileID: 0}
-      m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Report 5
-      m_Image: {fileID: 0}
-      m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Report 6
-      m_Image: {fileID: 0}
-      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    m_Options: []
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1692991717}
+      - m_Target: {fileID: 1840684446}
         m_TargetAssemblyTypeName: CheckSystem, Assembly-CSharp
-        m_MethodName: GetDropdownValue
+        m_MethodName: CheckComparison
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4182,21 +4147,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1692991712}
   m_CullTransparentMesh: 1
---- !u!114 &1692991717
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1692991712}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 069dcee1b5308d1488051f20ed49d5ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentReport: {fileID: 0}
-  currentThreat: {fileID: 0}
-  currentType: {fileID: 0}
 --- !u!1 &1694488564
 GameObject:
   m_ObjectHideFlags: 0
@@ -4446,6 +4396,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1840684444}
   - component: {fileID: 1840684445}
+  - component: {fileID: 1840684446}
   m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
@@ -4499,6 +4450,22 @@ MonoBehaviour:
   m_Spacing: {x: 20, y: 10}
   m_Constraint: 1
   m_ConstraintCount: 3
+--- !u!114 &1840684446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840684443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 069dcee1b5308d1488051f20ed49d5ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentReport: {fileID: 1692991714}
+  DayStuff: {fileID: 1380647378}
+  currentThreat: {fileID: 1864015130}
+  currentType: {fileID: 645000822}
 --- !u!1 &1864015128
 GameObject:
   m_ObjectHideFlags: 0
@@ -4511,7 +4478,6 @@ GameObject:
   - component: {fileID: 1864015132}
   - component: {fileID: 1864015131}
   - component: {fileID: 1864015130}
-  - component: {fileID: 1864015133}
   m_Layer: 5
   m_Name: ThreatLevel
   m_TagString: Untagged
@@ -4536,10 +4502,10 @@ RectTransform:
   - {fileID: 608608858}
   m_Father: {fileID: 1840684444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 320, y: -25}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1864015130
 MonoBehaviour:
@@ -4607,9 +4573,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1864015133}
+      - m_Target: {fileID: 1840684446}
         m_TargetAssemblyTypeName: CheckSystem, Assembly-CSharp
-        m_MethodName: GetDropdownValue
+        m_MethodName: CheckComparison
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4658,21 +4624,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1864015128}
   m_CullTransparentMesh: 1
---- !u!114 &1864015133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1864015128}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 069dcee1b5308d1488051f20ed49d5ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentReport: {fileID: 0}
-  currentThreat: {fileID: 0}
-  currentType: {fileID: 0}
 --- !u!1 &1864093465
 GameObject:
   m_ObjectHideFlags: 0
@@ -4772,14 +4723,13 @@ GameObject:
   - component: {fileID: 1882427992}
   - component: {fileID: 1882427991}
   - component: {fileID: 1882427990}
-  - component: {fileID: 1882427994}
   m_Layer: 5
   m_Name: ReportBrowser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1882427990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4864,18 +4814,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1882427994
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1882427989}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf4579721007ede4da1dbba85b9db58f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1923391928
 GameObject:
   m_ObjectHideFlags: 0
