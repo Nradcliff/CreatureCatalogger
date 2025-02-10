@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class CheckSystem : MonoBehaviour
 {
     public TMP_Dropdown currentReport;
-    private ReportDisplay activeReport;
+    private ReportWindow activeReport;
 
     public TMP_Dropdown currentThreat;
     public TMP_Dropdown currentType;
@@ -21,7 +21,7 @@ public class CheckSystem : MonoBehaviour
     {
         int reportIndex = currentReport.value;
         string reportSelection = currentReport.options[reportIndex].text;
-        activeReport = Resources.Load<ReportDisplay>(reportSelection);
+        activeReport = Resources.Load<ReportWindow>(reportSelection);
         Debug.Log(reportSelection);
         Debug.Log(activeReport.name);
 
