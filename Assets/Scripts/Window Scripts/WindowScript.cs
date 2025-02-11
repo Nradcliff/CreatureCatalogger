@@ -38,6 +38,9 @@ public class WindowScript : MonoBehaviour
     //Misc
     public TextMeshProUGUI windowNameTMP;
     public string windowName;
+    public bool requiresInternet;
+    public GameObject internet;
+    public GameObject noInternet;
 
     //Sorting Layer Variables
     public GameObject background, shadow,content,contentCanvas,border;
@@ -51,11 +54,16 @@ public class WindowScript : MonoBehaviour
     //Taskbar Stuff
     public GameObject taskBarManager;
 
+    //Desktop Icon Stuff
+    public GameObject desktopIcon;
+    public Image icon;
+    //make this to where desktop icon gives icon to window
+
     void Start()
     {
         //Defining original, intended scale of window
-        baseScaleX = transform.localScale.x;
-        baseScaleY = transform.localScale.y;
+        //baseScaleX = transform.localScale.x;
+        //baseScaleY = transform.localScale.y;
         baseScale = new Vector3(baseScaleX, baseScaleY, transform.localScale.z);
         //Defining scale of minimized window
         targetScaleX = baseScaleX / 10;
@@ -78,71 +86,76 @@ public class WindowScript : MonoBehaviour
     
     void Update()
     {
-        //Sorting Layer
-        sortingGroup.sortingOrder = posInArray * 10;
-        headerLayer = 3 + sortingGroup.sortingOrder;
-        backgroundLayer = 1 + sortingGroup.sortingOrder;
-        shadowLayer = 0 + sortingGroup.sortingOrder;
-        contentLayers = 2 + sortingGroup.sortingOrder;
-
-        
-
-        //Apply layer change
-        windowHeader.GetComponent<SpriteRenderer>().sortingOrder = headerLayer;
-        buttonsInHeader.GetComponent<Canvas>().sortingOrder = headerLayer;
-        background.GetComponent<SpriteRenderer>().sortingOrder = backgroundLayer;
-        shadow.GetComponent<SpriteRenderer>().sortingOrder = shadowLayer;
-        content.GetComponent<SortingGroup>().sortingOrder = contentLayers;
-        contentCanvas.GetComponent<Canvas>().sortingOrder = contentLayers;
-        if (border != null)
+        if (Time.timeScale != 0)
         {
-            border.GetComponent<SpriteRenderer>().sortingOrder = headerLayer;
-        }
+            //Sorting Layer
+            sortingGroup.sortingOrder = posInArray * 10;
+            headerLayer = 3 + sortingGroup.sortingOrder;
+            backgroundLayer = 1 + sortingGroup.sortingOrder;
+            shadowLayer = 0 + sortingGroup.sortingOrder;
+            contentLayers = 2 + sortingGroup.sortingOrder;
 
-        //If not currently being minimized or unminimized
-        if (!pressed && !lockPos)
-        {
-            //Record current position x and y
-            basePosX = transform.localPosition.x;
-            basePosY = transform.localPosition.y;
-        }
-        //Defining icon and current positions
-        targetPos = new Vector3(targetPosX, targetPosY, transform.localPosition.z);
-        basePos = new Vector3(basePosX, basePosY, transform.localPosition.z);
-
-        //If minimizing
-        if (pressed)
-        {
-            grabbed = false;
-            //Scale down and move to icon position
-            transform.localScale = Vector3.MoveTowards(baseScale, targetScale, speed*timeLerped);
-            if (lockPos)
+            if (desktopIcon != null)
             {
-                transform.localPosition = Vector3.MoveTowards(basePos, targetPos, speed * timeLerped);
+                if (desktopIcon.activeSelf == false)
+                {
+                    this.gameObject.SetActive(false);
+                }
             }
-            //If one second has passed, do nothing. Else, add to timer.
-            if (timeLerped >= 1)
+
+            if (internet != null)
             {
+                if (requiresInternet && internet.GetComponent<DemoInternetShutoff>().on == false)
+                {
+                    content.SetActive(false);
+                    contentCanvas.SetActive(false);
+                    noInternet.SetActive(true);
+                }
+                if (internet.GetComponent<DemoInternetShutoff>().on == true)
+                {
+                    content.SetActive(true);
+                    contentCanvas.SetActive(true);
+                    noInternet.SetActive(false);
+                }
             }
-            else
+
+            //Apply layer change
+            windowHeader.GetComponent<SpriteRenderer>().sortingOrder = headerLayer;
+            buttonsInHeader.GetComponent<Canvas>().sortingOrder = headerLayer;
+            background.GetComponent<SpriteRenderer>().sortingOrder = backgroundLayer;
+            shadow.GetComponent<SpriteRenderer>().sortingOrder = shadowLayer;
+            content.GetComponent<SortingGroup>().sortingOrder = contentLayers;
+            contentCanvas.GetComponent<Canvas>().sortingOrder = contentLayers;
+            noInternet.GetComponent<SpriteRenderer>().sortingOrder = contentLayers;
+            if (border != null)
             {
-                timeLerped += Time.deltaTime;
+                border.GetComponent<SpriteRenderer>().sortingOrder = headerLayer;
             }
-        }
-        else
-        {
-            //Grabbed bool is here for edge-case related reasons. Just duplicate any changes.
-            if (grabbed)
+
+            //If not currently being minimized or unminimized
+            if (!pressed && !lockPos)
             {
-                transform.localScale = grabbedScale;
+                //Record current position x and y
+                basePosX = transform.localPosition.x;
+                basePosY = transform.localPosition.y;
+            }
+            //Defining icon and current positions
+            targetPos = new Vector3(targetPosX, targetPosY, transform.localPosition.z);
+            basePos = new Vector3(basePosX, basePosY, transform.localPosition.z);
+
+            //If minimizing
+            if (pressed)
+            {
+                grabbed = false;
+                //Scale down and move to icon position
+                transform.localScale = Vector3.MoveTowards(baseScale, targetScale, speed * timeLerped);
                 if (lockPos)
                 {
-                    transform.localPosition = Vector3.MoveTowards(targetPos, basePos, speed * timeLerped);
+                    transform.localPosition = Vector3.MoveTowards(basePos, targetPos, speed * timeLerped);
                 }
-                //If one second has passed, lock the movement of the window via drag.  Else, add to timer.
-                if (timeLerped >= .5f)
+                //If one second has passed, do nothing. Else, add to timer.
+                if (timeLerped >= 1)
                 {
-                    lockPos = false;
                 }
                 else
                 {
@@ -151,20 +164,41 @@ public class WindowScript : MonoBehaviour
             }
             else
             {
-                //Scale up and move to last position
-                transform.localScale = Vector3.MoveTowards(targetScale, baseScale, speed * timeLerped);
-                if (lockPos)
+                //Grabbed bool is here for edge-case related reasons. Just duplicate any changes.
+                if (grabbed)
                 {
-                    transform.localPosition = Vector3.MoveTowards(targetPos, basePos, speed * timeLerped);
-                }
-                //If one second has passed, lock the movement of the window via drag.  Else, add to timer.
-                if (timeLerped >= .5f)
-                {
-                    lockPos = false;
+                    transform.localScale = grabbedScale;
+                    if (lockPos)
+                    {
+                        transform.localPosition = Vector3.MoveTowards(targetPos, basePos, speed * timeLerped);
+                    }
+                    //If one second has passed, lock the movement of the window via drag.  Else, add to timer.
+                    if (timeLerped >= .5f)
+                    {
+                        lockPos = false;
+                    }
+                    else
+                    {
+                        timeLerped += Time.deltaTime;
+                    }
                 }
                 else
                 {
-                    timeLerped += Time.deltaTime;
+                    //Scale up and move to last position
+                    transform.localScale = Vector3.MoveTowards(targetScale, baseScale, speed * timeLerped);
+                    if (lockPos)
+                    {
+                        transform.localPosition = Vector3.MoveTowards(targetPos, basePos, speed * timeLerped);
+                    }
+                    //If one second has passed, lock the movement of the window via drag.  Else, add to timer.
+                    if (timeLerped >= .5f)
+                    {
+                        lockPos = false;
+                    }
+                    else
+                    {
+                        timeLerped += Time.deltaTime;
+                    }
                 }
             }
         }

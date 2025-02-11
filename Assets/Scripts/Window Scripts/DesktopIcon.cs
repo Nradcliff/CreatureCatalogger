@@ -19,6 +19,7 @@ public class DesktopIcon : MonoBehaviour
     {
         ProgramName = AssignedWindow.GetComponent<WindowScript>().windowName;
         nameOnIcon.text = ProgramName;
+        AssignedWindow.GetComponent<WindowScript>().desktopIcon = this.gameObject;
     }
 
     public void Update()
@@ -71,6 +72,13 @@ public class DesktopIcon : MonoBehaviour
                 }
             }
 
+        }
+    }
+    public void OnDisable()
+    {
+        if (AssignedWindow != null)
+        {
+            AssignedWindow.SetActive(false);
         }
     }
 }
