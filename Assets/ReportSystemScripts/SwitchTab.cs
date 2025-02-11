@@ -5,6 +5,7 @@ using NUnit.Framework;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEditor;
 
 public class SwitchTab : MonoBehaviour
 {
@@ -19,9 +20,9 @@ public class SwitchTab : MonoBehaviour
 
     public void Start()
     {
-        reportName = GameObject.Find("ReportName");
-        description = GameObject.Find("ReportDescription");
-        art = GameObject.Find("CreatureImage");
+        reportName = PageInfo.Instance.reportName;
+        description = PageInfo.Instance.description;
+        art = PageInfo.Instance.art;
 
         nameText = reportName.GetComponent<TMP_Text>();
         descriptionText = description.GetComponent<TMP_Text>();
