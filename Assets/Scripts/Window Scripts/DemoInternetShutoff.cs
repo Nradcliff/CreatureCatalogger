@@ -17,7 +17,7 @@ public class DemoInternetShutoff : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        if(timer >= 120 && timer < 125)
+        if(timer >= 90 && timer < 95)
         {
             on = false;
             this.GetComponent<SpriteRenderer>().sprite = offSprite;
@@ -26,6 +26,11 @@ public class DemoInternetShutoff : MonoBehaviour
         {
             on = true;
             this.GetComponent<SpriteRenderer>().sprite = onSprite;
+        }
+
+        if(timer > 97)
+        {
+            timer = 0;
         }
     }
 }
