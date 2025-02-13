@@ -11,6 +11,7 @@ public class ReportDisplay : MonoBehaviour
     public ReportWindow[] reportArr; //Array for the resource folder of reports
 
     public List<ReportWindow> dayReports; //List for the current reports of the day
+    public List<GameObject> createdDuplicates;
 
 
     public int reportAmount; // number of reports we want to generate
@@ -52,6 +53,8 @@ public class ReportDisplay : MonoBehaviour
             }
 
             currentReport.options.Add(new TMP_Dropdown.OptionData(duplicate.GetComponent<SwitchTab>().report.name));
+
+            createdDuplicates.Add(duplicate);
         }
     }
 }

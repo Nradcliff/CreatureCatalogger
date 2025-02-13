@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class CheckSystem : MonoBehaviour
 {
     public TMP_Dropdown currentReport;
+    int reportIndex;
 
     public ReportDisplay display;
     private ReportWindow activeReport;
@@ -33,12 +34,11 @@ public class CheckSystem : MonoBehaviour
 
     public void GetDropdownReport() 
     {
-        int reportIndex = currentReport.value;
+        reportIndex = currentReport.value;
         string reportSelection = currentReport.options[reportIndex].text;
         activeReport = dict[reportSelection];
 
-        Debug.Log(reportSelection);
-        Debug.Log(activeReport.name);
+        Debug.Log(reportIndex);
     }
 
     public void GetDropdownThreatValue()
@@ -61,11 +61,26 @@ public class CheckSystem : MonoBehaviour
         {
             submission = true;
             Debug.Log("Correct Answer!");
+
+            Destroy(display.createdDuplicates[reportIndex]);
+            display.createdDuplicates.RemoveAt(reportIndex);
+
+            currentReport.options.RemoveAt(reportIndex);
+            currentReport.value = 0; // Reset to the first option or handle as needed
+            currentReport.RefreshShownValue();
         }
         else
         {
             submission = false;
             Debug.Log("Incorrect Answer!");
+
+            GameObject.Destroy(display.createdDuplicates[reportIndex]);
+            display.createdDuplicates.RemoveAt(reportIndex);
+
+            currentReport.options.RemoveAt(reportIndex);
+            currentReport.value = 0; // Reset to the first option or handle as needed
+            currentReport.RefreshShownValue();
+
         }
     }
 
