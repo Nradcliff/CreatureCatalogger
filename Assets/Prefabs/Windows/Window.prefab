@@ -588,7 +588,7 @@ GameObject:
   - component: {fileID: 2401689860053640445}
   - component: {fileID: -6730730208297583024}
   m_Layer: 3
-  m_Name: WindowA 1
+  m_Name: Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -736,8 +736,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0d226068aa285b47a5f458f69293de2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseScaleX: 0
-  baseScaleY: 0
+  baseScaleX: 5
+  baseScaleY: 0.5
   targetScaleX: 0
   targetScaleY: 0
   baseScale: {x: 0, y: 0, z: 0}

@@ -30,6 +30,13 @@ public class CheckSystem : MonoBehaviour
         {
             dict.Add(display.dayReports[i].name, display.dayReports[i]);
         }
+        reportIndex = currentReport.value;
+        string reportSelection = currentReport.options[reportIndex].text;
+        activeReport = dict[reportSelection];
+        int threatIndex = currentThreat.value;
+        threatSelection = currentThreat.options[threatIndex].text;
+        int typeIndex = currentType.value;
+        typeSelection = currentType.options[typeIndex].text;
     }
 
     public void GetDropdownReport() 
@@ -57,30 +64,33 @@ public class CheckSystem : MonoBehaviour
 
    public void CheckComparison()
     {
-        if (activeReport.threat == threatSelection && activeReport.type == typeSelection)
+        if (currentReport.options.Count > 0)
         {
-            submission = true;
-            Debug.Log("Correct Answer!");
+            if (activeReport.threat == threatSelection && activeReport.type == typeSelection)
+            {
+                submission = true;
+                Debug.Log("Correct Answer!");
 
-            Destroy(display.createdDuplicates[reportIndex]);
-            display.createdDuplicates.RemoveAt(reportIndex);
+                Destroy(display.createdDuplicates[reportIndex]);
+                display.createdDuplicates.RemoveAt(reportIndex);
 
-            currentReport.options.RemoveAt(reportIndex);
-            currentReport.value = 0; // Reset to the first option or handle as needed
-            currentReport.RefreshShownValue();
-        }
-        else
-        {
-            submission = false;
-            Debug.Log("Incorrect Answer!");
+                currentReport.options.RemoveAt(reportIndex);
+                currentReport.value = 0; // Reset to the first option or handle as needed
+                currentReport.RefreshShownValue();
+            }
+            else
+            {
+                submission = false;
+                Debug.Log("Incorrect Answer!");
 
-            GameObject.Destroy(display.createdDuplicates[reportIndex]);
-            display.createdDuplicates.RemoveAt(reportIndex);
+                GameObject.Destroy(display.createdDuplicates[reportIndex]);
+                display.createdDuplicates.RemoveAt(reportIndex);
 
-            currentReport.options.RemoveAt(reportIndex);
-            currentReport.value = 0; // Reset to the first option or handle as needed
-            currentReport.RefreshShownValue();
+                currentReport.options.RemoveAt(reportIndex);
+                currentReport.value = 0; // Reset to the first option or handle as needed
+                currentReport.RefreshShownValue();
 
+            }
         }
     }
 
