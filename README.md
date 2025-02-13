@@ -1,2 +1,0 @@
-# CreatureCatalogger
- Sorting the Cryptids

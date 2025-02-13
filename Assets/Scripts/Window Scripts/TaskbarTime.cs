@@ -21,10 +21,12 @@ public class TaskbarTime : MonoBehaviour
         int minutes = ((int)timer / 60);
         clock.text = string.Format("{0:00}:{1:00}", minutes, seconds);
         /*
+      
         if(timer >= 150)
         {
             Time.timeScale = 0;
         }
-        */
+
+       */
     }
 }

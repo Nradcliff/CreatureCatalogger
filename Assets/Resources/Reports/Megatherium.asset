@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 510413f31503f8843afc6b8bfc85c6b9, type: 3}
+  m_Name: Megatherium
+  m_EditorClassIdentifier: 
+  name: Megatherium
+  description: Threat Level 2, Type Beast
+  artwork: {fileID: -8911364633439141295, guid: 68e1c52fe66b07249b1eb182ec329318, type: 3}
+  id: 0
+  threat: Threat Level 2
+  type: Beast
