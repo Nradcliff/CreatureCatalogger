@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cryptidDeathworm.done_0: 6805556852262836034
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

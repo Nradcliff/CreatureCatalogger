@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cryptidMegatheriumdone_0: -8911364633439141295
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

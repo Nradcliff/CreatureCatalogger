@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cryptidBaitaldone_0: 6841233683354301102
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

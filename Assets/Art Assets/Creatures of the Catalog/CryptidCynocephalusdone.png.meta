@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CryptidCynocephalusdone_0: -1195639015429589187
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
