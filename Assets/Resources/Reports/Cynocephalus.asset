@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 510413f31503f8843afc6b8bfc85c6b9, type: 3}
-  m_Name: Greyman
+  m_Name: Cynocephalus
   m_EditorClassIdentifier: 
-  name: Greyman
-  description: It came from a saucer
-  artwork: {fileID: 0}
-  id: 2
-  threat: T1
+  name: Cynocephalus
+  description: Threat Level 2, Type Humanoid
+  artwork: {fileID: -1195639015429589187, guid: 82b6c0f02c9653143bdb5562b0280998, type: 3}
+  id: 0
+  threat: Threat Level 2
   type: Humanoid

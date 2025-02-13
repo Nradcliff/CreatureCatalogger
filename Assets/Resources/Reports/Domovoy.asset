@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 510413f31503f8843afc6b8bfc85c6b9, type: 3}
-  m_Name: Mothman
+  m_Name: Domovoy
   m_EditorClassIdentifier: 
-  name: Mothman
-  description: He likes light, Threat Level 2, Humanoid
-  artwork: {fileID: -112969701495103090, guid: 38c8265cba375d041bec41f3162f6ec0, type: 3}
+  name: Domovoy
+  description: Threat 1, Type Beast
+  artwork: {fileID: -2502505791134901503, guid: 91c1c90cb0d960b41bd4e2418066706a, type: 3}
   id: 0
-  threat: Threat Level 2
-  type: Humanoid
+  threat: Threat Level 1
+  type: Beast

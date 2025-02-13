@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 510413f31503f8843afc6b8bfc85c6b9, type: 3}
-  m_Name: Mothman
+  m_Name: Nandi Bear
   m_EditorClassIdentifier: 
-  name: Mothman
-  description: SMTV REFERENCE?!?!?
-  artwork: {fileID: 0}
-  id: 7
-  threat: T1
-  type: Humanoid
+  name: Nandi Bear
+  description: Threat level 3, Type Beast
+  artwork: {fileID: 6285508470917562028, guid: 41ab42a88c291e346a064e7bcaaee6c4, type: 3}
+  id: 0
+  threat: Threat Level 3
+  type: Beast

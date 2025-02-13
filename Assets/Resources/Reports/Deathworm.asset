@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 510413f31503f8843afc6b8bfc85c6b9, type: 3}
-  m_Name: Mothman
+  m_Name: Deathworm
   m_EditorClassIdentifier: 
-  name: Mothman
-  description: He likes light, Threat Level 2, Humanoid
-  artwork: {fileID: -112969701495103090, guid: 38c8265cba375d041bec41f3162f6ec0, type: 3}
+  name: Deathworm
+  description: Threat level 3, Type Extraterrastiel
+  artwork: {fileID: 6805556852262836034, guid: b8254b95369045f4ea6757a2ea4f733a, type: 3}
   id: 0
-  threat: Threat Level 2
-  type: Humanoid
+  threat: Threat Level 3
+  type: Beast

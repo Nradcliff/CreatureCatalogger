@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 510413f31503f8843afc6b8bfc85c6b9, type: 3}
-  m_Name: Gnome
+  m_Name: Abbagoochie
   m_EditorClassIdentifier: 
-  name: Gnome
-  description: Just a little guy.
-  artwork: {fileID: 0}
-  id: 1
-  threat: T0
-  type: Humanoid
+  name: Abbagoochie
+  description: Threat Level 2, Type Beast
+  artwork: {fileID: -3953068041739722030, guid: 6ce885222b6bc7c4eb707cd061ae5b40, type: 3}
+  id: 0
+  threat: Threat Level 2
+  type: Beast

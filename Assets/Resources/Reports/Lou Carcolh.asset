@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 510413f31503f8843afc6b8bfc85c6b9, type: 3}
-  m_Name: Empty
+  m_Name: Lou Carcolh
   m_EditorClassIdentifier: 
-  name: Select Report
-  description: 
-  artwork: {fileID: 0}
+  name: Lou Carcolh
+  description: Threat Level 2, Type Humanoid
+  artwork: {fileID: 3798558264100958298, guid: 7d471c80cea882242b2aa36d5a37d38e, type: 3}
   id: 0
-  threat: T1
-  type: REDACTED
+  threat: Threat Level 2
+  type: Humanoid

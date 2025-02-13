@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 510413f31503f8843afc6b8bfc85c6b9, type: 3}
-  m_Name: Specter
+  m_Name: Gazeka
   m_EditorClassIdentifier: 
-  name: Specter
-  description: Moons haunted
-  artwork: {fileID: 0}
-  id: 4
-  threat: T1
-  type: Humanoid
+  name: Gazeka
+  description: Threat Level 1, Type Beast
+  artwork: {fileID: 7855607914470837989, guid: 64cfebca8d1b580418be88bdfb4178eb, type: 3}
+  id: 0
+  threat: Threat Level 1
+  type: Beast
