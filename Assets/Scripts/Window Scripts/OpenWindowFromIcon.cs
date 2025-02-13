@@ -13,8 +13,8 @@ public class OpenWindowFromIcon : MonoBehaviour
     }
     public void Update()
     {
-        AssignedWindow.GetComponent<WindowScript>().targetPosX = this.transform.position.x;
-        AssignedWindow.GetComponent<WindowScript>().targetPosY = this.transform.position.y;
+        //AssignedWindow.GetComponent<WindowScript>().targetPosX = this.transform.position.x;
+        //AssignedWindow.GetComponent<WindowScript>().targetPosY = this.transform.position.y;
     }
 
     public void openWindow()

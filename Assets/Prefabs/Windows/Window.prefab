@@ -748,8 +748,8 @@ MonoBehaviour:
   grabbedScale: {x: 0, y: 0, z: 0}
   basePosX: 0
   basePosY: 2
-  targetPosX: -7
-  targetPosY: -4.5
+  targetPosX: 0
+  targetPosY: -5
   basePos: {x: 0, y: 2, z: 0}
   targetPos: {x: 0, y: 0, z: 0}
   windowHeader: {fileID: 1699721461647116200}
@@ -757,7 +757,7 @@ MonoBehaviour:
   mimizeButton: {fileID: 1519304675438796938}
   pressed: 0
   timeLerped: 1
-  speed: 20
+  speed: 35
   closeButton: {fileID: 5741865674731893227}
   windowNameTMP: {fileID: 5130162990074658243}
   windowName: 
@@ -853,7 +853,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -68.3, y: 0}
+  m_AnchoredPosition: {x: -61.6, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &411904694517426280
