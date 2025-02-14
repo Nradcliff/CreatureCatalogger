@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ddd4ed150548a58428ffe2bdcc98a5c5
+guid: facd253d11a8f2942b9b9487f0338e03
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8125269507754436890
-    second: ina_0
+      213: -3503164230317467099
+    second: Company_Logo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ina_0
+      name: Company_Logo_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 500
-        height: 500
+        width: 3100
+        height: 2675
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6e6dbf5ae6e3d3f80800000000000000
-      internalID: -8125269507754436890
+      spriteID: 52a921e61b2426fc0800000000000000
+      internalID: -3503164230317467099
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      ina_0: -8125269507754436890
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
