@@ -13,8 +13,10 @@ public class OpenWindowFromIcon : MonoBehaviour
     }
     public void Update()
     {
-        //AssignedWindow.GetComponent<WindowScript>().targetPosX = this.transform.position.x;
-        //AssignedWindow.GetComponent<WindowScript>().targetPosY = this.transform.position.y;
+        //These need to be set per resolution
+        //AssignedWindow.GetComponent<WindowScript>().targetPosX = ((this.transform.position.x)* 0.015f)-7.5f;
+        AssignedWindow.GetComponent<WindowScript>().targetPosY = Camera.main.ScreenToWorldPoint(transform.position).y;
+        AssignedWindow.GetComponent<WindowScript>().targetPosX = Camera.main.ScreenToWorldPoint(transform.position).x;
     }
 
     public void openWindow()
