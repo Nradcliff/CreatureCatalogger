@@ -757,7 +757,7 @@ MonoBehaviour:
   mimizeButton: {fileID: 1519304675438796938}
   pressed: 0
   timeLerped: 1
-  speed: 35
+  speed: 40
   closeButton: {fileID: 5741865674731893227}
   windowNameTMP: {fileID: 5130162990074658243}
   windowName: 
