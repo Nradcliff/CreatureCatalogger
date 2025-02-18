@@ -107,13 +107,13 @@ public class WindowScript : MonoBehaviour
 
             if (internet != null)
             {
-                if (requiresInternet && internet.GetComponent<DemoInternetShutoff>().on == false)
+                if (requiresInternet && internet.GetComponent<InternetScript>().on == false)
                 {
                     content.SetActive(false);
                     contentCanvas.SetActive(false);
                     noInternet.SetActive(true);
                 }
-                if (internet.GetComponent<DemoInternetShutoff>().on == true)
+                if (internet.GetComponent<InternetScript>().on == true)
                 {
                     content.SetActive(true);
                     contentCanvas.SetActive(true);
