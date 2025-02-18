@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class StartMenuClickDetect : MonoBehaviour
 {
-    GameObject lastHit;
+    public GameObject personalizeWindow;
     void Update()
     {
         HideIfClickedOutside(this.gameObject);
@@ -18,5 +18,10 @@ public class StartMenuClickDetect : MonoBehaviour
         {
             panel.SetActive(false);
         }
+    }
+    
+    public void openPersonalize()
+    {
+        personalizeWindow.SetActive(true);
     }
 }

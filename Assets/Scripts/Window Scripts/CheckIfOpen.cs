@@ -21,11 +21,19 @@ public class CheckIfOpen : MonoBehaviour
             {
                 //Add icon to taskbar
                 openList.Add(windowList[i]);
-                AddIconToTaskbar(windowList[i]);
+                if (windowList[i].GetComponent<WindowScript>().isPopup == false)
+                {
+                    AddIconToTaskbar(windowList[i]);
+                }
             }
             else if(windowList[i].activeSelf == false && openList.Contains(windowList[i]))
             {
+                var close = windowList[i];
                 openList.Remove(windowList[i]);
+                if(close.GetComponent<WindowScript>().isPopup == true){
+                    windowList.Remove(windowList[i]);
+                    Destroy(close);
+                 }
             }
         }
         //Remove taskbar button for closed windows.

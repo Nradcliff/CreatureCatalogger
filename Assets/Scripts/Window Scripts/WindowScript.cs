@@ -1,4 +1,5 @@
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.UI;
@@ -34,6 +35,7 @@ public class WindowScript : MonoBehaviour
 
     //Close Button Variables
     public Button closeButton;
+    public bool isPopup;
 
     //Misc
     public TextMeshProUGUI windowNameTMP;
@@ -215,6 +217,13 @@ public class WindowScript : MonoBehaviour
     public void closeButtonScript()
     {
         gameObject.SetActive(false);
+    }
+
+    public void destroyInsteadOfDisable()
+    {
+        //Use this for popups to not just have them disable when closed
+        gameObject.SetActive(false);
+        Destroy(gameObject);
     }
 
     public void bringToFront()

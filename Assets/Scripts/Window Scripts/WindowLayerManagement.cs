@@ -10,14 +10,21 @@ public class WindowLayerManagement : MonoBehaviour
     {
         for(int i = 0; i < windowSortList.Count; i++)
         {
-            if (windowSortList[i].GetComponent<WindowScript>().priority == true)
+            if (windowSortList[i] != null)
             {
-                windowSortList[i].GetComponent<WindowScript>().priority = false;
-                var  = windowSortList[i];
-                windowSortList.RemoveAt(i);
-                windowSortList.Add(var);
+                if (windowSortList[i].GetComponent<WindowScript>().priority == true)
+                {
+                    windowSortList[i].GetComponent<WindowScript>().priority = false;
+                    var = windowSortList[i];
+                    windowSortList.RemoveAt(i);
+                    windowSortList.Add(var);
+                }
+                windowSortList[i].GetComponent<WindowScript>().posInArray = i;
             }
-            windowSortList[i].GetComponent<WindowScript>().posInArray = i;
+            else
+            {
+                windowSortList.Remove(windowSortList[i]);
+            }
         }
     }
 }
