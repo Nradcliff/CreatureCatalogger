@@ -208,15 +208,21 @@ public class WindowScript : MonoBehaviour
 
     public void minimizeButton()
     {
-        //Set timeLerped to 1/speed, lock position recording, and swap pressed bool. Currently 1/10.
-        timeLerped = .1f;
-        lockPos = true;
-        pressed = !pressed;
+        if (Time.timeScale > 0)
+        {
+            //Set timeLerped to 1/speed, lock position recording, and swap pressed bool. Currently 1/10.
+            timeLerped = .1f;
+            lockPos = true;
+            pressed = !pressed;
+        }
     }
 
     public void closeButtonScript()
     {
-        gameObject.SetActive(false);
+        if (Time.timeScale > 0)
+        {
+            gameObject.SetActive(false);
+        }
     }
 
     public void destroyInsteadOfDisable()
@@ -228,6 +234,9 @@ public class WindowScript : MonoBehaviour
 
     public void bringToFront()
     {
-        priority = true;
+        if (Time.timeScale > 0)
+        {
+            priority = true;
+        }
     }
 }

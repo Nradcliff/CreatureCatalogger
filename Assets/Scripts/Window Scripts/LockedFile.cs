@@ -26,16 +26,19 @@ public class LockedFile : MonoBehaviour
 
     public void checkToUnlock()
     {
-        if(passwordField.text == password)
+        if (Time.timeScale > 0)
         {
-            unlocked = true;
-            text.text = "Program Unlocked";
-            text.color = Color.green;
-        }
-        else
-        {
-            text.text = "Incorrect Password";
-            text.color = Color.red;
+            if (passwordField.text == password)
+            {
+                unlocked = true;
+                text.text = "Program Unlocked";
+                text.color = Color.green;
+            }
+            else
+            {
+                text.text = "Incorrect Password";
+                text.color = Color.red;
+            }
         }
     }
 

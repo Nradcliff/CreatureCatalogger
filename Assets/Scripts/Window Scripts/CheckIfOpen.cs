@@ -10,9 +10,11 @@ public class CheckIfOpen : MonoBehaviour
     public List<Button> buttonList;
     public GameObject var, panel;
     public Button addButton;
+    public int programsOpen;
 
     public void Update()
     {
+        programsOpen = openList.Count;
         //Check for open windows not already added to the list. Add a taskbar icon for opened windows.
         //If a window is closed, remove it.
         for (int i = 0; i < windowList.Count; i++)

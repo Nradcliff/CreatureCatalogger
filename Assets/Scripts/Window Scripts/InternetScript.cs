@@ -91,9 +91,12 @@ public class InternetScript : MonoBehaviour
 
     public void reconnect()
     {
+        if (Time.timeScale > 0)
+        {
             inputField.interactable = false;
             connectionTime = 0;
             restarting = true;
             timer = 0;
+        }
     }
 }

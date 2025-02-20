@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Specter
   description: Moons haunted
-  artwork: {fileID: 0}
+  artwork: {fileID: 4448715427215634006, guid: d219df35609e271459609cb296d95e68, type: 3}
   id: 4
   threat: Threat Level 1
   type: Humanoid

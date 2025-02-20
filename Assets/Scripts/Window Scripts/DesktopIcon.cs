@@ -50,7 +50,7 @@ public class DesktopIcon : MonoBehaviour
 
     public void openWindowfromDesktop()
     {
-        if (AssignedWindow != null)
+        if (AssignedWindow != null && Time.timeScale > 0)
         {
 
             if (AssignedWindow.activeSelf == false)
