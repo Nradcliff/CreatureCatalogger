@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510413f31503f8843afc6b8bfc85c6b9, type: 3}
   m_Name: Greyman
   m_EditorClassIdentifier: 
-  name: Greyman
-  description: It came from a saucer
+  name: The Fridge
+  description: It beckons you closer...
   artwork: {fileID: 0}
   id: 2
   threat: Threat Level 2
-  type: Extraterrestial
+  type: Inanimate

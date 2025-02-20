@@ -39,4 +39,4 @@ MonoBehaviour:
   artwork: {fileID: 0}
   id: 5
   threat: Threat Level 3
-  type: REDACTED
+  type: Abstract
