@@ -759,6 +759,7 @@ MonoBehaviour:
   timeLerped: 1
   speed: 40
   closeButton: {fileID: 5741865674731893227}
+  isPopup: 0
   windowNameTMP: {fileID: 5130162990074658243}
   windowName: 
   requiresInternet: 0
@@ -1090,7 +1091,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -7862542297891866477, guid: 80c841ffbc28d4d47bdea2c7c0005c5d, type: 3}
+  m_Sprite: {fileID: -2797994847829239532, guid: d786cf653747d9c46b85f68c05ed996f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1411,7 +1412,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1708787844316166401, guid: 8394f4a0ca5746349b04e3c7ba5e2e7a, type: 3}
+  m_Sprite: {fileID: -6189417926539014331, guid: b0c2e64858a99a246808d8ba46f7989a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
