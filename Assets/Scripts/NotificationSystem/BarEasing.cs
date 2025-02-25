@@ -10,7 +10,7 @@ public class BarEasing : MonoBehaviour
     public float speed;
 
     public TextMeshProUGUI barHeader;
-    bool isOpen;
+    public static bool isOpen;
 
     void Start()
     {

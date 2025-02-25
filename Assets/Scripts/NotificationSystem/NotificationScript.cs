@@ -1,20 +1,24 @@
 using System.Collections.Generic;
 using NUnit.Framework;
+using TMPro;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class NotificationScript : MonoBehaviour
 {
-    //Objects to snap the notification boxes to
+    //Objects to parent the messages to
     public GameObject SlotOne, SlotTwo, SlotThree, SlotFour;
     bool OneChecked, TwoChecked, ThreeChecked, FourChecked;
 
-    //These will be all possible notifications that may be called
+    //These will be all possible notifications that may be called, put your message prefabs here
     public List<GameObject> notificationBoxes;
 
     //This will be a list to store all notifications that are not currently shown
     public List<GameObject> pendingList;
-
-    public List<GameObject> slots = new List<GameObject>(4);
+    
+    GameObject Message;
+    public GameObject MessageCounter;
+    public TextMeshProUGUI CounterText;
 
     void Start()
     {
@@ -23,21 +27,15 @@ public class NotificationScript : MonoBehaviour
 
     void Update()
     {
-        /*if (slots.Count < 4)
-        for (int i  = 0; i < 4; i++)
-        {
-            slots.Add(pendingList[0]);
-            pendingList.RemoveAt(0);
-        }*/
-
+        //Instantiate first message at final slot if allowed, then bring that message down from Four to One
         if (SlotFour.transform.childCount == 0 && !FourChecked)
         {
             if (pendingList.Count > 0)
             {
-                Instantiate(pendingList[0], SlotFour.transform.position, Quaternion.identity, SlotFour.transform);
+                Message = Instantiate(pendingList[0], SlotFour.transform.position, Quaternion.identity, SlotFour.transform);
+                Message.transform.localScale = new Vector3(1, 1, 1);
                 pendingList.RemoveAt(0);
                 FourChecked = true;
-                print("SlotFour Instantiate");
             }
         }
 
@@ -49,18 +47,7 @@ public class NotificationScript : MonoBehaviour
                 thr.transform.position = SlotThree.transform.position;
                 thr.transform.parent = SlotThree.transform;
                 ThreeChecked = true;
-                print("SlotThree Child");
             }
-            /*else
-            {
-                if (pendingList.Count > 0)
-                {
-                    Instantiate(pendingList[0], SlotThree.transform.position, Quaternion.identity, SlotThree.transform);
-                    pendingList.RemoveAt(0);
-                    ThreeChecked = true;
-                    print("SlotThree Instantiate");
-                }
-            }*/
         }
 
         if (SlotTwo.transform.childCount == 0 && !TwoChecked)
@@ -71,18 +58,7 @@ public class NotificationScript : MonoBehaviour
                 two.transform.position = SlotTwo.transform.position;
                 two.transform.parent = SlotTwo.transform;
                 TwoChecked = true;
-                print("SlotTwo Child");
             }
-            /*else
-            {
-                if (pendingList.Count > 0)
-                {
-                    Instantiate(pendingList[0], SlotTwo.transform.position, Quaternion.identity, SlotTwo.transform);
-                    pendingList.RemoveAt(0);
-                    TwoChecked = true;
-                    print("SlotTwo Instantiate");
-                }
-            }*/
         }
 
         if (SlotOne.transform.childCount == 0 && !OneChecked)
@@ -93,23 +69,12 @@ public class NotificationScript : MonoBehaviour
                 one.transform.position = SlotOne.transform.position;
                 one.transform.parent = SlotOne.transform;
                 OneChecked = true;
-                print("SlotOne Child");
             }
-            /*else
-            {
-                if (pendingList.Count > 0)
-                {
-                    Instantiate(pendingList[0], SlotOne.transform.position, Quaternion.identity, SlotOne.transform);
-                    pendingList.RemoveAt(0);
-                    OneChecked = true;
-                    print("SlotOne Instantiate");
-                }
-            }*/
         }
 
+        //Reset the check if a child(message) was removed
         else
         {
-            print("All slots filled");
             if (SlotOne.transform.childCount == 0)
                 OneChecked = false;
 
@@ -123,37 +88,41 @@ public class NotificationScript : MonoBehaviour
                 FourChecked = false;
         }
 
-        /*if (!OneFilled)
+        //Determine when to enable and disable the counter and set the counter number depending on wether the Bar
+        //is open or not
+        if ((BarEasing.isOpen == true && pendingList.Count <= 0) || SlotOne.transform.childCount == 0)
         {
-            Instantiate(pendingList[0], SlotOne.transform.position, Quaternion.identity, this.transform);
-            pendingList.RemoveAt(0);
-            OneFilled = true;
+            MessageCounter.SetActive(false);
         }
-        else if (!TwoFilled)
+        else if (SlotOne.transform.childCount > 0 && BarEasing.isOpen == false)
         {
-            Instantiate(pendingList[0], SlotTwo.transform.position, Quaternion.identity, this.transform);
-            pendingList.RemoveAt(0);
-            TwoFilled = true;
+            MessageCounter.SetActive(true);
+            CounterText.text = (pendingList.Count + SlotOne.transform.childCount + SlotTwo.transform.childCount
+            + SlotThree.transform.childCount + SlotFour.transform.childCount).ToString();
         }
-        else if (!ThreeFilled)
+        else
         {
-            Instantiate(pendingList[0], SlotThree.transform.position, Quaternion.identity, this.transform);
-            pendingList.RemoveAt(0);
-            ThreeFilled = true;
+            MessageCounter.SetActive(true);
+            CounterText.text = pendingList.Count.ToString();
         }
-        else if (!FourFilled)
-        {
-            Instantiate(pendingList[0], SlotFour.transform.position, Quaternion.identity, this.transform);
-            pendingList.RemoveAt(0);
-            FourFilled = true;
-        }*/
     }
 
-    public void sendNotification(int notiPos)
+    /*Send a specific message, made a string to make it easier to call in inspector, if you don't mind then change to
+    string notiPos > int notiPos
+    remove loop and if, pendingList.Add(notificationBoxes[notiPos])
+    Using a for loop for the string will cause performance issues when too many notification messages are made for
+    the notificationBoxes array
+     */
+    public void sendNotification(string notiPos)
     {
-        pendingList.Add(notificationBoxes[notiPos]);
+        for (int i = 0; i < notificationBoxes.Count; i++)
+        {
+            if(notificationBoxes[i].name == notiPos)
+                pendingList.Add(notificationBoxes[i]);
+        }
     }
 
+    //For testing
     public void sendRand()
     {
         int rand = Random.Range(0, notificationBoxes.Count);
