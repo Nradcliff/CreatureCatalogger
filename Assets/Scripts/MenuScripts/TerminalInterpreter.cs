@@ -8,6 +8,8 @@ using System.IO;
 
 public class TerminalInterpreter : MonoBehaviour
 {
+    private string LastActiveScene;
+
     Dictionary<string, string> colors = new Dictionary<string, string>()
     {
         {"black",  "#021b21"},
@@ -43,7 +45,7 @@ public class TerminalInterpreter : MonoBehaviour
         if (args[0] == "start" || args[0] == "Start")
         {
             response.Add("Beginning game, Happy Sorting! ");
-            SceneManager.LoadScene("MainLevel");
+            SceneManager.LoadScene("Level 1");
             return response;
             
         }
@@ -51,10 +53,21 @@ public class TerminalInterpreter : MonoBehaviour
         {
             LoadTitle("ascii.txt", "green", 2);
         }
-        if (args[0] == "load")
+        if (args[0] == "load" || args[0] == "Load")
         {
-            response.Add("Function not added yet, but thanks for trying! ");
-            return response;
+            if(LastActiveScene != null)
+            {
+                response.Add("Loading last active shift... ");
+                LastActiveScene = LastLoaded.currentLevel;
+                SceneManager.LoadScene(LastActiveScene);
+                return response;
+            }
+            else
+            {
+                response.Add("No shift to resume, please start a new game! ");
+                return response;
+            }
+           
         }
         if (args[0] == "options" || args[0] == "Options")
         {

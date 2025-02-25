@@ -39,11 +39,13 @@ public class ReportDisplay : MonoBehaviour
         {
             int randomIndex = Random.Range(0, tempReports.Count);
             dayReports.Add(tempReports[randomIndex]);
-            tempReports.RemoveAt(randomIndex); 
+            tempReports.RemoveAt(randomIndex);
 
             GameObject duplicate = Instantiate(reportButton, parentTransform); //creates a button as a child of the grid confines
             duplicate.name = "Report " + i; //Sets the name of the game object
             duplicate.GetComponent<SwitchTab>().report = dayReports[i]; //sets the button to the randomly selected/generated report
+            duplicate.GetComponent<SwitchTab>().report.isUsed = true;
+
 
             // If you want to set the button's text, you can do it like this
             TMP_Text buttonText = duplicate.GetComponentInChildren<TMP_Text>();
