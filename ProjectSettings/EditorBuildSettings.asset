@@ -12,14 +12,20 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 1.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: Assets/Scenes/DayCompletion.unity
+    guid: 07ef206fb09582549858bb1988d80808
+  - enabled: 1
     path: Assets/Scenes/Level 2.unity
     guid: 4e886d52bfbd946428612a45983e7263
+  - enabled: 1
+    path: Assets/Scenes/DayCompletion 1.unity
+    guid: d81e02df0abcadf46b753222739241b9
   - enabled: 1
     path: Assets/Scenes/Level 3.unity
     guid: 32ec25426a660214c8ca7560e5d10648
   - enabled: 1
-    path: Assets/Scenes/DayCompletion.unity
-    guid: 07ef206fb09582549858bb1988d80808
+    path: Assets/Scenes/DayCompletion 2.unity
+    guid: 17261f37207908c41a3ce23de96b50d9
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 1a3a308c276c83f41ad4aa6e01c62270
