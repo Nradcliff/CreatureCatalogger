@@ -1,7 +1,5 @@
 using System.Collections.Generic;
-using NUnit.Framework;
 using TMPro;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class NotificationScript : MonoBehaviour

@@ -64,7 +64,7 @@ public class TerminalInterpreter : MonoBehaviour
         }
         if (args[0] == "quit" || args[0] == "Quit")
         {
-            response.Add("Closing Game... please dont go...");
+            response.Add("C:\\Psyence\\System32>del");
             Application.Quit();
             return response;
         }
