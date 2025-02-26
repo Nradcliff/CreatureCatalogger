@@ -7,6 +7,16 @@ public class StartMenuClickDetect : MonoBehaviour
     void Update()
     {
         HideIfClickedOutside(this.gameObject);
+        if (isOpen)
+        {
+            positionFor.y = targetOpenPos;
+            this.transform.localPosition = Vector3.MoveTowards(this.transform.localPosition, positionFor, speed * Time.deltaTime);
+        }
+        else if (!isOpen)
+        {
+            positionFor.y = targetClosedPos;
+            this.transform.localPosition = Vector3.MoveTowards(this.transform.localPosition, positionFor, speed * Time.deltaTime);
+        }
     }
 
     private void HideIfClickedOutside(GameObject panel)
@@ -19,7 +29,7 @@ public class StartMenuClickDetect : MonoBehaviour
                     Input.mousePosition,
                     null))
             {
-                panel.SetActive(false);
+                isOpen = false;
             }
         }
     }
@@ -40,6 +50,30 @@ public class StartMenuClickDetect : MonoBehaviour
         {
             Time.timeScale = 0;
             pausePanel.SetActive(true);
+        }
+    }
+    public float targetOpenPos, targetClosedPos;
+    Vector3 positionFor;
+    public float speed;
+
+    public bool isOpen;
+    void Start()
+    {
+        positionFor.x = this.transform.localPosition.x;
+        positionFor.z = 0;
+        positionFor.y = targetClosedPos;
+        isOpen = false;
+    }
+
+    public void opencloseNotifications()
+    {
+        if (isOpen == false)
+        {
+            isOpen = true;
+        }
+        else
+        {
+            isOpen = false;
         }
     }
 }
