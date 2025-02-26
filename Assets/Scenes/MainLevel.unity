@@ -517,7 +517,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1486909396}
+      - m_Target: {fileID: 1208060131}
         m_TargetAssemblyTypeName: FadeForMainLevel, Assembly-CSharp
         m_MethodName: quitTheGame
         m_Mode: 1
@@ -650,7 +650,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1486909396}
+      - m_Target: {fileID: 1208060131}
         m_TargetAssemblyTypeName: FadeForMainLevel, Assembly-CSharp
         m_MethodName: goToMenu
         m_Mode: 1
@@ -3223,6 +3223,7 @@ Transform:
   - {fileID: 1323893413}
   - {fileID: 1039857868}
   - {fileID: 1131208586}
+  - {fileID: 809503076}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &695290672
@@ -3699,6 +3700,11 @@ Transform:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1753933119300095453, guid: 8d39bbc168f2e224a8d7bcae50d4c002, type: 3}
   m_PrefabInstance: {fileID: 515808360}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &809503076 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3928599354802264175, guid: 208025896aeaac34aabaaa3259055304, type: 3}
+  m_PrefabInstance: {fileID: 1647940840}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &841786548
 GameObject:
@@ -4526,6 +4532,8 @@ MonoBehaviour:
   SlotFour: {fileID: 1231896310}
   notificationBoxes:
   - {fileID: 5462579808925919958, guid: ad425d267593e0449aab43cce5aafa78, type: 3}
+  - {fileID: 5462579808925919958, guid: efcb281d0eb8bf840be2c8d1ec1196b3, type: 3}
+  - {fileID: 5462579808925919958, guid: b15243cf01d0e2546ada90cf26363ad0, type: 3}
   pendingList: []
   MessageCounter: {fileID: 1286712366}
   CounterText: {fileID: 943478628}
@@ -4880,6 +4888,54 @@ MonoBehaviour:
   popupWindows:
   - {fileID: 4169354558884978424, guid: 6376de366d1e4c348840cf73441f8d92, type: 3}
   - {fileID: 6680854742545143239, guid: 92ca191b92a8e9942929d2f84f0dd0e6, type: 3}
+--- !u!1 &1208060129
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1208060130}
+  - component: {fileID: 1208060131}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1208060130
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208060129}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1208060131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208060129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d076451be19ef40827b7498f5a721f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadePanel: {fileID: 1918456661}
+  fadeInOrOut: 1
+  timer: 1.25
+  progressTo: 0
 --- !u!1001 &1231219140
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5737,7 +5793,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1486909394}
   - component: {fileID: 1486909395}
-  - component: {fileID: 1486909396}
   m_Layer: 0
   m_Name: ProgramManager
   m_TagString: Untagged
@@ -5777,22 +5832,6 @@ MonoBehaviour:
   - {fileID: 62642597}
   - {fileID: 263583665}
   - {fileID: 1742320836}
---- !u!114 &1486909396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1486909393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3d076451be19ef40827b7498f5a721f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fadePanel: {fileID: 1918456661}
-  fadeInOrOut: 1
-  timer: 1.25
-  quitOrMenu: 0
 --- !u!1 &1510217471
 GameObject:
   m_ObjectHideFlags: 0
@@ -6097,7 +6136,7 @@ MonoBehaviour:
   reconnectingText: {fileID: 423446359}
   inputField: {fileID: 720251551}
   password: password
-  freeToRestart: 0
+  freeToRestart: 1
 --- !u!1 &1608655533
 GameObject:
   m_ObjectHideFlags: 0
@@ -6353,7 +6392,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 656880792}
     m_Modifications:
     - target: {fileID: 3928599354802264175, guid: 208025896aeaac34aabaaa3259055304, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6373,15 +6412,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3928599354802264175, guid: 208025896aeaac34aabaaa3259055304, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3928599354802264175, guid: 208025896aeaac34aabaaa3259055304, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3928599354802264175, guid: 208025896aeaac34aabaaa3259055304, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3928599354802264175, guid: 208025896aeaac34aabaaa3259055304, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6397,7 +6436,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4687125782234838354, guid: 208025896aeaac34aabaaa3259055304, type: 3}
       propertyPath: m_Name
-      value: Window
+      value: NotificationTester
+      objectReference: {fileID: 0}
+    - target: {fileID: 4687125782234838354, guid: 208025896aeaac34aabaaa3259055304, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7937,6 +7980,10 @@ PrefabInstance:
       propertyPath: display
       value: 
       objectReference: {fileID: 2027837817}
+    - target: {fileID: 8207289873765864158, guid: ff696766e2901f0498955bf6a145906e, type: 3}
+      propertyPath: notifSystem
+      value: 
+      objectReference: {fileID: 1081416614}
     - target: {fileID: 9122959179396338022, guid: ff696766e2901f0498955bf6a145906e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -8447,4 +8494,4 @@ SceneRoots:
   - {fileID: 1175424681}
   - {fileID: 2027837816}
   - {fileID: 1324369007}
-  - {fileID: 1647940840}
+  - {fileID: 1208060130}

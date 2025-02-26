@@ -128,4 +128,13 @@ public class NotificationScript : MonoBehaviour
         int rand = Random.Range(0, notificationBoxes.Count);
         pendingList.Add(notificationBoxes[rand]);
     }
+
+    public void sendIncorrectNotif()
+    {
+        pendingList.Add(notificationBoxes[1]);
+    }
+    public void sendFinalNotif()
+    {
+        pendingList.Add(notificationBoxes[2]);
+    }
 }

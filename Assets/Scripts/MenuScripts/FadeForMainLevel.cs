@@ -13,11 +13,13 @@ public class FadeForMainLevel : MonoBehaviour
     public bool fadeInOrOut;
     public float timer;
     /// <summary>
-    /// Quit or Menu |
-    /// True = quit game
-    /// False = main menu
+    /// Progress To |
+    /// 1 = Quit Game
+    /// 2 = Main Menu
+    /// 3 = Level Complete
+    /// 4 = Game Over
     /// </summary>
-    public bool quitOrMenu;
+    public int progressTo;
 
     void Start()
     {
@@ -47,13 +49,21 @@ public class FadeForMainLevel : MonoBehaviour
             }
             else
             {
-                if (quitOrMenu == true)
+                if (progressTo == 1)
                 {
                     Application.Quit();
                 }
-                else
+                else if(progressTo == 2)
                 {
                     SceneManager.LoadScene("MainMenu");
+                }
+                else if (progressTo == 3)
+                {
+                    SceneManager.LoadScene("DayCompletion");
+                }
+                else if (progressTo == 4)
+                {
+                    SceneManager.LoadScene("GameOver");
                 }
             }
             fadePanel.GetComponent<Image>().color = new Color(0, 0, 0, timer);
@@ -61,12 +71,17 @@ public class FadeForMainLevel : MonoBehaviour
     }
     public void quitTheGame()
     {
-        quitOrMenu = true;
+        progressTo = 1;
         fadeInOrOut = false;
     }
     public void goToMenu()
     {
-        quitOrMenu = false;
+        progressTo = 2;
+        fadeInOrOut = false;
+    }
+    public void nextLevel()
+    {
+        progressTo = 3;
         fadeInOrOut = false;
     }
 }

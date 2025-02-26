@@ -23,6 +23,10 @@ public class CheckSystem : MonoBehaviour
 
     bool submission;
 
+    //Additions for Notification System
+    public NotificationScript notifSystem;
+    bool spawnFinalPopup;
+
     public void Start()
     {
 
@@ -83,6 +87,8 @@ public class CheckSystem : MonoBehaviour
                 submission = false;
                 Debug.Log("Incorrect Answer!");
 
+                notifSystem.sendIncorrectNotif();
+
                 GameObject.Destroy(display.createdDuplicates[reportIndex]);
                 display.createdDuplicates.RemoveAt(reportIndex);
 
@@ -92,6 +98,16 @@ public class CheckSystem : MonoBehaviour
 
             }
         }
+    }
+
+    public void Update()
+    {
+         if (!spawnFinalPopup && currentReport.options.Count == 0)
+        {
+                spawnFinalPopup = true;
+                notifSystem.sendFinalNotif();
+
+         }
     }
 
 }
