@@ -4,6 +4,8 @@ public class StartMenuClickDetect : MonoBehaviour
 {
     public GameObject personalizeWindow;
     public GameObject pausePanel;
+
+    public bool pauseOnEsc;
     void Update()
     {
         HideIfClickedOutside(this.gameObject);
@@ -16,6 +18,10 @@ public class StartMenuClickDetect : MonoBehaviour
         {
             positionFor.y = targetClosedPos;
             this.transform.localPosition = Vector3.MoveTowards(this.transform.localPosition, positionFor, speed * Time.deltaTime);
+        }
+        if(pauseOnEsc && Input.GetKeyUp(KeyCode.Escape))
+        {
+            opencloseNotifications();
         }
     }
 

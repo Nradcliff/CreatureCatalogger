@@ -71,16 +71,19 @@ public class FadeForMainLevel : MonoBehaviour
     }
     public void quitTheGame()
     {
+        Time.timeScale = 1;
         progressTo = 1;
         fadeInOrOut = false;
     }
     public void goToMenu()
     {
+        Time.timeScale = 1;
         progressTo = 2;
         fadeInOrOut = false;
     }
     public void nextLevel()
     {
+        Time.timeScale = 1;
         progressTo = 3;
         fadeInOrOut = false;
     }
