@@ -103,13 +103,13 @@ TextureImporter:
       name: monitor2_0
       rect:
         serializedVersion: 2
-        x: 268
+        x: 269
         y: 0
-        width: 1384
-        height: 1068
+        width: 1382
+        height: 1067
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 245, y: 405, z: 215, w: 93}
       customData: 
       outline: []
       physicsShape: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ea9db0cd4ed78dd418668f4c5b1076f6
     internalID: 0
     vertices: []
     indices: 
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      monitor2_0: 2084933650423168881
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

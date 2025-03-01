@@ -8,7 +8,9 @@ public class StartMenuClickDetect : MonoBehaviour
     public bool pauseOnEsc;
     void Update()
     {
-        HideIfClickedOutside(this.gameObject);
+        //commented out for MainLevel 2 Scene to test scaling and the UI overlay
+        //god unity sucks sometimes
+        //HideIfClickedOutside(this.gameObject);
         if (isOpen)
         {
             positionFor.y = targetOpenPos;
