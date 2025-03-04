@@ -43,7 +43,9 @@ public class TerminalInterpreter : MonoBehaviour
         if (args[0] == "start" || args[0] == "Start")
         {
             response.Add("Beginning game, Happy Sorting! ");
-            SceneManager.LoadScene("LoadingScene");
+            //SceneManager.LoadScene("LoadingScene");
+            SceneManager.UnloadSceneAsync("MainMenu");
+            SceneManager.LoadScene("LoadingScene", LoadSceneMode.Additive);
             return response;
             
         }
