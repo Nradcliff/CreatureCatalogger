@@ -43,6 +43,7 @@ public class WindowScript : MonoBehaviour
     public bool requiresInternet;
     public GameObject internet;
     public GameObject noInternet;
+    public AudioScript audioManager;
 
     //Sorting Layer Variables
     public GameObject background, shadow,content,contentCanvas,border;
@@ -84,6 +85,8 @@ public class WindowScript : MonoBehaviour
 
         //Setting Window Name
         windowNameTMP.text = windowName;
+
+        audioManager = GameObject.Find("AudioManager").GetComponent<AudioScript>();
     }
     
     void Update()
@@ -213,7 +216,16 @@ public class WindowScript : MonoBehaviour
             //Set timeLerped to 1/speed, lock position recording, and swap pressed bool. Currently 1/10.
             timeLerped = .1f;
             lockPos = true;
+            if (pressed)
+            {
+                audioManager.playsound(5);
+            }
+            else
+            {
+                audioManager.playsound(4);
+            }
             pressed = !pressed;
+            
         }
     }
 
@@ -238,5 +250,10 @@ public class WindowScript : MonoBehaviour
         {
             priority = true;
         }
+    }
+
+    public void playsoundFromAudioGuy(int index)
+    {
+        audioManager.playsound(index);
     }
 }
