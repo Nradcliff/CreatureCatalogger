@@ -105,7 +105,7 @@ public class CheckSystem : MonoBehaviour
          if (!spawnFinalPopup && currentReport.options.Count == 0)
         {
                 spawnFinalPopup = true;
-                notifSystem.sendFinalNotif();
+                notifSystem.sendNotification("FinalNotif");
 
          }
     }

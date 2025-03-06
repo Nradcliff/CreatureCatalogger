@@ -726,7 +726,7 @@ GameObject:
   - component: {fileID: 7006415269286476611}
   - component: {fileID: 6812207502379864638}
   m_Layer: 3
-  m_Name: UI Notif 1
+  m_Name: FinalNotif
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
