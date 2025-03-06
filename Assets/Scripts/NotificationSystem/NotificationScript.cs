@@ -18,9 +18,10 @@ public class NotificationScript : MonoBehaviour
     public GameObject MessageCounter;
     public TextMeshProUGUI CounterText;
 
+    public AudioScript audioManager;
     void Start()
     {
-        
+        audioManager = GameObject.Find("AudioManager").GetComponent<AudioScript>();
     }
 
     void Update()
@@ -129,10 +130,12 @@ public class NotificationScript : MonoBehaviour
 
     public void sendIncorrectNotif()
     {
+        audioManager.playsound(6);
         pendingList.Add(notificationBoxes[1]);
     }
     public void sendFinalNotif()
     {
+        audioManager.playsound(6);
         pendingList.Add(notificationBoxes[2]);
     }
 }
