@@ -127,10 +127,6 @@ public class NotificationScript : MonoBehaviour
         pendingList.Add(notificationBoxes[rand]);
     }
 
-    public void sendIncorrectNotif()
-    {
-        pendingList.Add(notificationBoxes[1]);
-    }
     public void sendFinalNotif()
     {
         pendingList.Add(notificationBoxes[2]);

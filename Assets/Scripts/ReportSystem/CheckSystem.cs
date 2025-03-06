@@ -87,7 +87,7 @@ public class CheckSystem : MonoBehaviour
                 submission = false;
                 Debug.Log("Incorrect Answer!");
 
-                notifSystem.sendIncorrectNotif();
+                notifSystem.sendNotification("IncorrectNotif");
 
                 GameObject.Destroy(display.createdDuplicates[reportIndex]);
                 display.createdDuplicates.RemoveAt(reportIndex);
