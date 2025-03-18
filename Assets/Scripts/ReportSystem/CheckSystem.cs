@@ -34,13 +34,9 @@ public class CheckSystem : MonoBehaviour
         {
             dict.Add(display.dayReports[i].name, display.dayReports[i]);
         }
-        reportIndex = currentReport.value;
-        string reportSelection = currentReport.options[reportIndex].text;
-        activeReport = dict[reportSelection];
-        int threatIndex = currentThreat.value;
-        threatSelection = currentThreat.options[threatIndex].text;
-        int typeIndex = currentType.value;
-        typeSelection = currentType.options[typeIndex].text;
+        GetDropdownReport();
+        GetDropdownThreatValue();
+        GetDropdownTypeValue();
     }
 
     public void GetDropdownReport() 
@@ -81,6 +77,12 @@ public class CheckSystem : MonoBehaviour
                 currentReport.options.RemoveAt(reportIndex);
                 currentReport.value = 0; // Reset to the first option or handle as needed
                 currentReport.RefreshShownValue();
+                if (currentReport.options.Count > 1)
+                {
+                    GetDropdownReport();
+                    GetDropdownThreatValue();
+                    GetDropdownTypeValue();
+                }
             }
             else
             {
@@ -95,6 +97,12 @@ public class CheckSystem : MonoBehaviour
                 currentReport.options.RemoveAt(reportIndex);
                 currentReport.value = 0; // Reset to the first option or handle as needed
                 currentReport.RefreshShownValue();
+                if (currentReport.options.Count > 1)
+                {
+                    GetDropdownReport();
+                    GetDropdownThreatValue();
+                    GetDropdownTypeValue();
+                }
 
             }
         }

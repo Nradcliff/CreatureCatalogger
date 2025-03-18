@@ -20,14 +20,17 @@ public class ReportDisplay : MonoBehaviour
 
     public TMP_Dropdown currentReport;
 
+    public ProgramPersist progressTracker;
+
     public void Start()
     {
+        progressTracker = GameObject.Find("LoadProgramManager").GetComponent<ProgramPersist>();
         currentReport.options.Clear();
         reportArr = Resources.LoadAll("Reports", typeof(ReportWindow)).Cast<ReportWindow>().ToArray(); //Loads all of the reports in resources folder into an array
 
         List<ReportWindow> tempReports = new List<ReportWindow>(); //A temp list to avoid duplicate reports when being selected
 
-
+        reportAmount = 6 + (progressTracker.DayNum * 2);
 
         for (int i = 0; i < reportArr.Length; i++ ) //Copies the reports of the reportArr into this temporary list so we can avoid duplicate selections later
         {

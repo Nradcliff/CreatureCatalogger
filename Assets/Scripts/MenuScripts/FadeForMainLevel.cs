@@ -20,11 +20,12 @@ public class FadeForMainLevel : MonoBehaviour
     /// 4 = Game Over
     /// </summary>
     public int progressTo;
-
+    public ProgramPersist progressTracker;
 
     void Start()
     {
         SceneManager.SetActiveScene(SceneManager.GetSceneByName("MainLevel"));
+        progressTracker = GameObject.Find("LoadProgramManager").GetComponent<ProgramPersist>();
     }
 
     void Update()
@@ -50,7 +51,7 @@ public class FadeForMainLevel : MonoBehaviour
             }
             else
             {
-                SceneManager.SetActiveScene(SceneManager.GetSceneByName("aaa"));
+                SceneManager.SetActiveScene(SceneManager.GetSceneByName("OverlayScene"));
                 if (progressTo == 1)
                 {
                     Application.Quit();
@@ -95,6 +96,7 @@ public class FadeForMainLevel : MonoBehaviour
     {
         Time.timeScale = 1;
         progressTo = 3;
+        progressTracker.DayNum += 1;
         fadeInOrOut = false;
     }
 }

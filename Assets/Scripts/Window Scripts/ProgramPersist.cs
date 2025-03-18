@@ -5,6 +5,7 @@ public class ProgramPersist : MonoBehaviour
 {
     public List<bool> programBool;
     public string notepadText;
+    public int DayNum;
 
     //This saves active programs throughout days
     //Could also add this to work with a notepad doc
@@ -24,4 +25,5 @@ public class ProgramPersist : MonoBehaviour
             goList[i].SetActive(programBool[i]);
         }
     }
+
 }
