@@ -1023,10 +1023,10 @@ MonoBehaviour:
     - m_Text: Humanoid
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Extraterrestial
+    - m_Text: Inanimate
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: REDACTED
+    - m_Text: Abstract
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_OnValueChanged:
@@ -3074,6 +3074,7 @@ MonoBehaviour:
   display: {fileID: 0}
   currentThreat: {fileID: 3109847358479895486}
   currentType: {fileID: 5559920487749791067}
+  progressTracker: {fileID: 0}
   notifSystem: {fileID: 0}
 --- !u!1 &6458639114404407209
 GameObject:

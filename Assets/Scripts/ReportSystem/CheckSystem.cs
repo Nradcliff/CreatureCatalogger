@@ -22,6 +22,7 @@ public class CheckSystem : MonoBehaviour
     string typeSelection;
 
     bool submission;
+    public ProgramPersist progressTracker;
 
     //Additions for Notification System
     public NotificationScript notifSystem;
@@ -29,7 +30,7 @@ public class CheckSystem : MonoBehaviour
 
     public void Start()
     {
-
+        progressTracker = GameObject.Find("LoadProgramManager").GetComponent<ProgramPersist>();
         for (int i = 0; i < display.dayReports.Count; i++) //Copies the reports of the reportArr into this temporary list so we can avoid duplicate selections later
         {
             dict.Add(display.dayReports[i].name, display.dayReports[i]);
@@ -71,13 +72,15 @@ public class CheckSystem : MonoBehaviour
                 submission = true;
                 Debug.Log("Correct Answer!");
 
+                progressTracker.correctReports += 1;
+
                 Destroy(display.createdDuplicates[reportIndex]);
                 display.createdDuplicates.RemoveAt(reportIndex);
 
                 currentReport.options.RemoveAt(reportIndex);
                 currentReport.value = 0; // Reset to the first option or handle as needed
                 currentReport.RefreshShownValue();
-                if (currentReport.options.Count > 1)
+                if (currentReport.options.Count >= 1)
                 {
                     GetDropdownReport();
                     GetDropdownThreatValue();
@@ -89,8 +92,19 @@ public class CheckSystem : MonoBehaviour
                 submission = false;
                 Debug.Log("Incorrect Answer!");
 
-                notifSystem.sendIncorrectNotif();
+                if(activeReport.threat != threatSelection && activeReport.type == typeSelection)
+                {
+                    notifSystem.sendIncorrectTLNotif();
+                }
+                else if (activeReport.type != typeSelection && activeReport.threat == threatSelection)
+                {
+                    notifSystem.sendIncorrectTypeNotif();
+                }
+                else
+                {
+                    notifSystem.sendIncorrectTLTypeNotif();
 
+                }
                 GameObject.Destroy(display.createdDuplicates[reportIndex]);
                 display.createdDuplicates.RemoveAt(reportIndex);
 

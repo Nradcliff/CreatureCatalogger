@@ -128,10 +128,20 @@ public class NotificationScript : MonoBehaviour
         pendingList.Add(notificationBoxes[rand]);
     }
 
-    public void sendIncorrectNotif()
+    public void sendIncorrectTLNotif()
     {
         audioManager.playsound(6);
         pendingList.Add(notificationBoxes[1]);
+    }
+    public void sendIncorrectTypeNotif()
+    {
+        audioManager.playsound(6);
+        pendingList.Add(notificationBoxes[3]);
+    }
+    public void sendIncorrectTLTypeNotif()
+    {
+        audioManager.playsound(6);
+        pendingList.Add(notificationBoxes[4]);
     }
     public void sendFinalNotif()
     {

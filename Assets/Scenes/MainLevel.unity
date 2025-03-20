@@ -4798,6 +4798,8 @@ MonoBehaviour:
   - {fileID: 5462579808925919958, guid: ad425d267593e0449aab43cce5aafa78, type: 3}
   - {fileID: 5462579808925919958, guid: efcb281d0eb8bf840be2c8d1ec1196b3, type: 3}
   - {fileID: 5462579808925919958, guid: b15243cf01d0e2546ada90cf26363ad0, type: 3}
+  - {fileID: 5462579808925919958, guid: a0738ff0c15c3934cba750dfd5ee0127, type: 3}
+  - {fileID: 5462579808925919958, guid: 535916270a1651c4eb3c05c52bf6f12b, type: 3}
   pendingList: []
   MessageCounter: {fileID: 1286712366}
   CounterText: {fileID: 943478628}
@@ -5227,6 +5229,7 @@ MonoBehaviour:
   fadeInOrOut: 1
   timer: 1.25
   progressTo: 0
+  progressTracker: {fileID: 0}
 --- !u!1001 &1231219140
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7800,6 +7803,7 @@ MonoBehaviour:
   parentTransform: {fileID: 1660051995}
   reportButton: {fileID: 3849727105731298342, guid: f84617cc994ef834abfc6ce2123909d6, type: 3}
   currentReport: {fileID: 1420430778}
+  progressTracker: {fileID: 0}
 --- !u!1 &2047862540
 GameObject:
   m_ObjectHideFlags: 0

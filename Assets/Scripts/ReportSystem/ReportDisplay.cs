@@ -22,6 +22,8 @@ public class ReportDisplay : MonoBehaviour
 
     public ProgramPersist progressTracker;
 
+    int reportTotalAmount = 17;
+
     public void Start()
     {
         progressTracker = GameObject.Find("LoadProgramManager").GetComponent<ProgramPersist>();
@@ -31,6 +33,12 @@ public class ReportDisplay : MonoBehaviour
         List<ReportWindow> tempReports = new List<ReportWindow>(); //A temp list to avoid duplicate reports when being selected
 
         reportAmount = 6 + (progressTracker.DayNum * 2);
+        if(reportAmount > reportTotalAmount)
+        {
+            reportAmount = reportTotalAmount;
+        }
+        progressTracker.totalReports = reportAmount;
+        progressTracker.correctReports = 0;
 
         for (int i = 0; i < reportArr.Length; i++ ) //Copies the reports of the reportArr into this temporary list so we can avoid duplicate selections later
         {

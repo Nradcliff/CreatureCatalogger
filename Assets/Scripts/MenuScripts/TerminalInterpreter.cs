@@ -27,7 +27,7 @@ public class TerminalInterpreter : MonoBehaviour
 
         string[] args = userInput.Split();
 
-        if (args[0] == "help" || args[0] == "Help")
+        if (args[0].ToLower() == "help")
         {
             ListEntry("start", "Type \"start\" to begin the game ");
             ListEntry("load", "Type \"load\" if you have existing save data");
@@ -40,7 +40,7 @@ public class TerminalInterpreter : MonoBehaviour
         }
 
 
-        if (args[0] == "start" || args[0] == "Start")
+        if (args[0].ToLower() == "start")
         {
             response.Add("Beginning game, Happy Sorting! ");
             //SceneManager.LoadScene("LoadingScene");
@@ -49,25 +49,31 @@ public class TerminalInterpreter : MonoBehaviour
             return response;
             
         }
-        if (args[0] == "ascii" || args[0] == "Ascii" || args[0] == "ASCII")
+        if (args[0].ToLower() == "ascii")
         {
             LoadTitle("ascii.txt", "green", 2);
         }
-        if (args[0] == "load")
+        if (args[0].ToLower() == "load")
         {
             response.Add("Function not added yet, but thanks for trying! ");
             return response;
         }
-        if (args[0] == "options" || args[0] == "Options")
+        if (args[0].ToLower() == "options")
         {
             response.Add("Loading options, please wait... ");
             response.Add("Options menu still in progress, thank you for your time.");
             return response;
         }
-        if (args[0] == "quit" || args[0] == "Quit")
+        if (args[0].ToLower() == "quit")
         {
             response.Add("C:\\Psyence\\System32>del");
             Application.Quit();
+            return response;
+        }
+        if (args[0].ToLower() == "reboot")
+        {
+            response.Add("Rebooting System...");
+            SceneManager.LoadScene("OverlayScene");
             return response;
         }
         else
