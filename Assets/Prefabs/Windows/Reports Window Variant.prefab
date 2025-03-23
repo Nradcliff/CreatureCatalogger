@@ -562,7 +562,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -962.17535, y: -538.57214}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 266.21, y: 14.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7876053838191588231
@@ -1708,7 +1708,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3946240425944573673}
   m_HandleRect: {fileID: 4626158544831315454}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1751,8 +1751,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -97.80002, y: 0.33001232}
-  m_SizeDelta: {x: 179.6, y: 516.49}
+  m_AnchoredPosition: {x: -97.80002, y: -1.59}
+  m_SizeDelta: {x: 179.6, y: 506.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3042928063571463280
 CanvasRenderer:
@@ -2061,7 +2061,7 @@ RectTransform:
   m_GameObject: {fileID: 8828775360913744410}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.13325392, y: 1.9988086, z: 1.1992851}
+  m_LocalScale: {x: 0.13325392, y: 1.9988086, z: 1.1992849}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7120715319788031284}
@@ -2069,7 +2069,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 128.21692, y: 1075.7388}
+  m_AnchoredPosition: {x: 0, y: -0.75}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &8276907485888277298
@@ -2292,6 +2292,10 @@ PrefabInstance:
       value: Reports
       objectReference: {fileID: 0}
     - target: {fileID: 8509968906500155300, guid: 208025896aeaac34aabaaa3259055304, type: 3}
+      propertyPath: secondCanvas
+      value: 
+      objectReference: {fileID: 8828775360913744410}
+    - target: {fileID: 8509968906500155300, guid: 208025896aeaac34aabaaa3259055304, type: 3}
       propertyPath: requiresInternet
       value: 1
       objectReference: {fileID: 0}
@@ -2299,7 +2303,7 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7402241020060549513, guid: 208025896aeaac34aabaaa3259055304, type: 3}
-      insertIndex: 3
+      insertIndex: 1
       addedObject: {fileID: 3678419310620073394}
     - targetCorrespondingSourceObject: {fileID: 551360363390338428, guid: 208025896aeaac34aabaaa3259055304, type: 3}
       insertIndex: -1

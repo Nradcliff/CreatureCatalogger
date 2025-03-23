@@ -46,7 +46,7 @@ public class WindowScript : MonoBehaviour
     public AudioScript audioManager;
 
     //Sorting Layer Variables
-    public GameObject background, shadow,content,contentCanvas,border;
+    public GameObject background, shadow,content,contentCanvas,border,secondCanvas;
     public int headerLayer, backgroundLayer, shadowLayer, contentLayers;
     public int posInArray;
     public bool priority;
@@ -135,6 +135,10 @@ public class WindowScript : MonoBehaviour
             if (border != null)
             {
                 border.GetComponent<SpriteRenderer>().sortingOrder = headerLayer;
+            }
+            if (secondCanvas != null)
+            {
+                secondCanvas.GetComponent<Canvas>().sortingOrder = contentLayers;
             }
 
             //If not currently being minimized or unminimized
