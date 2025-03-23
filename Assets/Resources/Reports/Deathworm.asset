@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Deathworm
   m_EditorClassIdentifier: 
   name: Deathworm
-  description: Threat level 3, Type Extraterrastiel
+  description: {fileID: 509575570654444755, guid: 93ec040a917a2a544ae670456d6a3173, type: 3}
   artwork: {fileID: 6805556852262836034, guid: b8254b95369045f4ea6757a2ea4f733a, type: 3}
   id: 0
   threat: Threat Level 3
   type: Beast
+  isUsed: 0

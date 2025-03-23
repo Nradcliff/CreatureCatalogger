@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 510413f31503f8843afc6b8bfc85c6b9, type: 3}
-  m_Name: Specter
+  m_Name: Vampire
   m_EditorClassIdentifier: 
-  name: Specter
-  description: Moons haunted
-  artwork: {fileID: 4448715427215634006, guid: d219df35609e271459609cb296d95e68, type: 3}
-  id: 4
-  threat: Threat Level 1
+  name: Vampire
+  description: {fileID: 509575570654444755, guid: 641e330e6fdc26f4d960f6744eaf628e, type: 3}
+  artwork: {fileID: 0}
+  id: 3
+  threat: Threat Level 2
   type: Humanoid
+  isUsed: 0

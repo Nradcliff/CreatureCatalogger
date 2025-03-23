@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 510413f31503f8843afc6b8bfc85c6b9, type: 3}
-  m_Name: Megatherium
+  m_Name: Gleipnir
   m_EditorClassIdentifier: 
-  name: Megatherium
-  description: Threat Level 2, Type Beast
-  artwork: {fileID: -8911364633439141295, guid: 68e1c52fe66b07249b1eb182ec329318, type: 3}
+  name: Gleipnir
+  description: {fileID: 509575570654444755, guid: 9344b504afdbdc741a6f4d1bc13f0261, type: 3}
+  artwork: {fileID: 0}
   id: 0
-  threat: Threat Level 2
-  type: Beast
+  threat: Threat Level 1
+  type: Inanimate
+  isUsed: 0
