@@ -25,6 +25,14 @@ public class PopupSpawnManageScript : MonoBehaviour
             print("Camera not found");
     }
 
+    void Update()
+    {
+        if(Input.GetMouseButtonDown(0))
+        {
+            chancePopup(5);
+        }
+    }
+
     public void spawnRandomPopup()
     {
         if (allowPopups == true)
