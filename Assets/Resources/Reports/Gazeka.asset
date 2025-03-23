@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Gazeka
   m_EditorClassIdentifier: 
   name: Gazeka
-  description: Threat Level 1, Type Beast
+  description: {fileID: 509575570654444755, guid: a7f6ebf5a6dd5094ba79b4153f0c7bbf, type: 3}
   artwork: {fileID: 7855607914470837989, guid: 64cfebca8d1b580418be88bdfb4178eb, type: 3}
   id: 0
   threat: Threat Level 1
   type: Beast
+  isUsed: 0

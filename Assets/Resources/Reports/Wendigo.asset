@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Wendigo
   m_EditorClassIdentifier: 
   name: Wendigo
-  description: A creature in the forest, Threat Level 3, Type Humanoid
+  description: {fileID: 509575570654444755, guid: e412de34faf83ef41805175962fc60a9, type: 3}
   artwork: {fileID: -2563358083636513053, guid: cbb5cb28f61b7e0449ef60a01c80a646, type: 3}
   id: 8
   threat: Threat Level 2
-  type: Beast
+  type: Humanoid
+  isUsed: 0

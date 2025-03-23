@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using TMPro;
 
 [CreateAssetMenu (fileName = "New Report", menuName = "Report")]
 public class ReportWindow : ScriptableObject
 {
     public new string name;
-    public string description;
+    public TMP_Text description;
 
     public Sprite artwork;
 
