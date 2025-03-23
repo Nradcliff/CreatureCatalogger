@@ -22,7 +22,7 @@ public class ReportDisplay : MonoBehaviour
 
     public ProgramPersist progressTracker;
 
-    int reportTotalAmount = 17;
+    int reportTotalAmount = 31;
 
     public void Start()
     {

@@ -27,10 +27,10 @@ public class PopupSpawnManageScript : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
-        {
-            chancePopup(5);
-        }
+        //if(Input.GetMouseButtonDown(0))
+        //{
+        //    chancePopup(5);
+        //}
     }
 
     public void spawnRandomPopup()

@@ -6418,7 +6418,7 @@ MonoBehaviour:
   restarting: 0
   reconnectingText: {fileID: 423446359}
   inputField: {fileID: 720251551}
-  password: 09fmab25
+  password: loTxHXJz
   freeToRestart: 1
 --- !u!1 &1608655533
 GameObject:
@@ -8700,6 +8700,22 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 354029266}
+    - target: {fileID: 858183724636702140, guid: 18969a38d67c5d3499fa4fa2c311ccdf, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 858183724636702140, guid: 18969a38d67c5d3499fa4fa2c311ccdf, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 858183724636702140, guid: 18969a38d67c5d3499fa4fa2c311ccdf, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 204.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 858183724636702140, guid: 18969a38d67c5d3499fa4fa2c311ccdf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2297912899267097677, guid: 18969a38d67c5d3499fa4fa2c311ccdf, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -8707,6 +8723,18 @@ PrefabInstance:
     - target: {fileID: 2545084672049622362, guid: 18969a38d67c5d3499fa4fa2c311ccdf, type: 3}
       propertyPath: m_SizeDelta.y
       value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771993902682271545, guid: 18969a38d67c5d3499fa4fa2c311ccdf, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771993902682271545, guid: 18969a38d67c5d3499fa4fa2c311ccdf, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771993902682271545, guid: 18969a38d67c5d3499fa4fa2c311ccdf, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3979581600524015727, guid: 18969a38d67c5d3499fa4fa2c311ccdf, type: 3}
       propertyPath: m_Name
@@ -8718,6 +8746,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4101276712366143632, guid: 18969a38d67c5d3499fa4fa2c311ccdf, type: 3}
       propertyPath: m_MaskInteraction
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4626158544831315454, guid: 18969a38d67c5d3499fa4fa2c311ccdf, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4626158544831315454, guid: 18969a38d67c5d3499fa4fa2c311ccdf, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4662180253112071506, guid: 18969a38d67c5d3499fa4fa2c311ccdf, type: 3}
@@ -8759,6 +8795,10 @@ PrefabInstance:
     - target: {fileID: 4662180253112071506, guid: 18969a38d67c5d3499fa4fa2c311ccdf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901580571786191882, guid: 18969a38d67c5d3499fa4fa2c311ccdf, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -341.63
       objectReference: {fileID: 0}
     - target: {fileID: 4931431036180495938, guid: 18969a38d67c5d3499fa4fa2c311ccdf, type: 3}
       propertyPath: m_AnchorMax.x
