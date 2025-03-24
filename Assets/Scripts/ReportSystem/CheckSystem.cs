@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using TMPro;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -27,6 +28,10 @@ public class CheckSystem : MonoBehaviour
     public NotificationScript notifSystem;
     bool spawnFinalPopup;
 
+    //Check for inital guaranteed popup
+    bool firstGuaranteedPopup = false;
+    public PopupSpawnManageScript popupSystem;
+
     public void Start()
     {
 
@@ -41,6 +46,8 @@ public class CheckSystem : MonoBehaviour
         threatSelection = currentThreat.options[threatIndex].text;
         int typeIndex = currentType.value;
         typeSelection = currentType.options[typeIndex].text;
+
+        popupSystem = GameObject.Find("PopupsManager").GetComponent<PopupSpawnManageScript>();
     }
 
     public void GetDropdownReport() 
@@ -95,6 +102,17 @@ public class CheckSystem : MonoBehaviour
                 currentReport.options.RemoveAt(reportIndex);
                 currentReport.value = 0; // Reset to the first option or handle as needed
                 currentReport.RefreshShownValue();
+
+                if (!firstGuaranteedPopup)
+                {
+                    firstGuaranteedPopup = true;
+                    popupSystem.spawnRandomPopup();
+                }
+                else
+                {
+                    popupSystem.chancePopup(25);
+                }
+                
 
             }
         }
