@@ -1217,6 +1217,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LoadProgramManager
       objectReference: {fileID: 0}
+    - target: {fileID: 1968697338803423725, guid: ea67ac1ac79a76b42ad3fb9291567339, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6267221107663710923, guid: ea67ac1ac79a76b42ad3fb9291567339, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
