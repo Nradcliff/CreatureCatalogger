@@ -889,7 +889,7 @@ PrefabInstance:
       objectReference: {fileID: -6938318233957858273, guid: 18fa0f00e718f1d49b3cf6a3f9ab3f43, type: 3}
     - target: {fileID: 6694348088171380945, guid: 180e48ee589efaa4a91d03e494bfbfa8, type: 3}
       propertyPath: m_Name
-      value: Installer
+      value: Installer (Remove in final)
       objectReference: {fileID: 0}
     - target: {fileID: 8241538814629925738, guid: 180e48ee589efaa4a91d03e494bfbfa8, type: 3}
       propertyPath: m_Pivot.x
@@ -4567,7 +4567,7 @@ PrefabInstance:
       objectReference: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 6694348088171380945, guid: 180e48ee589efaa4a91d03e494bfbfa8, type: 3}
       propertyPath: m_Name
-      value: Secret
+      value: Secret (Remove in final)
       objectReference: {fileID: 0}
     - target: {fileID: 8241538814629925738, guid: 180e48ee589efaa4a91d03e494bfbfa8, type: 3}
       propertyPath: m_Pivot.x
@@ -7271,7 +7271,7 @@ PrefabInstance:
       objectReference: {fileID: 6821343344619960041, guid: 9af05175063660847b894b98e5903dd8, type: 3}
     - target: {fileID: 6694348088171380945, guid: 180e48ee589efaa4a91d03e494bfbfa8, type: 3}
       propertyPath: m_Name
-      value: Virus
+      value: Virus (Remove in final)
       objectReference: {fileID: 0}
     - target: {fileID: 6694348088171380945, guid: 180e48ee589efaa4a91d03e494bfbfa8, type: 3}
       propertyPath: m_IsActive

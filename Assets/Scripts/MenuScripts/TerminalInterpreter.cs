@@ -16,7 +16,8 @@ public class TerminalInterpreter : MonoBehaviour
         {"yellow", "#f2f1b9"},
         {"blue",   "#9ed9d8"},
         {"green",  "#00FF00"},
-        {"orange", "#ef5847"}
+        {"orange", "#ef5847"},
+        {"purple", "#9B90EE"}
     };
 
     List<string> response = new List<string>();
@@ -41,6 +42,7 @@ public class TerminalInterpreter : MonoBehaviour
             ListEntry("ascii", "Type \"ascii\" to see the title!");
             ListEntry("options", "Type \"options\" to open the options menu ");
             ListEntry("help", "Type \"help\" to see the list of available commands ");
+            ListEntry("credits", "Type \"credits\" to see the game's credits ");
             ListEntry("quit", "Type \"quit\" to close the game ");
             ListEntry("reboot", "Type \"reboot\" to reset save data");
 
@@ -113,6 +115,18 @@ public class TerminalInterpreter : MonoBehaviour
             SceneManager.LoadScene("OverlayScene");
             return response;
         }
+        if (args[0].ToLower() == "credits")
+        {
+            response.Add("C:\\Psyence\\Psyence-Catalog\\MIB\\Credits");
+            response.Add("Psyence Catalog");
+            response.Add("Monsters In Boxes");
+            response.Add("2025");
+            ListCreditsD("Drewnell", "art assets, sound design");
+            ListCreditsA("Ahmad", "pop-up and notification system development");
+            ListCreditsN("Noah", "main menu and reports system development, report descriptions");
+            ListEntry("Gibby", "scenes and window system development");
+            return response;
+        }
         else
         {
             response.Add("Command not recognized. Type help for a list of commands.");
@@ -157,6 +171,17 @@ public class TerminalInterpreter : MonoBehaviour
 
         file.Close();
     }
-    
-        
+
+    void ListCreditsN(string a, string b)
+    {
+        response.Add(ColorString(a, colors["green"]) + ": " + ColorString(b, colors["yellow"]));
+    }
+    void ListCreditsA(string a, string b)
+    {
+        response.Add(ColorString(a, colors["blue"]) + ": " + ColorString(b, colors["yellow"]));
+    }
+    void ListCreditsD(string a, string b)
+    {
+        response.Add(ColorString(a, colors["purple"]) + ": " + ColorString(b, colors["yellow"]));
+    }
 }
