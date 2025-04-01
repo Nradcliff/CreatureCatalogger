@@ -9,6 +9,9 @@ public class SwitchGuidelines : MonoBehaviour
 
     public string titleOf;
 
+    public GameObject descriptionObj;
+    public GameObject titleObj;
+
 
     public void Start()
     {
@@ -17,7 +20,7 @@ public class SwitchGuidelines : MonoBehaviour
 
     public void SwitchingTab()
     {
-        PageInfo.Instance.reportName.GetComponent<TMP_Text>().text = titleOf;
-        PageInfo.Instance.description.GetComponent<TMP_Text>().text = description.GetComponent<TMP_Text>().text;
+        PageInfo2.Instance2.reportName.GetComponent<TMP_Text>().text = titleOf;
+        PageInfo2.Instance2.description.GetComponent<TMP_Text>().text = description.GetComponent<TMP_Text>().text;
     }
 }

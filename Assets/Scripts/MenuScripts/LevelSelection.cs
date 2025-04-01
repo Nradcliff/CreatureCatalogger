@@ -10,6 +10,7 @@ public class LevelSelection : MonoBehaviour
     public void Start()
     {
         progressTracker = GameObject.Find("LoadProgramManager").GetComponent<ProgramPersist>();
+        progressTracker.Start();
     }
     public void NextLevel()
     {

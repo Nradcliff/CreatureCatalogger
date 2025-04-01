@@ -41,7 +41,7 @@ public class WindowScript : MonoBehaviour
     public TextMeshProUGUI windowNameTMP;
     public string windowName;
     public bool requiresInternet;
-    public GameObject internet;
+    public InternetScript internet;
     public GameObject noInternet;
     public AudioScript audioManager;
 
@@ -93,6 +93,7 @@ public class WindowScript : MonoBehaviour
     {
         if (Time.timeScale != 0)
         {
+
             //Sorting Layer
             sortingGroup.sortingOrder = posInArray * 10;
             headerLayer = 3 + sortingGroup.sortingOrder;
@@ -116,7 +117,7 @@ public class WindowScript : MonoBehaviour
                     contentCanvas.SetActive(false);
                     noInternet.SetActive(true);
                 }
-                if (internet.GetComponent<InternetScript>().on == true)
+                if (internet.on == true)
                 {
                     content.SetActive(true);
                     contentCanvas.SetActive(true);
@@ -125,6 +126,7 @@ public class WindowScript : MonoBehaviour
             }
 
             //Apply layer change
+            //probably shouldnt have used getcomponent for each frame but oh well its like 10 weeks too late
             windowHeader.GetComponent<SpriteRenderer>().sortingOrder = headerLayer;
             buttonsInHeader.GetComponent<Canvas>().sortingOrder = headerLayer;
             background.GetComponent<SpriteRenderer>().sortingOrder = backgroundLayer;
@@ -259,5 +261,23 @@ public class WindowScript : MonoBehaviour
     public void playsoundFromAudioGuy(int index)
     {
         audioManager.playsound(index);
+    }
+
+    public void OnEnable()
+    {
+        if (internet != null)
+        {
+            //Make internet slower
+            internet.openPrograms += 1;
+        }
+    }
+
+    public void OnDisable()
+    {
+        if (internet != null)
+        {
+            //Make internet faster
+            internet.openPrograms -= 1;
+        }
     }
 }

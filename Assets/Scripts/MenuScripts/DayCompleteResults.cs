@@ -15,6 +15,7 @@ public class DayCompleteResults : MonoBehaviour
     void Start()
     {
         progressTracker = GameObject.Find("LoadProgramManager").GetComponent<ProgramPersist>();
+        progressTracker.programBool[3] = false;
         correct = progressTracker.correctReports;
         total = progressTracker.totalReports;
         resultsText = correct.ToString() + " out of " + total.ToString() + "\nReports Correct";

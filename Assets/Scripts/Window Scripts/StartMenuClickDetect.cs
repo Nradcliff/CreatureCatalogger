@@ -3,6 +3,7 @@ using UnityEngine;
 public class StartMenuClickDetect : MonoBehaviour
 {
     public GameObject personalizeWindow;
+    public GameObject optionsWindow;
     public GameObject pausePanel;
 
     public bool pauseOnEsc;
@@ -45,6 +46,10 @@ public class StartMenuClickDetect : MonoBehaviour
     public void openPersonalize()
     {
         personalizeWindow.SetActive(true);
+    }
+    public void openOptions()
+    {
+        optionsWindow.SetActive(true);
     }
 
     public void pauseGame()

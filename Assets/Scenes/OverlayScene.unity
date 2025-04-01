@@ -383,6 +383,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   woahNeatAmbience: {fileID: 8300000, guid: 26ef41604bad61946a599e32539aec76, type: 3}
+  prog: {fileID: 745379580}
+  ambience: 0
 --- !u!82 &410956413
 AudioSource:
   m_ObjectHideFlags: 0
@@ -510,12 +512,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   programBool: 
-  startingProgramBool: 01010101000101
+  startingProgramBool: 0101010100010101
   notepadText: 
   DayNum: 0
   resetBools: 0
+  stickyNoteText: {fileID: 1676518183}
+  randPass: 
   totalReports: 0
   correctReports: 0
+  noTimer: 0
+  masterVol: 1
+  sfxVol: 0.5
+  ambienceVol: 0.5
 --- !u!4 &745379581
 Transform:
   m_ObjectHideFlags: 0
@@ -724,6 +732,151 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ShowMaskGraphic: 1
+--- !u!1 &1105124721
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1105124724}
+  - component: {fileID: 1105124723}
+  - component: {fileID: 1105124722}
+  m_Layer: 0
+  m_Name: OverlayAudioManagerButJustForAmbience
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1105124722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105124721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 357be5cdbd76c31488c2576e9b79eac9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  woahNeatAmbience: {fileID: 8300000, guid: 26ef41604bad61946a599e32539aec76, type: 3}
+  prog: {fileID: 745379580}
+  ambience: 1
+--- !u!82 &1105124723
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105124721}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.586
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1105124724
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105124721}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1113092944
 GameObject:
   m_ObjectHideFlags: 0
@@ -1050,7 +1203,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Wifi Pass:\n   loTxHXJz"
+  m_text: "Wifi Pass:\n   Fortnite"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 942596a294ef481479944182a7a72797, type: 2}
   m_sharedMaterial: {fileID: 2525731494604184698, guid: 942596a294ef481479944182a7a72797, type: 2}
@@ -1187,7 +1340,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 18122855134605921, guid: 010f4dd4ee2230e45a6d6ef8e142fb2a, type: 3}
+  m_Sprite: {fileID: 19166566527519131, guid: 0c186f411e64f45469b220b8f0091438, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1262,8 +1415,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7009461619217566736, guid: ea67ac1ac79a76b42ad3fb9291567339, type: 3}
+      propertyPath: sfxVol
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7009461619217566736, guid: ea67ac1ac79a76b42ad3fb9291567339, type: 3}
+      propertyPath: notimer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7009461619217566736, guid: ea67ac1ac79a76b42ad3fb9291567339, type: 3}
+      propertyPath: masterVol
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7009461619217566736, guid: ea67ac1ac79a76b42ad3fb9291567339, type: 3}
+      propertyPath: ambienceVol
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7009461619217566736, guid: ea67ac1ac79a76b42ad3fb9291567339, type: 3}
       propertyPath: startingProgramBool.Array.size
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7009461619217566736, guid: ea67ac1ac79a76b42ad3fb9291567339, type: 3}
       propertyPath: 'startingProgramBool.Array.data[0]'
@@ -1304,3 +1473,4 @@ SceneRoots:
   - {fileID: 1475970760}
   - {fileID: 9089588414535491600}
   - {fileID: 410956411}
+  - {fileID: 1105124724}

@@ -6,6 +6,7 @@ public class AudioScript : MonoBehaviour
 {
     public AudioSource sourceFilmMaker;
     public List<AudioClip> clipList;
+    ProgramPersist prog;
 
     /// <summary>
     /// Sound Indexes (Update this list when adding new sounds)
@@ -21,5 +22,14 @@ public class AudioScript : MonoBehaviour
     public void playsound(int index)
     {
         sourceFilmMaker.PlayOneShot(clipList[index]);
+    }
+
+    public void Start()
+    {
+        prog = GameObject.Find("LoadProgramManager").GetComponent<ProgramPersist>();
+    }
+    private void Update()
+    {
+        sourceFilmMaker.volume = prog.sfxVol * prog.masterVol;
     }
 }
