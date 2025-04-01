@@ -10,13 +10,15 @@ public class PopupSpawnManageScript : MonoBehaviour
 
     //Boundaries
     float minX = 0f;
-    float maxX = 1f - 0.25f;
+    float maxX = 1f;
     float minY = 0f;
-    float maxY = 1f - 0.25f;
+    float maxY = 1f;
 
     public Camera cam;
 
     public List<GameObject> popupWindows;
+    [Header("Weights should correspond to popup order above. \nHigher value = more common")]
+    public float[] weights;
 
     private void Awake()
     {
@@ -29,10 +31,37 @@ public class PopupSpawnManageScript : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0))
         {
-            chancePopup(5);
+            chancePopup(50);
         }
     }
 
+    //Weighted random chance. Randomly returns an integer based on a weighted chance.
+    public int getRandomWeightedIndex(float[] weights)
+    {
+        //check if array is populated
+        if (weights == null || weights.Length == 0) return -1;
+
+        float weight = 0;
+        float total = 0;
+        for(int i = 0; i < weights.Length; i++)
+        {
+            weight = weights[i];
+            if (weight >= 0f) total += weights[i];
+        }
+
+        float rValue = Random.Range(0f, 1f);
+        float s = 0f;
+
+        for (int i = 0; i < weights.Length; i++)
+        {
+            weight = weights[i];
+
+            s += weight / total;
+            if (s >= rValue) return i;
+        }
+
+        return -1;
+    }
     public void spawnRandomPopup()
     {
         if (allowPopups == true)
@@ -44,14 +73,14 @@ public class PopupSpawnManageScript : MonoBehaviour
             Vector3 worldPos = cam.ViewportToWorldPoint(new Vector3(randX, randY, cam.nearClipPlane));
 
             //Randomly chooses then instantiates a popup at the random position
-            int randPopup = Random.Range(0, popupWindows.Count);
-            Instantiate(popupWindows[randPopup], new Vector3(worldPos.x, worldPos.y, this.gameObject.transform.position.z), Quaternion.identity);
+            //OBSOLETEint randPopup = Random.Range(0, popupWindows.Count);
+            Instantiate(popupWindows[getRandomWeightedIndex(weights)], new Vector3(worldPos.x, worldPos.y, this.gameObject.transform.position.z), Quaternion.identity);
         }
     }
 
     public void chancePopup(float chance)
     {
-        if (Random.Range(0, 100) <= chance)
+        if (Random.Range(0f, 100f) <= chance)
             spawnRandomPopup();
     }
 

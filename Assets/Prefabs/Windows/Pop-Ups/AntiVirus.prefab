@@ -189,7 +189,7 @@ MonoBehaviour:
   closeButton: {fileID: 3574914854529392436}
   isPopup: 1
   windowNameTMP: {fileID: 5661001089826967807}
-  windowName: ScamUnited Antivirus
+  windowName: Guardian Antivirus
   requiresInternet: 0
   internet: {fileID: 0}
   noInternet: {fileID: 7286865394668245491}
@@ -1130,7 +1130,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'A virus has been detected on your computer!
+  m_text: 'Install Gaurdian Antivirus and stay protected
 
 '
   m_isRightToLeft: 0
@@ -1159,8 +1159,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 11
+  m_fontSizeBase: 11
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
@@ -2022,7 +2022,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "A virus has been \ndetected on your computer!"
+  m_text: "A virus is been \ndetected on your computer!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 942596a294ef481479944182a7a72797, type: 2}
   m_sharedMaterial: {fileID: 2525731494604184698, guid: 942596a294ef481479944182a7a72797, type: 2}
