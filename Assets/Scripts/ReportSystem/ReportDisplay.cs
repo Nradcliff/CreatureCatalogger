@@ -18,7 +18,7 @@ public class ReportDisplay : MonoBehaviour
     public Transform parentTransform; //Transform of the parent that the buttons will become children of
     public GameObject reportButton; //Varible to store button prefab
 
-    public TMP_Dropdown currentReport;
+    public TMP_Dropdown currentReport, currentReport2;
 
     public ProgramPersist progressTracker;
 
@@ -66,6 +66,9 @@ public class ReportDisplay : MonoBehaviour
             }
 
             currentReport.options.Add(new TMP_Dropdown.OptionData(duplicate.GetComponent<SwitchTab>().report.name));
+            currentReport2.options.Add(new TMP_Dropdown.OptionData(duplicate.GetComponent<SwitchTab>().report.name));
+
+            currentReport2.value = 0;
 
             createdDuplicates.Add(duplicate);
         }

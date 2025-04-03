@@ -18,7 +18,7 @@ public class DayCompleteResults : MonoBehaviour
         progressTracker.programBool[3] = false;
         correct = progressTracker.correctReports;
         total = progressTracker.totalReports;
-        resultsText = correct.ToString() + " out of " + total.ToString() + "\nReports Correct";
+        resultsText = correct.ToString() + " out of " + (total*2).ToString() + "\nPossible Points";
         results.text = resultsText;
 
         resultsPercent = correct / total;

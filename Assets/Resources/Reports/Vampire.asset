@@ -18,4 +18,4 @@ MonoBehaviour:
   id: 3
   threat: Threat Level 2
   type: Humanoid
-  isUsed: 0
+  isUsed: 1

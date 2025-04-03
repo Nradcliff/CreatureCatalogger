@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class InternetScript : MonoBehaviour
 {
-    public float timer;
+    public float timer,timerButAgainQuestionMark,loseInternetStartingAfterThisNumberOfSeconds;
     public bool on;
 
     public Sprite threesprite,twosprite,onesprite,off;
@@ -33,26 +33,30 @@ public class InternetScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(openPrograms <= 2)
+        if(openPrograms <= 3)
         {
             timerTarget = 90;
         }
-        else if(openPrograms < 3)
+        else if(openPrograms < 4)
         {
             timerTarget = 75;
         }
-        else if (openPrograms < 4)
+        else if (openPrograms < 5)
         {
             timerTarget = 55;
         }
-        else if (openPrograms < 6)
+        else if (openPrograms < 8)
         {
             timerTarget = 45;
         }
 
-
-        timer += Time.deltaTime;
-        if(timer >= timerTarget)
+        
+        if (timerButAgainQuestionMark > loseInternetStartingAfterThisNumberOfSeconds)
+        {
+            timer += Time.deltaTime;
+        }
+        else timerButAgainQuestionMark += Time.deltaTime;
+        if (timer >= timerTarget)
         {
             freeToRestart = false;
             timer = 0;
@@ -109,6 +113,8 @@ public class InternetScript : MonoBehaviour
                 connectionTime = 0;
                 restarting = false;
                 on = true;
+                timerButAgainQuestionMark = 0;
+                timer = 0;
                 inputField.text = "";
                 inputField.gameObject.SetActive(false);
             }

@@ -72,7 +72,7 @@ public class CheckSystem : MonoBehaviour
                 submission = true;
                 Debug.Log("Correct Answer!");
 
-                progressTracker.correctReports += 1;
+                progressTracker.correctReports += 2;
 
                 Destroy(display.createdDuplicates[reportIndex]);
                 display.createdDuplicates.RemoveAt(reportIndex);
@@ -95,10 +95,12 @@ public class CheckSystem : MonoBehaviour
                 if(activeReport.threat != threatSelection && activeReport.type == typeSelection)
                 {
                     notifSystem.sendIncorrectTLNotif();
+                    progressTracker.correctReports += 1;
                 }
                 else if (activeReport.type != typeSelection && activeReport.threat == threatSelection)
                 {
                     notifSystem.sendIncorrectTypeNotif();
+                    progressTracker.correctReports += 1;
                 }
                 else
                 {
