@@ -17,7 +17,7 @@ public class PopupSpawnManageScript : MonoBehaviour
     public Camera cam;
 
     public List<GameObject> popupWindows;
-    [Header("Weights should correspond to popup order above. \nHigher value = more common")]
+    [Header("Weights should correspond to popup order above. \nHigher value = more common. \n0 means it will not spawn at all.")]
     public float[] weights;
 
     private void Awake()
@@ -31,7 +31,7 @@ public class PopupSpawnManageScript : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0))
         {
-            chancePopup(50);
+            chancePopup(5);
         }
     }
 
