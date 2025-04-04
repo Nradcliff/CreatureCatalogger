@@ -12,11 +12,16 @@ public class DropdownSortingLayerFix : MonoBehaviour
 
     private void OnEnable()
     {
+        
+    }
+
+    public void Update()
+    {
         Canvas canvas = GetComponent<Canvas>();
         GameObject.Find("Blocker");
         if (canvas)
         {
-            canvas.sortingOrder = parentWindow.contentLayers+2;
+            canvas.sortingOrder = parentWindow.contentLayers + 2;
         }
     }
 }
