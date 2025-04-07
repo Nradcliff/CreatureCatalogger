@@ -6,7 +6,7 @@ using UnityEngine;
 public class PopupSpawnManageScript : MonoBehaviour
 {
     //Use this in other scripts to disable or enable popups
-    public bool allowPopups = true;
+    public static bool allowPopups = true;
 
     //Boundaries
     float minX = 0f;

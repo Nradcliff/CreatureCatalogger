@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 1921167476318409116}
   m_Layer: 3
   m_Name: AntiVirus
-  m_TagString: Untagged
+  m_TagString: Popup
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -189,7 +189,7 @@ MonoBehaviour:
   closeButton: {fileID: 3574914854529392436}
   isPopup: 1
   windowNameTMP: {fileID: 5661001089826967807}
-  windowName: Guardian Antivirus
+  windowName: Gardian Antivirus
   requiresInternet: 0
   internet: {fileID: 0}
   noInternet: {fileID: 7286865394668245491}
