@@ -32,7 +32,7 @@ public class SwitchTab : MonoBehaviour
     public void SwitchingTab()
     {
         nameText.text = report.name;
-        descriptionText.text = report.description;
+        descriptionText.text = report.description.text;
 
         artworkImage.sprite = report.artwork;
     }
