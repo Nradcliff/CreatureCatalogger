@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1364091132484382153}
   - component: {fileID: 5454210775776170982}
   m_Layer: 5
-  m_Name: ThreatLevel3
+  m_Name: Safe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65,18 +65,21 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '- Creature is hard to take down, Durable in nature.
+  m_text: '- Report shows it avoids humans.
 
-    - Entity actively
-    seeks out targets. Is sadistic or violent in nature.
+    - Report indicates it only attacks
+    if provoked
 
-    - Can cause serious
-    bodily harm or even death
+    - Report shows it can be befriended/tamed/appeased
 
-    - It can cause damage on a city-wide level or
-    higher.
+    - Report
+    indicates it is helpful, protective, or useful to humans.
 
-    - Possesses abnormally abilities that defies rational reasoning'
+    - Report shows
+    it may attempt to steal resources
+
+    - Report indicates its properties don''t
+    take effect unless interacted with'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

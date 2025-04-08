@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1364091132484382153}
   - component: {fileID: 5454210775776170982}
   m_Layer: 5
-  m_Name: ThreatLevel2
+  m_Name: Lethal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65,18 +65,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '- Creature has a set hunting ground, it wise to stay out of this enviorment.
+  m_text: '- Report shows it is hard to take down or contain.
 
-    -
-    Creature attacks on sight or stalks its prey.
+    - Report indicates
+    it actively seeks out targets. Is sadistic or violent in nature.
 
-    - Creature can cause serious
-    bodily harm or even death.
+    - Report
+    shows it cause serious bodily harm, alterations, or death
 
-    - Creature can cause severe property damage.
+    - Report shows
+    it may cause damage on a city-wide level or higher.
 
-    -
-    Creature is known to kidnap individuals of young age or short in stature.'
+    - Report indicates
+    it possesses abnormally abilities that defies rational reasoning'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

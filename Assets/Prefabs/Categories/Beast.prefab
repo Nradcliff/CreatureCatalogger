@@ -65,19 +65,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '- Creature is animalistic. It acts on instinct. It either hunts or forages.
-
-    -
-    Walks on all 4''s or more, can sometimes be bi-pedal
-
-    - Has a set habitat
-    or environment it patrols
-
-    - Creature has a defensive mechanism. I.E poisonous
-    or venomous. Does something in reaction to being engaged.
-
-    - Can be confused
-    for a domesticated animal'
+  m_text: "- Animalistic, It acts on instinct. It hunts and forages\r\n- Walks on
+    all 4's or more, can sometimes be bi-pedal\r\n- Has a set habitat or environment
+    it patrols\r\n- Creature has a defensive/offensive mechanism. I.E: poisonous,
+    venomous, camouflage, or hallucinogenic effects. \r\n- Can be confused for a
+    domesticated animal"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
