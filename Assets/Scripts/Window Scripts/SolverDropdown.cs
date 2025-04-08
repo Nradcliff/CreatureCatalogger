@@ -40,7 +40,7 @@ public class SolverDropdown : MonoBehaviour
             button.interactable = false;
             dropdown.interactable = false;
             
-            if (timer >= 90f)
+            if (timer >= 70f)
             {
                 timer = 0;
                 checking = false;
@@ -65,7 +65,7 @@ public class SolverDropdown : MonoBehaviour
             {
                 timer += Time.deltaTime * .65f;
             }
-            progressbar.value = timer/60;
+            progressbar.value = timer/70;
         }
     }
 
@@ -75,7 +75,7 @@ public class SolverDropdown : MonoBehaviour
         checking = false;
         dropdown.interactable = true;
         button.interactable = true;
-        displayResults.text = "ERROR";
+        displayResults.text = "ERROR\nFunction Aborted\neExit Code 09FMBH2";
         progressbar.value = 0;
     }
 

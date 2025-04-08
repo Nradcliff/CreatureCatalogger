@@ -5,7 +5,7 @@ public class LoadSceneInScene : MonoBehaviour
 {
     void Start()
     {
-        SceneManager.LoadScene("MainMenu", LoadSceneMode.Additive);
+        SceneManager.LoadScene("SplashScreen", LoadSceneMode.Additive);
     }
 
     private void Update()

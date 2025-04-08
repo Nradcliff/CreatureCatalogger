@@ -3,15 +3,16 @@ using UnityEngine;
 public class OverlayAudioManager : MonoBehaviour
 {
     AudioSource audioS;
-    public AudioClip woahNeatAmbience;
+    public AudioClip woahNeatAmbience,startup;
     public ProgramPersist prog;
     public bool ambience;
 
-    void Start()
+    void OnEnable()
     {
         audioS = GetComponent<AudioSource>();
         if (ambience)
         {
+            audioS.PlayOneShot(startup);
             audioS.clip = woahNeatAmbience;
             audioS.Play();
         }
