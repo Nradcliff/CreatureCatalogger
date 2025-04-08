@@ -9,11 +9,13 @@ public class AntivirusScript : MonoBehaviour
     public TextMeshProUGUI enableText;
     public TextMeshProUGUI countDisplay;
     public Button closeButton;
+    public TextMeshProUGUI ButtonText;
     bool CR_Running;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         countDisplay.text = null;
+        ButtonText = GameObject.Find("EnableBut").GetComponentInChildren<TextMeshProUGUI>();
     }
 
     // Update is called once per frame
@@ -27,12 +29,14 @@ public class AntivirusScript : MonoBehaviour
         if (PopupSpawnManageScript.allowPopups == false)
         {
             enableText.text = "Antivirus currently disabled.";
+            ButtonText.text = "Enable";
             PopupSpawnManageScript.allowPopups = true;
             closeButton.enabled = true;
         }
         else
         {
             enableText.text = "Antivirus currently enabled.";
+            ButtonText.text = "Disable";
             PopupSpawnManageScript.allowPopups = false;
             closeButton.enabled = false;
         }

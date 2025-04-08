@@ -6673,6 +6673,7 @@ MonoBehaviour:
   enableText: {fileID: 286603262}
   countDisplay: {fileID: 761787223}
   closeButton: {fileID: 1708083355}
+  ButtonText: {fileID: 0}
 --- !u!1 &1599517880
 GameObject:
   m_ObjectHideFlags: 0
