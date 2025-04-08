@@ -42,15 +42,11 @@ public class SplashScreen : MonoBehaviour
 
     void addLines()
     {
-        TextMeshProUGUI green = Instantiate(greenText, parentobj.transform);
         if (stringIndex < thingsToSay.Count)
         {
+            TextMeshProUGUI green = Instantiate(greenText, parentobj.transform);
             green.text = thingsToSay[stringIndex];
             stringIndex += 1;
-        }
-        else
-        {
-            green.text = "";
         }
     }
 }

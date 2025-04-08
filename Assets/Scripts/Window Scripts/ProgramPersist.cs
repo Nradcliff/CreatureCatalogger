@@ -18,6 +18,8 @@ public class ProgramPersist : MonoBehaviour
     public bool noTimer;
     public float masterVol, sfxVol, ambienceVol;
 
+    public bool dead;
+
     public void Start()
     {
         //Randomly generates a wifi password

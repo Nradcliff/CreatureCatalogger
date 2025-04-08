@@ -28,6 +28,11 @@ public class OverlayAudioManager : MonoBehaviour
         {
             audioS.volume = prog.ambienceVol * prog.masterVol;
         }
+
+        if (prog.dead)
+        {
+            this.gameObject.SetActive(false);
+        }
     }
 
     public void PlayASound(AudioClip clip)
