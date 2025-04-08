@@ -70,7 +70,8 @@ public class CheckSystem : MonoBehaviour
     {
         if (currentReport.options.Count > 0)
         {
-            if (activeReport.threat == threatSelection && activeReport.type == typeSelection)
+
+            if (activeReport.Threat.ToString() == threatSelection && activeReport.Type.ToString() == typeSelection)
             {
                 submission = true;
                 Debug.Log("Correct Answer!");

@@ -1023,10 +1023,10 @@ MonoBehaviour:
     - m_Text: Humanoid
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Extraterrestial
+    - m_Text: Inanimate
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: REDACTED
+    - m_Text: Abstract
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_OnValueChanged:
@@ -1915,7 +1915,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Threat Level 0
+  m_text: Safe
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 942596a294ef481479944182a7a72797, type: 2}
   m_sharedMaterial: {fileID: 2525731494604184698, guid: 942596a294ef481479944182a7a72797, type: 2}
@@ -3304,16 +3304,16 @@ MonoBehaviour:
   m_MultiSelect: 0
   m_Options:
     m_Options:
-    - m_Text: Threat Level 0
+    - m_Text: Safe
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Threat Level 1
+    - m_Text: Harmful
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Threat Level 2
+    - m_Text: Dangerous
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Threat Level 3
+    - m_Text: Lethal
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_OnValueChanged:

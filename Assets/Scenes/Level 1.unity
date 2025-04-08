@@ -8126,6 +8126,36 @@ PrefabInstance:
       propertyPath: m_AnchorMin.y
       value: 0.6112164
       objectReference: {fileID: 0}
+    - target: {fileID: 6030901286561569865, guid: 8c265596612c03d4baa0e83088f23f7b, type: 3}
+      propertyPath: m_text
+      value: "Welcome to the Company!\n\nYour task will include looking through the
+        active reports for the day under the reports application. Based on the info
+        provided you will open the Sorting application, select which report you are
+        looking at, and verify based on info from the checklist application.\n\nHere
+        at the company, we recommend \nwhen looking at reports and comparing them
+        to the bullet points on the checklist application, you should try to match
+        at least 2 to 3 of the requirements of each category under each threat and
+        type. Do this before submitting to help gain absolute certianty on your future
+        decisions.\n\nYour Personal Computer assistant Psy will critique your work
+        as you progress. Be warned he can be fickle sometimes so do your best to
+        not get reports wrong or face his wrath. Psy has control over some of your
+        terminals functions, and has been known to hinder them due to user \"failures.\"\n\nHinderances
+        include: \n- Wifi going out based on opened tab/app amount (How he linked
+        these together we don't know). You should have your password written down
+        somewhere, so just reconnect, maintain your open browser/app usage, and you
+        should be fine. Also if you believe your wifi is about to go out you can
+        attempt to reconnect ahead of time without needing the password.\n-Pop-ups
+        blocking your view and adding to your browser count. Close them as soon as
+        possible so your wifi stays active.\n\nAlso if you truly feel stuck on making
+        a submission we have an additional program known as the solver. It takes
+        time to run and makes your terminal more vunerable to viruses, but when a
+        report is entered it will give you the solution. Please use wisely as wifi
+        disconnections can reset its progress.\n\nThank You,\nManagement"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6030901286561569865, guid: 8c265596612c03d4baa0e83088f23f7b, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7639852568580926926, guid: 8c265596612c03d4baa0e83088f23f7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.031692
