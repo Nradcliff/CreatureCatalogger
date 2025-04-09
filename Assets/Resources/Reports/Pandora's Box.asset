@@ -17,5 +17,5 @@ MonoBehaviour:
   artwork: {fileID: 0}
   id: 0
   threat: Threat Level 3
-  type: Inanimate
+  type: Abstract
   isUsed: 0
