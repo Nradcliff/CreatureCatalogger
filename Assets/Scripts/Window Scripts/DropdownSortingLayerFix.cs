@@ -18,10 +18,18 @@ public class DropdownSortingLayerFix : MonoBehaviour
     public void Update()
     {
         Canvas canvas = GetComponent<Canvas>();
-        GameObject.Find("Blocker");
+        Canvas blocker = null;
+        if (GameObject.Find("Blocker"))
+        {
+            blocker = GameObject.Find("Blocker").GetComponent<Canvas>();
+        }
         if (canvas)
         {
             canvas.sortingOrder = parentWindow.contentLayers + 2;
+            if (blocker != null)
+            {
+                blocker.sortingOrder = parentWindow.contentLayers + 1;
+            }
         }
     }
 }
