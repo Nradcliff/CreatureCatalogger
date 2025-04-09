@@ -16,6 +16,6 @@ MonoBehaviour:
   description: {fileID: 509575570654444755, guid: 641e330e6fdc26f4d960f6744eaf628e, type: 3}
   artwork: {fileID: 0}
   id: 3
-  threat: Threat Level 2
-  type: Humanoid
-  isUsed: 1
+  Threat: 2
+  Type: 1
+  isUsed: 0

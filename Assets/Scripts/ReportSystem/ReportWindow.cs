@@ -13,12 +13,22 @@ public class ReportWindow : ScriptableObject
     public Sprite artwork;
 
     public int id;
-    public string threat;
-    public string type;
+    public enum EntityThreat
+    {
+        Safe,
+        Harmful,
+        Dangerous,
+        Lethal
+    };
+    public EntityThreat Threat;
+    public enum EntityType
+    {
+        Beast,
+        Humanoid,
+        Inanimate,
+        Abstract
+    };
+    public EntityType Type;
     public bool isUsed = false; //If we plan to not have repeat reports used. Then this bool can be used to show that its been used before and not have it load into the list for future levels.
 
-    public void Print ()
-    {
-        Debug.Log(name + ": " + description + " The threat level is " + threat + " and it belongs in the catagory of " + type);
-    }
 }

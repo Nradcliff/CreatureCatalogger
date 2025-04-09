@@ -16,6 +16,6 @@ MonoBehaviour:
   description: {fileID: 509575570654444755, guid: b7a2a15735e3ef447816767a574444a0, type: 3}
   artwork: {fileID: 0}
   id: 0
-  threat: Threat Level 3
-  type: Beast
+  Threat: 3
+  Type: 1
   isUsed: 0

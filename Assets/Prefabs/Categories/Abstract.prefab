@@ -65,16 +65,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '- Its morphology is not easily understood. Either too small to detect
-    or not visible to the naked eye.
+  m_text: '- Either too small to detect, not visible to the naked eye, or does not
+    have a physical form.
 
-    - It affects people''s senses. Sight, Sound,
-    Smell, Touch, and Taste.
+    - It affects people''s senses.
 
-    - Being in its presence can cause an psychological
-    or physical effect.
+    - Being in its
+    presence can cause psychological or physical effects
 
-    - Can be confused for a humanoid or a beast.'
+    - Can be confused
+    for a humanoid, beast, or inanimate
+
+    - It can bend or subvert the laws of
+    reality'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

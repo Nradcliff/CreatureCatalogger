@@ -234,7 +234,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8f521c2a6021664e8e9c98db03b1f4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  categoryDescriptionText: 
+  categoryDescriptionText: {fileID: 0}
+  categoryNameText: 
   checkText: {fileID: 0}
   checkDescriptionText: {fileID: 0}
 --- !u!1 &2049240334789668187
@@ -1111,7 +1112,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8633459191661240310, guid: f84617cc994ef834abfc6ce2123909d6, type: 3}
       propertyPath: m_text
-      value: Threat Level 0
+      value: Safe
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7765231386868707440, guid: f84617cc994ef834abfc6ce2123909d6, type: 3}
@@ -1333,7 +1334,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8633459191661240310, guid: f84617cc994ef834abfc6ce2123909d6, type: 3}
       propertyPath: m_text
-      value: Threat Level 1
+      value: Harmful
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7765231386868707440, guid: f84617cc994ef834abfc6ce2123909d6, type: 3}
@@ -1666,7 +1667,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8633459191661240310, guid: f84617cc994ef834abfc6ce2123909d6, type: 3}
       propertyPath: m_text
-      value: Threat Level 4
+      value: Lethal
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7765231386868707440, guid: f84617cc994ef834abfc6ce2123909d6, type: 3}
@@ -1777,7 +1778,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8633459191661240310, guid: f84617cc994ef834abfc6ce2123909d6, type: 3}
       propertyPath: m_text
-      value: Threat Level 2
+      value: Dangerous
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7765231386868707440, guid: f84617cc994ef834abfc6ce2123909d6, type: 3}
