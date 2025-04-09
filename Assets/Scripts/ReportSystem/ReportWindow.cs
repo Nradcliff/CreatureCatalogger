@@ -20,7 +20,7 @@ public class ReportWindow : ScriptableObject
         Dangerous,
         Lethal
     };
-    public EntityThreat Threat;
+    public EntityThreat threat;
     public enum EntityType
     {
         Beast,
@@ -28,7 +28,7 @@ public class ReportWindow : ScriptableObject
         Inanimate,
         Abstract
     };
-    public EntityType Type;
-    public bool isUsed = false; //If we plan to not have repeat reports used. Then this bool can be used to show that its been used before and not have it load into the list for future levels.
+    public EntityType type;
 
+    public bool isUsed = false; //If we plan to not have repeat reports used. Then this bool can be used to show that its been used before and not have it load into the list for future levels.
 }

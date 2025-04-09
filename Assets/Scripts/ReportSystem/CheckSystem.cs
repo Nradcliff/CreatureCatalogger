@@ -67,7 +67,7 @@ public class CheckSystem : MonoBehaviour
     {
         if (currentReport.options.Count > 0)
         {
-            if (activeReport.threat == threatSelection && activeReport.type == typeSelection)
+            if (activeReport.threat.ToString() == threatSelection && activeReport.type.ToString() == typeSelection)
             {
                 submission = true;
                 Debug.Log("Correct Answer!");
@@ -92,12 +92,12 @@ public class CheckSystem : MonoBehaviour
                 submission = false;
                 Debug.Log("Incorrect Answer!");
 
-                if(activeReport.threat != threatSelection && activeReport.type == typeSelection)
+                if(activeReport.threat.ToString() != threatSelection && activeReport.type.ToString() == typeSelection)
                 {
                     notifSystem.sendIncorrectTLNotif();
                     progressTracker.correctReports += 1;
                 }
-                else if (activeReport.type != typeSelection && activeReport.threat == threatSelection)
+                else if (activeReport.type.ToString() != typeSelection && activeReport.threat.ToString() == threatSelection)
                 {
                     notifSystem.sendIncorrectTypeNotif();
                     progressTracker.correctReports += 1;

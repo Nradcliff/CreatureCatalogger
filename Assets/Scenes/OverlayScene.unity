@@ -589,7 +589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   programBool: 
-  startingProgramBool: 0101010100010101
+  startingProgramBool: 010101010001010101
   notepadText: 
   DayNum: 0
   resetBools: 0
@@ -1530,7 +1530,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7009461619217566736, guid: ea67ac1ac79a76b42ad3fb9291567339, type: 3}
       propertyPath: startingProgramBool.Array.size
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7009461619217566736, guid: ea67ac1ac79a76b42ad3fb9291567339, type: 3}
       propertyPath: 'startingProgramBool.Array.data[0]'

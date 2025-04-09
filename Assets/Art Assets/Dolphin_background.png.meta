@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dolphin_background_0: 3320962797251855436
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

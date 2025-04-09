@@ -2919,6 +2919,85 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 584231336}
   m_CullTransparentMesh: 1
+--- !u!1001 &606377803
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 656880792}
+    m_Modifications:
+    - target: {fileID: 985547625081216277, guid: b9c7e84160b62b940b6915031c221393, type: 3}
+      propertyPath: m_Name
+      value: AntiVirus
+      objectReference: {fileID: 0}
+    - target: {fileID: 985547625081216277, guid: b9c7e84160b62b940b6915031c221393, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6112611395107411946, guid: b9c7e84160b62b940b6915031c221393, type: 3}
+      propertyPath: internet
+      value: 
+      objectReference: {fileID: 1599517888}
+    - target: {fileID: 6112611395107411946, guid: b9c7e84160b62b940b6915031c221393, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 354029266}
+    - target: {fileID: 7959974186742779474, guid: b9c7e84160b62b940b6915031c221393, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.1367736
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959974186742779474, guid: b9c7e84160b62b940b6915031c221393, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.4087157
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959974186742779474, guid: b9c7e84160b62b940b6915031c221393, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959974186742779474, guid: b9c7e84160b62b940b6915031c221393, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959974186742779474, guid: b9c7e84160b62b940b6915031c221393, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959974186742779474, guid: b9c7e84160b62b940b6915031c221393, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959974186742779474, guid: b9c7e84160b62b940b6915031c221393, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959974186742779474, guid: b9c7e84160b62b940b6915031c221393, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959974186742779474, guid: b9c7e84160b62b940b6915031c221393, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959974186742779474, guid: b9c7e84160b62b940b6915031c221393, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b9c7e84160b62b940b6915031c221393, type: 3}
+--- !u!1 &606377804 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 985547625081216277, guid: b9c7e84160b62b940b6915031c221393, type: 3}
+  m_PrefabInstance: {fileID: 606377803}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &606377805 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7959974186742779474, guid: b9c7e84160b62b940b6915031c221393, type: 3}
+  m_PrefabInstance: {fileID: 606377803}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &608971795
 GameObject:
   m_ObjectHideFlags: 0
@@ -3277,6 +3356,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 606377805}
   - {fileID: 2022155160}
   - {fileID: 770169097}
   - {fileID: 7531425375099251274}
@@ -5208,11 +5288,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4bc792b9d866a04eaf25b2435a3f7de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allowPopups: 1
   cam: {fileID: 0}
   popupWindows:
   - {fileID: 4169354558884978424, guid: 6376de366d1e4c348840cf73441f8d92, type: 3}
   - {fileID: 6680854742545143239, guid: 92ca191b92a8e9942929d2f84f0dd0e6, type: 3}
+  weights: []
 --- !u!1 &1208060129
 GameObject:
   m_ObjectHideFlags: 0
@@ -6273,6 +6353,7 @@ MonoBehaviour:
   - {fileID: 1806372650}
   - {fileID: 987232060}
   - {fileID: 1471317530}
+  - {fileID: 606377804}
   saveLoadThingy: {fileID: 0}
 --- !u!1 &1493727132 stripped
 GameObject:
@@ -9064,6 +9145,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 656880792}
     m_Modifications:
+    - target: {fileID: 1480782651246157036, guid: 8c265596612c03d4baa0e83088f23f7b, type: 3}
+      propertyPath: m_Size
+      value: 0.19136131
+      objectReference: {fileID: 0}
     - target: {fileID: 2129922464554205427, guid: 8c265596612c03d4baa0e83088f23f7b, type: 3}
       propertyPath: m_Name
       value: Tutorial Dot Tee Ex Tee
