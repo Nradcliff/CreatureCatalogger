@@ -30,10 +30,6 @@ public class SplashScreen : MonoBehaviour
             SceneManager.UnloadSceneAsync("SplashScreen");
             SceneManager.LoadScene("MainMenu", LoadSceneMode.Additive);
         }
-        if(timer >= timer2Goal)
-        {
-            unity.SetActive(true);
-        }
         if (timer < .5f)
         {
             InvokeRepeating("addLines", .25f, .25f);
@@ -47,6 +43,11 @@ public class SplashScreen : MonoBehaviour
             TextMeshProUGUI green = Instantiate(greenText, parentobj.transform);
             green.text = thingsToSay[stringIndex];
             stringIndex += 1;
+        }
+        else
+        {
+
+            unity.SetActive(true);
         }
     }
 }
