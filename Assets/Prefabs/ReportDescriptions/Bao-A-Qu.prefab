@@ -65,11 +65,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "A cryptid of unknown origin, first documented in remote regions of the
+  m_text: "A entity of unknown origin, first documented in remote regions of the
     \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 mountains, located in \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588.
     Local folklore refers to it as a \"guardian spirit,\" but this description has
     proven to be a gross understatement of its capabilities and threat level.\r\nManifests
-    as an ethereal, large bi-pedal figure standing approximately 3 meters in height.
+    as an ethereal, large humanoid figure standing approximately 3 meters in height.
     Its body is composed of a translucent, vaporous substance, almost resembling
     the mist that typically fills the region where it is encountered. The color of
     its vapor shifts between pale blues, grays, and purples, with the density of

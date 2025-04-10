@@ -68,32 +68,26 @@ MonoBehaviour:
   m_text: "Is a large, ancient vessel containing a liquid that appears to be a type
     of honeyed mead with a deep golden hue. The liquid emits a faint, ethereal glow,
     visible even under standard lighting conditions, and smells faintly of wildflowers
-    and ancient herbs. The mead's composition is impossible to analyze using conventional
-    means, as standard methods of chemical analysis fail to produce any conclusive
-    results, and even the container appears to shift in its physical properties under
-    close observation.\r\nIs linked to the mythological Norse concept of the \"Mead
+    and ancient herbs.\r\nIt is linked to the mythological Norse concept of the \"Mead
     of Poetry,\" which, according to legend, was created by the blood of the being
     Kvasir, a being born of the saliva of the gods, who was later killed by two dwarfs,
     Fjalar and Galar. The mead grants the drinker immense poetic skill and wisdom,
     often transforming them into gifted poets or, in some cases, creators of powerful
-    and prophetic works. Its anomalous effects are consistent with these legends,
-    granting those who consume it an overwhelming surge in intellectual and creative
-    abilities, along with several unpredictable psychological consequences.\r\nThe
-    mead has been found to subtly implant fragments of powerful mental messages into
-    the minds of those who drink it. These messages may not always be immediately
-    apparent, but over time, subjects begin to develop an increasing compulsion to
-    spread the \"wisdom\" they believe they have received.\r\nThis often manifests
-    in cryptic or esoteric teachings, which the individual believes are vital to
-    share with others. These teachings tend to be nonsensical or paradoxical, but
-    are presented with such conviction that they can influence or even convert others
-    to the drinker's belief system. The spread of these ideas has led to the formation
-    of cult-like groups, all centered around the consumption of the mead and the
-    belief in its divine inspiration.\r\nThere is also a significant risk of cognitive
-    breakdown for those who come into contact with the mead's influence. Individuals
-    who hear the \u201Cpoetic works\u201D created under the mead\u2019s influence
-    have been known to experience lasting shifts in their perception of reality,
-    with some developing a condition known as \u201CSublime Dissociation,\u201D where
-    the boundary between artistic creation and reality becomes indistinguishable.\r\n"
+    and prophetic works. \r\nThe mead has been found to subtly implant fragments
+    of powerful mental messages into the minds of those who drink it. These messages
+    may not always be immediately apparent, but over time, subjects begin to develop
+    an increasing compulsion to spread the \"wisdom\" they believe they have received.
+    This often manifests in cryptic or esoteric teachings, which the individual believes
+    are vital to share with others. These teachings tend to be nonsensical or paradoxical,
+    but are presented with such conviction that they can influence or even convert
+    others to the drinker's belief system. The spread of these ideas has led to the
+    formation of cult-like groups, all centered around the consumption of the mead
+    and the belief in its divine inspiration.\r\nThere is also a significant risk
+    of cognitive breakdown for those who come into contact with the mead's influence.
+    Individuals who hear the \u201Cpoetic works\u201D created under the mead\u2019s
+    influence have been known to experience lasting shifts in their perception of
+    reality, with some developing a condition known as \u201CSublime Dissociation,\u201D
+    where the boundary between artistic creation and reality becomes indistinguishable.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

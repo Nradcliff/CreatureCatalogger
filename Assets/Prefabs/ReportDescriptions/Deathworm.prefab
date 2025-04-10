@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Is a large, subterranean cryptid characterized by its elongated, segmented
+  m_text: "Is a large, subterranean entity characterized by its elongated, segmented
     body and venomous properties. Typically ranges from 7 to 15 meters in length
     and is capable of burrowing at high speeds through solid earth, leaving behind
     large tunnels with smooth, cylindrical walls. Its body is composed of a flexible,
@@ -81,7 +81,7 @@ MonoBehaviour:
     in the ground up to 5 kilometers away, and it responds to such disturbances with
     extreme aggression, often unpredictably erupting from the earth. It is theorized
     that the Deathworm is capable of sensing electromagnetic anomalies, as it has
-    been observed to react violently to certain frequencies used in Foundation equipment.\r\n"
+    been observed to react violently to certain frequencies used in facilty equipment.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

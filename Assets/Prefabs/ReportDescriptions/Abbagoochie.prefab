@@ -65,26 +65,26 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\"Abbagoochie,\" is a cryptid believed to originate from the dense swamps
-    of the \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 region in [REDACTED],
-    though local folklore has reported sightings dating back to the 18th century.
-    It appears to be a large, semi-humanoid, and highly adaptive creature, characterized
-    by a disturbing combination of terrestrial and aquatic features.\r\nPrimary form
-    is bipedal, with a hunched posture and elongated limbs. Its body is covered in
-    a mixture of moss-like growths and swamp-dwelling fungi, rendering it difficult
-    to distinguish from the environment when still. Its skin is leathery and dark,
-    typically ranging from shades of green to muddy brown, matching the swamp's coloration.
-    It is believed that the creature\u2019s appearance aids in camouflage, allowing
-    it to blend seamlessly with its surroundings.\r\nThe face of the Abbagoochie
-    is where it diverges from typical cryptid descriptions. Its features are grotesque
-    and shifting, with a wide, lipless mouth, row upon row of jagged, serrated teeth,
-    and large, milky-white eyes that seem to glow faintly in low light conditions.
-    The eyes appear to lack a discernible iris or pupil, suggesting a form of enhanced
-    night vision.\r\nCreature is an ambush predator, often remaining motionless for
-    days or weeks before launching rapid and coordinated attacks on prey. While its
-    primary form of hunting appears to be stealth and surprise, it is capable of
-    making loud, guttural vocalizations that have been reported to disorient and
-    paralyze small animals and humans within a 30-meter radius.\r\n"
+  m_text: "Is a entity believed to originate from the dense swamps of the \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588
+    region in \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588, though local folklore
+    has reported sightings dating back to the 18th century. It appears to be a large,
+    semi-humanoid, and highly adaptive creature, characterized by a disturbing combination
+    of terrestrial and aquatic features.\r\nPrimary form is bipedal, with a hunched
+    posture and elongated limbs. Its body is covered in a mixture of moss-like growths
+    and swamp-dwelling fungi, rendering it difficult to distinguish from the environment
+    when still. Its skin is leathery and dark, typically ranging from shades of green
+    to muddy brown, matching the swamp's coloration. It is believed that the creature\u2019s
+    appearance aids in camouflage, allowing it to blend seamlessly with its surroundings.\r\nThe
+    face of the Abbagoochie is where it diverges from typical entity descriptions.
+    Its features are grotesque and shifting, with a wide, lipless mouth, row upon
+    row of jagged, serrated teeth, and large, milky-white eyes that seem to glow
+    faintly in low light conditions. The eyes appear to lack a discernible iris or
+    pupil, suggesting a form of enhanced night vision.\r\nCreature is an ambush predator,
+    often remaining motionless for days or weeks before launching rapid and coordinated
+    attacks on prey. While its primary form of hunting appears to be stealth and
+    surprise, it is capable of making loud, guttural vocalizations that have been
+    reported to disorient and paralyze small animals and humans within a 30-meter
+    radius.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

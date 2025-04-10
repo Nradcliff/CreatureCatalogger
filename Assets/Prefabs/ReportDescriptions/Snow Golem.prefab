@@ -65,36 +65,30 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Are figures constructed primarily of snow and ice, resembling anthropomorphic
+  m_text: "They are figures constructed primarily of snow and ice, resembling anthropomorphic
     snowmen. However, unlike mundane snowmen, instances exhibit extraordinary and
     hostile behavior, including a specific and relentless drive to eliminate sources
     of warmth and heat in their vicinity.\r\nInstances range in height from 1.5 meters
     (4.9 feet) to 2.4 meters (7.9 feet) and are typically composed of layers of snow
-    and ice. While they initially appear to be made entirely of snow, the interior
-    of the entities has been found to contain dense, compacted ice structures, and
-    in some cases, elements of frostbitten organic matter, suggesting that it may
-    be a form of entity that is not purely non-living. The outer surface of SCP-YYYY
-    is often smooth, but some individuals display features such as coal-like eyes,
-    twig arms, and stick noses, resembling traditional representations of snowmen.\r\nThe
-    defining behavior of this entity is its instinctive need to seek out and extinguish
-    sources of warmth. It can detect even minute increases in ambient temperature.
-    The mechanisms behind this detection are not yet fully understood, but it appears
-    that the golems are able to sense heat signatures from living organisms, electrical
-    devices, and even subterranean thermal activity. The range of this detection
-    appears to be anywhere from 10 meters to 50 meters, depending on environmental
-    factors.\r\nUpon detecting warmth, Snow Golems will immediately begin moving
-    toward the source, usually by traveling in a slow but determined manner. Instances
-    will attempt to extinguish or disrupt any form of heat they encounter, often
-    by physically approaching the source and extinguishing it by any means necessary.
-    In some cases, they have been observed to exhale intense cold air, capable of
-    lowering the temperature of an area by as much as 10\xB0C (18\xB0F) per minute.\r\n\r\n\r\nSnow
-    Golems have been shown to actively disrupt electrical and mechanical devices
-    that generate heat. This includes causing electrical circuits to short-circuit,
-    disrupting heat-generating appliances (e.g., space heaters, furnaces), and even
-    altering the flow of gas lines in order to cut off heat from centralized systems.
-    In extreme cases, instances have been known to target industrial heating systems,
-    rendering entire facilities uninhabitable by reducing temperatures to life-threatening
-    levels.\r\n"
+    and ice. The outer surface of It is often smooth, but some individuals display
+    features such as coal-like eyes, twig arms, and stick noses, resembling traditional
+    representations of snowmen.\r\nThe defining behavior of this entity is its instinctive
+    need to seek out and extinguish sources of warmth. It can detect even minute
+    increases in ambient temperature. The mechanisms behind this detection are not
+    yet fully understood, but it appears that the golems are able to sense heat signatures
+    from living organisms, electrical devices, and even subterranean thermal activity.
+    Upon detecting warmth, Snow Golems will immediately begin moving toward the source,
+    usually by traveling in a slow but determined manner. Instances will attempt
+    to extinguish or disrupt any form of heat they encounter, often by physically
+    approaching the source and extinguishing it by any means necessary. In some cases,
+    they have been observed to exhale intense cold air, capable of lowering the temperature
+    of an area by as much as 10\xB0C (18\xB0F) per minute.\r\nSnow Golems have been
+    shown to actively disrupt electrical and mechanical devices that generate heat.
+    This includes causing electrical circuits to short-circuit, disrupting heat-generating
+    appliances (e.g., space heaters, furnaces), and even altering the flow of gas
+    lines in order to cut off heat from centralized systems. In extreme cases, instances
+    have been known to target industrial heating systems, rendering entire facilities
+    uninhabitable by reducing temperatures to life-threatening levels.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

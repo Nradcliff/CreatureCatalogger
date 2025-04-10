@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7572251713695687895}
   - component: {fileID: 509575570654444755}
   m_Layer: 5
-  m_Name: Wendigo
+  m_Name: Sheepsquatch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65,32 +65,29 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Is a human-like cryptid associated with the folklore of Indigenous peoples
-    from \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588, particularly
-    in the \u2588\u2588\u2588\u2588\u2588\u2588\u2588 and northern forest regions.
-    It has been described as a malevolent, predatory spirit, often associated with
-    cannibalism and insatiable hunger. Despite these folkloric accounts, it is a
-    real and highly dangerous entity, exhibiting both anomalous and supernatural
-    characteristics.\r\nTypically appears as a tall human-like creature, standing
-    approximately 3.7 meters (12 feet) in height. Its body is gaunt and emaciated,
-    with long, thin limbs that appear disproportionate to its torso. The creature\u2019s
-    skin is stretched tightly over its bones and is reported to be grayish, ashen
-    in color, with a rough, mottled texture resembling decaying flesh. Its face is
-    characterized by hollowed-out eyes, large, sharp teeth, and a mouth that appears
-    too large for its face, often stretching grotesquely when it emits sounds. The
-    wendigo\u2019s long claws are capable of easily rending through human flesh and
-    bone, and it is often described as having elongated fingers that resemble those
-    of a starved corpse.\r\nIs extraordinarily resilient, with the ability to recover
-    from nearly any form of physical injury. Its regenerative capabilities extend
-    to the regeneration of severed limbs and even the restoration of large amounts
-    of damaged tissue. However, its regenerative properties seem to be tied to its
-    consumption of flesh, as its ability to heal becomes more pronounced after it
-    feeds. \r\nDespite its emaciated appearance, it displays extraordinary speed
-    and agility. It has been reported to move swiftly through dense forests, often
-    outrunning vehicles and evading pursuit with ease. The Wendigo\u2019s ability
-    to climb trees, scale vertical surfaces, and leap great distances suggests a
-    physicality beyond that of any natural predator. It is also known to be extremely
-    patient, stalking its prey over long periods before launching an attack.\r\n"
+  m_text: "Is a entity with characteristics resembling a hybrid of a large, quadrupedal
+    herbivore and an apex predator, most commonly described as having the body of
+    a large sheep or ram with the features of a primate or ape. Its height averages
+    between 2.4 meters (8 feet) and 3 meters (9.8 feet) when standing on its hind
+    legs, with a body length of 4.5 meters (14.8 feet) from head to tail. It's body
+    is covered in thick, wool-like fur that is primarily white, though it can also
+    appear greyish or off-white depending on the season and environmental conditions.
+    \r\nIt\u2019s head is large and sheep-like, with prominent, curved horns similar
+    to those of large ram species. The horns are approximately 1 meter (3.3 feet)
+    long, with a spiral pattern, and are made of a dense, keratinized material capable
+    of withstanding moderate impacts. Its mouth contains a set of molars and sharp
+    incisors, which it uses to shear tough vegetation, although it does not display
+    carnivorous tendencies. It is capable of walking quadrupedally, It has been observed
+    standing and moving bipedally when navigating obstacles or interacting with its
+    environment. Its muscular build allows for swift movement through its natural
+    habitat, and it is capable of leaping or climbing over small barriers when motivated.\r\nIt\u2019s
+    behavior is primarily herbivorous, and it has been observed grazing on grasses,
+    shrubs, and foliage. Despite its large size, it tends to avoid large predators
+    or perceived threats. It has shown a marked preference for solitary behavior
+    but has also been seen to form loose associations with small groups of other
+    herbivores within its native environment. It appears to be a highly adaptable
+    creature, capable of surviving in various habitats, including forests, grasslands,
+    and mountainous areas.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

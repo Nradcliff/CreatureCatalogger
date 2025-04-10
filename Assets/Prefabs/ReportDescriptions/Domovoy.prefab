@@ -65,12 +65,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Is a cryptid believed to be a manifestation of an ancient Slavic household
+  m_text: "Is a entity believed to be a manifestation of an ancient Slavic household
     spirit. Stands approximately 1.2 meters tall, with a hunched back and elongated
     limbs. Its body is covered in a patchy layer of hair, with prominent features
     resembling a small, bearded humanoid. Its skin appears ashen gray and seems to
     shift in texture depending on its emotional state, becoming smoother when calm
-    and coarse during periods of agitation.\r\nThe creature also possesses heightened
+    and coarse during periods of agitation. The creature also possesses heightened
     auditory perception, capable of detecting even the slightest sounds within its
     vicinity.\r\nThough Domovoy\u2019s behavior can appear benign, it becomes increasingly
     hostile when it perceives disruptions to household harmony, typically reacting

@@ -65,32 +65,23 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Is a large, carnivorous cryptid with physical characteristics similar
-    to that of a bear but with significant deviations from known terrestrial fauna.
-    Is most commonly described as having a body length of approximately 4.5 meters
-    (15 feet), with a shoulder height of 2.5 meters (8 feet), and weighs an estimated
-    900 kilograms (2,000 pounds). The creature\u2019s body is covered in coarse,
-    dark brown to black fur, although patches of the skin beneath the fur have been
-    observed to be thick, leathery, and resistant to damage.\r\nIts most distinctive
-    feature is its head, which exhibits a combination of bear-like traits with features
-    that appear anomalous. It possesses a broad, flattened face with a pronounced
-    jaw and large, sharp canine teeth. The eyes are deeply sunken, and its pupils
-    are vertically slit, much like that of a reptile or a feline predator. The creature\u2019s
-    ears are small, round, and flattened, offering limited auditory sensitivity.
-    Most notable feature, however, is its large, pronounced claws, which are capable
-    of slashing through bone, steel, and concrete. These claws are unusually curved
-    and are thought to be designed for both climbing and tearing into prey.\r\nThe
-    Nandi Bear exhibits remarkable physical strength and agility, capable of running
-    at speeds exceeding 60 km/h (37 mph) in short bursts and climbing vertical surfaces
-    with ease. It has also demonstrated the ability to leap distances of up to 12
-    meters (40 feet) when pursuing prey. The creature\u2019s musculature is highly
-    developed, and it can inflict fatal wounds with a single swipe of its claws.
-    It exhibits highly aggressive territorial behavior, with a particular aversion
-    to encroachment into its established hunting grounds. It has been shown to exhibit
-    extreme levels of aggression toward any potential intruders, including humans,
-    other animals, and even other entities. Additionally, its aggressive behavior
-    intensifies during breeding season, with it becoming even more protective of
-    its territory and known lairs.\r\nHas been identified as a primarily nocturnal
+  m_text: "Is a large, carnivorous entity with physical characteristics similar to
+    that of a bear but with significant deviations from known terrestrial fauna.
+    The creature\u2019s body is covered in coarse, dark brown to black fur, although
+    patches of the skin beneath the fur have been observed to be thick, leathery,
+    and resistant to damage.\r\nIts most distinctive feature is its head, which exhibits
+    a broad, flattened face with a pronounced jaw and large, sharp canine teeth.
+    The eyes are deeply sunken, and its pupils are vertically slit, much like that
+    of a reptile or a feline predator. The creature\u2019s ears are small, round,
+    and flattened, offering limited auditory sensitivity. Its has pronounced claws,
+    which are capable of slashing through bone, steel, and concrete.\r\nThe creature\u2019s
+    musculature is highly developed, and it can inflict fatal wounds with a single
+    swipe of its claws. It exhibits highly aggressive territorial behavior, with
+    a particular aversion to encroachment into its established hunting grounds. It
+    has been shown to exhibit extreme levels of aggression toward any potential intruders,
+    including humans, other animals, and even other entities. Additionally, its aggressive
+    behavior intensifies during breeding season, with it becoming even more protective
+    of its territory and known lairs.\r\nHas been identified as a primarily nocturnal
     predator, hunting in the hours following dusk and into the night. It uses stealth
     (Its coat allowing it to blend seamlessly into its environment) and cunning to
     stalk and ambush prey, often targeting lone or isolated animals and occasionally

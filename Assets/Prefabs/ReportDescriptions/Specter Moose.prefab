@@ -65,44 +65,31 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Is a supernatural cryptid resembling a large, malevolent moose with several
+  m_text: "Is a supernatural entity resembling a large, malevolent moose with several
     unique and disturbing features. It stands approximately 3 meters tall at the
     shoulder, with antlers that span over 2 meters in width, composed of a crystalline
     structure that appears to be partially translucent, resembling a combination
     of bone and glass. The antlers glow faintly in low light, exhibiting an eerie,
-    spectral radiance that has been linked to an anomalous atmospheric disturbance
-    surrounding the creature.\r\nIts coat of fur appears irregular, often described
-    as disheveled and shifting between states of corporeality. Its fur is primarily
-    dark grey to black, though the texture of the fur changes with environmental
-    lighting, at times appearing to dissolve into vapor or mist. The creature's eyes
-    are described as solid white or sometimes completely black, with no discernible
-    pupils, though there have been rare reports of the eyes glowing with an unnatural
-    light.\r\nThe Specter Moose is capable of traversing dense forest areas with
-    an unnatural fluidity, moving silently despite its considerable size. It is believed
-    to possess an ethereal nature, as it has been documented moving through physical
-    obstacles such as trees, rocks, and even structures, without causing any visible
-    damage. Additionally, it can disappear and reappear at different locations within
-    its territory with no observable means of locomotion, leading some researchers
-    to hypothesize that it can phase through different planes of existence.\r\nThe
-    most disturbing aspect of the Specter Moose\u2019s behavior is its ability to
-    induce psychological effects in nearby individuals. Prolonged exposure to it
-    or its immediate vicinity is associated with intense auditory hallucinations,
-    including the sounds of distant moose calls, whispering voices, and sometimes,
-    the sound of footsteps trailing behind the individual. In some cases, subjects
-    have reported hearing their names whispered by an unseen presence, followed by
-    the sound of hooves approaching from behind them. In addition to auditory disturbances,
-    visual phenomena have also been documented. Individuals who come within a certain
-    proximity of it have described seeing shifting shadows or figures at the edges
-    of their vision. It has been reported that these figures resemble other moose-like
-    creatures, often with grotesque and distorted features such as glowing eyes,
-    gaping mouths, or broken limbs.\r\nDespite its menacing presence and the psychological
-    effects it produces, the Specter Moose is not actively hostile to humans. However,
-    it has been known to engage in territorial behavior when it perceives an intruder
-    in its domain. In these cases, the Specter Moose will move to within close range
-    of the intruder, often standing motionless for extended periods of time. The
-    duration of this \"stare\" is linked to increasing distress in the subject, and
-    the closer the subject approaches them, the more intense the psychological effects
-    become.\r\n"
+    spectral radiance.\r\nThe Specter Moose is capable of traversing dense forest
+    areas with an unnatural fluidity, moving silently despite its considerable size.
+    It seems to possess an ethereal nature, as it has been documented moving through
+    physical obstacles such as trees, rocks, and even structures, without causing
+    any visible damage. \r\nThe most disturbing aspect of the Specter Moose\u2019s
+    behavior is its ability to induce psychological effects in nearby individuals.
+    Prolonged exposure to it or its immediate vicinity is associated with intense
+    auditory hallucinations, including the sounds of distant moose calls, whispering
+    voices, and sometimes, the sound of footsteps trailing behind the individual.
+    In addition to auditory disturbances, visual phenomena have also been documented.
+    Individuals who come within a certain proximity of it have described seeing shifting
+    shadows or figures at the edges of their vision. It has been reported that these
+    figures resemble other moose-like creatures, often with grotesque and distorted
+    features such as glowing eyes, gaping mouths, or broken limbs.\r\nIt is not actively
+    hostile to humans. However, it has been known to engage in territorial behavior
+    when it perceives an intruder in its domain. In these cases, the Specter Moose
+    will move to within close range of the intruder, often standing motionless for
+    extended periods of time. The duration of this \"stare\" is linked to increasing
+    distress in the subject, and the closer the subject approaches them, the more
+    intense the psychological effects become.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

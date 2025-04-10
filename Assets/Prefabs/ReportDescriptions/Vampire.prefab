@@ -65,34 +65,27 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Is an anomalous humanoid entity exhibiting characteristics commonly associated
-    with folklore depictions of vampires, although the creature's biology and abilities
-    defy conventional understanding. Vampires are approximately 2 meters in height,
-    with a lithe and emaciated appearance. Their skin is pale to the point of near-translucence,
-    and it has sharp, elongated canine teeth capable of puncturing human skin with
-    ease. Their eyes are a deep crimson, and their gaze is reported to induce a hypnotic
-    effect in subjects who make direct eye contact with it.\r\nA Vampire\u2019s anomalous
-    abilities include, but are not limited to, rapid regeneration, heightened strength,
-    enhanced sensory perception, and the ability to manipulate the surrounding environment
-    in subtle yet dangerous ways. It is capable of controlling its own biological
-    processes, such as slowing its metabolism to the point where it can go without
-    nourishment for extended periods of time, although it will actively seek out
-    human blood as a primary food source.\r\nWhile it is capable of consuming animal
-    blood, it has shown a marked preference for human blood, particularly that of
-    individuals who exhibit signs of fear or anxiety. The consumption of blood is
-    typically done through the act of biting the neck or wrist of the victim, after
-    which it will drain the blood directly from the wound. In some cases, Vampires
-    have been observed to drain the victim's life force entirely, resulting in the
-    victim's death, though it will generally cease feeding before reaching this point.\r\nVampires
-    are highly intelligent and possess a sophisticated understanding of human psychology,
-    using this knowledge to manipulate and control their victims. They are known
-    to be extremely cunning, setting traps or creating scenarios in which their prey
-    willingly approaches them. \r\nThe entity is territorial and will typically avoid
-    areas where it has been previously encountered, but it has been known to return
-    to locations that hold some emotional or psychological significance to it. They
-    show no interest in interaction with other creatures, humanoid or otherwise,
-    unless it is in the context of feeding or self-preservation. However, it does
-    exhibit signs of curiosity when confronted with anomalous phenomena or individuals
+  m_text: "Is a humanoid entity exhibiting characteristics commonly associated with
+    folklore depictions of the same name. Vampires vary in height, but consistently
+    have a lithe and emaciated appearance. Their skin is pale, and they have sharp,
+    elongated teeth capable of puncturing human skin with ease. Their eyes are a
+    deep crimson, and their gaze is reported to induce a hypnotic effect in subjects
+    who make direct eye contact with it.\r\nA Vampire\u2019s abilities include, but
+    are not limited to, rapid regeneration, heightened strength, enhanced sensory
+    perception, and the ability to manipulate the surrounding environment in subtle
+    yet dangerous ways. It is capable of controlling its own biological processes,
+    such as slowing its metabolism to the point where it can go without nourishment
+    for extended periods of time, although it will actively seek out human blood
+    as a primary food source.\r\nWhile it is capable of consuming animal blood, it
+    has shown a marked preference for human blood. The consumption of blood is typically
+    done through the act of biting the neck or wrist of the victim, after which it
+    will drain the blood directly from the wound.\r\nVampires are highly intelligent
+    and possess a sophisticated understanding of human psychology, using this knowledge
+    to manipulate and control their victims. They are known to be extremely cunning,
+    setting traps or creating scenarios in which their prey willingly approaches
+    them. They show no interest in interaction with other creatures, humanoid or
+    otherwise, unless it is in the context of feeding or self-preservation. However,
+    it does exhibit signs of curiosity when confronted with phenomena or individuals
     who display unusual resistance to its abilities. \r\nDespite its predatory nature,
     Vampires do not appear to actively seek out violence unless provoked or threatened.
     It has been known to enter populated areas under the cover of darkness, targeting

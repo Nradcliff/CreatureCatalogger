@@ -65,15 +65,26 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Is a large, predatory cryptid that exhibits both physical and anomalous
-    abilities far beyond those of terrestrial apex predators. Standing approximately
-    5 meters in height and weighing an estimated 1,000 kilograms, the body is composed
-    of sleek, iridescent black fur. It is bipedal in form but possesses an unnatural
-    degree of flexibility, allowing it to move in ways inconsistent with known biological
-    principles.
+  m_text: 'Is a quadrupedal, mammalian creature resembling a hybrid between a tapir,
+    a pig, and a large wombat. The entity stands approximately 1.2 meters tall at
+    the shoulder and measures roughly 2.3 meters in length. Its body is covered in
+    coarse, charcoal-gray fur, and it emits a faint earthy odor, reportedly similar
+    to wet moss or overturned soil.
 
-    dissociative behaviors, such as speaking in tongues or becoming
-    convinced that they are being pursued by unseen threats.
+    It''s most notable feature is its highly
+    expressive, mobile snout, which is capable of manipulating small objects and
+    foraging with considerable dexterity. The entity is docile, solitary, and displays
+    moderate intelligence comparable to that of a raccoon or trained canine. It responds
+    to consistent caretakers and has shown the ability to recognize basic commands
+    through tone and gesture.
+
+    Despite its intimidating appearance, it has not
+    demonstrated any aggression or predatory behavior. The entity''s only notable
+    anomaly is its apparent ability to generate and sustain localized low-hanging
+    mist or fog, which is usually present around its body in a radius of 2 to 3 meters.
+    This mist has no unusual chemical properties but has been observed to follow
+    it even in arid or wind-prone environments. The mechanism by which this occurs
+    remains unknown.
 
 '
   m_isRightToLeft: 0

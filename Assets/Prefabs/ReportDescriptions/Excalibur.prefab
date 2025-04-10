@@ -65,29 +65,22 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Is a cryptid-like phenomenon that takes the form of an ancient, but indestructible,
-    sword, commonly believed to be the legendary weapon from Arthurian mythology.
-    The blade itself measures approximately 1.2 meters in length and appears to be
-    made of an unknown, highly reflective metal that resembles a mixture of steel
-    and iridescent crystal. The sword's blade emits a faint, ethereal glow, which
-    intensifies during periods of activity or when exposed to extreme emotional or
-    physical stimuli.\r\nThe hilt of the sword is inscribed with runes in an ancient,
-    undecipherable script that appears to be both a form of magic and an advanced
-    technological system, the nature of which remains unknown. The crossguard features
-    intricate designs that seem to shift when observed for long periods, resembling
-    patterns not native to any known culture. The grip of the sword is wrapped in
-    a leather-like material that is impossibly smooth and has an organic texture,
-    appearing to subtly alter its form when touched.\r\nThe sword is not currently
-    known to be wielded by any individual but exhibits anomalous properties that
-    suggest it may possess a form of sentience or an active connection to the wielder's
-    mental and emotional state.\r\nThe sword has shown the ability to influence the
-    minds of those in proximity, with its effects becoming more pronounced the longer
-    an individual is near or in contact with the sword. Prolonged exposure to Excalibur
-    induces intense psychological alterations, including hallucinations, vivid visions
-    of historical battles, and in some cases, the sensation of \u201Chearing voices\u201D
-    urging the individual to claim the sword. The severity of these effects is directly
-    tied to the emotional state of the individual and their susceptibility to the
-    sword\u2019s influence.\r\nExcalibur does not appear to have a clear agenda,
+  m_text: "Is a object that takes the form of an ancient, but indestructible, sword,
+    commonly believed to be the legendary weapon from Arthurian mythology. The blade
+    itself measures approximately 1.2 meters in length and appears to be made of
+    an unknown, highly reflective metal that resembles a mixture of steel and iridescent
+    crystal. The sword's blade emits a faint, ethereal glow, which intensifies during
+    periods of activity or when exposed to extreme emotional or physical stimuli.\r\nThe
+    sword is not currently known to be wielded by any individual but exhibits anomalous
+    properties that suggest it may possess a form of sentience or an active connection
+    to the wielder's mental and emotional state.\r\nThe sword has shown the ability
+    to influence the minds of those in proximity, with its effects becoming more
+    pronounced the longer an individual is near or in contact with the sword. Prolonged
+    exposure to Excalibur induces intense psychological alterations, including hallucinations,
+    vivid visions of historical battles, and in some cases, the sensation of \u201Chearing
+    voices\u201D urging the individual to claim the sword. The severity of these
+    effects is directly tied to the emotional state of the individual and their susceptibility
+    to the sword\u2019s influence.\r\nExcalibur does not appear to have a clear agenda,
     but its presence and activation suggest a predilection for being \"claimed\"
     or wielded by those who have a strong emotional or spiritual connection to its
     mythological origins. The sword seems to respond to individuals who exhibit a

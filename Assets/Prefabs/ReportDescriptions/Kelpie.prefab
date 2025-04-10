@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Is a hostile, shape-shifting cryptid originating from mythological traditions
+  m_text: "Is a hostile, shape-shifting entity originating from mythological traditions
     of the British Isles. It most commonly appears in freshwater environments, such
     as lakes, marshes, or slow-moving rivers, but has also been reported in coastal
     regions where freshwater bodies meet the sea.\r\nA Kelpie\u2019s physical form
@@ -77,21 +77,18 @@ MonoBehaviour:
     a land-based form, appearing as a seemingly docile and approachable horse near
     bodies of water. It is speculated that it uses this appearance to attract human
     or animal prey, manipulating its victim\u2019s perception and emotions to foster
-    a sense of trust or attachment.\r\n\r\nIt is an apex predator that utilizes a
-    combination of predatory behaviors and psychological influence to capture and
-    drown its prey. Once it has gained the trust of its victim, it employs various
-    methods to initiate physical contact, such as allowing itself to be ridden or
-    touched. Upon contact, it then exhibits its full predatory nature, rapidly transforming
-    into a more monstrous form. The creature\u2019s true nature is revealed as it
-    pulls its victim underwater, using a combination of brute force and hypnotic
-    influence to drown them.\r\nVictims of the Kelpie are typically subjected to
-    intense psychological manipulation, often described as feelings of calmness or
-    euphoria before they are dragged beneath the surface. These feelings have been
-    theorized to be the result of a mental influence that it exudes while in close
-    proximity to its prey. It is believed it induces these feelings through a natural
-    biological adaptation. The exact mechanics of how it induces this psychological
-    effect remain under investigation, but it is believed to be linked to its control
-    over perception and fear.\r\n"
+    a sense of trust or attachment.\r\nIt utilizes a combination of predatory behaviors
+    and psychological influence to capture and drown its prey. Once it has gained
+    the trust of its victim, it employs various methods to initiate physical contact,
+    such as allowing itself to be ridden or touched. Upon contact, it then exhibits
+    its full predatory nature, rapidly transforming into a more monstrous form. The
+    creature\u2019s true nature is revealed as it pulls its victim underwater, using
+    a combination of brute force and hypnotic influence to drown them.\r\nVictims
+    of the Kelpie are typically subjected to intense psychological manipulation,
+    often described as feelings of calmness or euphoria before they are dragged beneath
+    the surface. These feelings have been theorized to be the result of a mental
+    influence that it exudes while in close proximity to its prey. It is believed
+    it induces these feelings through a natural biological adaptation.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

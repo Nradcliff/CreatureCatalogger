@@ -65,40 +65,29 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Is an anomalous household appliance that resembles a standard refrigerator.
-    However, it exhibits several anomalous and highly dangerous properties that distinguish
-    it from ordinary refrigeration units.\r\nThe exterior of The Fridge is made of
-    a stainless-steel shell with dimensions similar to that of a standard double-door
-    refrigerator. The surface of the fridge is cold to the touch, often reaching
-    temperatures far below freezing, even in environments where such temperatures
-    would not normally be expected. Despite this, it does not appear to require an
-    external power source to maintain its extreme cold.\r\nThe most significant anomaly
-    of The Fridge occurs when the doors of the fridge are opened. While the interior
+  m_text: "Is a household appliance that resembles a standard refrigerator. However,
+    it exhibits several strange and highly dangerous properties that distinguish
+    it from ordinary refrigeration units.\r\nThe surface of the fridge is cold to
+    the touch, often reaching temperatures far below freezing, even in environments
+    where such temperatures would not normally be expected. Despite this, it does
+    not appear to require an external power source to maintain its extreme cold.\r\nThe
+    most significant anomalies occur when objects are placed within. While the interior
     appears to contain typical refrigerator shelves, any objects placed within or
     retrieved from it exhibit unpredictable and dangerous properties. Several instances
-    of anomalous phenomena have been recorded when individuals have attempted to
-    interact with the contents of the fridge. These include:.\r\n\r\n\r\nTime behaves
-    erratically within the Fridge. When objects are placed within the fridge, time
-    appears to slow or accelerate unpredictably within its interior. In one instance,
-    an object placed inside it was left for 20 minutes, only for it to return several
-    years older upon removal. Conversely, several items retrieved have shown no signs
-    of aging, despite being stored for extended periods.\r\nThe contents of The Fridge
+    of phenomena have been recorded when individuals have attempted to interact with
+    the contents of the fridge. These include:\r\n\r\n\r\nTime behaves erratically
+    within the Fridge. When objects are placed within the fridge, time appears to
+    slow or accelerate unpredictably within its interior. In one instance, an object
+    placed inside it was left for 20 minutes, only for it to return several years
+    older upon removal. Conversely, several items retrieved have shown no signs of
+    aging, despite being stored for extended periods.\r\nThe contents of The Fridge
     are not limited to food items. Rather, any object placed inside the fridge can
     be transformed into a different, often anomalous form. For example, standard
     food items have been reported as becoming non-perishable or taking on properties
     that would be impossible for them to possess under normal conditions. In some
     instances, objects retrieved from it have been altered to include properties
     such as invisibility, radioactivity, levitation, sentience, and more.\r\nThe
-    Fridge\u2019s behavior remains relatively passive when its doors are closed.
-    However, once the doors are opened, the fridge seems to \"activate\" and respond
-    to any interaction, triggering its anomalous effects. The more frequently the
-    fridge\u2019s doors are opened, the more erratic the temporal and spatial anomalies
-    become. The fridge appears to \u201Creact\u201D to its environment and the people
-    interacting with it. In several documented cases, it has been observed to \"selectively\"
-    alter the items placed inside, suggesting a form of intelligence or agency. These
-    alterations can range from benign (such as food spoiling or freezing in unconventional
-    ways) to dangerous (such as altering objects into sentient forms that have attacked
-    individuals).\r\n"
+    Fridge\u2019s behavior remains relatively passive when its doors are closed.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
