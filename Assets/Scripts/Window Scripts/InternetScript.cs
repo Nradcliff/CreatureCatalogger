@@ -1,3 +1,4 @@
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -20,7 +21,7 @@ public class InternetScript : MonoBehaviour
     public bool freeToRestart;
 
     public int openPrograms;
-    float timerTarget;
+    public static float timerTarget; //Using in some popup scripts
 
     public ProgramPersist saveLoadThingy;
 

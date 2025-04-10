@@ -1,19 +1,41 @@
+using System.Collections;
 using UnityEngine;
 
-//May add more here, for now only serves to delete popups from scene without messing up the WindowLayerManager
+//This script contains functions for popups
 public class PopupScript : MonoBehaviour
 {
-    GameObject winManager;
+    int count;
 
     void Start()
     {
-        winManager = GameObject.Find("WindowLayerManager");
+
     }
 
-    public void deletePopup()
+    public void turnOffWifi()
     {
-        //Remove the popup from windowSortList before deletion to prevent errors
-        winManager.GetComponent<WindowLayerManagement>().windowSortList.Remove(this.gameObject);
-        Destroy(this.gameObject);
+        InternetScript.timerTarget = 0;
+    }
+
+    public void respawnSelf()
+    {
+        count = 0;
+        if (count <= 3)
+        {
+            Instantiate(this.gameObject);
+            count++;
+        }
+    }
+
+    public void enableFade()
+    {
+        StartCoroutine(enablesFade());
+    }
+
+    IEnumerator enablesFade()
+    {
+        GameObject obj = GameObject.Find("FadePanel");
+        obj.SetActive(true);
+        yield return new WaitForSeconds(3f);
+        obj.SetActive(false);
     }
 }
