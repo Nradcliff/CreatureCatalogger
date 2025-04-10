@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Popup
+  - Clickable
   layers:
   - Default
   - TransparentFX
@@ -41,6 +42,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: New Layer 1
+    uniqueID: 2621475637
     locked: 0
   m_RenderingLayers:
   - Default

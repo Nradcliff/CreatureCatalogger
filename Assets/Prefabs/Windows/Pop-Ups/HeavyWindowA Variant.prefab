@@ -150,7 +150,7 @@ GameObject:
   - component: {fileID: 8355757523773313482}
   m_Layer: 3
   m_Name: Button (1)
-  m_TagString: Untagged
+  m_TagString: Clickable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

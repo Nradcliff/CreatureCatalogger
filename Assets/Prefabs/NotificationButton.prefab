@@ -286,7 +286,7 @@ GameObject:
   - component: {fileID: 5086966337025926131}
   m_Layer: 3
   m_Name: NotificationButton
-  m_TagString: Untagged
+  m_TagString: Clickable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -308,7 +308,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 8.028, y: -4.641}
+  m_AnchoredPosition: {x: 8.028015, y: -4.640991}
   m_SizeDelta: {x: 28.3605, y: 23.8692}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &4736657811555358545
@@ -356,7 +356,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &5086966337025926131
 MonoBehaviour:
   m_ObjectHideFlags: 0

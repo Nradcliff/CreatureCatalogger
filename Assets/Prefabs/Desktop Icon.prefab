@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 782355038078679723}
   m_Layer: 5
   m_Name: Desktop Icon
-  m_TagString: Untagged
+  m_TagString: Clickable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -153,6 +153,7 @@ MonoBehaviour:
   icon: {fileID: 0}
   clickCount: 0
   timeToOpen: 0
+  audioManager: {fileID: 0}
 --- !u!1 &7440039919455233097
 GameObject:
   m_ObjectHideFlags: 0

@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 1480782651246157036}
   m_Layer: 3
   m_Name: Scrollbar
-  m_TagString: Untagged
+  m_TagString: Clickable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -197,7 +197,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 3650303876621510600}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.27696487
+  m_Size: 0.38266966
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
