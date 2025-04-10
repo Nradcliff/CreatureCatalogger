@@ -18,9 +18,10 @@ public class NotificationScript : MonoBehaviour
     public GameObject MessageCounter;
     public TextMeshProUGUI CounterText;
 
+    public AudioScript audioManager;
     void Start()
     {
-        
+        audioManager = GameObject.Find("AudioManager").GetComponent<AudioScript>();
     }
 
     void Update()
@@ -125,5 +126,26 @@ public class NotificationScript : MonoBehaviour
     {
         int rand = Random.Range(0, notificationBoxes.Count);
         pendingList.Add(notificationBoxes[rand]);
+    }
+
+    public void sendIncorrectTLNotif()
+    {
+        audioManager.playsound(6);
+        pendingList.Add(notificationBoxes[1]);
+    }
+    public void sendIncorrectTypeNotif()
+    {
+        audioManager.playsound(6);
+        pendingList.Add(notificationBoxes[3]);
+    }
+    public void sendIncorrectTLTypeNotif()
+    {
+        audioManager.playsound(6);
+        pendingList.Add(notificationBoxes[4]);
+    }
+    public void sendFinalNotif()
+    {
+        audioManager.playsound(6);
+        pendingList.Add(notificationBoxes[2]);
     }
 }

@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Mothman
   m_EditorClassIdentifier: 
   name: Mothman
-  description: He likes light, Threat Level 2, Humanoid
+  description: {fileID: 509575570654444755, guid: d1a86c55b2aae22419a6feaf1d64e010, type: 3}
   artwork: {fileID: -112969701495103090, guid: 38c8265cba375d041bec41f3162f6ec0, type: 3}
   id: 0
-  threat: Threat Level 2
-  type: Humanoid
+  threat: 2
+  type: 1
+  isUsed: 0

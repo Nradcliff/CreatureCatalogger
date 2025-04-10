@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Werewolf
   m_EditorClassIdentifier: 
   name: Werewolf
-  description: Its a full moon
+  description: {fileID: 509575570654444755, guid: 92abf44df06d0ef459a0c097f1f642de, type: 3}
   artwork: {fileID: -3843398826057531293, guid: f1d12ca451ae86045b2d80ededb4a799, type: 3}
   id: 6
-  threat: Threat Level 2
-  type: Beast
+  threat: 2
+  type: 1
+  isUsed: 1

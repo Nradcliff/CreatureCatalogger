@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Gnome
   m_EditorClassIdentifier: 
   name: Gnome
-  description: Just a little guy.
+  description: {fileID: 509575570654444755, guid: e272ae04a8727b7498243098ca4d08ba, type: 3}
   artwork: {fileID: 0}
   id: 1
-  threat: Threat Level 0
-  type: Humanoid
+  threat: 2
+  type: 1
+  isUsed: 1

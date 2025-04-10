@@ -1,4 +1,5 @@
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class TaskbarTime : MonoBehaviour
@@ -7,10 +8,13 @@ public class TaskbarTime : MonoBehaviour
 
     public float timer;
     public TextMeshProUGUI clock;
+    public FadeForMainLevel fadeout;
+    public float timeLimitInMinutes;
+    ProgramPersist saveLoadThingy;
 
     void Start()
     {
-        
+        saveLoadThingy = GameObject.Find("LoadProgramManager").GetComponent<ProgramPersist>();
     }
 
     // Update is called once per frame
@@ -20,13 +24,16 @@ public class TaskbarTime : MonoBehaviour
         int seconds = ((int)timer % 60);
         int minutes = ((int)timer / 60);
         clock.text = string.Format("{0:00}:{1:00}", minutes, seconds);
-        /*
-      
-        if(timer >= 150)
+        if (!saveLoadThingy.noTimer)
         {
-            Time.timeScale = 0;
+            if (timer >= (timeLimitInMinutes - 1) * 60f)
+            {
+                clock.color = Color.red;
+            }
+            if (timer >= timeLimitInMinutes * 60f)
+            {
+                fadeout.nextLevel();
+            }
         }
-
-       */
     }
 }

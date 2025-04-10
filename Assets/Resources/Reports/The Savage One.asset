@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 510413f31503f8843afc6b8bfc85c6b9, type: 3}
+  m_Name: The Savage One
+  m_EditorClassIdentifier: 
+  name: The Savage One
+  description: {fileID: 509575570654444755, guid: e412de34faf83ef41805175962fc60a9, type: 3}
+  artwork: {fileID: -2563358083636513053, guid: cbb5cb28f61b7e0449ef60a01c80a646, type: 3}
+  id: 8
+  threat: 2
+  type: 1
+  isUsed: 0

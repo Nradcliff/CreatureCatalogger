@@ -226,6 +226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reportArr: []
   dayReports: []
+  createdDuplicates: []
   reportAmount: 5
   parentTransform: {fileID: 2945653972563339763}
   reportButton: {fileID: 3849727105731298342, guid: f84617cc994ef834abfc6ce2123909d6, type: 3}
@@ -635,7 +636,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -346, y: 208.90001}
+  m_AnchoredPosition: {x: -870.19995, y: 540}
   m_SizeDelta: {x: 692, y: 417.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7788566200502089621

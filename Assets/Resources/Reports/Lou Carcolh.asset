@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Lou Carcolh
   m_EditorClassIdentifier: 
   name: Lou Carcolh
-  description: Threat Level 2, Type Humanoid
+  description: {fileID: 509575570654444755, guid: f0e908aaaa16e5d438c5c43d48178827, type: 3}
   artwork: {fileID: 3798558264100958298, guid: 7d471c80cea882242b2aa36d5a37d38e, type: 3}
   id: 0
-  threat: Threat Level 2
-  type: Humanoid
+  threat: 2
+  type: 0
+  isUsed: 0

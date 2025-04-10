@@ -4,10 +4,10 @@ using UnityEngine.UI;
 
 public class InternetScript : MonoBehaviour
 {
-    public float timer;
+    public float timer,timerButAgainQuestionMark,loseInternetStartingAfterThisNumberOfSeconds;
     public bool on;
 
-    public Sprite onSprite, offSprite;
+    public Sprite threesprite,twosprite,onesprite,off;
 
     public float connectionTime;
     public bool restarting;
@@ -19,16 +19,44 @@ public class InternetScript : MonoBehaviour
 
     public bool freeToRestart;
 
+    public int openPrograms;
+    float timerTarget;
+
+    public ProgramPersist saveLoadThingy;
+
     void Start()
     {
-
+        saveLoadThingy = GameObject.Find("LoadProgramManager").GetComponent<ProgramPersist>();
+        password = saveLoadThingy.randPass;
     }
 
     // Update is called once per frame
     void Update()
     {
-        timer += Time.deltaTime;
-        if(timer >= 90)
+        if(openPrograms <= 3)
+        {
+            timerTarget = 90;
+        }
+        else if(openPrograms < 4)
+        {
+            timerTarget = 75;
+        }
+        else if (openPrograms < 5)
+        {
+            timerTarget = 55;
+        }
+        else if (openPrograms < 8)
+        {
+            timerTarget = 45;
+        }
+
+        
+        if (timerButAgainQuestionMark > loseInternetStartingAfterThisNumberOfSeconds)
+        {
+            timer += Time.deltaTime;
+        }
+        else timerButAgainQuestionMark += Time.deltaTime;
+        if (timer >= timerTarget)
         {
             freeToRestart = false;
             timer = 0;
@@ -40,10 +68,21 @@ public class InternetScript : MonoBehaviour
         }
         if (on)
         {
-            this.GetComponent<Image>().sprite = onSprite;
+            if (timer / timerTarget < .33f)
+            {
+                this.GetComponent<Image>().sprite = threesprite;
+            }
+            else if(timer / timerTarget < .66f)
+            {
+                this.GetComponent<Image>().sprite = twosprite;
+            }
+            else if (timer / timerTarget < .85f)
+            {
+                this.GetComponent<Image>().sprite = onesprite;
+            }
             freeToRestart = true;
         }
-        else this.GetComponent<Image>().sprite = offSprite;
+        else this.GetComponent<Image>().sprite = off;
 
         if (restarting)
         {
@@ -74,6 +113,8 @@ public class InternetScript : MonoBehaviour
                 connectionTime = 0;
                 restarting = false;
                 on = true;
+                timerButAgainQuestionMark = 0;
+                timer = 0;
                 inputField.text = "";
                 inputField.gameObject.SetActive(false);
             }

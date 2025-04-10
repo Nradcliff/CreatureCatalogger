@@ -3,10 +3,15 @@ using UnityEngine;
 public class StartMenuClickDetect : MonoBehaviour
 {
     public GameObject personalizeWindow;
+    public GameObject optionsWindow;
     public GameObject pausePanel;
+
+    public bool pauseOnEsc;
     void Update()
     {
-        HideIfClickedOutside(this.gameObject);
+        //commented out for MainLevel 2 Scene to test scaling and the UI overlay
+        //god unity sucks sometimes
+        //HideIfClickedOutside(this.gameObject);
         if (isOpen)
         {
             positionFor.y = targetOpenPos;
@@ -16,6 +21,10 @@ public class StartMenuClickDetect : MonoBehaviour
         {
             positionFor.y = targetClosedPos;
             this.transform.localPosition = Vector3.MoveTowards(this.transform.localPosition, positionFor, speed * Time.deltaTime);
+        }
+        if(pauseOnEsc && Input.GetKeyUp(KeyCode.Escape))
+        {
+            opencloseNotifications();
         }
     }
 
@@ -37,6 +46,10 @@ public class StartMenuClickDetect : MonoBehaviour
     public void openPersonalize()
     {
         personalizeWindow.SetActive(true);
+    }
+    public void openOptions()
+    {
+        optionsWindow.SetActive(true);
     }
 
     public void pauseGame()

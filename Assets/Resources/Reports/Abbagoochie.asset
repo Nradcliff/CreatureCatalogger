@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Abbagoochie
   m_EditorClassIdentifier: 
   name: Abbagoochie
-  description: Threat Level 2, Type Beast
+  description: {fileID: 509575570654444755, guid: eab0936b3e821044bb5c6936203ac390, type: 3}
   artwork: {fileID: -3953068041739722030, guid: 6ce885222b6bc7c4eb707cd061ae5b40, type: 3}
   id: 0
-  threat: Threat Level 2
-  type: Beast
+  threat: 1
+  type: 0
+  isUsed: 1

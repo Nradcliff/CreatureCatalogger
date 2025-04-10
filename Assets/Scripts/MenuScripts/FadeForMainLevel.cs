@@ -20,10 +20,12 @@ public class FadeForMainLevel : MonoBehaviour
     /// 4 = Game Over
     /// </summary>
     public int progressTo;
+    public ProgramPersist progressTracker;
 
     void Start()
     {
-        
+        SceneManager.SetActiveScene(SceneManager.GetSceneByName("MainLevel"));
+        progressTracker = GameObject.Find("LoadProgramManager").GetComponent<ProgramPersist>();
     }
 
     void Update()
@@ -49,21 +51,30 @@ public class FadeForMainLevel : MonoBehaviour
             }
             else
             {
+                SceneManager.SetActiveScene(SceneManager.GetSceneByName("OverlayScene"));
                 if (progressTo == 1)
                 {
                     Application.Quit();
                 }
                 else if(progressTo == 2)
                 {
-                    SceneManager.LoadScene("MainMenu");
+                    //SceneManager.LoadScene("MainMenu");
+                    //COMMENTED OUT CODE IS FOR REGULAR SCENE CHANGES, CURRENT CODE IS FOR ADDITIVE SCENES
+                    SceneManager.UnloadSceneAsync("MainLevel");
+                    SceneManager.LoadScene("MainMenu", LoadSceneMode.Additive);
+                    progressTo = 0;
                 }
                 else if (progressTo == 3)
                 {
-                    SceneManager.LoadScene("DayCompletion");
+                    //SceneManager.LoadScene("DayCompletion");
+                    SceneManager.UnloadSceneAsync("MainLevel");
+                    SceneManager.LoadScene("DayCompletion", LoadSceneMode.Additive);
                 }
                 else if (progressTo == 4)
                 {
-                    SceneManager.LoadScene("GameOver");
+                    //SceneManager.LoadScene("GameOver");
+                    SceneManager.UnloadSceneAsync("MainLevel");
+                    SceneManager.LoadScene("GameOver", LoadSceneMode.Additive);
                 }
             }
             fadePanel.GetComponent<Image>().color = new Color(0, 0, 0, timer);
@@ -71,17 +82,21 @@ public class FadeForMainLevel : MonoBehaviour
     }
     public void quitTheGame()
     {
+        Time.timeScale = 1;
         progressTo = 1;
         fadeInOrOut = false;
     }
     public void goToMenu()
     {
+        Time.timeScale = 1;
         progressTo = 2;
         fadeInOrOut = false;
     }
     public void nextLevel()
     {
+        Time.timeScale = 1;
         progressTo = 3;
+        progressTracker.DayNum += 1;
         fadeInOrOut = false;
     }
 }

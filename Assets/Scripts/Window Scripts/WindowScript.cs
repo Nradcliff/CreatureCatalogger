@@ -41,11 +41,12 @@ public class WindowScript : MonoBehaviour
     public TextMeshProUGUI windowNameTMP;
     public string windowName;
     public bool requiresInternet;
-    public GameObject internet;
+    public InternetScript internet;
     public GameObject noInternet;
+    public AudioScript audioManager;
 
     //Sorting Layer Variables
-    public GameObject background, shadow,content,contentCanvas,border;
+    public GameObject background, shadow,content,contentCanvas,border,secondCanvas;
     public int headerLayer, backgroundLayer, shadowLayer, contentLayers;
     public int posInArray;
     public bool priority;
@@ -84,12 +85,15 @@ public class WindowScript : MonoBehaviour
 
         //Setting Window Name
         windowNameTMP.text = windowName;
+
+        audioManager = GameObject.Find("AudioManager").GetComponent<AudioScript>();
     }
     
     void Update()
     {
         if (Time.timeScale != 0)
         {
+
             //Sorting Layer
             sortingGroup.sortingOrder = posInArray * 10;
             headerLayer = 3 + sortingGroup.sortingOrder;
@@ -113,7 +117,7 @@ public class WindowScript : MonoBehaviour
                     contentCanvas.SetActive(false);
                     noInternet.SetActive(true);
                 }
-                if (internet.GetComponent<InternetScript>().on == true)
+                if (internet.on == true)
                 {
                     content.SetActive(true);
                     contentCanvas.SetActive(true);
@@ -122,6 +126,7 @@ public class WindowScript : MonoBehaviour
             }
 
             //Apply layer change
+            //probably shouldnt have used getcomponent for each frame but oh well its like 10 weeks too late
             windowHeader.GetComponent<SpriteRenderer>().sortingOrder = headerLayer;
             buttonsInHeader.GetComponent<Canvas>().sortingOrder = headerLayer;
             background.GetComponent<SpriteRenderer>().sortingOrder = backgroundLayer;
@@ -132,6 +137,10 @@ public class WindowScript : MonoBehaviour
             if (border != null)
             {
                 border.GetComponent<SpriteRenderer>().sortingOrder = headerLayer;
+            }
+            if (secondCanvas != null)
+            {
+                secondCanvas.GetComponent<Canvas>().sortingOrder = contentLayers;
             }
 
             //If not currently being minimized or unminimized
@@ -213,7 +222,16 @@ public class WindowScript : MonoBehaviour
             //Set timeLerped to 1/speed, lock position recording, and swap pressed bool. Currently 1/10.
             timeLerped = .1f;
             lockPos = true;
+            if (pressed)
+            {
+                audioManager.playsound(5);
+            }
+            else
+            {
+                audioManager.playsound(4);
+            }
             pressed = !pressed;
+            
         }
     }
 
@@ -237,6 +255,29 @@ public class WindowScript : MonoBehaviour
         if (Time.timeScale > 0)
         {
             priority = true;
+        }
+    }
+
+    public void playsoundFromAudioGuy(int index)
+    {
+        audioManager.playsound(index);
+    }
+
+    public void OnEnable()
+    {
+        if (internet != null)
+        {
+            //Make internet slower
+            internet.openPrograms += 1;
+        }
+    }
+
+    public void OnDisable()
+    {
+        if (internet != null)
+        {
+            //Make internet faster
+            internet.openPrograms -= 1;
         }
     }
 }

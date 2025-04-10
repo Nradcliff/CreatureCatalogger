@@ -35,8 +35,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -148.81503}
-  m_SizeDelta: {x: 0, y: 297.63}
+  m_AnchoredPosition: {x: 0, y: -152.70499}
+  m_SizeDelta: {x: 0, y: 305.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8155385714237668617
 CanvasRenderer:
@@ -197,7 +197,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 3650303876621510600}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.38878357
+  m_Size: 0.27696487
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -344,27 +344,27 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Welcome to the Company!
 
-    
+
 
     Your task will include looking through
     the active reports for the day under the reports application. Based on the info
     provided you will open the Sorting application, select which report you are looking
     at, and verify based on info from the checklist application.
 
-    
 
-    Here
-    at the company, we recommend you try to match at least 2 to 3 of the requirements
-    of each category under threat and type before submitting.
 
-    
+    Here at the
+    company, we recommend you try to match at least 2 to 3 of the requirements of
+    each category under threat and type before submitting.
 
-    Please
-    be warned that false/incorrect submissions can cause anomolies in the system.
-    Please make sure any applications not needed are closed, and if the wifi goes
-    out, check the sticky notes on your desk.
 
-    
+
+    Please be warned
+    that false/incorrect submissions can cause anomolies in the system. Please make
+    sure any applications not needed are closed, and if the wifi goes out, check
+    the sticky notes on your desk.
+
+
 
     Thank You,
 

@@ -29,10 +29,10 @@ public class PopupSpawnManageScript : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
-        {
-            chancePopup(5);
-        }
+        //if(Input.GetMouseButtonDown(0))
+        //{
+        //    chancePopup(5);
+        //}
     }
 
     //Weighted random chance. Randomly returns an integer based on a weighted chance.

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 510413f31503f8843afc6b8bfc85c6b9, type: 3}
+  m_Name: Pandora's Box
+  m_EditorClassIdentifier: 
+  name: Pandora's Box
+  description: {fileID: 509575570654444755, guid: 9eca29dc409407649878e3f621087b7f, type: 3}
+  artwork: {fileID: 0}
+  id: 0
+  threat: 3
+  type: 3
+  isUsed: 0
