@@ -86,12 +86,11 @@ MonoBehaviour:
     or map the area.\r\nIndividuals who have entered sometimes never returned. In
     these cases, initial searches failed to locate the missing persons, and no further
     communication was received from them. A handful of these individuals were eventually
-    found in the wardrobe, though they had been changed in form and behavior. Their
-    physical appearance was altered to varying degrees, and they demonstrated aggressive
-    tendencies toward other personnel, showing an obsession with the wardrobe and
-    a belief that they must protect its contents. It is unknown if the wardrobe itself
-    causes these changes or the isolation of the individuals leads to an induced
-    madness.\r\n"
+    found in the wardrobe, though their mental state was heavily altered or detoriated.
+    They demonstrated aggressive tendencies toward other personnel, showing an obsession
+    with the wardrobe and a belief that they must protect its contents. It is unknown
+    if the wardrobe itself causes these changes or the isolation of the individuals
+    leads to an induced madness.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

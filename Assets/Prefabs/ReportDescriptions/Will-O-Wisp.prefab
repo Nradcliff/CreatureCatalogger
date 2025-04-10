@@ -65,11 +65,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Refers to a cryptid phenomenon commonly known as the \"Will-O-Wisp,\"
-    often observed in marshlands, forests, and other areas with low visibility. It
-    appears as an anomalous light, typically blue or green in hue, which floats or
-    hovers at varying altitudes. The size of these lights can range from 0.5 meters
-    to 3 meters in diameter. These lights are often described by witnesses as flickering,
+  m_text: "Refers to a entity phenomenon commonly known as the \"Will-O-Wisp,\" often
+    observed in marshlands, forests, and other areas with low visibility. It appears
+    as an anomalous light, typically blue or green in hue, which floats or hovers
+    at varying altitudes. The size of these lights can range from 0.5 meters to 3
+    meters in diameter. These lights are often described by witnesses as flickering,
     moving erratically, and sometimes appearing to \"lead\" individuals deeper into
     dense vegetation or dangerous environments.\r\nThey exhibit the ability to produce
     electromagnetic emissions across a wide spectrum, particularly within the ultraviolet

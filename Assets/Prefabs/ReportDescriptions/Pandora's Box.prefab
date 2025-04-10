@@ -71,27 +71,20 @@ MonoBehaviour:
     shows no signs of corrosion or wear, despite its apparent age. The surface is
     engraved with complex symbols, many of which have been definitively linked to
     ancient Greek.\r\nThe most notable feature of the box is the effect it has on
-    its environment. When sealed, it appears dormant and exhibits no anomalous properties.
-    However, once opened\u2014whether by mechanical means or human intervention\u2014it
-    becomes an extremely hazardous object capable of unleashing catastrophic events
-    that can affect space, time, reality, and even human consciousness. These events
-    are highly unpredictable and appear to be linked to an unknown set of metaphysical
-    principles.\r\nUpon activation, the box does not produce a physical explosion
-    or emission of energy. Instead, it creates localized rifts in reality, allowing
-    entities, anomalies, and environmental disruptions to leak into our world. These
-    \"leaks\" can take a variety of forms, ranging from physical entities (including
-    hostile creatures and aberrant life forms) to more abstract disruptions, such
-    as the manipulation of time, memory, and perception.\r\nIts behavior is not predictable
-    in the traditional sense. While dormant, it remains relatively inert, but once
-    interacted with or triggered by external stimuli (including opening or proximity),
-    it becomes an active threat capable of causing widespread destruction. The entity
-    itself does not seem to have any particular intelligence or will, as it does
-    not appear to \"choose\" when to open or manifest. Rather, it seems that the
-    mere act of opening the box, or certain psychological or emotional triggers,
-    activates its catastrophic effects.\r\nIt is theorized that it is a kind of \"containment\"
-    device\u2014potentially designed to keep powerful, chaotic forces from leaking
-    into our reality. However, the purpose of the box and its creators remain unknown,
-    as does the nature of the entities it might be guarding or containing.\r\n"
+    its environment. When sealed, it appears dormant and exhibits no unique properties.
+    However, once opened it becomes an extremely hazardous object capable of unleashing
+    catastrophic events that can affect space, time, reality, and even human consciousness.
+    These events are highly unpredictable and appear to be linked to an unknown set
+    of metaphysical principles.\r\nUpon activation, the box does not produce a physical
+    explosion or emission of energy. Instead, it creates localized rifts in reality,
+    allowing entities, anomalies, and environmental disruptions to leak into our
+    world. These \"leaks\" can take a variety of forms, ranging from physical entities
+    (including hostile creatures and aberrant life forms) to more abstract disruptions,
+    such as the manipulation of time, memory, and perception.\r\nIt is theorized
+    that it is a kind of \"containment\" device\u2014potentially designed to keep
+    powerful, chaotic forces from leaking into our reality. However, the purpose
+    of the box and its creators remain unknown, as does the nature of the entities
+    it might be guarding or containing. \r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

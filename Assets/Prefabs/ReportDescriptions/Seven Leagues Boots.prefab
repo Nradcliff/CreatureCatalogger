@@ -76,20 +76,18 @@ MonoBehaviour:
     to a \"league,\" a unit of distance historically ranging from 3 to 5 miles (4.8
     to 8 kilometers), depending on the exact definition used. The boots allow the
     wearer to instantly cover the distance between their current location and a target
-    point within their line of sight or mental focus. However, this teleportation
-    effect does not operate through normal spatial means. Instead, it appears to
-    manipulate both space and time, displacing the wearer across vast distances instantaneously.\r\nIs
-    an entirely passive object when not worn. The boots do not actively seek out
-    individuals, nor do they exert any physical force on their own. The anomalous
-    effects are triggered solely by the wearer\u2019s actions, and the boots do not
-    display signs of any form of self-awareness. However, once worn, the boots seem
-    to respond to the intentions and mental focus of the individual, adjusting their
-    spatial relocation based on the wearer's mental direction.\r\nInterestingly,
-    while the boots will function as intended (transporting the wearer) when worn
-    by a human, they do not seem to work on any non-human species, nor can they be
-    operated remotely. Furthermore, once a person has worn the boots and used them
-    for spatial travel, the boots seem to bond with that individual, becoming ineffective
-    for any other person unless the original wearer\u2019s intent is directly considered.\r\n"
+    point within their line of sight or mental focus. It appears to manipulate both
+    space and time, displacing the wearer across vast distances instantaneously.\r\nIs
+    an entirely passive object when not worn. The effects are triggered solely by
+    the wearer\u2019s actions, and the boots do not display signs of any form of
+    self-awareness. However, once worn, the boots seem to respond to the intentions
+    and mental focus of the individual, adjusting their spatial relocation based
+    on the wearer's mental direction.\r\nInterestingly, while the boots will function
+    as intended (transporting the wearer) when worn by a human, they do not seem
+    to work on any non-human species, nor can they be operated remotely. Furthermore,
+    once a person has worn the boots and used them for spatial travel, the boots
+    seem to bond with that individual, becoming ineffective for any other person
+    unless the original wearer\u2019s intent is directly considered.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

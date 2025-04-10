@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Is a cryptid typically resembling large, muscular creatures with thick,
+  m_text: "Is a entity typically resembling large, muscular creatures with thick,
     leathery skin, often covered in patches of coarse hair. The typical height of
     a Troll is between 2.5 to 3.5 meters, with individual weight estimates ranging
     from 300 to 800 kilograms. The appearance of Trolls may vary slightly depending
@@ -74,31 +74,20 @@ MonoBehaviour:
     bulbous nose and large, predatory eyes.\r\nIt possesses an exceptional regenerative
     ability, capable of rapidly healing wounds that would otherwise be fatal to most
     organisms. Injuries such as broken bones, severe lacerations, and even gunshot
-    wounds have been observed to heal in a matter of hours, if not minutes. This
-    regenerative capacity also extends to its internal organs, making any attempts
-    to incapacitate it through conventional means ineffective in the long term. Despite
+    wounds have been observed to heal in a matter of hours, if not minutes. Despite
     this, it is highly vulnerable to extreme heat, with temperatures exceeding 200\xB0C
-    (392\xB0F) proving to be fatal over extended exposure.\r\n\r\n\r\nThey exhibit
-    immense physical strength, far beyond that of a typical human or even most large
-    mammals. It can lift and throw objects weighing up to 3 tons with ease and has
-    demonstrated the ability to break through reinforced concrete walls in as little
-    as 30 seconds. This brute force makes containment extremely difficult, and attempts
-    to physically restrain it have often resulted in significant casualties. They
-    have been observed to exhibit tactical thinking, such as setting traps or ambushing
-    targets. It also demonstrates a keen understanding of human psychology, using
+    (392\xB0F) proving to be fatal over extended exposure.\r\nThey exhibit immense
+    physical strength, far beyond that of a typical human or even most large mammals.
+    It can lift and throw objects weighing up to 3 tons with ease and has demonstrated
+    the ability to break through reinforced concrete walls in as little as 30 seconds.
+    They have been observed to exhibit tactical thinking, such as setting traps or
+    ambushing targets, and if pushed enough have been known to invade local towns
+    and cities. It also demonstrates a keen understanding of human psychology, using
     fear, intimidation, and even false promises to manipulate those it interacts
-    with.\r\n\r\n\r\nTrolls have shown an ability to adapt to a wide range of environments,
-    with sightings occurring in both rural and urban settings. It appears to prefer
-    subterranean environments, such as caves, tunnels, and abandoned underground
-    structures. However, it is not limited to such places and has been found in dense
-    forests and urban outskirts, where it frequently targets isolated homes, cabins,
-    and structures. It seems to exhibit a territorial behavior, with attacks typically
-    occurring when its \"territory\" is encroached upon. While it is primarily nocturnal,
-    it has demonstrated aggression during both day and night, often targeting individuals
-    who are alone or vulnerable. Trolls exhibit a predatory nature, often hunting
-    small groups of people or animals, using stealth and surprise to close the distance
-    before engaging. In its natural state, it will often ambush prey from an elevated
-    position, using its heightened strength to overpower targets.\r\n"
+    with.\r\nIt seems to exhibit a territorial behavior, with attacks typically occurring
+    when its \"territory\" is encroached upon. It is primarily nocturnal, and has
+    demonstrated aggression during both day and night, often targeting individuals
+    who are alone or vulnerable. \r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

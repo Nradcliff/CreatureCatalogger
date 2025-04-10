@@ -65,35 +65,30 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Is a humanoid cryptid that exhibits extreme physical strength, speed,
-    and regenerative abilities. The entity\u2019s primary anomalous feature is its
-    ability to undergo rapid transformation from a human form to a more lupine or
-    wolf-like appearance, typically triggered by the presence of a full moon or heightened
+  m_text: "Is a human entity that exhibits extreme physical strength, speed, and
+    regenerative abilities. The entity\u2019s primary anomalous feature is its ability
+    to undergo rapid transformation from a human form to a more lupine or wolf-like
+    appearance, typically triggered by the presence of a full moon or heightened
     emotional stress. However, this transformation is not solely lunar-dependent,
     and instances of spontaneous transformations have been observed, particularly
-    during moments of violent outbursts or territorial aggression.\r\nWhen in its
-    human form, it appears as a male/female individual of varying ethnicities and
-    ages, generally possessing an average height and build. These forms exhibit no
-    noticeable anomalous traits, though individuals who encounter them in this state
-    report a chilling sense of unease, often noting an intense, predatory gaze from
-    the subject.\r\nUpon transformation, it adopts the physical characteristics of
-    a large, highly muscular wolf-like creature, standing approximately 2.4 meters
-    tall at the shoulder. The creature possesses heightened senses, including superhuman
-    olfactory, auditory, and visual capabilities. Its jaws are capable of exerting
-    immense force, capable of snapping bone and tearing through metal. Claws and
-    teeth are laced with a substance resembling silver, which has been shown to accelerate
-    the degeneration of human tissue upon contact.\r\nWerewolves exhibit regenerative
-    abilities, rapidly healing from most injuries, including gunshot wounds, burns,
-    and deep lacerations. This regenerative trait is significantly slowed by the
-    application of silver-based materials, though not entirely halted. Despite its
-    regenerative capabilities, prolonged injuries to its central nervous system or
-    vital organs appear to incapacitate them temporarily, though such occurrences
-    are rare.\r\nDemonstrates territorial behaviors, particularly during its transformation.
-    It is highly aggressive towards any perceived intruders within its range, attacking
-    with extreme brutality. Witness accounts suggest that they will stalk their prey
-    over long distances, waiting for the opportune moment to strike. It appears to
-    target individuals who exhibit fear, though it will engage with anyone who enters
-    its territory.\r\n"
+    during moments of violent outbursts or territorial aggression.\r\nUpon transformation,
+    it adopts the physical characteristics of a large, highly muscular wolf-like
+    creature, standing approximately 2.4 meters tall at the shoulder. The creature
+    possesses heightened senses, including superhuman olfactory, auditory, and visual
+    capabilities. Its jaws are capable of exerting immense force, capable of snapping
+    bone and tearing through metal. Claws and teeth are laced with a substance resembling
+    silver, which has been shown to accelerate the degeneration of human tissue upon
+    contact.\r\nWerewolves exhibit regenerative abilities, rapidly healing from most
+    injuries, including gunshot wounds, burns, and deep lacerations. This regenerative
+    trait is significantly slowed by the application of silver-based materials, though
+    not entirely halted. Despite its regenerative capabilities, prolonged injuries
+    to its central nervous system or vital organs appear to incapacitate them temporarily,
+    though such occurrences are rare.\r\nDemonstrates territorial behaviors, particularly
+    during its transformation. It is highly aggressive towards any perceived intruders
+    within its range, attacking with extreme brutality. Witness accounts suggest
+    that they will stalk their prey over long distances, waiting for the opportune
+    moment to strike. It appears to target individuals who exhibit fear, though it
+    will engage with anyone who enters its territory.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

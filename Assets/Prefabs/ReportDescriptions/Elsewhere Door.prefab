@@ -70,33 +70,25 @@ MonoBehaviour:
     itself is made of weathered wood, with subtle but intricate carvings resembling
     various unknown symbols that appear to shift slightly when observed for extended
     periods. There is no visible handle, knob, or locking mechanism on the door,
-    and the doorframe does not lead to any visible door.\r\nWhen observed from a
-    distance, it seems to simply exist as a doorway to an otherwise empty space,
-    although no physical \"door\" exists. Upon closer inspection, it becomes clear
-    that the frame has the anomalous property of acting as a portal to an unknown
-    or parallel environment, commonly referred to as the \"Elsewhere\" domain. \r\nWhen
-    an individual passes through the doorframe, they will be transported to a parallel
-    environment, commonly referred to as the \"Elsewhere\" domain. The Elsewhere
-    domain is not consistent; each passage through results in a different manifestation
-    of the parallel world. Some environments appear to be reflections of familiar
-    locations, such as a distorted version of Earth, while others present entirely
-    alien worlds where the laws of physics seem unpredictable. For example, gravity
-    may fluctuate, and objects may appear to be suspended in mid-air or shift in
-    size. Time in the Elsewhere domain is equally erratic\u2014some travelers report
-    only seconds passing within, while others experience what feels like years.\r\n\r\n\r\nThose
-    who travel through the door often report a profound sense of isolation and disorientation.
-    There are no known inhabitants of the Elsewhere domain, though some individuals
-    have described hearing faint whispers or seeing fleeting shadowy figures from
-    the corner of their eye. These entities, if they exist, are not fully understood
-    and may not be human in nature. The longer an individual remains in the Elsewhere
-    domain, the more their perception of reality seems to erode, with instances of
-    hallucinations and fragmented memories increasing with time.\r\n\r\n\r\nWhen
-    an individual is exposed to the Elsewhere domain for an unknown period, they
-    will be involuntarily returned to the location. This return is not always guaranteed
-    to occur in the same location as the initial passage; some individuals report
-    reappearing miles or even kilometers away from the original point of entry, with
-    no memory of how they arrived. Others have returned in a drastically altered
-    state, physically or mentally affected by their time in the parallel environment.\r\n"
+    and the doorframe does not lead to any visible door.\r\nWhen an individual passes
+    through the doorframe, they will be transported to a parallel environment, commonly
+    referred to as the \"Elsewhere\" domain. The Elsewhere domain is not consistent;
+    each passage through results in a different manifestation of the parallel world.
+    Some environments appear to be reflections of familiar locations, such as a distorted
+    version of Earth, while others present entirely alien worlds where the laws of
+    physics seem unpredictable. For example, gravity may fluctuate, and objects may
+    appear to be suspended in mid-air or shift in size. Time in the Elsewhere domain
+    is equally erratic\u2014some travelers report only seconds passing within, while
+    others experience what feels like years.\r\nThose who travel through the door
+    often report a profound sense of isolation and disorientation. There are no known
+    inhabitants of the Elsewhere domain, though some individuals have described hearing
+    faint whispers or seeing fleeting shadowy figures from the corner of their eye.
+    These entities, if they exist, are not fully understood and may not be human
+    in nature.\r\nWhen an individual is exposed to the Elsewhere domain for an unknown
+    period, they will be involuntarily returned to their original \u201Crealm.\u201D
+    This return is not always guaranteed to occur in the same location as the initial
+    passage; some individuals report reappearing miles or even kilometers away from
+    the original point of entry, with no memory of how they arrived.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
