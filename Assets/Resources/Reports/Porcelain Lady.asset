@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510413f31503f8843afc6b8bfc85c6b9, type: 3}
   m_Name: Porcelain Lady
   m_EditorClassIdentifier: 
-  name: 
-  description: {fileID: 0}
+  name: Porcelain Lady
+  description: {fileID: 509575570654444755, guid: 3d1dc7cbdd1a845408f16a2d49f82779, type: 3}
   artwork: {fileID: 0}
   id: 0
-  Threat: 0
-  Type: 0
+  threat: 0
+  type: 0
   isUsed: 0

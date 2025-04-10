@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510413f31503f8843afc6b8bfc85c6b9, type: 3}
   m_Name: Screeching Nest
   m_EditorClassIdentifier: 
-  name: 
-  description: {fileID: 0}
+  name: Screeching Nest
+  description: {fileID: 509575570654444755, guid: 2d9f440625c51e440b3a7679d7d5ab44, type: 3}
   artwork: {fileID: 0}
   id: 0
-  Threat: 0
-  Type: 0
+  threat: 0
+  type: 0
   isUsed: 0
