@@ -8,6 +8,13 @@ public class ErrorScript : MonoBehaviour
     public float timer;
     public bool pressedButton;
 
+    public AudioScript audioManager;
+
+    public void Start()
+    {
+        audioManager = GameObject.Find("AudioManager").GetComponent<AudioScript>();
+    }
+
     public void Update()
     {
         if (pressedButton)
@@ -26,6 +33,7 @@ public class ErrorScript : MonoBehaviour
             else
             {
                 Instantiate(errorPrefab, new Vector3(this.transform.position.x + (.5f * loopCount), this.transform.position.y - (.5f * loopCount), 0), this.transform.rotation);
+                audioManager.playsound(3);
                 errorCount -= 1;
                 loopCount += 1;
             }

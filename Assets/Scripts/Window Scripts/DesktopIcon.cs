@@ -15,6 +15,8 @@ public class DesktopIcon : MonoBehaviour
 
     public float timeToOpen;
 
+    public AudioScript audioManager;
+
     public void Start()
     {
         ProgramName = AssignedWindow.GetComponent<WindowScript>().windowName;
@@ -36,6 +38,7 @@ public class DesktopIcon : MonoBehaviour
 
     public void checkForOpen()
     {
+        audioManager.playsound(1);
         if(clickCount >= 1)
         {
             clickCount = 0;

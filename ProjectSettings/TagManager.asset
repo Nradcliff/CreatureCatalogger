@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Popup
   layers:
   - Default
   - TransparentFX
@@ -43,3 +44,4 @@ TagManager:
     locked: 0
   m_RenderingLayers:
   - Default
+  - BG

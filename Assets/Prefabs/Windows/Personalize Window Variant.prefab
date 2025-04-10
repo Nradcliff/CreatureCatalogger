@@ -673,6 +673,7 @@ MonoBehaviour:
   desktopBG: {fileID: 0}
   bg1: {fileID: 5322092907630279227, guid: 7c9f8c06b3c79b74fb6fa44ed33d6c34, type: 3}
   bg2: {fileID: -5874731287503066172, guid: 80df86e4328d76941bf791d3b6e9c6f5, type: 3}
+  bg3: {fileID: 3320962797251855436, guid: 42b30fca0872d1346b0328ec8ac21db4, type: 3}
   bgDropdown: {fileID: 2543326260471407881}
   confirm: {fileID: 8844589552734925364}
   bgIndex: 0
@@ -1388,6 +1389,9 @@ MonoBehaviour:
     - m_Text: friend.jpeg
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: Symphonic
+      m_Image: {fileID: 0}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -1647,7 +1651,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4687125782234838354, guid: 208025896aeaac34aabaaa3259055304, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7476911932725384239, guid: 208025896aeaac34aabaaa3259055304, type: 3}
       propertyPath: m_SizeDelta.x

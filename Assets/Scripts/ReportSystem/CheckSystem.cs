@@ -22,6 +22,7 @@ public class CheckSystem : MonoBehaviour
     string typeSelection;
 
     bool submission;
+    public ProgramPersist progressTracker;
 
     //Additions for Notification System
     public NotificationScript notifSystem;
@@ -29,18 +30,14 @@ public class CheckSystem : MonoBehaviour
 
     public void Start()
     {
-
+        progressTracker = GameObject.Find("LoadProgramManager").GetComponent<ProgramPersist>();
         for (int i = 0; i < display.dayReports.Count; i++) //Copies the reports of the reportArr into this temporary list so we can avoid duplicate selections later
         {
             dict.Add(display.dayReports[i].name, display.dayReports[i]);
         }
-        reportIndex = currentReport.value;
-        string reportSelection = currentReport.options[reportIndex].text;
-        activeReport = dict[reportSelection];
-        int threatIndex = currentThreat.value;
-        threatSelection = currentThreat.options[threatIndex].text;
-        int typeIndex = currentType.value;
-        typeSelection = currentType.options[typeIndex].text;
+        GetDropdownReport();
+        GetDropdownThreatValue();
+        GetDropdownTypeValue();
     }
 
     public void GetDropdownReport() 
@@ -70,11 +67,12 @@ public class CheckSystem : MonoBehaviour
     {
         if (currentReport.options.Count > 0)
         {
-
-            if (activeReport.Threat.ToString() == threatSelection && activeReport.Type.ToString() == typeSelection)
+            if (activeReport.threat.ToString() == threatSelection && activeReport.type.ToString() == typeSelection)
             {
                 submission = true;
                 Debug.Log("Correct Answer!");
+
+                progressTracker.correctReports += 2;
 
                 Destroy(display.createdDuplicates[reportIndex]);
                 display.createdDuplicates.RemoveAt(reportIndex);
@@ -82,20 +80,45 @@ public class CheckSystem : MonoBehaviour
                 currentReport.options.RemoveAt(reportIndex);
                 currentReport.value = 0; // Reset to the first option or handle as needed
                 currentReport.RefreshShownValue();
+                if (currentReport.options.Count >= 1)
+                {
+                    GetDropdownReport();
+                    GetDropdownThreatValue();
+                    GetDropdownTypeValue();
+                }
             }
             else
             {
                 submission = false;
                 Debug.Log("Incorrect Answer!");
 
-                notifSystem.sendIncorrectNotif();
+                if(activeReport.threat.ToString() != threatSelection && activeReport.type.ToString() == typeSelection)
+                {
+                    notifSystem.sendIncorrectTLNotif();
+                    progressTracker.correctReports += 1;
+                }
+                else if (activeReport.type.ToString() != typeSelection && activeReport.threat.ToString() == threatSelection)
+                {
+                    notifSystem.sendIncorrectTypeNotif();
+                    progressTracker.correctReports += 1;
+                }
+                else
+                {
+                    notifSystem.sendIncorrectTLTypeNotif();
 
+                }
                 GameObject.Destroy(display.createdDuplicates[reportIndex]);
                 display.createdDuplicates.RemoveAt(reportIndex);
 
                 currentReport.options.RemoveAt(reportIndex);
                 currentReport.value = 0; // Reset to the first option or handle as needed
                 currentReport.RefreshShownValue();
+                if (currentReport.options.Count > 1)
+                {
+                    GetDropdownReport();
+                    GetDropdownThreatValue();
+                    GetDropdownTypeValue();
+                }
 
             }
         }

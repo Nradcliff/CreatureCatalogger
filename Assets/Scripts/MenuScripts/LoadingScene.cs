@@ -20,7 +20,9 @@ public class LoadingScene : MonoBehaviour
         timer += Time.deltaTime;
         if(timer >= timer4Goal)
         {
-            SceneManager.LoadScene("MainLevel");
+            //SceneManager.LoadScene("MainLevel");
+            SceneManager.UnloadSceneAsync("LoadingScene");
+            SceneManager.LoadScene("MainLevel", LoadSceneMode.Additive);
         }
         else if (timer >= timer3Goal)
         {
