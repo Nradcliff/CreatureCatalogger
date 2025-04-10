@@ -13,6 +13,7 @@ public class ReportDisplay : MonoBehaviour
     public List<ReportWindow> dayReports; //List for the current reports of the day
     public List<GameObject> createdDuplicates;
 
+    public ProgramPersist program;
 
     public int reportAmount; // number of reports we want to generate
     public Transform parentTransform; //Transform of the parent that the buttons will become children of
@@ -22,12 +23,17 @@ public class ReportDisplay : MonoBehaviour
 
     public void Start()
     {
+        program = GameObject.Find("LoadProgramManager").GetComponent<ProgramPersist>();
         currentReport.options.Clear();
         reportArr = Resources.LoadAll("Reports", typeof(ReportWindow)).Cast<ReportWindow>().ToArray(); //Loads all of the reports in resources folder into an array
 
         List<ReportWindow> tempReports = new List<ReportWindow>(); //A temp list to avoid duplicate reports when being selected
 
-
+        reportAmount = reportAmount + (2 * program.DayNum);
+        if(reportAmount > 68)
+        {
+            reportAmount = 68;
+        }
 
         for (int i = 0; i < reportArr.Length; i++ ) //Copies the reports of the reportArr into this temporary list so we can avoid duplicate selections later
         {
@@ -58,5 +64,8 @@ public class ReportDisplay : MonoBehaviour
 
             createdDuplicates.Add(duplicate);
         }
+
+        program.totalReports = dayReports.Count;
+        program.correctReports = 0;
     }
 }

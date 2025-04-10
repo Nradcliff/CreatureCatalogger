@@ -17,5 +17,5 @@ MonoBehaviour:
   artwork: {fileID: 0}
   id: 0
   threat: 0
-  type: 0
+  type: 3
   isUsed: 0
