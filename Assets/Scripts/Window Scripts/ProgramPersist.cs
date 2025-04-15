@@ -103,16 +103,8 @@ public class ProgramPersist : MonoBehaviour
     public void clearData()
     {
         string destination = Application.persistentDataPath + "/PsyEmployee.dat";
-        FileStream file;
 
-        if (File.Exists(destination)) file = File.OpenWrite(destination);
-        else file = File.Create(destination);
-
-        SaveDays data = new SaveDays();
-        data.resetData();
-        BinaryFormatter bf = new BinaryFormatter();
-        bf.Serialize(file, data);
-        file.Close();
+        if (File.Exists(destination)) File.Delete(destination);
     }
 
     public void saveVol()

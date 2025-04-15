@@ -28,11 +28,4 @@ public class SaveDays
     {
         return savedDayNumber;
     }
-
-    public void resetData()
-    {
-        savedProgramBool.Clear();
-        savedNotepadText = "";
-        savedDayNumber = 0;
-    }
 }
