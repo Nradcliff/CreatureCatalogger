@@ -128,6 +128,7 @@ public class TerminalInterpreter : MonoBehaviour
         if (args[0].ToLower() == "credits")
         {
             response.Add("C:\\Psyence\\Psyence-XP\\MIB\\Credits");
+            response.Add("");
             response.Add("Psyence XP");
             response.Add("");
             response.Add("By Monsters In Boxes - 2025");
