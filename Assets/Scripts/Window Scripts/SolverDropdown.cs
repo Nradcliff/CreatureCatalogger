@@ -80,6 +80,11 @@ public class SolverDropdown : MonoBehaviour
         progressbar.value = 0;
     }
 
+    private void OnEnable()
+    {
+        dropdown.value = 0;
+    }
+
     public void startCheck()
     {
         checking = true;

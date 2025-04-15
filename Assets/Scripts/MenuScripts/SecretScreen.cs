@@ -19,22 +19,24 @@ public class SecretScreen : MonoBehaviour
     void Start()
     {
         persist = GameObject.Find("LoadProgramManager").GetComponent<ProgramPersist>();
+        persist.programBool[5] = false; //Removes the secret window from the avaliable list of programs
         timer1Goal = 1;
         timer2Goal = Random.Range(.5f, 1.25f) + timer1Goal / 2;
-        timer3Goal = 3;
-        timer4Goal = Random.Range(1, 1.25f) + timer3Goal / 2 + 1;
     }
 
     // Update is called once per frame
     void Update()
     {
         timer += Time.deltaTime;
-        if (timer >= timer4Goal)
+        if (timer >= timer2Goal)
         {
+            //Activate text and button
+            activateMe.SetActive(true);
+            parentobj.SetActive(false);
         }
-        if (timer < .5f)
+        if (timer < .75f)
         {
-            InvokeRepeating("addLines", .25f, .25f);
+            InvokeRepeating("addLines", .25f, .45f);
         }
     }
 
@@ -48,9 +50,6 @@ public class SecretScreen : MonoBehaviour
         }
         else
         {
-            //Activate text and button
-            activateMe.SetActive(true);
-            parentobj.SetActive(false);
         }
     }
 

@@ -64,6 +64,7 @@ public class TerminalInterpreter : MonoBehaviour
         if (args[0].ToLower() == "ascii")
         {
             LoadTitle("ascii.txt", "green", 2);
+            return response;
         }
         if (args[0].ToLower() == "load")
         {
@@ -78,7 +79,7 @@ public class TerminalInterpreter : MonoBehaviour
             //response.Add("Options menu still in progress, thank you for your time.");
             response.Add("C:\\Program-Files\\Options>Access"); 
             ListEntry("volume", "open/close the volume submenu");
-            ListEntry("access", "enable/disable accessibility mode (easier reading, no timer)");
+            ListEntry("access", "enable/disable accessibility mode (no timer)");
             return response;
         }
         if (args[0].ToLower() == "accessible" || args[0].ToLower() == "access")
@@ -117,14 +118,19 @@ public class TerminalInterpreter : MonoBehaviour
         }
         if (args[0].ToLower() == "credits")
         {
-            response.Add("C:\\Psyence\\Psyence-Catalog\\MIB\\Credits");
-            response.Add("Psyence Catalog");
-            response.Add("Monsters In Boxes");
-            response.Add("2025");
+            response.Add("C:\\Psyence\\Psyence-XP\\MIB\\Credits");
+            response.Add("Psyence XP");
+            response.Add("");
+            response.Add("By Monsters In Boxes - 2025");
             ListCreditsD("Drewnell", "art assets, sound design");
             ListCreditsA("Ahmad", "pop-up and notification system development");
             ListCreditsN("Noah", "main menu and reports system development, report descriptions");
             ListEntry("Gibby", "scenes and window system development");
+            response.Add("");
+            response.Add("Fonts");
+            ListEntry("Daniel Linssen", "m5x7 - https://managore.itch.io/m5x7");
+            ListEntry("rektdeckard", "Departure Mono - https://departuremono.com/");
+            response.Add("");
             return response;
         }
         else

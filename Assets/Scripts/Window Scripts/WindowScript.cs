@@ -82,11 +82,18 @@ public class WindowScript : MonoBehaviour
         manager.GetComponent<WindowLayerManagement>().windowSortList.Add(this.gameObject);
         taskBarManager = GameObject.Find("WindowLayerManager");
         taskBarManager.GetComponent<CheckIfOpen>().windowList.Add(this.gameObject);
+        internet = GameObject.Find("Internet").GetComponent<InternetScript>();
 
         //Setting Window Name
         windowNameTMP.text = windowName;
 
         audioManager = GameObject.Find("AudioManager").GetComponent<AudioScript>();
+       
+        //Fix for popups not counting towards internet loss speed
+        if (isPopup)
+        {
+            internet.openPrograms += 1;
+        }
     }
     
     void Update()

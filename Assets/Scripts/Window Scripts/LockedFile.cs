@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class LockedFile : MonoBehaviour
@@ -10,8 +11,14 @@ public class LockedFile : MonoBehaviour
     public string password;
     public float timer;
     public bool unlocked;
+    public ProgramPersist progress;
+    public GameObject terminal;
+    private void Start()
+    {
+        progress = GameObject.Find("LoadProgramManager").GetComponent<ProgramPersist>();
+        password = progress.UserTwelveFourteenPassword;
+    }
 
-    
     void Update()
     {
         if (unlocked)
@@ -19,7 +26,7 @@ public class LockedFile : MonoBehaviour
             timer += Time.deltaTime;
             if (timer >= 2)
             {
-                panel.SetActive(false);
+                terminal.SetActive(true);
             }
         }
     }
@@ -48,7 +55,7 @@ public class LockedFile : MonoBehaviour
         unlocked = false;
         panel.SetActive(true);
         passwordField.text = "";
-        text.text = "Enter Password to access file";
+        text.text = "User Login";
         text.color = new Color(.64f, .64f, .64f);
     }
 }

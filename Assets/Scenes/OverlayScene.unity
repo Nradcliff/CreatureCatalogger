@@ -658,6 +658,7 @@ MonoBehaviour:
   resetBools: 0
   stickyNoteText: {fileID: 1676518183}
   randPass: 
+  UserTwelveFourteenPassword: 9k6gq2y3
   totalReports: 0
   correctReports: 0
   noTimer: 0
@@ -1706,7 +1707,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 31999
-  m_Sprite: {fileID: -6674868978544099146, guid: 719c49592fe71384093fc9dc5a03b39d, type: 3}
+  m_Sprite: {fileID: -5269499136761227205, guid: 11ed99ad317fd334dbeed271c31e6dc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1726,8 +1727,8 @@ Transform:
   m_GameObject: {fileID: 1815914227}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.016, y: -0.014, z: 0}
-  m_LocalScale: {x: 0.054933682, y: 0.096207224, z: 1}
+  m_LocalPosition: {x: 0.01044, y: -0.00577, z: 0}
+  m_LocalScale: {x: 0.008234907, y: 0.014422072, z: 0.14991155}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 226312436}
