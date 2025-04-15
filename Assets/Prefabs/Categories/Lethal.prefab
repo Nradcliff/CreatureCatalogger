@@ -65,19 +65,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '- Report shows it is hard to take down or contain.
+  m_text: '- Is hard to take down or contain.
 
-    - Report indicates
-    it actively seeks out targets. Is sadistic or violent in nature.
+    - Actively seeks out targets.
+    Is sadistic or violent in nature.
 
-    - Report
-    shows it cause serious bodily harm, alterations, or death
+    - Can cause serious bodily harm, alterations,
+    or death
 
-    - Report shows
-    it may cause damage on a city-wide level or higher.
+    - May cause damage on a city-wide level or higher.
 
-    - Report indicates
-    it possesses abnormally abilities that defies rational reasoning'
+    - Possesses
+    abnormal abilities that defies rational reasoning'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
