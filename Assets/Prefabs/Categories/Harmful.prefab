@@ -65,21 +65,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '- Report shows it is territorial
+  m_text: '- Is territorial
 
-    - Report indicates it only attacks
-    if provoked
+    - Only attacks if provoked
 
-    - Report shows it may cause minor/major injuries/alterations.
-    Physical or Mental.
+    - May cause minor/major
+    injuries/alterations. Physical or Mental.
 
-    - Report indicates it can cause minor property damage
+    - Can cause minor property damage
 
     -
-    Report shows it may attempt to steal resources
+    May attempt to steal resources
 
-    - Report indicates it avoids
-    humans, but goes after local wildlife or pets instead'
+    - Avoids humans, but goes after local wildlife
+    or pets instead'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

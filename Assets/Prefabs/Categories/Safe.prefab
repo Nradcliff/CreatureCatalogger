@@ -65,21 +65,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '- Report shows it avoids humans.
+  m_text: '- Avoids humans.
 
-    - Report indicates it only attacks
-    if provoked
+    - Only attacks if provoked
 
-    - Report shows it can be befriended/tamed/appeased
+    - Can be befriended/tamed/appeased
 
-    - Report
-    indicates it is helpful, protective, or useful to humans.
+    -
+    Is helpful, protective, or useful to humans.
 
-    - Report shows
-    it may attempt to steal resources
+    - May attempt to steal resources
 
-    - Report indicates its properties don''t
-    take effect unless interacted with'
+    -
+    Properties don''t take effect unless interacted with'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
