@@ -1080,6 +1080,10 @@ PrefabInstance:
       value: 2.8346744
       objectReference: {fileID: 0}
     - target: {fileID: 8509968906500155300, guid: 208025896aeaac34aabaaa3259055304, type: 3}
+      propertyPath: baseScaleX
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8509968906500155300, guid: 208025896aeaac34aabaaa3259055304, type: 3}
       propertyPath: windowName
       value: tutorial.txt
       objectReference: {fileID: 0}

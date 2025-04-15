@@ -665,6 +665,7 @@ MonoBehaviour:
   masterVol: 1
   sfxVol: 0.5
   ambienceVol: 0.5
+  backgroundIndex: 0
   dead: 0
 --- !u!4 &707008104
 Transform:

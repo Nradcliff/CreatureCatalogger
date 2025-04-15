@@ -1,6 +1,7 @@
 using NUnit.Framework;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,6 +13,8 @@ public class SecretTerminal : MonoBehaviour
     public List<string> thingsToSay;
     public int stringIndex;
 
+    bool a;
+
     void Start()
     {
     }
@@ -19,7 +22,15 @@ public class SecretTerminal : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        InvokeRepeating("addLines", .25f, .45f);
+        if (a)
+        {
+            SceneManager.UnloadSceneAsync("MainLevel");
+            SceneManager.LoadScene("SecretScene", LoadSceneMode.Additive);
+        }
+        else
+        {
+            InvokeRepeating("addLines", .25f, .45f);
+        }
     }
 
     void addLines()
@@ -32,8 +43,7 @@ public class SecretTerminal : MonoBehaviour
         }
         else
         {
-            SceneManager.UnloadSceneAsync("MainLevel");
-            SceneManager.LoadScene("SecretScene", LoadSceneMode.Additive);
+            a = true;
         }
     }
 }

@@ -22,6 +22,7 @@ public class SecretScreen : MonoBehaviour
         persist.programBool[5] = false; //Removes the secret window from the avaliable list of programs
         timer1Goal = 1;
         timer2Goal = Random.Range(.5f, 1.25f) + timer1Goal / 2;
+        persist.DayNum += 1;
     }
 
     // Update is called once per frame
