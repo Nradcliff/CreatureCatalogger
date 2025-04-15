@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class InternetScript : MonoBehaviour
 {
-    public float timer,timerButAgainQuestionMark,loseInternetStartingAfterThisNumberOfSeconds;
+    public float timerButAgainQuestionMark,loseInternetStartingAfterThisNumberOfSeconds;
+    public static float timer;
     public bool on;
 
     public Sprite threesprite,twosprite,onesprite,off;
@@ -21,7 +22,7 @@ public class InternetScript : MonoBehaviour
     public bool freeToRestart;
 
     public int openPrograms;
-    public static float timerTarget; //Using in some popup scripts
+    public float timerTarget;
 
     public ProgramPersist saveLoadThingy;
 

@@ -11,11 +11,6 @@ public class PopupScript : MonoBehaviour
 
     }
 
-    public void turnOffWifi()
-    {
-        InternetScript.timerTarget = 0;
-    }
-
     public void respawnSelf()
     {
         count = 0;
