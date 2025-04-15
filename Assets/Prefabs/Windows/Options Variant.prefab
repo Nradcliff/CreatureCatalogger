@@ -862,7 +862,7 @@ GameObject:
   - component: {fileID: 8780372573130321016}
   m_Layer: 3
   m_Name: Ambience
-  m_TagString: Untagged
+  m_TagString: Clickable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1060,7 +1060,7 @@ GameObject:
   - component: {fileID: 9716403426422766}
   m_Layer: 3
   m_Name: Master
-  m_TagString: Untagged
+  m_TagString: Clickable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1225,7 +1225,7 @@ GameObject:
   - component: {fileID: 5609831919416035128}
   m_Layer: 3
   m_Name: SFX
-  m_TagString: Untagged
+  m_TagString: Clickable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

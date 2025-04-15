@@ -8,6 +8,8 @@ public class PopupSpawnManageScript : MonoBehaviour
     //Use this in other scripts to disable or enable popups
     public static bool allowPopups = true;
 
+    public AudioScript audioManager;
+
     //Boundaries
     float minX = 0f;
     float maxX = 1f;
@@ -22,6 +24,7 @@ public class PopupSpawnManageScript : MonoBehaviour
 
     private void Awake()
     {
+        audioManager = GameObject.Find("AudioManager").GetComponent<AudioScript>();
         cam = Camera.main;
         if (cam == null)
             print("Camera not found");
@@ -69,6 +72,8 @@ public class PopupSpawnManageScript : MonoBehaviour
             //Generate random position vector without going beyond camera view
             float randX = Random.Range(minX, maxX);
             float randY = Random.Range(minY, maxY);
+
+            audioManager.playsound(3);
 
             Vector3 worldPos = cam.ViewportToWorldPoint(new Vector3(randX, randY, cam.nearClipPlane));
 

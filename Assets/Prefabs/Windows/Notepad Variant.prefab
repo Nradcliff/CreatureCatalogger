@@ -522,7 +522,7 @@ GameObject:
   - component: {fileID: 2649752264288478277}
   m_Layer: 3
   m_Name: InputField (TMP)
-  m_TagString: Untagged
+  m_TagString: Clickable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

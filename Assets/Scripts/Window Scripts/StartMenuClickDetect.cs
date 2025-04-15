@@ -1,3 +1,5 @@
+using NUnit.Framework;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class StartMenuClickDetect : MonoBehaviour
@@ -5,6 +7,8 @@ public class StartMenuClickDetect : MonoBehaviour
     public GameObject personalizeWindow;
     public GameObject optionsWindow;
     public GameObject pausePanel;
+
+    public List<StartMenuClickDetect> OtherList;
 
     public bool pauseOnEsc;
     void Update()
@@ -88,5 +92,10 @@ public class StartMenuClickDetect : MonoBehaviour
         {
             isOpen = false;
         }
+    }
+
+    public void closeOther()
+    {
+        OtherList[0].isOpen = false;
     }
 }

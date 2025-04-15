@@ -1603,7 +1603,7 @@ GameObject:
   - component: {fileID: 711394624057131633}
   m_Layer: 3
   m_Name: Scrollbar
-  m_TagString: Untagged
+  m_TagString: Clickable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

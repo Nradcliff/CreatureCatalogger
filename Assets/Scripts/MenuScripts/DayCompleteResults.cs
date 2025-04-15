@@ -59,10 +59,15 @@ public class DayCompleteResults : MonoBehaviour
                     sound4 = false;
                     source.PlayOneShot(tick);
                 }
+                if(progressTracker.DayNum == 5)
+                {
+                    passingStatus.text = "Passed!\nERROR: USER-1214 PASSWORD RESET: " + progressTracker.UserTwelveFourteenPassword;
+                }
                 //Save Player Data
             }
             else
             {
+                //Make alarm sound and flash
                 passingStatus.text = ":(";
                 killTimer += Time.deltaTime;
                 if (sound4)

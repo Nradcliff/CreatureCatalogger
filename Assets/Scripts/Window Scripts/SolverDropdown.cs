@@ -22,6 +22,7 @@ public class SolverDropdown : MonoBehaviour
         for (int i = 0; i < reportManager.dayReports.Count; i++)
         {
             reportList.Add(reportManager.dayReports[i]);
+            dropdown.options.Add(new TMP_Dropdown.OptionData(reportManager.dayReports[i].name));
         }
     }
 
@@ -75,8 +76,13 @@ public class SolverDropdown : MonoBehaviour
         checking = false;
         dropdown.interactable = true;
         button.interactable = true;
-        displayResults.text = "ERROR\nFunction Aborted\neExit Code 09FMBH2";
+        displayResults.text = "ERROR\nFunction Aborted\nExit Code 09FMBH2";
         progressbar.value = 0;
+    }
+
+    private void OnEnable()
+    {
+        dropdown.value = 0;
     }
 
     public void startCheck()

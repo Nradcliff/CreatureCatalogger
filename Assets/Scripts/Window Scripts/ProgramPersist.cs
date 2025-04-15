@@ -11,7 +11,7 @@ public class ProgramPersist : MonoBehaviour
     public int DayNum;
     public bool resetBools;
     public TextMeshProUGUI stickyNoteText;
-    public string randPass;
+    public string randPass, UserTwelveFourteenPassword;
 
     public int totalReports, correctReports;
 

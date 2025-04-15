@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8507008466066367403}
   m_Layer: 3
   m_Name: CurrentCreature
-  m_TagString: Untagged
+  m_TagString: Clickable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -443,7 +443,7 @@ GameObject:
   - component: {fileID: 84790187662858407}
   m_Layer: 3
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: Clickable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2088,7 +2088,7 @@ GameObject:
   - component: {fileID: 5175625405286158086}
   m_Layer: 3
   m_Name: Template
-  m_TagString: Untagged
+  m_TagString: Clickable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

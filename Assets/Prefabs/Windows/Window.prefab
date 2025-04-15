@@ -765,11 +765,13 @@ MonoBehaviour:
   requiresInternet: 0
   internet: {fileID: 0}
   noInternet: {fileID: 8067771251765713604}
+  audioManager: {fileID: 0}
   background: {fileID: 8342958401092975830}
   shadow: {fileID: 1719907336622895922}
   content: {fileID: 2819755571748936709}
   contentCanvas: {fileID: 7048353553880186943}
   border: {fileID: 6969890096078257639}
+  secondCanvas: {fileID: 0}
   headerLayer: 0
   backgroundLayer: 0
   shadowLayer: 0
@@ -1039,7 +1041,7 @@ GameObject:
   - component: {fileID: 5741865674731893227}
   m_Layer: 3
   m_Name: CloseButton
-  m_TagString: Untagged
+  m_TagString: Clickable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1360,7 +1362,7 @@ GameObject:
   - component: {fileID: 1519304675438796938}
   m_Layer: 3
   m_Name: MinimizeButton
-  m_TagString: Untagged
+  m_TagString: Clickable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
