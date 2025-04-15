@@ -49,8 +49,12 @@ public class InternetScript : MonoBehaviour
         {
             timerTarget = 45;
         }
+        else if (openPrograms < 15)
+        {
+            timerTarget = 5;
+        }
 
-        
+
         if (timerButAgainQuestionMark > loseInternetStartingAfterThisNumberOfSeconds)
         {
             timer += Time.deltaTime;

@@ -76,7 +76,7 @@ public class TerminalInterpreter : MonoBehaviour
             }
             else
             {
-                response.Add("Error: File Not Found");
+                response.Add(ColorString("Error: File Not Found", colors["red"]));
             }
             return response;
         }

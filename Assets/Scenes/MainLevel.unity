@@ -5774,9 +5774,13 @@ MonoBehaviour:
   popupWindows:
   - {fileID: 838642073769605023, guid: a0c7626ebc7d74b45985a16f784cf3b1, type: 3}
   - {fileID: 6680854742545143239, guid: 92ca191b92a8e9942929d2f84f0dd0e6, type: 3}
+  - {fileID: 838642073769605023, guid: 6f5f10d03ed7ff74291474440415a271, type: 3}
+  - {fileID: 838642073769605023, guid: 8da18ffc2797e454ca06fd0744137c41, type: 3}
   weights:
   - 10
-  - 10
+  - 1
+  - 6
+  - 5
 --- !u!1 &1208060129
 GameObject:
   m_ObjectHideFlags: 0
