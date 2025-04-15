@@ -10391,7 +10391,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1480782651246157036, guid: 8c265596612c03d4baa0e83088f23f7b, type: 3}
       propertyPath: m_Size
-      value: 0.19136131
+      value: 0.38266966
       objectReference: {fileID: 0}
     - target: {fileID: 2129922464554205427, guid: 8c265596612c03d4baa0e83088f23f7b, type: 3}
       propertyPath: m_Name
@@ -10550,6 +10550,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 656880792}
     m_Modifications:
+    - target: {fileID: 9716403426422766, guid: 94b72b99f91a47543bd12baf796e57ee, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9716403426422766, guid: 94b72b99f91a47543bd12baf796e57ee, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9716403426422766, guid: 94b72b99f91a47543bd12baf796e57ee, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1062403213371648726, guid: 94b72b99f91a47543bd12baf796e57ee, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -10618,9 +10630,33 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5609831919416035128, guid: 94b72b99f91a47543bd12baf796e57ee, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5609831919416035128, guid: 94b72b99f91a47543bd12baf796e57ee, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5609831919416035128, guid: 94b72b99f91a47543bd12baf796e57ee, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8388792642550035972, guid: 94b72b99f91a47543bd12baf796e57ee, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8780372573130321016, guid: 94b72b99f91a47543bd12baf796e57ee, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8780372573130321016, guid: 94b72b99f91a47543bd12baf796e57ee, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8780372573130321016, guid: 94b72b99f91a47543bd12baf796e57ee, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

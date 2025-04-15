@@ -63,14 +63,21 @@ public class TerminalInterpreter : MonoBehaviour
         }
         if (args[0].ToLower() == "ascii")
         {
-            LoadTitle("ascii.txt", "green", 2);
+            LoadTitle("asciixp.txt", "green", 2);
             return response;
         }
         if (args[0].ToLower() == "load")
         {
             response.Add("C:\\Psyence\\System32>LoadState");
-            SceneManager.UnloadSceneAsync("MainMenu");
-            SceneManager.LoadScene("LoadingScene", LoadSceneMode.Additive);
+            if (programPersist.LoadFile())
+            {
+                SceneManager.UnloadSceneAsync("MainMenu");
+                SceneManager.LoadScene("LoadingScene", LoadSceneMode.Additive);
+            }
+            else
+            {
+                response.Add("Error: File Not Found");
+            }
             return response;
         }
         if (args[0].ToLower() == "options")
@@ -112,6 +119,7 @@ public class TerminalInterpreter : MonoBehaviour
         }
         if (args[0].ToLower() == "reboot")
         {
+            programPersist.clearData();
             response.Add("Rebooting System...");
             SceneManager.LoadScene("OverlayScene");
             return response;
