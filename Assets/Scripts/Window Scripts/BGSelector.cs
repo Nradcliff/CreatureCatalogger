@@ -12,9 +12,11 @@ public class BGSelector : MonoBehaviour
 
     public int bgIndex;
 
-    public void Update()
+    public ProgramPersist per;
+
+    public void Start()
     {
-        
+        per = GameObject.Find("LoadProgramManager").GetComponent<ProgramPersist>();
     }
 
     public void selectBG()
@@ -23,6 +25,7 @@ public class BGSelector : MonoBehaviour
         if (bgIndex == 0) bg.sprite = bg1;
         else if(bgIndex == 1) bg.sprite = bg2;
         else if (bgIndex == 2) bg.sprite = bg3;
+
     }
 
     public void confirmButton()
@@ -30,5 +33,6 @@ public class BGSelector : MonoBehaviour
         if (bgIndex == 0) desktopBG.sprite = bg1;
         else if (bgIndex == 1) desktopBG.sprite = bg2;
         else if (bgIndex == 2) desktopBG.sprite = bg3;
+        per.backgroundIndex = bgIndex;
     }
 }

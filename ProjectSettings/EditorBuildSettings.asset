@@ -30,7 +30,7 @@ EditorBuildSettings:
     path: Assets/Scenes/DayCompletion 2.unity
     guid: 17261f37207908c41a3ce23de96b50d9
   - enabled: 1
-    path: Assets/Scenes/GameOver (Unusued).unity
+    path: Assets/Scenes/Old/GameOver (Unusued).unity
     guid: ce9d991c1e6acdf458a25533c659390d
   - enabled: 1
     path: Assets/Scenes/LoadingScene.unity

@@ -52,6 +52,7 @@ public class TerminalInterpreter : MonoBehaviour
 
         if (args[0].ToLower() == "start")
         {
+            programPersist.clearData();
             programPersist.resetBools = false;
             programPersist.DayNum = 0;
             response.Add("Beginning game, Happy Sorting! ");

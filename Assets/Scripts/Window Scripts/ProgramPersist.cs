@@ -20,6 +20,8 @@ public class ProgramPersist : MonoBehaviour
     public bool noTimer;
     public float masterVol, sfxVol, ambienceVol;
 
+    public int backgroundIndex;
+
     public bool dead;
 
     public void Start()
@@ -71,7 +73,7 @@ public class ProgramPersist : MonoBehaviour
         else file = File.Create(destination);
 
         SaveDays data = new SaveDays();
-        data.saveCurrentData(programBool, notepadText, DayNum);
+        data.saveCurrentData(programBool, notepadText, DayNum,backgroundIndex);
         BinaryFormatter bf = new BinaryFormatter();
         bf.Serialize(file, data);
         file.Close();
@@ -96,6 +98,7 @@ public class ProgramPersist : MonoBehaviour
         programBool = data.savedProgramBool;
         notepadText = data.savedNotepadText;
         DayNum = data.savedDayNumber;
+        backgroundIndex = data.savedImage;
         return true;
     }
 
@@ -104,6 +107,11 @@ public class ProgramPersist : MonoBehaviour
         string destination = Application.persistentDataPath + "/PsyEmployee.dat";
 
         if (File.Exists(destination)) File.Delete(destination);
+
+        programBool = startingProgramBool;
+        notepadText = string.Empty;
+        DayNum = 0;
+        backgroundIndex = 0;
     }
 
     public void saveVol()
