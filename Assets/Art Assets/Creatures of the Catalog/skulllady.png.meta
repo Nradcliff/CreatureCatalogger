@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      skulllady_0: -3249425371354982132
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

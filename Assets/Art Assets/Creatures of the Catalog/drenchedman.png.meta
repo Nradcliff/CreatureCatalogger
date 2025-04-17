@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      drenchedman_0: -4195519162027893633
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

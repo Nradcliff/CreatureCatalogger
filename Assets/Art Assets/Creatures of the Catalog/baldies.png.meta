@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      baldies_0: -5498106196687234438
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

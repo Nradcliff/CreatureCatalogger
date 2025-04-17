@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      clownscarecrow_0: 1509997042363589010
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

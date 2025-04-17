@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ghostlady_0: 4061570455380509136
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

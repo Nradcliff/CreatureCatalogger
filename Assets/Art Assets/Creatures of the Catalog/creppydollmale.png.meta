@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      creppydollmale_0: 3126309099988329658
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

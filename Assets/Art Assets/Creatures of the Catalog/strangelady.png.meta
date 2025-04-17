@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      strangelady_0: 7426971896248334721
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

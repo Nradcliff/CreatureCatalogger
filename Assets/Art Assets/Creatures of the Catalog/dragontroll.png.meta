@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dragontroll_0: 4328930402709051604
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

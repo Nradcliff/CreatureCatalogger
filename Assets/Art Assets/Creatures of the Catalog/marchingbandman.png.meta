@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      marchingbandman_0: 7407556710279253953
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
