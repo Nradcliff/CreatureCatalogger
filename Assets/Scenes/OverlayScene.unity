@@ -652,7 +652,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   programBool: 
-  startingProgramBool: 0101010100010101
+  startingProgramBool: 010101010001010101
   notepadText: 
   DayNum: 0
   resetBools: 0
@@ -665,6 +665,7 @@ MonoBehaviour:
   masterVol: 1
   sfxVol: 0.5
   ambienceVol: 0.5
+  backgroundIndex: 0
   dead: 0
 --- !u!4 &707008104
 Transform:

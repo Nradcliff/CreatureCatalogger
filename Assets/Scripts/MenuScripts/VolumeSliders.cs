@@ -31,4 +31,9 @@ public class VolumeSliders : MonoBehaviour
         persist.sfxVol = sfxVol;
         persist.ambienceVol = ambienceVol;
     }
+
+    public void updateTheFileAAAA()
+    {
+        persist.saveVol();
+    }
 }

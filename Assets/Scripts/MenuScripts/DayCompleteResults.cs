@@ -70,6 +70,7 @@ public class DayCompleteResults : MonoBehaviour
                 //Make alarm sound and flash
                 passingStatus.text = ":(";
                 killTimer += Time.deltaTime;
+                progressTracker.clearData();
                 if (sound4)
                 {
                     sound4 = false;

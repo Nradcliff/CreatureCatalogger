@@ -52,6 +52,7 @@ public class TerminalInterpreter : MonoBehaviour
 
         if (args[0].ToLower() == "start")
         {
+            programPersist.clearData();
             programPersist.resetBools = false;
             programPersist.DayNum = 0;
             response.Add("Beginning game, Happy Sorting! ");
@@ -63,14 +64,21 @@ public class TerminalInterpreter : MonoBehaviour
         }
         if (args[0].ToLower() == "ascii")
         {
-            LoadTitle("ascii.txt", "green", 2);
+            LoadTitle("asciixp.txt", "green", 2);
             return response;
         }
         if (args[0].ToLower() == "load")
         {
             response.Add("C:\\Psyence\\System32>LoadState");
-            SceneManager.UnloadSceneAsync("MainMenu");
-            SceneManager.LoadScene("LoadingScene", LoadSceneMode.Additive);
+            if (programPersist.LoadFile())
+            {
+                SceneManager.UnloadSceneAsync("MainMenu");
+                SceneManager.LoadScene("LoadingScene", LoadSceneMode.Additive);
+            }
+            else
+            {
+                response.Add(ColorString("Error: File Not Found", colors["red"]));
+            }
             return response;
         }
         if (args[0].ToLower() == "options")
@@ -112,6 +120,7 @@ public class TerminalInterpreter : MonoBehaviour
         }
         if (args[0].ToLower() == "reboot")
         {
+            programPersist.clearData();
             response.Add("Rebooting System...");
             SceneManager.LoadScene("OverlayScene");
             return response;
@@ -119,6 +128,7 @@ public class TerminalInterpreter : MonoBehaviour
         if (args[0].ToLower() == "credits")
         {
             response.Add("C:\\Psyence\\Psyence-XP\\MIB\\Credits");
+            response.Add("");
             response.Add("Psyence XP");
             response.Add("");
             response.Add("By Monsters In Boxes - 2025");

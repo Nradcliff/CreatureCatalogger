@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 using TMPro;
 using UnityEngine;
 
@@ -18,10 +20,13 @@ public class ProgramPersist : MonoBehaviour
     public bool noTimer;
     public float masterVol, sfxVol, ambienceVol;
 
+    public int backgroundIndex;
+
     public bool dead;
 
     public void Start()
     {
+        loadVol();
         //Randomly generates a wifi password
         randPass = "";
         const string glyphs = "bcdfghjklmnpqrstvwxyz0123456789";
@@ -59,4 +64,89 @@ public class ProgramPersist : MonoBehaviour
         }
     }
 
+    public void SaveFile()
+    {
+        string destination = Application.persistentDataPath + "/PsyEmployee.dat";
+        FileStream file;
+
+        if (File.Exists(destination)) file = File.OpenWrite(destination);
+        else file = File.Create(destination);
+
+        SaveDays data = new SaveDays();
+        data.saveCurrentData(programBool, notepadText, DayNum,backgroundIndex);
+        BinaryFormatter bf = new BinaryFormatter();
+        bf.Serialize(file, data);
+        file.Close();
+    }
+
+    public bool LoadFile()
+    {
+        string destination = Application.persistentDataPath + "/PsyEmployee.dat";
+        FileStream file;
+
+        if (File.Exists(destination)) file = File.OpenRead(destination);
+        else
+        {
+            Debug.LogError("File not found");
+            return false;
+        }
+
+        BinaryFormatter bf = new BinaryFormatter();
+        SaveDays data = (SaveDays)bf.Deserialize(file);
+        file.Close();
+
+        programBool = data.savedProgramBool;
+        notepadText = data.savedNotepadText;
+        DayNum = data.savedDayNumber;
+        backgroundIndex = data.savedImage;
+        return true;
+    }
+
+    public void clearData()
+    {
+        string destination = Application.persistentDataPath + "/PsyEmployee.dat";
+
+        if (File.Exists(destination)) File.Delete(destination);
+
+        programBool = startingProgramBool;
+        notepadText = string.Empty;
+        DayNum = 0;
+        backgroundIndex = 0;
+    }
+
+    public void saveVol()
+    {
+        string destination = Application.persistentDataPath + "/PsyEmployeeSystemSettings.dat";
+        FileStream file;
+
+        if (File.Exists(destination)) file = File.OpenWrite(destination);
+        else file = File.Create(destination);
+
+        SaveAudio data = new SaveAudio();
+        data.saveCurrentData(masterVol,sfxVol,ambienceVol);
+        BinaryFormatter bf = new BinaryFormatter();
+        bf.Serialize(file, data);
+        file.Close();
+    }
+    public bool loadVol()
+    {
+        string destination = Application.persistentDataPath + "/PsyEmployeeSystemSettings.dat";
+        FileStream file;
+
+        if (File.Exists(destination)) file = File.OpenRead(destination);
+        else
+        {
+            Debug.LogError("File not found");
+            return false;
+        }
+
+        BinaryFormatter bf = new BinaryFormatter();
+        SaveAudio data = (SaveAudio)bf.Deserialize(file);
+        file.Close();
+
+        masterVol = data.smasterVol;
+        sfxVol = data.ssfxVol;
+        ambienceVol = data.sambienceVol;
+        return true;
+    }
 }

@@ -15,6 +15,7 @@ public class LevelSelection : MonoBehaviour
     public void NextLevel()
     {
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        progressTracker.SaveFile();
         SceneManager.UnloadSceneAsync("DayCompletion");
         SceneManager.LoadScene("MainLevel", LoadSceneMode.Additive);
     }
@@ -22,6 +23,7 @@ public class LevelSelection : MonoBehaviour
    public void GoMainMenu()
     {
         //SceneManager.LoadScene("MainMenu");
+        progressTracker.SaveFile();
         if (gameObject.scene.name == "DayCompletion")
         {
             SceneManager.UnloadSceneAsync("DayCompletion");
@@ -36,6 +38,7 @@ public class LevelSelection : MonoBehaviour
 
     public void SaveAndQuit()
     {
+        progressTracker.SaveFile();
         if (gameObject.scene.name == "DayCompletion")
         {
             SceneManager.UnloadSceneAsync("DayCompletion");

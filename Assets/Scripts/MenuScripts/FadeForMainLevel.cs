@@ -82,18 +82,21 @@ public class FadeForMainLevel : MonoBehaviour
     }
     public void quitTheGame()
     {
+        progressTracker.SaveFile();
         Time.timeScale = 1;
         progressTo = 1;
         fadeInOrOut = false;
     }
     public void goToMenu()
     {
+        progressTracker.SaveFile();
         Time.timeScale = 1;
         progressTo = 2;
         fadeInOrOut = false;
     }
     public void nextLevel()
     {
+        progressTracker.SaveFile();
         Time.timeScale = 1;
         progressTo = 3;
         progressTracker.DayNum += 1;
