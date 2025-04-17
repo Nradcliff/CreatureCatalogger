@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Home Owner Association
   description: {fileID: 509575570654444755, guid: adebbfba93407194ab4f6a4a52cfa1da, type: 3}
-  artwork: {fileID: 0}
+  artwork: {fileID: 7194504717338740734, guid: a4199be530973644290be9ba69d9dcfe, type: 3}
   id: 0
   threat: 3
   type: 1

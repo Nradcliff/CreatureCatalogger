@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Reverse Ventriliquist
   description: {fileID: 509575570654444755, guid: a1153fe473e1b9e4790e676332ae5ee1, type: 3}
-  artwork: {fileID: 0}
+  artwork: {fileID: 3126309099988329658, guid: 5efaffc3582415e4f9493d7b9526054a, type: 3}
   id: 0
   threat: 2
   type: 2
-  isUsed: 0
+  isUsed: 1

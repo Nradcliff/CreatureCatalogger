@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      eye-pop-emoji_0: 5617466112160689168
+      eye-pop-emoji_1: -2120731693658939348
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
