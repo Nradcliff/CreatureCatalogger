@@ -11,6 +11,7 @@ public class TaskbarTime : MonoBehaviour
     public FadeForMainLevel fadeout;
     public float timeLimitInMinutes;
     ProgramPersist saveLoadThingy;
+    bool stopGoingToDayOneHundred;
 
     void Start()
     {
@@ -32,7 +33,11 @@ public class TaskbarTime : MonoBehaviour
             }
             if (timer >= timeLimitInMinutes * 60f)
             {
-                fadeout.nextLevel();
+                if (!stopGoingToDayOneHundred)
+                {
+                    fadeout.nextLevel();
+                    stopGoingToDayOneHundred = true;
+                }
             }
         }
     }

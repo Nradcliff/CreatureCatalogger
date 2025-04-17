@@ -455,7 +455,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Name
+  m_text: Select Report
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 942596a294ef481479944182a7a72797, type: 2}
   m_sharedMaterial: {fileID: 2525731494604184698, guid: 942596a294ef481479944182a7a72797, type: 2}
@@ -843,12 +843,11 @@ MonoBehaviour:
   reportArr: []
   dayReports: []
   createdDuplicates: []
+  program: {fileID: 0}
   reportAmount: 6
   parentTransform: {fileID: 8991506535728681902}
   reportButton: {fileID: 3849727105731298342, guid: f84617cc994ef834abfc6ce2123909d6, type: 3}
   currentReport: {fileID: 0}
-  currentReport2: {fileID: 0}
-  progressTracker: {fileID: 0}
 --- !u!1 &3607891262505407292
 GameObject:
   m_ObjectHideFlags: 0
@@ -914,7 +913,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -8414349384345824611, guid: a8f1577b0709a554cb099b5c9666718e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

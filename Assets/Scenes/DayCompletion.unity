@@ -2615,6 +2615,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 1394784036}
   tick: {fileID: 8300000, guid: 6e2f6eb73d9f4744893339b17aa5bc7d, type: 3}
+  gunshot: {fileID: 8300000, guid: 3d7e034db71d77042abd78c87f2bf338, type: 3}
+  reload: {fileID: 8300000, guid: aa4e99f4984e9f64ba5f3d6ab10486a6, type: 3}
   progressTracker: {fileID: 0}
   correct: 0
   total: 0

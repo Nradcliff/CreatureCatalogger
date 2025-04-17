@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      error_content_not_found_0: 4489628153361812492
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

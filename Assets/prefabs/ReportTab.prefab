@@ -150,7 +150,7 @@ MonoBehaviour:
   nameText: {fileID: 0}
   descriptionText: {fileID: 0}
   artworkImage: {fileID: 0}
-  empty: {fileID: -8414349384345824611, guid: a8f1577b0709a554cb099b5c9666718e, type: 3}
+  empty: {fileID: 4489628153361812492, guid: 24dd2fa2357c30b46b834f50bd05d670, type: 3}
   bar: {fileID: 0}
 --- !u!1 &7079533731450560830
 GameObject:

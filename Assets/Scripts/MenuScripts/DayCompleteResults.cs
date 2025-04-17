@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class DayCompleteResults : MonoBehaviour
 {
     public AudioSource source;
-    public AudioClip tick;
+    public AudioClip tick,gunshot,reload;
 
     public ProgramPersist progressTracker;
 
@@ -24,7 +24,7 @@ public class DayCompleteResults : MonoBehaviour
     public bool sound1, sound2, sound3, sound4,sound5;
 
     public float killTimer,darknessTimer;
-
+    bool killsound;
 
     void Start()
     {
@@ -43,7 +43,7 @@ public class DayCompleteResults : MonoBehaviour
 
     void Update()
     {
-        source.volume = progressTracker.masterVol * progressTracker.sfxVol*.05f;
+        source.volume = progressTracker.masterVol * progressTracker.sfxVol*1.5f;
 
         timer += Time.deltaTime;
         if (timer >= timer4Goal)
@@ -75,6 +75,7 @@ public class DayCompleteResults : MonoBehaviour
                 {
                     sound4 = false;
                     source.PlayOneShot(tick);
+                    source.PlayOneShot(reload);
                 }
                 //Erase Save Data
             }
@@ -113,8 +114,17 @@ public class DayCompleteResults : MonoBehaviour
             }
         }
 
+        if(killTimer > 1.45f)
+        {
+            if (!killsound)
+            {
+                source.PlayOneShot(gunshot);
+                killsound = true;
+            }
+        }
         if(killTimer > 1.5f)
         {
+            
             darknessTimer += Time.deltaTime;
             progressTracker.dead = true;
             darkness.color = new Color(0, 0, 0, 1);
