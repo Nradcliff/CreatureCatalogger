@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 510413f31503f8843afc6b8bfc85c6b9, type: 3}
-  m_Name: Dragon Troll
+  m_Name: Man Eating Escalator
   m_EditorClassIdentifier: 
-  name: Dragon Troll
-  description: {fileID: 509575570654444755, guid: b5686ab126de415409af1b6956b6f41c, type: 3}
-  artwork: {fileID: 4328930402709051604, guid: 23870748910f9b94c952776510150510, type: 3}
+  name: Man Eating Escalator
+  description: {fileID: 509575570654444755, guid: 9509e1a0975f61f42bc390d493ed20c5, type: 3}
+  artwork: {fileID: 4489628153361812492, guid: 24dd2fa2357c30b46b834f50bd05d670, type: 3}
   id: 0
-  threat: 0
-  type: 3
+  threat: 2
+  type: 2
   isUsed: 0
