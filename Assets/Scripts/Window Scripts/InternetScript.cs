@@ -1,10 +1,12 @@
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class InternetScript : MonoBehaviour
 {
-    public float timer,timerButAgainQuestionMark,loseInternetStartingAfterThisNumberOfSeconds;
+    public float timerButAgainQuestionMark,loseInternetStartingAfterThisNumberOfSeconds;
+    public static float timer;
     public bool on;
 
     public Sprite threesprite,twosprite,onesprite,off;
@@ -20,7 +22,7 @@ public class InternetScript : MonoBehaviour
     public bool freeToRestart;
 
     public int openPrograms;
-    float timerTarget;
+    public float timerTarget;
 
     public ProgramPersist saveLoadThingy;
 
