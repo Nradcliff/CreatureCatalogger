@@ -65,7 +65,23 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: "Is a standard model escalator, manufactured by \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588
+    Escalation Systems in \u2588\u2588\u2588\u2588 and formerly installed in \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588.
+    It exhibits strange behavior when individuals fail to step off the top of the
+    escalator upon arrival. If a subject remains stationary at the top for longer
+    than approximately 3 seconds, the seam at the junction between the escalator
+    and the landing platform will open into an organic aperture, hereafter referred
+    to as the \u201Cmaw.\u201D\r\nThe maw emits a mechanical grinding noise accompanied
+    by a low-frequency rumble, before forcibly pulling the subject downward with
+    considerable strength. No physical trace of consumed individuals has ever been
+    recovered, and no known instrumentation has been able to penetrate or survive
+    the interior of the maw once active.\r\nWitnesses describe the process as disturbingly
+    silent once the initial event begins, save for the rhythmic clicking of the escalator's
+    treads, which increase in pace before abruptly halting. After consumption, the
+    escalator resumes normal function within approximately 10 seconds. DNA traces,
+    clothing, or personal items are never left behind.\r\nIndividuals that have narrowly
+    escaped it's consumption report sensations of immense downward pressure and a
+    sudden drop in ambient temperature.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
