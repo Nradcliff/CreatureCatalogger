@@ -3,6 +3,7 @@ using TMPro;
 using System.Data;
 using UnityEngine.UI;
 using System.Collections;
+using NUnit.Framework;
 
 public class AntivirusScript : MonoBehaviour
 {
@@ -42,11 +43,13 @@ public class AntivirusScript : MonoBehaviour
         }
     }
 
-    //General use
+    //General use [FOR FUTURE, PUT ALL ACTIVE POPUPS INTO AN ARRAY FOR REFERENCING INSTEAD OF USING TAGS]
     int findActivePopups()
     {
         GameObject[] popupCount = GameObject.FindGameObjectsWithTag("Popup");
-        return popupCount.Length;
+        GameObject[] virusCount = GameObject.FindGameObjectsWithTag("StrongVirus");
+
+        return popupCount.Length + virusCount.Length;
     }
 
     public void updatePopupCount()
