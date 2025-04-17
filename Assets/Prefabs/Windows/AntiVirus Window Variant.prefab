@@ -683,7 +683,7 @@ MonoBehaviour:
   enableText: {fileID: 602177217552295384}
   countDisplay: {fileID: 7473222375463122575}
   closeButton: {fileID: 3282330171497435358}
-  ButtonText: {fileID: 0}
+  ButtonText: {fileID: 3521065158491348956}
 --- !u!114 &3282330171497435358 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 17760857996581282, guid: 01a507f5bdef7714789ea24d5abf501b, type: 3}
@@ -693,6 +693,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3521065158491348956 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2121022364397180576, guid: 01a507f5bdef7714789ea24d5abf501b, type: 3}
+  m_PrefabInstance: {fileID: 3292752008304134524}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!224 &7315194732858926153 stripped
