@@ -65,9 +65,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Is a humanoid creature originating from the wooded regions of West Virginia.
-    It's physical appearance is unusual and strikingly alien, with features that
-    defy typical biological classification. It stands at approximately 2.4 meters
+  m_text: "Is a entity humanoid creature originating from the wooded regions of West
+    Virginia. It's physical appearance is unusual and strikingly alien, with features
+    that defy typical biological classification. It stands at approximately 2.4 meters
     (8 feet) in height, with an angular, hominid shape. Its most notable physical
     characteristic is its broad, triangular head, which is roughly three times the
     size of its torso. The head is metallic in appearance, with smooth, reflective
@@ -88,12 +88,7 @@ MonoBehaviour:
     It tends to maintain a significant distance, observing them silently from the
     cover of trees or other natural structures. It does not display any predatory
     behaviors but has been seen approaching human settlements on occasion, causing
-    localized disruptions in electrical infrastructure.\r\nIt appears to have a limited
-    understanding of technology and seems to interact with it in a defensive manner,
-    as evidenced by its ability to disable or interfere with the functioning of electronic
-    devices within a 100-meter radius. This ability is believed to be linked to the
-    creature's unique biological or anomalous properties, which allow it to generate
-    and emit electromagnetic energy.\r\n"
+    localized disruptions in electrical infrastructure.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
