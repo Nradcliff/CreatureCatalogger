@@ -65,12 +65,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Is a large creature with an appearance resembling a grotesque hybrid between
-    a large primate and a reptilian predator. It stands at approximately 2.5 meters
-    (8.2 feet) tall when bipedal, but it is capable of moving quadrupedally when
-    required. Its body is covered in a mixture of thick, coarse fur and patches of
-    scaly, reptilian skin, especially around the limbs and back. The creature's fur
-    is a dull brown or dark gray color, and it is often matted with what appears
+  m_text: "Is a large, entity creature with an appearance resembling a grotesque
+    hybrid between a large primate and a reptilian predator. It stands at approximately
+    2.5 meters (8.2 feet) tall when bipedal, but it is capable of moving quadrupedally
+    when required. Its body is covered in a mixture of thick, coarse fur and patches
+    of scaly, reptilian skin, especially around the limbs and back. The creature's
+    fur is a dull brown or dark gray color, and it is often matted with what appears
     to be a combination of mud, swamp water, and plant matter.\r\nThe creature's
     mouth is filled with rows of jagged, razor-sharp teeth, which it uses to shred
     prey. Its tongue is long, sinuous, and capable of extending beyond its mouth,
@@ -87,12 +87,7 @@ MonoBehaviour:
     hunting smaller creatures, such as deer, boars, and other mammals, as well as
     occasionally preying upon local birds or reptiles. It is particularly skilled
     at ambushing its prey, utilizing its stealth and agility to approach undetected
-    before attacking. \r\nThe creature has been noted to produce a wide range of
-    vocalizations, ranging from guttural growls and hisses to high-pitched screeches.
-    These sounds are used for communication, intimidation, and as part of the creature's
-    hunting strategy. It has also been recorded emitting low-frequency rumbling noises,
-    which appear to have a calming effect on smaller animals within its vicinity,
-    suggesting the use of sonic vibrations for territorial marking or social interaction.\r\n"
+    before attacking. \r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

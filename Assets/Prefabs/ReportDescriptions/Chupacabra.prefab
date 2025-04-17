@@ -65,42 +65,27 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Is a predatory species originating from the southern regions of North
-    and Central America, though reports of similar creatures have been documented
+  m_text: "Is a predatory entity species originating from the southern regions of
+    North and Central America, though reports of similar creatures have been documented
     globally. It's most notable characteristic is its tendency to feed on the blood
     of animals, especially livestock, which has earned it the infamous \"goat-sucker\"
-    moniker. It exhibits a roughly reptilian appearance, standing at an average height
-    of 1.2 meters (4 feet) when bipedal, though it is capable of moving quadrupedally
-    with a low, hunched posture when necessary. Its skin is rough, dark grey to greenish
-    in color, with irregular patches of scales and fur along its back and shoulders.
-    The creature\u2019s head is disproportionately large compared to its body, with
-    large, red, reflective eyes that allow it to see in low-light conditions. Its
-    mouth is filled with sharp, fang-like teeth, and it possesses a long, barbed
-    tongue that can extend up to 30 centimeters (12 inches) in length, which it uses
-    to pierce the skin of its prey.\r\nWhile It is primarily observed to be a nocturnal
-    predator, it has been noted to exhibit heightened aggression during periods of
-    hunger or territorial conflict, particularly when intruding upon established
-    territories. It\u2019s metabolism appears to be specialized for blood consumption,
-    and it has been observed to consume up to 10 liters of blood from a single animal
-    in one feeding session. It is an opportunistic predator, often preying on small
-    to medium-sized animals such as goats, sheep, chickens, and occasionally wild
-    mammals such as dogs or rabbits. The creature\u2019s preferred method of hunting
-    involves stalking its prey over several hours, often waiting for the prey to
-    enter a weakened or vulnerable state before attacking. It is known to approach
-    its prey silently, often blending in with the environment due to its dark coloration
-    and low posture.\r\nIt typically feeds by puncturing the neck or abdomen of its
-    prey with its sharp teeth or barbed tongue, from which it then consumes the blood.
-    There is little evidence that It consumes the meat of its prey, suggesting it
-    is a purely sanguivorous species. After feeding, the creature often remains dormant
-    for extended periods, seemingly digesting the blood and entering a state of torpor.
-    It has been observed to go without food for up to two weeks, depending on its
-    previous intake. It is highly territorial, often marking its territory with a
-    unique scent that is emitted from specialized glands located near its tail. Territorial
-    disputes between individuals of It are common, especially during mating season,
-    and these confrontations are often marked by displays of aggression, such as
-    loud screeches and lunging attacks. It will also engage in defensive behavior
-    if threatened, using its claws and teeth to inflict serious injury on perceived
-    threats.\r\n"
+    moniker. While It is primarily observed to be a nocturnal predator, it has been
+    noted to exhibit heightened aggression during periods of hunger or territorial
+    conflict, particularly when intruding upon established territories. It\u2019s
+    metabolism appears to be specialized for blood consumption, and it has been observed
+    to consume up to 10 liters of blood from a single animal in one feeding session.\r\nThe
+    creature\u2019s head is disproportionately large compared to its body, with large,
+    red, reflective eyes that allow it to see in low-light conditions. Its mouth
+    is filled with sharp, fang-like teeth, and it possesses a long, barbed tongue
+    that can extend up to 30 centimeters (12 inches) in length, which it uses to
+    pierce the skin of its prey.\r\nIt typically feeds by puncturing the neck or
+    abdomen of its prey with its sharp teeth or barbed tongue, from which it then
+    consumes the blood. There is little evidence that It consumes the meat of its
+    prey, suggesting it is a purely sanguivorous species. It is highly territorial,
+    often marking its territory with a unique scent that is emitted from specialized
+    glands located near its tail. Territorial disputes between individuals of It
+    are common, especially during mating season, and these confrontations are often
+    marked by displays of aggression, such as loud screeches and lunging attacks.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
