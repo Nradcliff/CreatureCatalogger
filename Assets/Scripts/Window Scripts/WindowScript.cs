@@ -87,6 +87,8 @@ public class WindowScript : MonoBehaviour
         windowNameTMP.text = windowName;
 
         audioManager = GameObject.Find("AudioManager").GetComponent<AudioScript>();
+        if(internet == null && requiresInternet)
+            internet = GameObject.Find("Internet").GetComponent<InternetScript>();
     }
     
     void Update()

@@ -1341,7 +1341,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CATS!!!
+  m_text: -> CATS!!! <-
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -1858,7 +1858,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ed46e81529e6274aa355beb60927185, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blackPanel: {fileID: 2097943639929518936, guid: 8c96dd732cb1b9446b2b31220844aedb, type: 3}
 --- !u!1 &8864393351580569818
 GameObject:
   m_ObjectHideFlags: 0

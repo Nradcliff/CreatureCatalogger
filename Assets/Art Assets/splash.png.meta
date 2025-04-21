@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e2ffea8a53eca414a8ff9dfccf6b06d8
+guid: 3ed82d93c8115284cbba86b7f2cee3c0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1441524126788607558
-    second: cat-removebg-preview_0
+      213: 7644456630747988169
+    second: MS_Paint___Microsoft_Paint_Online-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cat-removebg-preview_0
+      name: MS_Paint___Microsoft_Paint_Online-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 33
-        y: 13
-        width: 163
-        height: 120
+        x: 23
+        y: 21
+        width: 592
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ab12c97b17daefbe0800000000000000
-      internalID: -1441524126788607558
+      spriteID: 9c00d98bdc0961a60800000000000000
+      internalID: 7644456630747988169
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cat-removebg-preview_0: -1441524126788607558
+      MS_Paint___Microsoft_Paint_Online-removebg-preview_0: 7644456630747988169
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
