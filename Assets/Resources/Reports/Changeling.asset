@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Changeling
   description: {fileID: 509575570654444755, guid: bf35153491e30884795143467be806b8, type: 3}
-  artwork: {fileID: 0}
+  artwork: {fileID: 7110010579428252970, guid: 6c9da552009e0bb4cafc810711c5c069, type: 3}
   id: 0
   threat: 2
   type: 1

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Momo
   description: {fileID: 509575570654444755, guid: 1a4f3ea7a59e2a64d9620c6b9f94b502, type: 3}
-  artwork: {fileID: 0}
+  artwork: {fileID: 7658261541567134532, guid: 84542a2ab5dfc7b4fb8597b173301353, type: 3}
   id: 0
   threat: 1
   type: 0

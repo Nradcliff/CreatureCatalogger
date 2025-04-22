@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Kalanoro
   description: {fileID: 509575570654444755, guid: c6374bd9bb66b53428a4697f2a6b9bd2, type: 3}
-  artwork: {fileID: 0}
+  artwork: {fileID: -4633760186302647843, guid: 4722cfc3387c9274294113675e6d12ed, type: 3}
   id: 0
   threat: 1
   type: 1

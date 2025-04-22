@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Piasa Bird
   description: {fileID: 509575570654444755, guid: d9308b9484125ec41ab4470f3a26e6f9, type: 3}
-  artwork: {fileID: 0}
+  artwork: {fileID: 4456113918259018185, guid: a1fb1fe13c97514438b6d6241fc53b07, type: 3}
   id: 0
   threat: 3
   type: 0

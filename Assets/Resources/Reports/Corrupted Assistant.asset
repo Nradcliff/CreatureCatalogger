@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Corrupted Assistant
   description: {fileID: 509575570654444755, guid: 22996b05a3954c446bcba7e65955a390, type: 3}
-  artwork: {fileID: 0}
+  artwork: {fileID: 2588383238365918308, guid: 6d8fe68148a669b4abf7548b31d06312, type: 3}
   id: 0
   threat: 2
   type: 3

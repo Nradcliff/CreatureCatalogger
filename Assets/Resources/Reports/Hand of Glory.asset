@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Hand of Glory
   description: {fileID: 509575570654444755, guid: 3977d817d855e464493026a832951c41, type: 3}
-  artwork: {fileID: 0}
+  artwork: {fileID: 7742436326385573528, guid: 592d7fd415a53d74e8d1a7b793fc8240, type: 3}
   id: 0
   threat: 2
   type: 2

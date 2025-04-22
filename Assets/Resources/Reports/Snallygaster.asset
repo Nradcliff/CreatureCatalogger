@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Snallygaster
   description: {fileID: 509575570654444755, guid: 2b6cc2f06eb4a0348955e1ef54e4f90f, type: 3}
-  artwork: {fileID: 0}
+  artwork: {fileID: 4556547672312892636, guid: 6acdc4294ed7354469f7beae7db623a7, type: 3}
   id: 0
   threat: 2
   type: 0

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Seven League Boots
   description: {fileID: 509575570654444755, guid: 57d5faf13b41e7b4f985bfa91f880066, type: 3}
-  artwork: {fileID: 0}
+  artwork: {fileID: -3086373122448024553, guid: c71378802264850488f019fa4499f293, type: 3}
   id: 0
   threat: 0
   type: 2

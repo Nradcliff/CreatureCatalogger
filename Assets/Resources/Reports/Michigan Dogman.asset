@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Michigan Dogman
   description: {fileID: 509575570654444755, guid: b6913024c22839a40a473477ffb2e787, type: 3}
-  artwork: {fileID: 0}
+  artwork: {fileID: 6289129678500002635, guid: c0b90a40ed985f64ba9655e2116afce1, type: 3}
   id: 0
   threat: 1
   type: 0
