@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Gnome
   description: {fileID: 509575570654444755, guid: e272ae04a8727b7498243098ca4d08ba, type: 3}
-  artwork: {fileID: 0}
+  artwork: {fileID: -3086373122448024553, guid: c71378802264850488f019fa4499f293, type: 3}
   id: 1
   threat: 2
   type: 1

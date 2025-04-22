@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: The Grunch
   description: {fileID: 509575570654444755, guid: 9e79787392a699246be44441d86d355b, type: 3}
-  artwork: {fileID: 0}
+  artwork: {fileID: 6309428513644568754, guid: 5b180bc28891de74287e851a92561cce, type: 3}
   id: 0
   threat: 2
   type: 0

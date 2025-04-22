@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Sheepsquatch
   description: {fileID: 509575570654444755, guid: a282cff78a166d3439c5606466af39d8, type: 3}
-  artwork: {fileID: 0}
+  artwork: {fileID: 8565743613138249344, guid: d1fc801f846ed854cbb0d694505d6461, type: 3}
   id: 0
   threat: 0
   type: 0

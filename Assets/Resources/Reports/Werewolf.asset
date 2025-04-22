@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Werewolf
   description: {fileID: 509575570654444755, guid: 92abf44df06d0ef459a0c097f1f642de, type: 3}
-  artwork: {fileID: -3843398826057531293, guid: f1d12ca451ae86045b2d80ededb4a799, type: 3}
+  artwork: {fileID: 4489628153361812492, guid: 24dd2fa2357c30b46b834f50bd05d670, type: 3}
   id: 6
   threat: 2
   type: 1

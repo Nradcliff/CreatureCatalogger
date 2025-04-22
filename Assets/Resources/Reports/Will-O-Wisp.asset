@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Will-O-Wisp
   description: {fileID: 509575570654444755, guid: 49f490e547991ad4081a8edce8cac225, type: 3}
-  artwork: {fileID: 0}
+  artwork: {fileID: 7545259024285147193, guid: 89eb1802d491b1b47a305154cfa5aa3d, type: 3}
   id: 0
   threat: 2
   type: 3

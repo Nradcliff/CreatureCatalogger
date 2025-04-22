@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Excalibur
   description: {fileID: 509575570654444755, guid: ff8d5d74588cfd64e98b670a4d10d3db, type: 3}
-  artwork: {fileID: 0}
+  artwork: {fileID: -4197993261303023462, guid: 9e6824f39d0591c46ad7a962ca3a60fa, type: 3}
   id: 0
   threat: 1
   type: 2
