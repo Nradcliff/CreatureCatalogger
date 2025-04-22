@@ -536,6 +536,10 @@ PrefabInstance:
       propertyPath: m_HorizontalAlignment
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2905805577669327974, guid: 01a507f5bdef7714789ea24d5abf501b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 4086942378838851278, guid: 01a507f5bdef7714789ea24d5abf501b, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -547,6 +551,14 @@ PrefabInstance:
     - target: {fileID: 4145940240854568941, guid: 01a507f5bdef7714789ea24d5abf501b, type: 3}
       propertyPath: windowName
       value: Guardian Antivirus
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939714392295853605, guid: 01a507f5bdef7714789ea24d5abf501b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.59941876
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939714392295853605, guid: 01a507f5bdef7714789ea24d5abf501b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -72.7
       objectReference: {fileID: 0}
     - target: {fileID: 5291807648827088970, guid: 01a507f5bdef7714789ea24d5abf501b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -587,6 +599,14 @@ PrefabInstance:
     - target: {fileID: 6898084318285397336, guid: 01a507f5bdef7714789ea24d5abf501b, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 59.177
+      objectReference: {fileID: 0}
+    - target: {fileID: 8047715375753943055, guid: 01a507f5bdef7714789ea24d5abf501b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8047715375753943055, guid: 01a507f5bdef7714789ea24d5abf501b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 83.2
       objectReference: {fileID: 0}
     - target: {fileID: 8724912027815686182, guid: 01a507f5bdef7714789ea24d5abf501b, type: 3}
       propertyPath: m_LocalScale.x
