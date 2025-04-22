@@ -26,6 +26,8 @@ public class DayCompleteResults : MonoBehaviour
     public float killTimer,darknessTimer;
     bool killsound;
 
+    public GameObject dropConfetti;
+
     void Start()
     {
         darkness = GameObject.Find("Death").GetComponent<Image>();
@@ -54,6 +56,7 @@ public class DayCompleteResults : MonoBehaviour
             {
                 passingStatus.text = "Passed!";
                 passingButtons.SetActive(true);
+                dropConfetti.SetActive(false);
                 if (sound4)
                 {
                     sound4 = false;
