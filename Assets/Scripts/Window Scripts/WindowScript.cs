@@ -62,6 +62,8 @@ public class WindowScript : MonoBehaviour
     public Image icon;
     //make this to where desktop icon gives icon to window
 
+    PopupSpawnManageScript popupmanager;
+
     void Start()
     {
         //Defining original, intended scale of window
@@ -89,7 +91,11 @@ public class WindowScript : MonoBehaviour
         audioManager = GameObject.Find("AudioManager").GetComponent<AudioScript>();
         if(internet == null && requiresInternet)
             internet = GameObject.Find("Internet").GetComponent<InternetScript>();
-    }
+
+        popupmanager = GameObject.Find("PopupsManager").GetComponent<PopupSpawnManageScript>();
+        if (isPopup)
+            popupmanager.activePopups.Add(this.gameObject);
+   }
     
     void Update()
     {
@@ -250,6 +256,7 @@ public class WindowScript : MonoBehaviour
         //Use this for popups to not just have them disable when closed
         gameObject.SetActive(false);
         Destroy(gameObject);
+        popupmanager.activePopups.Remove(this.gameObject);
     }
 
     public void bringToFront()

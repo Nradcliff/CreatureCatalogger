@@ -27,8 +27,7 @@ public class SpamError : MonoBehaviour
 
             Instantiate(errorWindow, new Vector3(worldPos.x, worldPos.y, this.gameObject.transform.position.z), Quaternion.identity);
         }
-        gameObject.SetActive(false);
-        Destroy(gameObject);
+        Invoke("destroyInsteadOfDisable", 0f);
     }
 
     /*public void test()

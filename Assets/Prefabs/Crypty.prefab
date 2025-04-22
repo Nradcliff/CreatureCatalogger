@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5124848874861948785}
   - component: {fileID: 6487458111829837375}
   - component: {fileID: 7282280656062541595}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Crypty
   m_TagString: StrongVirus
   m_Icon: {fileID: 0}
@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 2347899085282158175}
   - component: {fileID: 1955579092819124653}
   - component: {fileID: 7996905911104234448}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -199,7 +199,7 @@ GameObject:
   - component: {fileID: 5635913025984709481}
   - component: {fileID: 2201260998045708793}
   - component: {fileID: 9144927088028815747}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}

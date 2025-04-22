@@ -12,17 +12,21 @@ public class AntivirusScript : MonoBehaviour
     public Button closeButton;
     public TextMeshProUGUI ButtonText;
     bool CR_Running;
+
+    PopupSpawnManageScript popupmanager;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         countDisplay.text = null;
         ButtonText = GameObject.Find("EnableBut").GetComponentInChildren<TextMeshProUGUI>();
+        popupmanager = GameObject.Find("PopupsManager").GetComponent<PopupSpawnManageScript>();
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        if (PopupSpawnManageScript.allowPopups)
+            print("popups allowed");
     }
 
     public void disablePopups()
@@ -44,12 +48,29 @@ public class AntivirusScript : MonoBehaviour
     }
 
     //General use [FOR FUTURE, PUT ALL ACTIVE POPUPS INTO AN ARRAY FOR REFERENCING INSTEAD OF USING TAGS]
+    //ok done
     int findActivePopups()
     {
-        GameObject[] popupCount = GameObject.FindGameObjectsWithTag("Popup");
-        GameObject[] virusCount = GameObject.FindGameObjectsWithTag("StrongVirus");
+        return popupmanager.activePopups.Count;
+    }
 
-        return popupCount.Length + virusCount.Length;
+    public void destroyAllPopups()
+    {
+        for (int i = 0; i < popupmanager.activePopups.Count; i++)
+        {
+            popupmanager.activePopups[i].SetActive(false);
+            Destroy(popupmanager.activePopups[i]);
+            popupmanager.activePopups.Remove(popupmanager.activePopups[i]);
+        }
+
+        /*foreach (GameObject popup in popupmanager.activePopups)
+        {
+            WindowScript T = popup.GetComponent<WindowScript>();
+            T.destroyInsteadOfDisable();
+            /*popup.SetActive(false);
+            Destroy(popup);
+            popupmanager.activePopups.Remove(popup);
+        }*/
     }
 
     public void updatePopupCount()

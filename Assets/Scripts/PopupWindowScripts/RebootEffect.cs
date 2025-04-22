@@ -57,7 +57,7 @@ public class RebootEffect : MonoBehaviour
         Cursor.visible = true;
         CR_Running = false;
         gameObject.SetActive(false);
-        Invoke("closeButtonScript", 0f);
+        Invoke("destroyInsteadOfDisable", 0f);
     }
 
 }

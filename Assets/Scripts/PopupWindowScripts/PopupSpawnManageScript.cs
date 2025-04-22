@@ -20,6 +20,8 @@ public class PopupSpawnManageScript : MonoBehaviour
     [Header("Weights should correspond to popup order above. \nHigher value = more common. \n0 means it will not spawn at all.")]
     public float[] weights;
 
+    public List<GameObject> activePopups;
+
     private void Awake()
     {
         cam = Camera.main;
