@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SevenLeagueBoots_0: -3086373122448024553
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

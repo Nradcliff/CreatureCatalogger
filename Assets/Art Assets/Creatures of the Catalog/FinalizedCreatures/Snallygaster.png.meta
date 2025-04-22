@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Snallygaster_0: 4556547672312892636
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

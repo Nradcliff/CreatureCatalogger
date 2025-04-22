@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PopeLickMonster_0: -8671578006073173422
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

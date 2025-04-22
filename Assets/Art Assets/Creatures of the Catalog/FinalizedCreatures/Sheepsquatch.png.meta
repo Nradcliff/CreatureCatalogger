@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sheepsquatch_0: 8565743613138249344
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

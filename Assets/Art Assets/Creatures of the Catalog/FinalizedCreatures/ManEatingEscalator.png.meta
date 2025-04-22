@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ManEatingEscalator_0: 2014914226425114695
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

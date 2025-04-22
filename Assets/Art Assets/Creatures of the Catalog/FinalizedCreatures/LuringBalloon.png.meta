@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      LuringBalloon_0: -4090335491600129668
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

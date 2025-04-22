@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MichiganDogman_0: 6289129678500002635
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

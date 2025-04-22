@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      UnorthodoxSandcastle_0: -8758019947674382255
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

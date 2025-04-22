@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FlatwoodsMonster_0: 2400475177820403417
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

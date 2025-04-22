@@ -41,7 +41,7 @@ public class SolverDropdown : MonoBehaviour
             button.interactable = false;
             dropdown.interactable = false;
             
-            if (timer >= 70f)
+            if (timer >= 65f)
             {
                 timer = 0;
                 checking = false;
@@ -54,19 +54,19 @@ public class SolverDropdown : MonoBehaviour
                 string results = "Name: " + reportList[chosenValue].name + "\nThreat Level: " + reportList[chosenValue].threat + "\nType: " + reportList[chosenValue].type;
                 displayResults.text = results;
             }
-            else if (timer < .45f*60)
+            else if (timer < .45f*65)
             {
                 timer += Time.deltaTime * 1.75f;
             }
-            else if ((timer > .45f * 60 && timer < .55f * 60) || timer > .90f * 60)
+            else if ((timer > .45f * 65 && timer < .55f * 65) || timer > .90f * 65)
             {
                 timer += Time.deltaTime * .5f;
             }
-            else if (timer >= .55f || timer <= .90f * 60)
+            else if (timer >= .55f || timer <= .90f * 65)
             {
                 timer += Time.deltaTime * .65f;
             }
-            progressbar.value = timer/70;
+            progressbar.value = timer/65;
         }
     }
 

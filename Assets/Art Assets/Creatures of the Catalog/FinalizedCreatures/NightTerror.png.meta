@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NightTerror_0: -1776948411502817291
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

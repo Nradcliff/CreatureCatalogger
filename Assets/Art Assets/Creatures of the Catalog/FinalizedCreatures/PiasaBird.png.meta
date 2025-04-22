@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PiasaBird_0: 4456113918259018185
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

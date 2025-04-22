@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      EndlessWardrobe_0: 5915384826958299246
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

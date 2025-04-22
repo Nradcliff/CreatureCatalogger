@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GraveRobbersPunishment_0: -8976255054568513547
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

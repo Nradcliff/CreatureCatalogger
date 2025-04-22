@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HandOfGlory_0: 7742436326385573528
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
