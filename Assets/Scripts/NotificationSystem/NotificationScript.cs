@@ -145,6 +145,7 @@ public class NotificationScript : MonoBehaviour
     }
     public void sendFinalNotif()
     {
+        //Change Sound to a separate sound
         audioManager.playsound(6);
         pendingList.Add(notificationBoxes[2]);
     }

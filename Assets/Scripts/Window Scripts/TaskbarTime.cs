@@ -41,4 +41,9 @@ public class TaskbarTime : MonoBehaviour
             }
         }
     }
+
+    private void OnDestroy()
+    {
+        saveLoadThingy.totalTime += timer;
+    }
 }

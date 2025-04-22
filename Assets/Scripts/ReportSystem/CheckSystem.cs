@@ -96,16 +96,18 @@ public class CheckSystem : MonoBehaviour
                 {
                     notifSystem.sendIncorrectTLNotif();
                     progressTracker.correctReports += 1;
+                    progressTracker.errorsMade += 1;
                 }
                 else if (activeReport.type.ToString() != typeSelection && activeReport.threat.ToString() == threatSelection)
                 {
                     notifSystem.sendIncorrectTypeNotif();
                     progressTracker.correctReports += 1;
+                    progressTracker.errorsMade += 1;
                 }
                 else
                 {
                     notifSystem.sendIncorrectTLTypeNotif();
-
+                    progressTracker.errorsMade += 2;
                 }
                 GameObject.Destroy(display.createdDuplicates[reportIndex]);
                 display.createdDuplicates.RemoveAt(reportIndex);

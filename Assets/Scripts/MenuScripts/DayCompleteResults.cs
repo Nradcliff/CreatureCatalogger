@@ -28,6 +28,10 @@ public class DayCompleteResults : MonoBehaviour
 
     public GameObject dropConfetti;
 
+    public GameObject day5THingy;
+
+    public TextMeshProUGUI errorTotal, timeTotla;
+
     void Start()
     {
         darkness = GameObject.Find("Death").GetComponent<Image>();
@@ -61,10 +65,17 @@ public class DayCompleteResults : MonoBehaviour
                 {
                     sound4 = false;
                     source.PlayOneShot(tick);
+
                 }
                 if(progressTracker.DayNum == 5)
                 {
                     passingStatus.text = "Passed!\nERROR: USER-1214 PASSWORD RESET: " + progressTracker.UserTwelveFourteenPassword;
+                    day5THingy.SetActive(true);
+
+                    errorTotal.text = "Errors Made: " + progressTracker.errorsMade.ToString();
+                    int seconds = ((int)progressTracker.totalTime % 60);
+                    int minutes = ((int)progressTracker.totalTime / 60);
+                    timeTotla.text = "Time Taken: " + string.Format("{0:00}:{1:00}", minutes, seconds);
                 }
                 //Save Player Data
             }

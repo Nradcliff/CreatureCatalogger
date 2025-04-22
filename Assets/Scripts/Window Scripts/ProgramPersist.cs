@@ -24,6 +24,9 @@ public class ProgramPersist : MonoBehaviour
 
     public bool dead;
 
+    public float totalTime;
+    public int errorsMade;
+
     public void Start()
     {
         loadVol();
@@ -73,7 +76,7 @@ public class ProgramPersist : MonoBehaviour
         else file = File.Create(destination);
 
         SaveDays data = new SaveDays();
-        data.saveCurrentData(programBool, notepadText, DayNum,backgroundIndex);
+        data.saveCurrentData(programBool, notepadText, DayNum,backgroundIndex,totalTime,errorsMade);
         BinaryFormatter bf = new BinaryFormatter();
         bf.Serialize(file, data);
         file.Close();
@@ -99,6 +102,8 @@ public class ProgramPersist : MonoBehaviour
         notepadText = data.savedNotepadText;
         DayNum = data.savedDayNumber;
         backgroundIndex = data.savedImage;
+        errorsMade = data.savedErrors;
+        totalTime = data.savedTime;
         return true;
     }
 
