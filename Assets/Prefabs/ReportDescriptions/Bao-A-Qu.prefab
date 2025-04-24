@@ -81,8 +81,11 @@ MonoBehaviour:
     its nebulous form, it is highly destructive and exhibits behaviors far from peaceful.
     It can physically interact with its environment, creating violent atmospheric
     disturbances, including powerful winds, localized storms, and tremors when angered
-    or threatened. These disturbances tend to occur even when it is not visibly present,
-    suggesting that it exerts an anomalous, wide-reaching influence on the environment.\r\n"
+    or threatened. These disturbances can cause severe damage to local infrastructure
+    in a short range and individuals who have been caught in the events are found
+    with major injuries requiring extended recovery times. Also, these disturbances
+    tend to occur even when it is not visibly present, suggesting that it exerts
+    an anomalous, wide-reaching influence on the environment.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

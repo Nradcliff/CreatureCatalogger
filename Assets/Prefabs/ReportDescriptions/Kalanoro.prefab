@@ -65,13 +65,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Is a small entity originating from the rainforests of Madagascar. It measures
-    approximately 0.8 meters (2.6 feet) in height, though it has been observed to
-    stretch its body to a slightly greater length when agitated or when moving through
-    narrow spaces. Its appearance is both human-like and animalistic, with characteristics
-    typical of primates and reptiles.\r\nIt possesses a disproportionately large
-    head relative to its body, with large, dark eyes that are reflective in low-light
-    conditions. Its face is flat, and its mouth is filled with sharp, needle-like
+  m_text: "Is a small, entity entity originating from the rainforests of Madagascar.
+    It measures approximately 0.8 meters (2.6 feet) in height, though it has been
+    observed to stretch its body to a slightly greater length when agitated or when
+    moving through narrow spaces. Its appearance is both human-like and animalistic,
+    with characteristics typical of primates and reptiles.\r\nIt possesses a disproportionately
+    large head relative to its body, with large, dark eyes that are reflective in
+    low-light conditions. Its face is flat, and its mouth is filled with sharp, needle-like
     teeth, which appear to be capable of rapidly retracting or extending depending
     on the creature's mood. It lacks a visible nose, and its mouth serves as its
     primary organ for scent detection.\r\nIt is highly territorial and exhibits aggressive
@@ -85,7 +85,7 @@ MonoBehaviour:
     to pry open food or attack prey. \r\nIn certain instances, it has demonstrated
     the ability to use discarded objects or materials in its environment to create
     rudimentary shelters, indicating a level of self-preservation instinct. It does
-    not appear to hunt humans unless provoked or threatened. It is known to stalk
+    not appear to attack humans unless provoked or threatened. It is known to stalk
     individuals who venture too deeply into its territory, often making itself visible
     only at the edge of the field of vision before retreating back into the trees.\r\n"
   m_isRightToLeft: 0

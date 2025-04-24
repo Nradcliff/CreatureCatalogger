@@ -87,7 +87,7 @@ MonoBehaviour:
     In combat situations, It is also capable of using its tail as a bladed weapon,
     capable of cleaving through steel and concrete. The creature has been observed
     to scout its environment from the air for extended periods, identifying vulnerabilities
-    in its prey or potential attackers before launching an attack.\r\n"
+    in its prey or potential attackers before launching an attack. \r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

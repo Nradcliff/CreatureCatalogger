@@ -71,25 +71,24 @@ MonoBehaviour:
     elongated teeth capable of puncturing human skin with ease. Their eyes are a
     deep crimson, and their gaze is reported to induce a hypnotic effect in subjects
     who make direct eye contact with it.\r\nA Vampire\u2019s abilities include, but
-    are not limited to, rapid regeneration, heightened strength, enhanced sensory
-    perception, and the ability to manipulate the surrounding environment in subtle
-    yet dangerous ways. It is capable of controlling its own biological processes,
-    such as slowing its metabolism to the point where it can go without nourishment
-    for extended periods of time, although it will actively seek out human blood
-    as a primary food source.\r\nWhile it is capable of consuming animal blood, it
-    has shown a marked preference for human blood. The consumption of blood is typically
-    done through the act of biting the neck or wrist of the victim, after which it
-    will drain the blood directly from the wound.\r\nVampires are highly intelligent
-    and possess a sophisticated understanding of human psychology, using this knowledge
-    to manipulate and control their victims. They are known to be extremely cunning,
-    setting traps or creating scenarios in which their prey willingly approaches
-    them. They show no interest in interaction with other creatures, humanoid or
-    otherwise, unless it is in the context of feeding or self-preservation. However,
-    it does exhibit signs of curiosity when confronted with phenomena or individuals
-    who display unusual resistance to its abilities. \r\nDespite its predatory nature,
-    Vampires do not appear to actively seek out violence unless provoked or threatened.
-    It has been known to enter populated areas under the cover of darkness, targeting
-    individuals who appear isolated or vulnerable.\r\n"
+    are not limited to, heightened strength, enhanced sensory perception, and the
+    ability to manipulate the surrounding environment. It is capable of controlling
+    its own biological processes, such as slowing its metabolism to the point where
+    it can go without nourishment for extended periods of time, although it will
+    actively seek out human blood as a primary food source.\r\nWhile it is capable
+    of consuming animal blood, it has shown a marked preference for human blood.
+    The consumption of blood is typically done through the act of biting the neck
+    or wrist of the victim, after which it will drain the blood directly from the
+    wound. \r\nVampires are highly intelligent and possess a sophisticated understanding
+    of human psychology, using this knowledge to manipulate and control their victims.
+    They are known to be extremely cunning, creating scenarios in which their prey
+    willingly approaches them. They show no interest in interaction with other creatures
+    unless it is in the context of feeding or self-preservation. \r\nDespite its
+    predatory nature, Vampires do not appear to actively seek out violence unless
+    threatened. It has been known to enter populated areas under the cover of darkness,
+    targeting individuals who appear isolated or vulnerable. Cases have been documented
+    where they show preference for certain individuals blood and will actively avoid
+    trying to cause to much harm to them so they can return again.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

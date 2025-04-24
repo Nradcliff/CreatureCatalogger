@@ -70,13 +70,14 @@ MonoBehaviour:
     - Actively seeks out targets.
     Is sadistic or violent in nature.
 
-    - Can cause serious bodily harm, alterations,
-    or death
+    - Can consistently cause physical/mental
+    alterations, harm, and death
 
-    - May cause damage on a city-wide level or higher.
+    - May cause damage on a city-wide level or
+    higher.
 
-    - Possesses
-    abnormal abilities that defies rational reasoning'
+    - May amass followers, enthrall groups of the weak-minded, or summon
+    additional Psy-Crets.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

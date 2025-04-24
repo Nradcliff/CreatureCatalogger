@@ -16,6 +16,6 @@ MonoBehaviour:
   description: {fileID: 509575570654444755, guid: 3d1dc7cbdd1a845408f16a2d49f82779, type: 3}
   artwork: {fileID: -7041212482073488132, guid: 509f0e30c3157de42b9371a1cc9566d0, type: 3}
   id: 0
-  threat: 1
+  threat: 2
   type: 2
   isUsed: 1

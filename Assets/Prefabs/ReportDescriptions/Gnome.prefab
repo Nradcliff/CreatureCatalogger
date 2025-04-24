@@ -84,10 +84,10 @@ MonoBehaviour:
     affinity for small animals and has been observed tending to injured or sick creatures
     within its domain.\r\nAppears to exhibit a protective instinct toward its environment,
     often manipulating the surrounding plant life to defend itself from perceived
-    threats. When approached by humans outside of approved containment procedures,
-    gnomes have been known to create small, localized hazards such as entangling
-    vines, rapid plant growth, or large mushroom spores that cause mild to moderate
-    hallucinatory effects.\r\n"
+    threats. When approached by humans, gnomes have been known to create small, localized
+    hazards such as entangling vines, rapid plant growth, or large mushroom spores
+    that cause mild to moderate hallucinatory effects that can cause moderate harm
+    and injuries if not careful. \r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

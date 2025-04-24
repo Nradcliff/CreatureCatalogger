@@ -87,7 +87,8 @@ MonoBehaviour:
     It\u2019s ability to climb trees, scale vertical surfaces, and leap great distances
     suggests a physicality beyond that of any natural predator. It is also known
     to be extremely patient, stalking its prey over long periods before launching
-    an attack.\r\n"
+    an attack. Once it observes a possible target/form of prey it will actively stalk
+    and hunt it down even to the detriment of itself.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

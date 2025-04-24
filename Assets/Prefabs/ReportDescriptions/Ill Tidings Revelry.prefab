@@ -65,20 +65,29 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Is a spectral marching band composed of approximately 20-30 undead musicians.
-    The band manifests only at night, typically appearing on empty streets, abandoned
-    thoroughfares, or desolate rural roads. Despite their decayed and skeletal forms,
-    the musicians are fully dressed in early 20th-century military-style band uniforms,
-    often tattered and discolored with brackish stains. Their instruments, which
-    include brass, woodwind, and percussion sections, appear corroded but function
-    without issue.\r\nPerforms a slow, mournful march while playing music of varying
-    intensity. Their pieces range from somber dirges to ominous military-style cadences,
-    with tempo and volume correlating directly to the severity and proximity of an
-    impending disaster. These disasters have included earthquakes, industrial accidents,
-    major fires, and more. \r\nThe band's performances conclude just before the event
-    they forewarn, at which point they cease playing, turn in unison, and vanish
-    into the darkness. Attempts to follow them always result in observers experiencing
-    disorientation, inevitably leading them back to their starting location.\r\n"
+  m_text: 'Resembles a Victorian-era porcelain doll, approximately 40 cm in height,
+    dressed in a faded blue gown with intricate lace detailing. Its face is delicately
+    painted, with glassy blue eyes, rose-tinted cheeks, and lips frozen in a faint
+    smile. Despite its fragile appearance, it is highly mobile and exhibits an ability
+    to blend seamlessly into large doll collections, remaining undetected until it
+    has chosen a target.
+
+    Its primary behavioral pattern involves infiltrating
+    the collections of doll hoarders, particularly those with a strong emotional
+    attachment to their possessions. Once integrated into a collection, It remains
+    motionless for an undetermined period, often weeks or months, subtly repositioning
+    itself when unobserved. Victims frequently report feelings of unease, misplaced
+    dolls, and in some cases, hearing faint, childlike laughter at night.
+
+    When
+    it initiates its attack, it waits until its target is alone. Survivors (of which
+    there are few) describe waking up to find the doll positioned unnaturally close,
+    its porcelain fingers wrapped around their throat or its glassy eyes inches from
+    their face. Victims of its full attacks are found deceased, usually with shattered
+    porcelain fragments embedded in their skin, and their other dolls arranged in
+    unnatural formations around the body.
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

@@ -90,7 +90,9 @@ MonoBehaviour:
     and speech patterns with alarming accuracy when wearing a stolen face. Avoids
     mirrors, cameras, or any reflective surfaces that reveal its true appearance.
     Victims left faceless remain alive for up to 48 hours, though they exhibit no
-    cognitive response and succumb to organ failure shortly after.'
+    cognitive response and succumb to organ failure shortly after.
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

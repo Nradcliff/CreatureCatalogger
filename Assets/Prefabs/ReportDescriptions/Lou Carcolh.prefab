@@ -84,10 +84,11 @@ MonoBehaviour:
     it to heal from almost any wound that does not completely sever the organism's
     central body mass.\r\nIt is also noted to exhibit an eerie intelligence, displaying
     problem-solving abilities and the capacity to interact with its environment in
-    a predatory manner. While the creature\u2019s primary method of attack remains
-    its slime-based secretion, it has been observed using its tentacles to grapple
-    and immobilize prey, pulling them towards its maw, which can expand to an unnatural
-    size.\r\n"
+    a predatory manner. Once it detects a creature or individual within its vicinity
+    it will actively hunt it down to consume. Also, while the creature\u2019s primary
+    method of attack remains its slime-based secretion, it has been observed using
+    its tentacles to grapple and immobilize prey, pulling them towards its maw, which
+    can expand to an unnatural size.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

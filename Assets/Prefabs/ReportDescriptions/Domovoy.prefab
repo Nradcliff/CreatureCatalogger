@@ -65,31 +65,24 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Is a entity believed to be a manifestation of an ancient Slavic household
-    spirit. Stands approximately 1.2 meters tall, with a hunched back and elongated
-    limbs. Its body is covered in a patchy layer of hair, with prominent features
-    resembling a small, bearded humanoid. Its skin appears ashen gray and seems to
-    shift in texture depending on its emotional state, becoming smoother when calm
-    and coarse during periods of agitation. The creature also possesses heightened
-    auditory perception, capable of detecting even the slightest sounds within its
-    vicinity.\r\nThough Domovoy\u2019s behavior can appear benign, it becomes increasingly
-    hostile when it perceives disruptions to household harmony, typically reacting
-    to perceived disrespect, disorder, or failure to maintain traditional rituals.
-    This behavior often results in a hostile response toward the individuals present,
-    including the projection of low-frequency growls, increased physical aggression,
-    and instances of minor physical harm.\r\nWhile it does not exhibit direct aggression
-    toward humans unless provoked, it is known to interact with its environment in
-    a manner consistent with folklore about the creature's role in protecting domestic
-    spaces. In Slavic mythology, the Domovoy is considered a guardian spirit, often
-    protecting the family from intruders, illness, and misfortune. However, neglect,
-    disrespect, or failure to maintain cleanliness or peace within the household
-    may result in mischief or even harm.\r\nCommunicates through a series of guttural
-    sounds, occasionally accompanied by non-verbal gestures that appear to be culturally
-    influenced by traditional Slavic customs. The creature is capable of understanding
-    human speech, although it prefers to communicate indirectly. It has shown a particular
-    preference for displaying affection or displeasure by either nudging objects
-    closer to people or moving them away, a pattern indicative of emotional attachment
-    to the environment it inhabits.\r\n"
+  m_text: "Is a entity believed to originate from ancient Slavic folklore. Stands
+    approximately 1.2 meters tall, with a hunched back and elongated limbs. Its body
+    is covered in a patchy layer of hair, with prominent features resembling a small,
+    bearded humanoid. Its skin appears ashen gray and seems to shift in texture depending
+    on its emotional state, becoming smoother when calm and coarse during periods
+    of agitation. The creature also possesses heightened auditory perception, capable
+    of detecting even the slightest sounds within its vicinity.\r\nThough Domovoy\u2019s
+    behavior can appear benign, it becomes increasingly hostile when it perceives
+    disruptions to household harmony, typically reacting to perceived disrespect,
+    disorder, or failure to maintain traditional rituals. This behavior often results
+    in a hostile response toward the individuals present, including the projection
+    of low-frequency growls, increased physical aggression, and instances of minor
+    physical harm.\r\nWhile it does not exhibit direct aggression toward humans unless
+    provoked, it is known to interact with its environment in a manner consistent
+    with folklore about the creature's role in protecting domestic spaces. The Domovoy
+    is often protecting the family from intruders, illness, and misfortune. However,
+    neglect, disrespect, or failure to maintain cleanliness or peace within the household
+    may result in mischief or even harm.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

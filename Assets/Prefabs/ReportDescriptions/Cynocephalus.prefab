@@ -75,18 +75,17 @@ MonoBehaviour:
     Its
     most notable anomalous characteristic is its vocalization. The creature emits
     a series of low-frequency howls and growls that can induce intense psychological
-    effects on humans within a 300-meter radius. These effects range from mild unease
-    to full-blown hysteria and hallucinations, with victims often reporting vivid
-    images of predatory animals hunting them. Prolonged exposure to these vocalizations
-    can lead to permanent cognitive damage, including severe paranoia, amnesia, and
-    dissociative identity disorder.
+    effects on animals and humans within a 300-meter radius. These effects range
+    from mild unease to full-blown hysteria and hallucinations, with victims often
+    reporting vivid images of predatory animals hunting them. Prolonged exposure
+    to these vocalizations can lead to permanent cognitive damage, including severe
+    paranoia, amnesia, and dissociative identity disorder.
 
-    Despite its intimidating physical appearance,
-    it exhibits a high degree of intelligence, comparable to that of an apex predator.
-    It has been observed to use rudimentary tools and tactics when hunting prey,
-    often setting traps or ambushing its targets from unexpected angles. Diet consists
-    primarily of large mammals, though it has been known to consume smaller species,
-    including humans, if sufficiently hungry or provoked.
+    Despite its intimidating
+    physical appearance, it exhibits a high degree of intelligence, comparable to
+    that of an apex predator. Diet consists primarily of large mammals, though it
+    has been known to consume smaller species. If sufficiently provoked it will attack
+    humans, otherwise it avoids them when it can.
 
 '
   m_isRightToLeft: 0

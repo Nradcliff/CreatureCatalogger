@@ -83,8 +83,7 @@ MonoBehaviour:
     often remaining motionless for days or weeks before launching rapid and coordinated
     attacks on prey. While its primary form of hunting appears to be stealth and
     surprise, it is capable of making loud, guttural vocalizations that have been
-    reported to disorient and paralyze small animals and humans within a 30-meter
-    radius.\r\n"
+    reported to disorient and paralyze small animals within a 30-meter radius.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
