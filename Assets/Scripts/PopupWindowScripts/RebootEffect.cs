@@ -9,6 +9,8 @@ public class RebootEffect : MonoBehaviour
 {
     GameObject ErrorT, BootT, LoadP, PL, LoadR, RL, LoadD, blackPanel;
     bool CR_Running;
+
+    WindowScript wScript;
     void Start()
     {
         blackPanel = GameObject.Find("BlackPanel");
@@ -19,6 +21,8 @@ public class RebootEffect : MonoBehaviour
         LoadR = blackPanel.transform.GetChild(4).gameObject;
         RL = blackPanel.transform.GetChild(5).gameObject;
         LoadD = blackPanel.transform.GetChild(6).gameObject;
+
+        wScript = GetComponent<WindowScript>();
     }
     public void startReboot()
     {
@@ -57,7 +61,7 @@ public class RebootEffect : MonoBehaviour
         Cursor.visible = true;
         CR_Running = false;
         gameObject.SetActive(false);
-        Invoke("destroyInsteadOfDisable", 0f);
+        wScript.destroyInsteadOfDisable();
     }
 
 }

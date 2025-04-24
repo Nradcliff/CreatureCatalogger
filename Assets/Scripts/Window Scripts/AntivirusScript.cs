@@ -13,6 +13,9 @@ public class AntivirusScript : MonoBehaviour
     public TextMeshProUGUI ButtonText;
     bool CR_Running;
 
+    public GameObject popupCleanUpButton;
+    public static bool upgraded;
+
     PopupSpawnManageScript popupmanager;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -25,8 +28,8 @@ public class AntivirusScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (PopupSpawnManageScript.allowPopups)
-            print("popups allowed");
+        if (upgraded)
+            popupCleanUpButton.SetActive(true);
     }
 
     public void disablePopups()
@@ -56,21 +59,12 @@ public class AntivirusScript : MonoBehaviour
 
     public void destroyAllPopups()
     {
-        for (int i = 0; i < popupmanager.activePopups.Count; i++)
+        foreach (GameObject popup in popupmanager.activePopups)
         {
-            popupmanager.activePopups[i].SetActive(false);
-            Destroy(popupmanager.activePopups[i]);
-            popupmanager.activePopups.Remove(popupmanager.activePopups[i]);
-        }
-
-        /*foreach (GameObject popup in popupmanager.activePopups)
-        {
-            WindowScript T = popup.GetComponent<WindowScript>();
-            T.destroyInsteadOfDisable();
-            /*popup.SetActive(false);
+            popup.SetActive(false);
             Destroy(popup);
-            popupmanager.activePopups.Remove(popup);
-        }*/
+        }
+        popupmanager.activePopups.Clear();
     }
 
     public void updatePopupCount()

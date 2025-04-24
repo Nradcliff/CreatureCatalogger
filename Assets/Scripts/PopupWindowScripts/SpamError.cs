@@ -8,8 +8,10 @@ public class SpamError : MonoBehaviour
     public GameObject errorWindow;
     Camera cam;
 
+    public WindowScript wScript;
     private void Awake()
     {
+        wScript = GetComponent<WindowScript>();
         cam = Camera.main;
         if (cam == null)
             print("Camera not found");
@@ -27,7 +29,7 @@ public class SpamError : MonoBehaviour
 
             Instantiate(errorWindow, new Vector3(worldPos.x, worldPos.y, this.gameObject.transform.position.z), Quaternion.identity);
         }
-        Invoke("destroyInsteadOfDisable", 0f);
+        wScript.destroyInsteadOfDisable();
     }
 
     /*public void test()

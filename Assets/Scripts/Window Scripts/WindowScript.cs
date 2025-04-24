@@ -254,9 +254,12 @@ public class WindowScript : MonoBehaviour
     public void destroyInsteadOfDisable()
     {
         //Use this for popups to not just have them disable when closed
-        gameObject.SetActive(false);
-        Destroy(gameObject);
-        popupmanager.activePopups.Remove(this.gameObject);
+        if (Time.timeScale > 0)
+        {
+            gameObject.SetActive(false);
+            Destroy(gameObject);
+            popupmanager.activePopups.Remove(this.gameObject);
+        }
     }
 
     public void bringToFront()

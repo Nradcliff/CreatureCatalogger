@@ -14,8 +14,11 @@ public class CryptyBehavior : MonoBehaviour
 
     private bool moving = true;
 
+    PopupSpawnManageScript popupmanager;
     void Start()
     {
+        popupmanager = GameObject.Find("PopupsManager").GetComponent<PopupSpawnManageScript>();
+        popupmanager.activePopups.Add(this.gameObject);
         target = bounds[Random.Range(0, 1)];
     }
     void Update()
@@ -59,10 +62,12 @@ public class CryptyBehavior : MonoBehaviour
                 if (target == bounds[0])
                 {
                     target = bounds[1];
+                    transform.localScale = new Vector3(-1, 1, 1);
                 }
                 else
                 {
                     target = bounds[0];
+                    transform.localScale = new Vector3(1, 1, 1);
                 }
             }
         }    

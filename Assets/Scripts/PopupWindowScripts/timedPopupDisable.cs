@@ -10,6 +10,8 @@ public class timedPopupDisable : MonoBehaviour
     public TextMeshProUGUI text;
     public GameObject[] buttons;
 
+    WindowScript wScript;
+
     //public static bool timedPopupRunning;
 
     /*public void timedPopup()
@@ -32,6 +34,11 @@ public class timedPopupDisable : MonoBehaviour
         
     }*/
 
+    void Start ()
+    {
+        wScript = GetComponent<WindowScript>();
+    }
+
     IEnumerator message()
     {
         text.text = "Thank you! :)";
@@ -41,7 +48,7 @@ public class timedPopupDisable : MonoBehaviour
         }
         yield return new WaitForSeconds(2);
         gameObject.SetActive(false);
-        Invoke("destroyInsteadOfDisable", 0f);
+        wScript.destroyInsteadOfDisable();
     }
 
     public void virusMessage()
