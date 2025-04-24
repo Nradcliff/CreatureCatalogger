@@ -1525,7 +1525,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 821103768828331706}
         m_TargetAssemblyTypeName: WindowScript, Assembly-CSharp
-        m_MethodName: closeButtonScript
+        m_MethodName: destroyInsteadOfDisable
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

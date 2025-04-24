@@ -22,6 +22,9 @@ public class PopupSpawnManageScript : MonoBehaviour
     [Header("Weights should correspond to popup order above. \nHigher value = more common. \n0 means it will not spawn at all.")]
     public float[] weights;
 
+    
+    public List<GameObject> activePopups;
+
     private void Awake()
     {
         audioManager = GameObject.Find("AudioManager").GetComponent<AudioScript>();
@@ -32,10 +35,10 @@ public class PopupSpawnManageScript : MonoBehaviour
 
     void Update()
     {
-        //if(Input.GetMouseButtonDown(0))
-        //{
-        //    chancePopup(5);
-        //}
+        if(Input.GetMouseButtonDown(0))
+        {
+          chancePopup(5);
+        }
     }
 
     //Weighted random chance. Randomly returns an integer based on a weighted chance.
@@ -67,8 +70,7 @@ public class PopupSpawnManageScript : MonoBehaviour
     }
     public void spawnRandomPopup()
     {
-        if (allowPopups == true)
-        {
+            GameObject popup = popupWindows[getRandomWeightedIndex(weights)];
             //Generate random position vector without going beyond camera view
             float randX = Random.Range(minX, maxX);
             float randY = Random.Range(minY, maxY);
@@ -79,8 +81,9 @@ public class PopupSpawnManageScript : MonoBehaviour
 
             //Randomly chooses then instantiates a popup at the random position
             //OBSOLETEint randPopup = Random.Range(0, popupWindows.Count);
-            Instantiate(popupWindows[getRandomWeightedIndex(weights)], new Vector3(worldPos.x, worldPos.y, this.gameObject.transform.position.z), Quaternion.identity);
-        }
+            if(allowPopups || popup.CompareTag("StrongVirus"))
+            Instantiate(popup, new Vector3(worldPos.x, worldPos.y, this.gameObject.transform.position.z), Quaternion.identity);
+        
     }
 
     public void chancePopup(float chance)

@@ -123,7 +123,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 4374696410006349161}
         m_TargetAssemblyTypeName: WindowScript, Assembly-CSharp
-        m_MethodName: closeButtonScript
+        m_MethodName: destroyInsteadOfDisable
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -534,7 +534,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4687125782234838354, guid: 208025896aeaac34aabaaa3259055304, type: 3}
       propertyPath: m_TagString
-      value: Popup
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 5741865674731893227, guid: 208025896aeaac34aabaaa3259055304, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: destroyInsteadOfDisable
       objectReference: {fileID: 0}
     - target: {fileID: 8026589665715479325, guid: 208025896aeaac34aabaaa3259055304, type: 3}
       propertyPath: m_IsActive

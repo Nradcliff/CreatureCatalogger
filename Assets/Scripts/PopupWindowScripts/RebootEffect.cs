@@ -1,16 +1,19 @@
 using System.Collections;
+using System.Data;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RebootEffect : MonoBehaviour
 {
-    GameObject ErrorT, BootT, LoadP, PL, LoadR, RL, LoadD;
-    public GameObject blackPanel;
+    GameObject ErrorT, BootT, LoadP, PL, LoadR, RL, LoadD, blackPanel;
     bool CR_Running;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    WindowScript wScript;
     void Start()
     {
+        blackPanel = GameObject.Find("BlackPanel");
         ErrorT = blackPanel.transform.GetChild(0).gameObject;
         BootT = blackPanel.transform.GetChild(1).gameObject;
         LoadP = blackPanel.transform.GetChild(2).gameObject;
@@ -18,14 +21,9 @@ public class RebootEffect : MonoBehaviour
         LoadR = blackPanel.transform.GetChild(4).gameObject;
         RL = blackPanel.transform.GetChild(5).gameObject;
         LoadD = blackPanel.transform.GetChild(6).gameObject;
+
+        wScript = GetComponent<WindowScript>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public void startReboot()
     {
         if(!CR_Running)
@@ -34,10 +32,11 @@ public class RebootEffect : MonoBehaviour
         }
     }
 
+    //nightmare no time sorry
     IEnumerator Effect()
     {
         CR_Running = true;
-        blackPanel.SetActive(true);
+        blackPanel.GetComponent<Image>().enabled = true;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         yield return new WaitForSeconds(3f);
@@ -54,10 +53,15 @@ public class RebootEffect : MonoBehaviour
         RL.SetActive(true);
         yield return new WaitForSeconds(0.5f);
         LoadD.SetActive(true);
-        blackPanel.SetActive(false);
-        CR_Running = false;
+        yield return new WaitForSeconds(0.5f);
+        blackPanel.GetComponent<Image>().enabled = false;
+        ErrorT.SetActive(false); BootT.SetActive(false); LoadP.SetActive(false); PL.SetActive(false); LoadR.SetActive(false); 
+        RL.SetActive(false); LoadD.SetActive(false);
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+        CR_Running = false;
+        gameObject.SetActive(false);
+        wScript.destroyInsteadOfDisable();
     }
 
 }

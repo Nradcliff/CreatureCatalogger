@@ -3,6 +3,7 @@ using TMPro;
 using System.Data;
 using UnityEngine.UI;
 using System.Collections;
+using NUnit.Framework;
 
 public class AntivirusScript : MonoBehaviour
 {
@@ -11,17 +12,24 @@ public class AntivirusScript : MonoBehaviour
     public Button closeButton;
     public TextMeshProUGUI ButtonText;
     bool CR_Running;
+
+    public GameObject popupCleanUpButton;
+    public static bool upgraded;
+
+    PopupSpawnManageScript popupmanager;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         countDisplay.text = null;
         ButtonText = GameObject.Find("EnableBut").GetComponentInChildren<TextMeshProUGUI>();
+        popupmanager = GameObject.Find("PopupsManager").GetComponent<PopupSpawnManageScript>();
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        if (upgraded)
+            popupCleanUpButton.SetActive(true);
     }
 
     public void disablePopups()
@@ -42,11 +50,21 @@ public class AntivirusScript : MonoBehaviour
         }
     }
 
-    //General use
+    //General use [FOR FUTURE, PUT ALL ACTIVE POPUPS INTO AN ARRAY FOR REFERENCING INSTEAD OF USING TAGS]
+    //ok done
     int findActivePopups()
     {
-        GameObject[] popupCount = GameObject.FindGameObjectsWithTag("Popup");
-        return popupCount.Length;
+        return popupmanager.activePopups.Count;
+    }
+
+    public void destroyAllPopups()
+    {
+        foreach (GameObject popup in popupmanager.activePopups)
+        {
+            popup.SetActive(false);
+            Destroy(popup);
+        }
+        popupmanager.activePopups.Clear();
     }
 
     public void updatePopupCount()
