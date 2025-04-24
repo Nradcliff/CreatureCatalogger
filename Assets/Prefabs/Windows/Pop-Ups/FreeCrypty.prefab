@@ -865,7 +865,7 @@ GameObject:
   - component: {fileID: 8354116717449570516}
   - component: {fileID: 1748205337211955810}
   m_Layer: 3
-  m_Name: FreeCrypty(WIP)
+  m_Name: FreeCrypty
   m_TagString: Popup
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

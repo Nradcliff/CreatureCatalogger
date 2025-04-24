@@ -257,7 +257,6 @@ public class WindowScript : MonoBehaviour
         if (Time.timeScale > 0)
         {
             gameObject.SetActive(false);
-            Destroy(gameObject);
             popupmanager.activePopups.Remove(this.gameObject);
         }
     }
