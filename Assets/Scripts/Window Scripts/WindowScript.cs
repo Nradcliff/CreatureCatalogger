@@ -244,9 +244,16 @@ public class WindowScript : MonoBehaviour
 
     public void closeButtonScript()
     {
-        if (Time.timeScale > 0)
+        if (!isPopup)
         {
-            gameObject.SetActive(false);
+            if (Time.timeScale > 0)
+            {
+                gameObject.SetActive(false);
+            }
+        }
+        else
+        {
+            destroyInsteadOfDisable();
         }
     }
 
@@ -254,6 +261,9 @@ public class WindowScript : MonoBehaviour
     {
         //Use this for popups to not just have them disable when closed
         gameObject.SetActive(false);
+        manager.GetComponent<WindowLayerManagement>().windowSortList.Remove(this.gameObject);
+        manager.GetComponent<CheckIfOpen>().windowList.Remove(this.gameObject);
+        manager.GetComponent<CheckIfOpen>().openList.Remove(this.gameObject);
         Destroy(gameObject);
     }
 

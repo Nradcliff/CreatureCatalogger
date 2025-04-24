@@ -33,10 +33,7 @@ public class SolverDropdown : MonoBehaviour
         if (checking)
         {
             displayResults.text = "Checking...";
-            if (Input.GetMouseButtonDown(0))
-            {
-                popMan.chancePopup(25);
-            }
+            popMan.allowPopups = true;
 
             button.interactable = false;
             dropdown.interactable = false;
@@ -47,6 +44,7 @@ public class SolverDropdown : MonoBehaviour
                 checking = false;
                 dropdown.interactable = true;
                 button.interactable = true;
+                popMan.allowPopups = false;
                 //display results
                 //Name:
                 //Threat Level:
@@ -76,6 +74,7 @@ public class SolverDropdown : MonoBehaviour
         checking = false;
         dropdown.interactable = true;
         button.interactable = true;
+        popMan.allowPopups = false;
         displayResults.text = "ERROR\nFunction Aborted\nExit Code 09FMBH2";
         progressbar.value = 0;
     }

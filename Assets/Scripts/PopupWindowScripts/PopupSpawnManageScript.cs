@@ -6,7 +6,7 @@ using UnityEngine;
 public class PopupSpawnManageScript : MonoBehaviour
 {
     //Use this in other scripts to disable or enable popups
-    public static bool allowPopups = true;
+    public bool allowPopups;
 
     public AudioScript audioManager;
 
@@ -35,9 +35,9 @@ public class PopupSpawnManageScript : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButtonDown(0) && allowPopups)
         {
-          chancePopup(5);
+          chancePopup(10);
         }
     }
 
@@ -75,14 +75,17 @@ public class PopupSpawnManageScript : MonoBehaviour
             float randX = Random.Range(minX, maxX);
             float randY = Random.Range(minY, maxY);
 
-            audioManager.playsound(3);
+            
 
             Vector3 worldPos = cam.ViewportToWorldPoint(new Vector3(randX, randY, cam.nearClipPlane));
 
-            //Randomly chooses then instantiates a popup at the random position
-            //OBSOLETEint randPopup = Random.Range(0, popupWindows.Count);
-            if(allowPopups || popup.CompareTag("StrongVirus"))
+        //Randomly chooses then instantiates a popup at the random position
+        //OBSOLETEint randPopup = Random.Range(0, popupWindows.Count);
+        if (allowPopups || popup.CompareTag("StrongVirus"))
+        {
             Instantiate(popup, new Vector3(worldPos.x, worldPos.y, this.gameObject.transform.position.z), Quaternion.identity);
+            audioManager.playsound(3);
+        }
         
     }
 
@@ -104,6 +107,7 @@ public class PopupSpawnManageScript : MonoBehaviour
 
             //Instantiate the specific popup chosen from the list
             Instantiate(popupWindows[listPos], new Vector3(worldPos.x, worldPos.y, this.gameObject.transform.position.z), Quaternion.identity);
+            audioManager.playsound(3);
         }
     }
 }

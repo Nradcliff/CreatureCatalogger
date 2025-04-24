@@ -34,18 +34,18 @@ public class AntivirusScript : MonoBehaviour
 
     public void disablePopups()
     {
-        if (PopupSpawnManageScript.allowPopups == false)
+        if (popupmanager.allowPopups == false)
         {
             enableText.text = "Antivirus currently disabled.";
             ButtonText.text = "Enable";
-            PopupSpawnManageScript.allowPopups = true;
+            popupmanager.allowPopups = true;
             closeButton.enabled = true;
         }
         else
         {
             enableText.text = "Antivirus currently enabled.";
             ButtonText.text = "Disable";
-            PopupSpawnManageScript.allowPopups = false;
+            popupmanager.allowPopups = false;
             closeButton.enabled = false;
         }
     }

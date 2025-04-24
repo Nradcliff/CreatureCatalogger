@@ -49,6 +49,7 @@ public class timedPopupDisable : MonoBehaviour
         yield return new WaitForSeconds(2);
         gameObject.SetActive(false);
         wScript.destroyInsteadOfDisable();
+        Destroy(this);
     }
 
     public void virusMessage()
