@@ -70,19 +70,21 @@ MonoBehaviour:
     metallic teeth. Its eyes are glassy and inert under direct observation but have
     been recorded shifting position when unobserved. It wears a patchwork jester\u2019s
     hat adorned with small, multicolored baubles that emit faint, erratic vibrations
-    when approached.\r\nIs normally inert but exhibits sporadic bursts of movement
-    when unobserved. Subjects who turn away from the Clownequin or leave it unattended
-    report sudden changes in its posture upon re-examination, often appearing closer
-    than before.\r\nSubjects in proximity report an increasing sense of unease, often
-    accompanied by auditory hallucinations, including faint carnival music, distorted
-    laughter, and, in some cases, whispered phrases such as \u201CLet\u2019s play
-    a game.\u201D Individuals who make direct eye contact for prolonged periods experience
-    symptoms of paranoia and, in rare cases, an uncontrollable urge to interact.
-    Those who have acted on this impulse have vanished without a trace, leaving only
-    their clothing and personal belongings behind.\r\nIt remains motionless under
-    direct observation but has been recorded repositioning itself in surveillance
-    footage during brief lapses in monitoring. Its movement is erratic, and it often
-    adopts new stances that suggest it is stalking or reaching for individuals.\r\n"
+    when approached. It usually is found in abandoned amusement parks or appears
+    during halloween events at active ones.\r\nIs normally inert but exhibits sporadic
+    bursts of movement when unobserved. Subjects who turn away from the Clownequin
+    or leave it unattended report sudden changes in its posture upon re-examination,
+    often appearing closer than before.\r\nSubjects in proximity report an increasing
+    sense of unease, feelings of being watched/stalked, and auditory hallucinations,
+    including faint carnival music, distorted laughter, and, in some cases, whispered
+    phrases such as \u201CLet\u2019s play a game.\u201D Individuals who make direct
+    eye contact for prolonged periods experience symptoms of paranoia and, in rare
+    cases, an uncontrollable urge to interact. Those who have acted on this impulse
+    have vanished without a trace, leaving only their clothing and personal belongings
+    behind.\r\nIt remains motionless under direct observation but has been recorded
+    repositioning itself in surveillance footage during brief lapses in monitoring.
+    Its movement is erratic, and it often adopts new stances that suggest it is stalking
+    or reaching for individuals.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

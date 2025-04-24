@@ -72,25 +72,23 @@ MonoBehaviour:
     an endless, shifting series of interconnected chambers, which do not conform
     to the standard laws of physics or geometry.\r\nIts anomalous properties manifest
     when the wardrobe\u2019s door is opened, revealing a seemingly infinite series
-    of dark, narrow hallways and rooms. These corridors are typically filled with
-    a variety of old clothing, artifacts, and personal items from multiple time periods,
-    cultures, and geographical locations. No consistent pattern has been identified
-    in the items found within these rooms. Items may appear outdated, as though they
-    belong to previous centuries, while others seem modern or completely unfamiliar.\r\nThe
-    most notable characteristic of the wardrobe is the ever-expanding nature of the
-    space within. No matter how far the door is opened or how deep one ventures into
-    the wardrobe, the internal structure continues indefinitely. The size and layout
-    of the rooms and hallways are irregular, and objects within them appear to shift
-    positions at random intervals. Spatial measurements show that the volume of the
-    interior increases exponentially over time, making it impossible to fully explore
-    or map the area.\r\nIndividuals who have entered sometimes never returned. In
-    these cases, initial searches failed to locate the missing persons, and no further
-    communication was received from them. A handful of these individuals were eventually
-    found in the wardrobe, though their mental state was heavily altered or detoriated.
-    They demonstrated aggressive tendencies toward other personnel, showing an obsession
-    with the wardrobe and a belief that they must protect its contents. It is unknown
-    if the wardrobe itself causes these changes or the isolation of the individuals
-    leads to an induced madness.\r\n"
+    of dark, narrow hallways and rooms. Even when closed it somehow beckons individuals
+    to enter it how it does so is still unknown. These corridors are typically filled
+    with a variety of old clothing, artifacts, and personal items from multiple time
+    periods, cultures, and geographical locations. No consistent pattern has been
+    identified in the items found within these rooms. Items may appear outdated,
+    as though they belong to previous centuries, while others seem modern or completely
+    unfamiliar.\r\nThe most notable characteristic of the wardrobe is the ever-expanding
+    nature of the space within. No matter how far the door is opened or how deep
+    one ventures into the wardrobe, the internal structure continues indefinitely.
+    The size and layout of the rooms and hallways are irregular, and objects within
+    them appear to shift positions at random intervals. Spatial measurements show
+    that the volume of the interior increases exponentially over time, making it
+    impossible to fully explore or map the area.\r\nIndividuals who have entered
+    sometimes never returned. Individuals who were eventually found in the wardrobe,
+    have shown that their mental state was heavily altered or detoriated. They demonstrated
+    aggressive tendencies toward others, showing an obsession with the wardrobe,
+    and a belief that they must protect its contents.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

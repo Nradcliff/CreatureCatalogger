@@ -80,24 +80,10 @@ MonoBehaviour:
     hallucinations, often described as "whispering voices cursing the consumer."
 
     Aggression
-    persists until one of the following conditions is met:
-
-    The target is incapacitated
-    or otherwise neutralized.
-
-    
-
-    
-
-    Instance is returned to the soil,
-    at which point it will immediately cease movement and re-root itself.
-
-    
-
-    
-
-    Sufficiently
-    damaged, at which point it releases a high-pitched squealing noise before going
+    persists until one of the following conditions is met: The target is incapacitated
+    or otherwise neutralized. The Instance is returned to the soil, at which point
+    it will immediately cease movement and re-root itself. If the vengeful veggie
+    is sufficiently damaged, it releases a high-pitched squealing noise before going
     inert.
 
 '

@@ -79,7 +79,7 @@ MonoBehaviour:
     Should a child or pet be left alone with a False Object, they are at risk of
     being entrapped within. Once encased, no noise made by the prey can be heard.
     While digestion can take upwards of several years to complete, starvation can
-    be a more pressing concern.\r\n"
+    be a more pressing concern."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

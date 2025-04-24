@@ -81,13 +81,13 @@ MonoBehaviour:
     are inconsistent and difficult to analyze.\r\nIt\u2019s behavior is primarily
     nocturnal, with the majority of its activity occurring after sunset. It is believed
     to have predatory tendencies, with reports from both civilians and trained personnel
-    suggesting that it may stalk and harass individuals, sometimes causing disorientation
-    and psychological distress. Attempts to communicate or establish rapport with
-    Momo have proven futile, as the entity appears to react aggressively to human
-    presence. In several documented cases, individuals who encountered it experienced
-    prolonged periods of paranoia and a persistent sense of being hunted. No fatalities
-    have been directly attributed to Momo, though several disappearances remain unexplained
-    and are suspected to be linked to its presence.\r\n"
+    suggesting that it may stalk its prey, sometimes through causing disorientation
+    and psychological distress. Although territorial it avoids humans when it can
+    and will attack if individuals get too close. In several documented cases, individuals
+    who encountered it experienced prolonged periods of paranoia and a persistent
+    sense of being hunted. No fatalities have been directly attributed to Momo, though
+    those that have encountered it have received minor injuries after fending it
+    off.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

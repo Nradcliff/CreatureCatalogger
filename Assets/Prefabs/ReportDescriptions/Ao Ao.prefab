@@ -68,26 +68,25 @@ MonoBehaviour:
   m_text: "Is a large, ovis like entity resembling an oversized sheep with several
     exaggerated features. Its body structure and overall appearance are designed
     to deceive and lure prey. The Ao Ao is typically found in remote, wooded, and
-    mountainous regions but has been reported in areas of high rural activity. Its
-    wool is highly durable, akin to Kevlar, and is resistant to most conventional
-    weapons, providing the creature with natural protection.\r\nIts horns are hard,
-    made of a dense, bone-like material that can be used as a weapon during territorial
-    disputes or in the act of predation. Its mouth is filled with large, jagged teeth
-    and elongated fangs that can retract to blend in. These fangs are used primarily
-    for inflicting fatal wounds on its prey.\r\nIt exhibits primarily nocturnal behavior,
-    hunting and feeding at night. The creature is highly social with others of its
-    kind, but the herd operates with a strict hierarchy based on age, size, and aggression.
-    These herds work together to hunt, often using coordinated tactics to trap their
-    prey.\r\nIt\u2019s most notable trait is its deceptive appearance. The creature\u2019s
-    wool-covered body and docile behavior are designed to mimic a harmless sheep
-    or other herd animal, which it uses to lure prey. This luring mechanism is especially
-    effective on other sheep or predators of sheep, which approach under the assumption
-    that it is a harmless herbivore. \r\nThe Ao Ao\u2019s vocalizations are a blend
-    of bleating and growling, producing a sound that can mimic the calls of a common
-    sheep. It is highly territorial, and conflicts between groups have been observed
-    when their hunting grounds overlap. The herds will engage in violent clashes,
-    using their horns and hooves to incapacitate opponents. These territorial disputes
-    are often marked by loud vocalizations, violent displays, and ritualistic posturing.\r\n"
+    mountainous regions but has been reported in areas of high rural activity.\r\nIts
+    horns are hard, made of a dense, bone-like material that can be used as a weapon
+    during territorial disputes or in the act of predation. Its mouth is filled with
+    large, jagged teeth and elongated fangs that can retract to blend in. These fangs
+    are used primarily for inflicting fatal wounds on its prey.\r\nIt exhibits primarily
+    nocturnal behavior, hunting and feeding at night. The creature is highly social
+    with others of its kind, but the herd operates with a strict hierarchy based
+    on age, size, and aggression. These herds work together to hunt, often using
+    coordinated tactics to trap their prey.\r\nIt\u2019s most notable trait is its
+    deceptive appearance. The creature\u2019s wool-covered body and docile behavior
+    are designed to mimic a harmless sheep or other herd animal, which it uses to
+    lure prey. This luring mechanism is especially effective on other sheep or predators
+    of sheep, which approach under the assumption that it is a harmless herbivore.
+    \r\nThe Ao Ao\u2019s vocalizations are a blend of bleating and growling, producing
+    a sound that can mimic the calls of a common sheep. It is highly territorial,
+    and conflicts between groups have been observed when their hunting grounds overlap.
+    The herds will engage in violent clashes, using their horns and hooves to incapacitate
+    opponents. These territorial disputes are often marked by loud vocalizations,
+    violent displays, and ritualistic posturing.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

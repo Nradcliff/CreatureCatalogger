@@ -65,29 +65,36 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Is a shadowy, humanoid entity that appears to passively observe individuals
+  m_text: 'Is a shadowy, humanoid entity that appears to passively observe individuals
     in its vicinity. It lacks any visible facial features besides glowing white eyes,
     and its body is composed of an undefined, dark silhouette that seems to blend
     into the surrounding environment, making it appear almost invisible unless actively
     watched. Despite its lack of facial expressions, it is presumed to be fully aware
-    of its surroundings and is capable of tracking individuals with its gaze.\r\nIt
+    of its surroundings and is capable of tracking individuals with its gaze.
+
+    It
     does not engage in direct communication or physical contact with subjects. Instead,
-    it exhibits behavior that is consistent with prolonged observation. Its presence
+    it exhibits behavior that is consistent with prolonged observation. If apparoached
+    it vanishes into thin air before individuals can even get close. Its presence
     induces a profound sense of unease and paranoia in individuals, often manifesting
     as feelings of being watched or stalked. This sensation increases with the duration
     of exposure. Indiviuals who have been observed by it report an overwhelming sense
     of dread and discomfort, but no physical harm or direct threats have been observed
-    thus far.\r\nIndividuals exposed to It for extended periods experience progressively
+    thus far.
+
+    Individuals exposed to It for extended periods experience progressively
     severe psychological distress, including anxiety, hallucinations, and an inability
     to focus on tasks. In extreme cases, prolonged exposure results in the development
-    of an acute fear of being in public spaces, referred to as \"The Watching Effect.\"
-    This effect has shown to be highly contagious, with one individual\u2019s breakdown
-    sometimes prompting a wider spread of the phenomenon within a group.\r\nThe Observer
-    has demonstrated an ability to appear in locations where it is least expected,
-    including small, secluded rooms, public spaces, and environments with minimal
-    visibility. The entity seems to appear without warning and fades from view just
-    as quietly, often leaving individuals confused as to whether the encounter was
-    real or merely a product of their imagination.\r\n"
+    of an acute fear of being in public spaces, referred to as "The Watching Effect."
+
+    The
+    Observer has demonstrated an ability to appear in locations where it is least
+    expected, including small, secluded rooms, public spaces, and environments with
+    minimal visibility. The entity seems to appear without warning and fades from
+    view just as quietly, often leaving individuals confused as to whether the encounter
+    was real or merely a product of their imagination.
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

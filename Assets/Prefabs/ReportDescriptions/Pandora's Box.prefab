@@ -80,11 +80,12 @@ MonoBehaviour:
     allowing entities, anomalies, and environmental disruptions to leak into our
     world. These \"leaks\" can take a variety of forms, ranging from physical entities
     (including hostile creatures and aberrant life forms) to more abstract disruptions,
-    such as the manipulation of time, memory, and perception.\r\nIt is theorized
-    that it is a kind of \"containment\" device\u2014potentially designed to keep
-    powerful, chaotic forces from leaking into our reality. However, the purpose
-    of the box and its creators remain unknown, as does the nature of the entities
-    it might be guarding or containing. \r\n"
+    such as the manipulation of time, memory, and perception. These events can cause
+    mass casualties and major damages to cities. It is heavily recommended to not
+    open it under any circumstance.\r\nIt is theorized that it is a kind of \"containment\"
+    device\u2014potentially designed to keep powerful, chaotic forces from leaking
+    into our reality. However, the purpose of the box and its creators remain unknown,
+    as does the nature of the entities it might be guarding or containing.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

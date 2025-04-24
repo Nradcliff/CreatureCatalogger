@@ -65,30 +65,30 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Is a entity resembling a hybrid of an elk and a centaur. The creature
-    has the torso, head, and arms of a human, with the lower body, including the
-    legs and hooves, resembling that of a male elk. The upper body of It closely
-    resembles that of a human, though it possesses distinct animalistic features.
-    Its face is defined, with prominent cheekbones and a pronounced nose. Its eyes
-    are a pale yellow and have a reflective, deer-like quality, with large, expressive
-    pupils. It\u2019s arms are muscular, ending in human-like hands, though the fingers
-    are slightly longer and more dexterous than those of a typical human.\r\nIt is
-    herbivorous, with a diet consisting primarily of grasses, shrubs, and tree foliage.
-    It has a preference for certain species of conifers and has been noted to exhibit
-    selective grazing behaviors, particularly in the early spring when new shoots
-    and leaves are most abundant. The creature requires a large amount of food daily
-    to sustain its size and activity levels.\r\nIt is generally docile, displaying
-    a calm temperament and a preference for solitary living or interaction with other
-    members of its species, should any exist. It does not exhibit territorial aggression
-    unless provoked or during mating season, at which point it has been observed
-    to engage in ritualized displays of dominance, including vocalizations and physical
-    posturing with its antlers. \r\nIt communicates primarily through body language
-    and vocalizations, with a range of sounds, including grunts, snorts, and soft
-    vocal hums. Though It is capable of basic communication through non-verbal means
-    and limited vocalization, it does not exhibit advanced intelligence or speech.
-    It shows an awareness of its surroundings and can recognize certain individuals,
-    especially those who interact with it frequently. However, it does not form emotional
-    attachments beyond a basic sense of familiarity.\r\n"
+  m_text: "Is a entity resembling a hybrid of an elk and a human. The creature has
+    the torso and arms of a human, and its lower body is that of a male elk. The
+    upper body of It closely resembles that of a human, though it possesses distinct
+    animalistic features. Its face is defined, with prominent cheekbones and a pronounced
+    nose. Its eyes are a pale yellow and have a reflective, deer-like quality, with
+    large, expressive pupils. It\u2019s arms are muscular, ending in human-like hands,
+    though the fingers are slightly longer and more dexterous than those of a typical
+    human.\r\nIt is herbivorous, with a diet consisting primarily of grasses, shrubs,
+    and tree foliage. It has a preference for certain species of conifers and has
+    been noted to exhibit selective grazing behaviors, particularly in the early
+    spring when new shoots and leaves are most abundant. The creature requires a
+    large amount of food daily to sustain its size and activity levels.\r\nIt is
+    generally docile, avoids humans, and displays a calm temperament and a preference
+    for solitary living or interaction with other members of its species, should
+    any exist. It does not exhibit territorial aggression unless provoked or during
+    mating season, at which point it has been observed to engage in ritualized displays
+    of dominance, including vocalizations and physical posturing with its antlers.
+    \r\nIt communicates primarily through body language and vocalizations, with a
+    range of sounds, including grunts, snorts, and soft vocal hums. Though It is
+    capable of basic communication through non-verbal means and limited vocalization,
+    it does not exhibit advanced intelligence or speech. It shows an awareness of
+    its surroundings and can recognize certain individuals, especially those who
+    interact with it frequently. However, it does not form emotional attachments
+    beyond a basic sense of familiarity.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
