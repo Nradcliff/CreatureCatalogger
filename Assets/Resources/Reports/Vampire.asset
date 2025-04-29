@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Vampire
   description: {fileID: 509575570654444755, guid: 641e330e6fdc26f4d960f6744eaf628e, type: 3}
-  artwork: {fileID: 0}
-  id: 3
+  artwork: {fileID: -2904457877120967500, guid: 9009d313443019a4aa2f07784768b344, type: 3}
+  id: 64
   threat: 2
   type: 1
   isUsed: 0

@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Graverobbers Punishment
   description: {fileID: 509575570654444755, guid: f95ef2c4b922e0649a1f46714fc89e9f, type: 3}
   artwork: {fileID: -8976255054568513547, guid: ec89a609f3523bc4f98a386591ad94a1, type: 3}
-  id: 0
+  id: 25
   threat: 2
   type: 1
   isUsed: 0

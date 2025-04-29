@@ -26,6 +26,8 @@ public class InternetScript : MonoBehaviour
 
     public ProgramPersist saveLoadThingy;
 
+    public TextMeshProUGUI bandwidthText;
+
     void Start()
     {
         saveLoadThingy = GameObject.Find("LoadProgramManager").GetComponent<ProgramPersist>();
@@ -35,25 +37,55 @@ public class InternetScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(openPrograms <= 3)
+        if (openPrograms < 3)
         {
             timerTarget = 90;
+
+            // Bandwidth Usage = Very Low
+            // Hex B7FFA4
+
+            bandwidthText.text = "Very Low";
+            bandwidthText.color = new Color(0.717f, 1, 0.643f);
         }
-        else if(openPrograms < 4)
+        else if (openPrograms < 4)
         {
             timerTarget = 75;
+
+            // Bandwidth Usage = Low
+            // Hex 37FF02
+
+            bandwidthText.text = "Low";
+            bandwidthText.color = new Color(0.215f, 1, 0);
         }
         else if (openPrograms < 5)
         {
             timerTarget = 55;
+
+            // Bandwidth Usage = Medium
+            // Hex FFA058
+
+            bandwidthText.text = "Medium";
+            bandwidthText.color = new Color(1, 0.627f, 0.345f);
         }
         else if (openPrograms < 8)
         {
             timerTarget = 45;
+
+            // Bandwidth Usage = High
+            // Hex FF3931
+
+            bandwidthText.text = "High";
+            bandwidthText.color = new Color(1, .2f, .2f);
         }
         else if (openPrograms < 15)
         {
             timerTarget = 5;
+
+            // Bandwidth Usage = Very High
+            // Hex CB0900
+
+            bandwidthText.text = "Very High";
+            bandwidthText.color = new Color(.8f, 0, 0);
         }
 
 

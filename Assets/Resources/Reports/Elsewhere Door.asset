@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Elsewhere Door
   description: {fileID: 509575570654444755, guid: 6f1773ca1d849cc4eb632cf1f6e992a2, type: 3}
   artwork: {fileID: -5215723695748417457, guid: 76707c58396bbbd47a40872fcf6d0588, type: 3}
-  id: 0
+  id: 13
   threat: 1
   type: 3
   isUsed: 0

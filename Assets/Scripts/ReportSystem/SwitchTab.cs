@@ -33,6 +33,11 @@ public class SwitchTab : MonoBehaviour
         nameText = reportName.GetComponent<TMP_Text>();
         descriptionText = description.GetComponent<TMP_Text>();
         artworkImage = art.GetComponent<Image>();
+
+        if(gameObject.name == "Report 0")
+        {
+            SwitchingTab();
+        }
     }
 
     public void SwitchingTab()

@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Florida Man
   description: {fileID: 509575570654444755, guid: 788f2f111542d8340aab110630a17afe, type: 3}
   artwork: {fileID: 8786174509605112247, guid: f7b7506c2b1fa084a9efe7bf8982be98, type: 3}
-  id: 0
+  id: 20
   threat: 3
   type: 3
   isUsed: 0

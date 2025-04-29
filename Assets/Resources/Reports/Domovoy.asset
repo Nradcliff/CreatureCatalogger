@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Domovoy
   description: {fileID: 509575570654444755, guid: 1b2c06d3b4b3a814083be2979545a34d, type: 3}
   artwork: {fileID: -2502505791134901503, guid: 91c1c90cb0d960b41bd4e2418066706a, type: 3}
-  id: 0
+  id: 10
   threat: 0
   type: 1
   isUsed: 0

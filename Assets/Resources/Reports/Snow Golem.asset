@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Snow Golem
   description: {fileID: 509575570654444755, guid: 46913b9e69107604897cd27365fb1c40, type: 3}
   artwork: {fileID: 5497613644851806840, guid: 9d64fb8c273634040be4c6562ba15522, type: 3}
-  id: 0
+  id: 53
   threat: 2
   type: 2
   isUsed: 0

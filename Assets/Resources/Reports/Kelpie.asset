@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Kelpie
   description: {fileID: 509575570654444755, guid: 03bb33a627badb3459712a9e7e0636d7, type: 3}
   artwork: {fileID: 5172096474693568705, guid: 1ac7b44c76c9d2243a541115e5d0404a, type: 3}
-  id: 0
+  id: 30
   threat: 2
   type: 0
   isUsed: 0

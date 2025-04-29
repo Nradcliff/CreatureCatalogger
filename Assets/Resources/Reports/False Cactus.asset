@@ -15,7 +15,7 @@ MonoBehaviour:
   name: False Cactus
   description: {fileID: 509575570654444755, guid: 64b5306aa9a9ca04aaf8862c3e1decca, type: 3}
   artwork: {fileID: 3738404427136951929, guid: 8958e5dd68fb26a4faf2afc480fc8c8a, type: 3}
-  id: 0
+  id: 17
   threat: 1
   type: 0
   isUsed: 0

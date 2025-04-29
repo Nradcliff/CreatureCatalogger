@@ -266,7 +266,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -69.8, y: -113.99999}
+  m_AnchoredPosition: {x: -28, y: -101}
   m_SizeDelta: {x: 95.71, y: 90.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8394918190523228267
@@ -428,7 +428,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 3650303876621510600}
   m_Direction: 3
   m_Value: 1
-  m_Size: 0.144979
+  m_Size: 0.18265978
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -617,7 +617,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -154.17, y: -321.2}
+  m_AnchoredPosition: {x: -155, y: -407}
   m_SizeDelta: {x: 193.67, y: 183.07}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2184234119188544034
@@ -692,8 +692,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -190, y: -145}
-  m_SizeDelta: {x: 95.71, y: 153.92}
+  m_AnchoredPosition: {x: -172, y: -175}
+  m_SizeDelta: {x: 161.14, y: 259.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3683334287898376972
 CanvasRenderer:
@@ -834,6 +834,11 @@ MonoBehaviour:
     Please make sure any applications not needed are closed, and if the wifi goes
     out, check the sticky notes on your desk.
 
+
+
+
+    Your shift ends at 12:00, be
+    sure to have everything done by that time.
 
 
 

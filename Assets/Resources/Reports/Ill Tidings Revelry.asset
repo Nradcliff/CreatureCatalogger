@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Ill Tidings Revelry
   description: {fileID: 509575570654444755, guid: 5eb16e8d531a8e8429da13bf2c0fcf63, type: 3}
   artwork: {fileID: 7407556710279253953, guid: 57e40691a6385264882984b5214fdb7d, type: 3}
-  id: 0
+  id: 28
   threat: 0
   type: 1
   isUsed: 0

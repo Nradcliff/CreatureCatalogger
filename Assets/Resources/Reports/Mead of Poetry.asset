@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Mead of Poetry
   description: {fileID: 509575570654444755, guid: 2ea31b6f023072445b078af584c693e8, type: 3}
   artwork: {fileID: -2885566216298256687, guid: 13306aa503c159b468cfba33e2635b53, type: 3}
-  id: 0
+  id: 35
   threat: 3
   type: 2
   isUsed: 0

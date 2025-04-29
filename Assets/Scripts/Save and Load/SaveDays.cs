@@ -13,7 +13,8 @@ public class SaveDays
     public float savedTime;
     public int savedErrors;
 
-    public void saveCurrentData(List<bool> boolList, string text, int dayNum,int img,float time,int err)
+    public List<bool> savedReportBools;
+    public void saveCurrentData(List<bool> boolList, string text, int dayNum, int img, float time, int err, List<bool> repBool)
     {
         savedProgramBool = boolList;
         savedNotepadText = text;
@@ -21,6 +22,7 @@ public class SaveDays
         savedImage = img;
         savedTime = time;
         savedErrors = err;
+        savedReportBools = repBool;
     }
 
     public List<bool> loadPrograms()

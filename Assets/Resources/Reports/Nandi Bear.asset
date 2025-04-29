@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Nandi Bear
   description: {fileID: 509575570654444755, guid: 5dc2008e3c009d0478e9d00b399ff875, type: 3}
   artwork: {fileID: 6285508470917562028, guid: 41ab42a88c291e346a064e7bcaaee6c4, type: 3}
-  id: 0
+  id: 39
   threat: 1
   type: 0
   isUsed: 0
