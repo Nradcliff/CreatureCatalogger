@@ -623,7 +623,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Error: Incorrect Psy-Cret Type, \nIncorrect Threat Level\nPay Deducted"
+  m_text: "Error: Incorrect Morphology, \nIncorrect Threat Level\nPay Deducted"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 942596a294ef481479944182a7a72797, type: 2}
   m_sharedMaterial: {fileID: 2525731494604184698, guid: 942596a294ef481479944182a7a72797, type: 2}

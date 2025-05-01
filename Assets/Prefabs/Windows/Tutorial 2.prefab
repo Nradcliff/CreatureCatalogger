@@ -65,11 +65,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Here at the company, we recommend you try to match at least 2 to 3 of
-    the requirements of each category under threat and type before submitting.
+  m_text: 'A Psycret must match at least 2 characteristics of a threat or morphology
+    to be categorized as such. If it could fit into multiple categories, choose the
+    one with the most matches.
 
-    Please
-    be warned that false/incorrect submissions can cause anomalies in the system. '
+
+    Please be warned that false/incorrect submissions
+    can cause anomalies in the system. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 942596a294ef481479944182a7a72797, type: 2}
   m_sharedMaterial: {fileID: 2525731494604184698, guid: 942596a294ef481479944182a7a72797, type: 2}
@@ -1050,8 +1052,8 @@ MonoBehaviour:
 
 
     Here the Psyence Corporation we hunt down
-    and contain entities we call Psy-Crets. Psy-crets are entities that evade the
-    public eye and are not confirmed to exist, and we aim to keep it that way.
+    and contain entities we call Psycrets. Psycrets are entities that evade the public
+    eye and are not confirmed to exist, and we aim to keep it that way.
 
 
 
@@ -1456,7 +1458,7 @@ MonoBehaviour:
 
 
     A program describing the categories of
-    the Psy-crets is also available.'
+    the Psycrets is also available.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 942596a294ef481479944182a7a72797, type: 2}
   m_sharedMaterial: {fileID: 2525731494604184698, guid: 942596a294ef481479944182a7a72797, type: 2}

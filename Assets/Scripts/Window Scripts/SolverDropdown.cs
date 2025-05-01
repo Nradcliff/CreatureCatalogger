@@ -49,7 +49,7 @@ public class SolverDropdown : MonoBehaviour
                 //Name:
                 //Threat Level:
                 //Type:
-                string results = "Name: " + reportList[chosenValue].name + "\nThreat Level: " + reportList[chosenValue].threat + "\nType: " + reportList[chosenValue].type;
+                string results = "Name: " + reportList[chosenValue].name + "\nThreat Level: " + reportList[chosenValue].threat + "\nMorphology: " + reportList[chosenValue].type;
                 displayResults.text = results;
             }
             else if (timer < .45f*65)
