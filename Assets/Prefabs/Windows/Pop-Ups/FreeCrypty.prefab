@@ -1092,7 +1092,7 @@ MonoBehaviour:
   bars: {fileID: 3234452819432233687}
   button: {fileID: 6998148415065309813}
   image: {fileID: 6135216155305985996}
-  sound: {fileID: 8354116717449570516}
+  clip: {fileID: 0}
 --- !u!82 &8354116717449570516
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1107,7 +1107,7 @@ AudioSource:
   m_Resource: {fileID: 8300000, guid: f7c0d83813785db40a6bf1377621ab39, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.8
-  m_Pitch: -1.5
+  m_Pitch: 0
   Loop: 0
   Mute: 0
   Spatialize: 0

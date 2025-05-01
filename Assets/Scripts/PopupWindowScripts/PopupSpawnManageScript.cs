@@ -14,6 +14,8 @@ public class PopupSpawnManageScript : MonoBehaviour
     float minY = 0f;
     float maxY = 1f;
 
+    public float chance;
+
     public Camera cam;
 
     public List<GameObject> popupWindows;
@@ -34,7 +36,7 @@ public class PopupSpawnManageScript : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0) && Time.timeScale > 0)
         {
-          chancePopup(5);
+          chancePopup(chance);
         }
     }
 
