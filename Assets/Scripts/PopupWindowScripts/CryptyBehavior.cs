@@ -12,6 +12,9 @@ public class CryptyBehavior : MonoBehaviour
     public float Timer;
     float randTime;
 
+    public int[] waitTimes = new int[2];
+    public int[] moveTimes = new int[2];
+
     private bool moving = true;
 
     PopupSpawnManageScript popupmanager;
@@ -19,7 +22,7 @@ public class CryptyBehavior : MonoBehaviour
     {
         popupmanager = GameObject.Find("PopupsManager").GetComponent<PopupSpawnManageScript>();
         popupmanager.activePopups.Add(this.gameObject);
-        target = bounds[Random.Range(0, 1)];
+        target = bounds[Random.Range(0, 2)];
     }
     void Update()
     {
@@ -48,7 +51,7 @@ public class CryptyBehavior : MonoBehaviour
             {
                 moving = false;
                 Timer = 0;
-                randTime = Random.Range(5, 10);
+                randTime = Random.Range(waitTimes[0], waitTimes[1]);
             }
         }
         else
@@ -57,7 +60,7 @@ public class CryptyBehavior : MonoBehaviour
             {
                 moving = true;
                 Timer = 0;
-                randTime = Random.Range(2, 5);
+                randTime = Random.Range(moveTimes[0], moveTimes[1]);
 
                 if (target == bounds[0])
                 {

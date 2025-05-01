@@ -104,6 +104,8 @@ MonoBehaviour:
   - {x: -6, y: -4.5, z: 0}
   - {x: 6, y: -4.5, z: 0}
   Timer: 0
+  waitTimes: 050000000a000000
+  moveTimes: 0200000008000000
 --- !u!222 &7282280656062541595
 CanvasRenderer:
   m_ObjectHideFlags: 0
