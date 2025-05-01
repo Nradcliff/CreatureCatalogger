@@ -76,17 +76,19 @@ MonoBehaviour:
     and infrared ranges. These emissions are often undetectable by standard human
     vision but can be captured through the use of specialized sensors.\r\nWisps have
     been observed to exhibit highly erratic and manipulative behavior toward humans
-    and animals. In many cases, it appears to \"lure\" individuals towards hazardous
-    or unsafe areas, such as cliffs, quicksand, or even bodies of water, often resulting
-    in injury or death. Witness accounts suggest that the closer one gets to a Will-O-Wisp,
-    the more vivid and enticing the light appears to become. However, attempts to
-    capture or approach the light directly result in it rapidly disappearing or shifting
-    locations.\r\nWisp\u2019s effects on human cognition are not entirely understood,
-    but it is hypothesized that prolonged exposure may induce confusion, mild disorientation,
-    and hallucinations in some individuals. Despite the apparent danger posed by
-    wisps, some individuals report feelings of calm or curiosity when exposed to
-    the entity, suggesting a psychological component to its nature. Further research
-    is required to understand the full scope of its influence on human behavior.\r\n"
+    and animals that get to close. In many cases, it appears to \"lure\" individuals
+    towards hazardous or unsafe areas, such as cliffs, quicksand, or even bodies
+    of water, often resulting in injuries like broken bones, loss of limbs, lacerations,
+    or in worse cases, death. Witness accounts suggest that the closer one gets to
+    a Will-O-Wisp, the more vivid and enticing the light appears to become. However,
+    attempts to capture or approach the light directly result in it rapidly disappearing
+    or shifting locations.\r\nWisp\u2019s effects on human cognition are not entirely
+    understood, but it is hypothesized that prolonged exposure may induce confusion,
+    mild disorientation, and hallucinations in some individuals. Despite the apparent
+    danger posed by wisps, some individuals report feelings of calm or curiosity
+    when exposed to the entity, suggesting a psychological component to its nature.
+    Further research is required to understand the full scope of its influence on
+    human behavior.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

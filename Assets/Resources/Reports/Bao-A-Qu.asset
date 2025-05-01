@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Bao-A-Qu
   description: {fileID: 509575570654444755, guid: eb1fe52109ea0ab44b1cfbc9a449e911, type: 3}
   artwork: {fileID: 8799360408232520420, guid: 4940eb15eea74ad4ba1dd74dfbdd6fbe, type: 3}
-  id: 2
-  threat: 2
+  id: 3
+  threat: 3
   type: 3
   isUsed: 0

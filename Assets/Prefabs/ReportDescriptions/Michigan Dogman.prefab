@@ -72,19 +72,19 @@ MonoBehaviour:
     of inducing a sense of dread in those who make prolonged eye contact. Its hind
     legs, while digitigrade, are capable of bending and twisting in an unnatural
     fashion, allowing for rapid bursts of movement and increased agility. The claws
-    are described as being long, curved, and capable of easily puncturing human or
-    animal flesh. The fur appears to be matted and thick, offering some form of protection
-    against the environment, as well as a measure of camouflage within its natural
-    habitat.\r\nIt\u2019s behavior is primarily nocturnal, with most documented encounters
-    occurring during the night, often in isolated or rural areas of Michigan\u2019s
-    Upper Peninsula. It is highly territorial and is known to display aggressive
-    behavior toward humans who inadvertently enter its territory. Despite this, the
-    creature has been observed to avoid direct confrontation when not provoked, suggesting
-    a level of intelligence and caution. While It primarily exhibits aggressive behavior,
-    it has also been observed to be highly elusive, often disappearing into the forest
-    at the first sign of danger or intrusion. In some instances, the creature has
-    been seen stalking individuals, maintaining a steady distance and appearing to
-    study its prey before retreating.\r\n"
+    are described as being long, curved, and capable of easily puncturing animal
+    flesh and cause minor lacerations on humans. The fur appears to be matted and
+    thick, offering some form of protection against the environment, as well as a
+    measure of camouflage within its natural habitat.\r\nIt\u2019s behavior is primarily
+    nocturnal, with most documented encounters occurring during the night, often
+    in isolated or rural areas of Michigan\u2019s Upper Peninsula. It is territorial
+    and is known to display aggressive behavior toward humans who inadvertently enter
+    its territory. Despite this, the creature has been observed to avoid direct confrontation
+    when not provoked, suggesting a level of intelligence and caution. While It primarily
+    exhibits aggressive behavior, it has also been observed to be highly elusive,
+    often disappearing into the forest at the first sign of danger or intrusion.
+    In some instances, the creature has been seen stalking individuals, maintaining
+    a steady distance and appearing to study its prey before retreating.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

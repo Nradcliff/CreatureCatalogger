@@ -65,19 +65,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '- Able to use or design tools and structures
+  m_text: '- Able to use or design tools and structures.
 
-    - Can mimic appearances
-    or use disguises to blend in human environments
+    - Can mimic human
+    appearances.
 
-    - Can use form of verbal
-    or somatic language.
+    - Can use a form of verbal or somatic language.
 
-    - Has human characteristics (I.E, ability to walk
-    upright and physical appearance).
+    - Has
+    human characteristics (e.g. ability to walk upright, human-like physical appearance)
 
-    - Creature tries to appeal to or emulate
-    human emotion'
+    -
+    May try to appeal or emulate human emotion.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

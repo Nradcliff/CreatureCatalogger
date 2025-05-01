@@ -79,15 +79,15 @@ MonoBehaviour:
     their weight when under stress or in a defensive situation.\r\nMost notable anomalous
     properties stem from its unusual interaction with plant life. It has demonstrated
     an innate ability to communicate with and manipulate flora within its vicinity,
-    using both vocal commands and subtle gestural signals. Has been observed coaxing
+    using both vocal commands and subtle gestural signals. It has been observed coaxing
     plants to grow at accelerated rates. In addition, the creature exhibits a strong
     affinity for small animals and has been observed tending to injured or sick creatures
     within its domain.\r\nAppears to exhibit a protective instinct toward its environment,
     often manipulating the surrounding plant life to defend itself from perceived
     threats. When approached by humans, gnomes have been known to create small, localized
     hazards such as entangling vines, rapid plant growth, or large mushroom spores
-    that cause mild to moderate hallucinatory effects that can cause moderate harm
-    and injuries if not careful. \r\n"
+    that cause mild to major hallucinatory effects that can cause permanent cognitive
+    disability if not careful.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

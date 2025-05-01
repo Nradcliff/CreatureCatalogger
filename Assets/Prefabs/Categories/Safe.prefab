@@ -65,20 +65,21 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '- Avoids humans, but goes after local wildlife
+  m_text: '- Avoids humans, but may hunt local wildlife.
 
     - Only attacks if
-    provoked
+    provoked, or is not aggressive at all.
 
-    - Can be befriended/tamed/appeased
+    - Can be befriended, tamed, appeased,
+    or it is friendly to begin with.
 
-    - Is helpful, protective,
-    or useful to humans.
+    - Is helpful, protective, or useful to
+    humans.
 
-    - May attempt to steal resources
+    - May attempt to steal resources.
 
-    - Is inert
-    and its properties don''t take effect unless interacted with'
+    - It''s inert and its properties
+    don''t take effect unless interacted with.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

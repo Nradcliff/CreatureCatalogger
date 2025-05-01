@@ -84,11 +84,11 @@ MonoBehaviour:
     they have been observed to exhale intense cold air, capable of lowering the temperature
     of an area by as much as 10\xB0C (18\xB0F) per minute.\r\nSnow Golems have been
     shown to actively disrupt electrical and mechanical devices that generate heat.
-    This includes causing electrical circuits to short-circuit, disrupting heat-generating
-    appliances (e.g., space heaters, furnaces), and even altering the flow of gas
-    lines in order to cut off heat from centralized systems. In extreme cases, instances
-    have been known to target industrial heating systems, rendering entire facilities
-    uninhabitable by reducing temperatures to life-threatening levels.\r\n"
+    This includes causing electrical devices to short-circuit, disrupting heat-generating
+    appliances, and even altering the flow of gas lines in order to cut off heat
+    from centralized systems. In extreme cases, instances have been known to target
+    industrial heating systems, rendering entire facilities uninhabitable by reducing
+    temperatures to life-threatening levels leading to possible hypothermia and death.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

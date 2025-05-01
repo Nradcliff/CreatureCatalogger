@@ -15,7 +15,7 @@ MonoBehaviour:
   name: False Object
   description: {fileID: 509575570654444755, guid: d41e26579a715df45848289c88b6bdca, type: 3}
   artwork: {fileID: -5319631908984082709, guid: 15e2a0b4acb444844882b2bd2582e334, type: 3}
-  id: 18
+  id: 19
   threat: 2
   type: 2
   isUsed: 0

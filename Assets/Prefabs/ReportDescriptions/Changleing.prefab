@@ -68,32 +68,33 @@ MonoBehaviour:
   m_text: 'Refers to a parasitic entity capable of assuming the appearance and persona
     of a human subject. Changelings are believed to infiltrate human communities
     by replacing a human individual, either by hiding the original away via kidnapping
-    or murder, and taking on their full physical appearance, memories, and behaviors.
-    These entities exhibit a perfect mimicry of the original host but with one crucial
-    distinction: the changeling is not the original individual and possesses altered
-    or malevolent behavioral tendencies.
+    or sometimes murder, and taking on their full physical appearance, memories,
+    and behaviors. These entities exhibit a perfect mimicry of the original host
+    but with one crucial distinction: the changeling is not the original individual
+    and possesses altered or malevolent behavioral tendencies.
 
-    Instances are characterized by the
-    ability to alter their physical and genetic makeup to mimic the original subject
-    down to the smallest details, including facial features, fingerprints, and voice
-    patterns. However, these entities are not perfect copies and may exhibit subtle
-    discrepancies, often detectable only through advanced surveillance or close personal
-    interaction.
+    Instances are
+    characterized by the ability to alter their physical and genetic makeup to mimic
+    the original subject down to the smallest details, including facial features,
+    fingerprints, and voice patterns. However, these entities are not perfect copies
+    and may exhibit subtle discrepancies, often detectable only through advanced
+    surveillance or close personal interaction.
 
-    While the changeling can appear indistinguishable from the
-    host it replaces, it typically displays a number of behavioral inconsistencies
-    that are not immediately apparent. These include unusual emotional responses,
-    a lack of long-term memory regarding events that occurred before their replacement,
-    and an inexplicable compulsion to isolate themselves from groups. Prolonged exposure
-    to a changeling''s presence can lead to a slow and insidious breakdown of group
-    dynamics, resulting in mistrust and paranoia.
+    While the changeling can appear
+    indistinguishable from the host it replaces, it typically displays a number of
+    behavioral inconsistencies that are not immediately apparent. These include unusual
+    emotional responses, a lack of long-term memory regarding events that occurred
+    before their replacement, and an inexplicable compulsion to isolate themselves
+    from groups. Prolonged exposure to a changeling''s presence can lead to a slow
+    and insidious breakdown of group dynamics, resulting in mistrust and paranoia.
 
-    While Changelings are not
-    inherently violent, it is known to aggressively defend its cover when threatened
-    or exposed. In some cases, changelings have resorted to violent means, including
-    psychological manipulation, isolation tactics, and even murder, to maintain their
-    assumed identity and avoid detection. They are also highly adept at impersonating
-    emotions and behaviors, making them difficult to unmask even when closely observed.
+    While
+    Changelings are not inherently violent, it is known to aggressively defend its
+    cover when threatened or exposed. In some cases, changelings have resorted to
+    violent means, including psychological manipulation, isolation tactics, and even
+    murder in extreme cases, to maintain their assumed identity and avoid detection.
+    They are also highly adept at impersonating emotions and behaviors, making them
+    difficult to unmask even when closely observed.
 
 '
   m_isRightToLeft: 0

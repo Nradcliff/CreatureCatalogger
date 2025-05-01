@@ -15,7 +15,7 @@ MonoBehaviour:
   name: The Drowned One
   description: {fileID: 509575570654444755, guid: 04c74fb536a0f3a4ca5e55372f62e441, type: 3}
   artwork: {fileID: -4195519162027893633, guid: 6120b699c6027194db36f170f1a50ea6, type: 3}
-  id: 57
+  id: 56
   threat: 3
   type: 3
   isUsed: 0

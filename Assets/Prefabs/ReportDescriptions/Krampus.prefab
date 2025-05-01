@@ -78,9 +78,9 @@ MonoBehaviour:
     opens its mouth, a foul odor reminiscent of rotting meat and sulfur emanates,
     suggesting that It may have an offensive defense mechanism or dietary preference
     for carrion.\r\nIt seems to operate on a predatory, almost ritualistic basis,
-    targeting specific individuals, particularly children or those who have demonstrated
-    negative behavior, such as disrespect or cruelty toward others. This is consistent
-    with folklore surrounding the Krampus figure, where it is said to punish misbehaving
+    targeting specific individuals, particularly children who have demonstrated negative
+    behavior, such as disrespect or cruelty toward others. This is consistent with
+    folklore surrounding the Krampus figure, where it is said to punish misbehaving
     children by either abducting them or subjecting them to horrific fates. It has
     been observed carrying out these actions with terrifying efficiency, dragging
     its victims away into the forest or into areas where it is difficult to track
@@ -88,7 +88,8 @@ MonoBehaviour:
     to restrain the victim, followed by an extended period of torment, during which
     It may expose its victim to psychological distress by inducing vivid, terrifying
     hallucinations of isolation, torment, or punishment. These psychological effects
-    have been observed in nearly all of It\u2019s victims.\r\n"
+    have been observed in nearly all of It\u2019s victims and leave long lasting
+    trauma and disorders when into adulthood.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Vengeful Veggie
   description: {fileID: 509575570654444755, guid: 1eb43ea87ddd39947b7ae861faa295bf, type: 3}
   artwork: {fileID: 2950869812727453837, guid: 86240723fa85467449ba364aaefcf803, type: 3}
-  id: 65
+  id: 64
   threat: 1
   type: 2
   isUsed: 1

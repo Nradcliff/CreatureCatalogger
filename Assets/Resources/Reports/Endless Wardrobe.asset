@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Endless Wardrobe
   description: {fileID: 509575570654444755, guid: 9a4ae10369518a0469f29e69d0db211a, type: 3}
   artwork: {fileID: 5915384826958299246, guid: 56989a4bcfcd1e146a34b568a1f699ab, type: 3}
-  id: 14
+  id: 15
   threat: 2
   type: 3
   isUsed: 0

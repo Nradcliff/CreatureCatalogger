@@ -81,13 +81,13 @@ MonoBehaviour:
     or even artificial barriers.\r\nIt is highly territorial, and when encountered,
     it displays aggressive defensive behaviors, particularly if it perceives its
     territory or young is threatened and it has been observed showing little to no
-    hesitation in attacking humans and causing major bodily harm when it does. The
-    creature is most active during the nighttime hours, when it uses its heightened
+    hesitation in attacking humans and causing lacerations and scratches on its victims.
+    The creature is most active during the nighttime hours, when it uses its heightened
     senses to hunt and forage for food. It is an opportunistic predator, often scavenging
     the remains of dead animals but also hunting smaller creatures, such as deer,
     boars, and other mammals, as well as occasionally preying upon local birds or
     reptiles. It is particularly skilled at ambushing its prey, utilizing its stealth
-    and agility to approach undetected before attacking.\r\n"
+    and agility to approach undetected before attacking. \r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

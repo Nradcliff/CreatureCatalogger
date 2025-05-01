@@ -65,19 +65,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '- Either too small to detect, not visible to the naked eye, or does not
-    have a physical form.
+  m_text: '- Too small to detect, not visible to the naked eye, or does not have
+    a physical appearance.
 
-    - It affects people''s senses.
+    - Does not, or can choose not to, have a tangible
+    form.
 
-    - Being in its
-    presence can cause psychological or physical effects
+    - Being in its presence can cause psychological or physical effects.
 
-    - Can be confused
-    for a humanoid, beast, or inanimate
+    -
+    Can be confused for a humanoid, beast, or inanimate Psycrets.
 
-    - It can bend or subvert the laws of
-    reality'
+    - It can
+    bend or subvert the laws of reality.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

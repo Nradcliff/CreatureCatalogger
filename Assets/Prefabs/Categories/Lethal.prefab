@@ -65,19 +65,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '- Is hard to take down or contain.
+  m_text: '- Is hard to incapacitate or contain.
 
-    - Actively seeks out targets.
-    Is sadistic or violent in nature.
+    - Actively seeks out targets
+    through agressive or manipulative means.
 
-    - Can consistently cause physical/mental
-    alterations, harm, and death
+    - Consistently causes death through
+    violent or sadistic means.
 
-    - May cause damage on a city-wide level or
-    higher.
+    - May cause damage on a city-wide scale.
 
-    - May amass followers, enthrall groups of the weak-minded, or summon
-    additional Psy-Crets.'
+    -
+    May amass followers, enthrall groups of the weak-minded, or summon additional
+    Psycrets.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

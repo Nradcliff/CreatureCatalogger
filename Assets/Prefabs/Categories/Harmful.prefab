@@ -65,21 +65,22 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '- Is territorial or it activates consistently under certain conditions
+  m_text: '- Is territorial or it activates consistently under certain conditions.
 
     -
-    Only attacks if provoked
+    Only attacks if provoked.
 
-    - May cause minor/major injuries/alterations.
-    Physical or Mental.
+    - May cause minor physical injuries or minor
+    mental damage and alterations (e.g. surface cuts, mental distress, lesser hallucinations)
 
-    - Can cause minor property damage
+    -
+    May cause minor property damage (e.g. broken objects, vehicle destruction)
 
-    - May attempt
-    to steal resources
+    -
+    May attempt to steal or extract resources.
 
-    - Avoids humans, but goes after local wildlife and even
-    pets instead'
+    - Avoids humans, but may approach
+    their environment for hunting.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

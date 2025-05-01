@@ -75,10 +75,7 @@ MonoBehaviour:
     the nails are filed to sharp, claw-like points. The hand's anatomy is mostly
     human in structure, but exhibits slight deviations: there are no visible veins,
     and its joints are hyper-articulated, allowing the hand to move in an unnaturally
-    fluid manner.\r\nWhen not activated, it remains inert and immobile, appearing
-    as a typical severed hand. However, the hand possesses an anomalous ability to
-    extend its influence on nearby objects and individuals when exposed to specific
-    conditions. \r\nThe primary effect of the hand occurs when it is placed in close
+    fluid manner.\r\nThe primary effect of the hand occurs when it is placed in close
     proximity to any living being. Individuals within a 5-meter radius of it begin
     to experience the immediate loss of all sensory perception\u2014sight, hearing,
     and even touch. The hand appears to possess an \"invisibility\" effect that suppresses
@@ -89,8 +86,8 @@ MonoBehaviour:
     report a deep sense of lethargy and emotional numbness. Cognitive abilities such
     as decision-making, memory recall, and emotional processing are severely hindered.
     This state of sensory deprivation persists as long as the individual remains
-    within range of the hand, and can lead to complete dissociation and unconsciousness
-    if prolonged for more than 12 hours.\r\n"
+    within range of the hand, and the effects can become permanent if exposure is
+    more than 12 hours.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

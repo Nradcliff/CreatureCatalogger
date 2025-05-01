@@ -65,9 +65,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Is a entity creature native to the Appalachian mountain range of the United
-    States, particularly associated with the folklore of Maryland and West Virginia.
-    It is described as a large, hybrid creature with both avian and reptilian features,
+  m_text: "Is a entity native to the Appalachian mountain range of the United States,
+    particularly associated with the folklore of Maryland and West Virginia. It is
+    described as a large, hybrid creature with both avian and reptilian features,
     which has been known to engage in predatory behavior, particularly towards livestock
     and occasionally humans. The creature has two powerful, muscular hind limbs,
     each ending in sharp talons, which allow it to grasp and maim its prey with ease.
@@ -86,7 +86,8 @@ MonoBehaviour:
     including swooping down to strike and lift its prey into the air before delivering
     fatal blows and grevious wounds with its beak and talons. It will target humans
     who enter its hunting territory, especially in areas where it has been known
-    to nest. Encounters with humans typically result in violent attacks. \r\n"
+    to nest. Encounters with humans typically result in violent attacks leading to
+    hospitalization because of injuries.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

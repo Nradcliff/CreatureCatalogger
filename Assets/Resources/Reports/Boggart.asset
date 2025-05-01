@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Boggart
   description: {fileID: 509575570654444755, guid: ad0db3e73919cc6408429aca926db4bb, type: 3}
   artwork: {fileID: 5057360428052909418, guid: 06ad5180cfcb28d498e431afe24af009, type: 3}
-  id: 3
-  threat: 3
+  id: 4
+  threat: 2
   type: 3
   isUsed: 0

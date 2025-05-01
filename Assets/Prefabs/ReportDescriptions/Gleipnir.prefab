@@ -72,10 +72,9 @@ MonoBehaviour:
     attempt to cut, burn, or sever them using conventional methods has been unsuccessful.
     Even when subjected to extreme temperatures or high-pressure environments, the
     chains retain their integrity, further suggesting an anomalous nature beyond
-    current scientific understanding. The chains also exhibit strange interactions
-    with electromagnetic fields, either absorbing or repelling them depending on
-    the proximity to it.\r\nGleipnir is generally passive when not interacting with
-    subjects or events that provoke its interest. However, when triggered by specific
+    current scientific understanding. However, when not active it is easy to contain
+    and move around. \r\nGleipnir is generally passive when not interacting with
+    individuals or events that provoke its interest. However, when triggered by specific
     emotional stimuli, the entity becomes increasingly agitated. The chains extend
     further, often lashing out violently or forming intricate, web-like structures
     within its vicinity. The entity does not appear to be driven by hunger or need
@@ -85,7 +84,7 @@ MonoBehaviour:
     has been exposed to larger quantities of emotionally charged or chaotic individuals\u2014such
     as those in intense fear, anger, or despair\u2014tend to provoke more extreme
     reactions from the entity, including rapid chain expansion and a noticeable increase
-    in physical attacks to contain infractors.\r\n"
+    in physical attacks that cause minor lacerations to contain infractors.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

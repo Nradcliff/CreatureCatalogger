@@ -15,7 +15,7 @@ MonoBehaviour:
   name: The Animated
   description: {fileID: 509575570654444755, guid: 2c970e16729886145a5d653a93849422, type: 3}
   artwork: {fileID: -2650325936037282273, guid: dc067ad51ce4f26479b4b278f91b330b, type: 3}
-  id: 56
+  id: 55
   threat: 2
   type: 2
   isUsed: 0

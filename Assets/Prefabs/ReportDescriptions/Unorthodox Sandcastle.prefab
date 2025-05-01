@@ -70,25 +70,25 @@ MonoBehaviour:
     characteristics consistent with sandcastles of quality in extreme competitions
     . It\u2019s exterior appears to be made of sand, but it is composed of inorganic
     components similar to bone, muscle tissue, and cartilage that allow for semi-structured
-    movement and manipulation.\r\nThe upper portion of It\u2019s structure is a sculpted
+    movement and manipulation. The upper portion of It\u2019s structure is a sculpted
     tower-like formation with protruding spires and ridges, giving it the appearance
     of an unusually complex sandcastle. \r\nIt\u2019s most dangerous ability is to
     manipulate the sand it is composed of, particularly the sand that it is in contact
     with. The entity can stretch or morph the sand around it into limbs, tendrils,
-    or other structures, allowing It to move or attack. When it is in proximity to
-    living beings, It can manipulate the sand it controls to envelop them, pulling
-    them toward its central form and into its shifting mass. Victims who come into
-    contact with It's sand will find themselves increasingly unable to escape as
-    the sand seems to move independently, latching onto them, binding them, and pulling
-    them into the center of the structure. Once a victim has been fully consumed
-    by the sand, It uses the sand to create new sand structures part of its main
-    form.\r\nThe victims that are absorbed by It remain alive within its mass for
-    a variable amount of time, experiencing extreme physical discomfort as their
-    bodies are crushed or shifted within the sand. After a period of time ranging
-    from a few minutes to several hours, these individuals appear to be fully integrated
-    into the mass, their bodies partially transformed into more sand-like material.
-    Victims have been observed to exhibit symptoms of suffocation, intense fear,
-    and eventual psychological breakdown before full consumption.\r\n"
+    or other structures, allowing It to move or attack. It can also use existing
+    sand to repair itself making tough to take down by conventional means. Whether
+    in proximity to living beings or actively seeking them, It can manipulate the
+    sand it controls to envelop them, pulling them toward its central form and into
+    its shifting mass. Victims who come into contact with It's sand will find themselves
+    increasingly unable to escape as the sand seems to move independently, latching
+    onto them, binding them, and pulling them into the center of the structure. \r\nThe
+    victims that are absorbed by It remain alive within its mass for a variable amount
+    of time, experiencing extreme physical discomfort as their bodies are crushed
+    or shifted within the sand. After a period of time ranging from a few minutes
+    to several hours, these individuals appear to be fully integrated into the mass,
+    their bodies partially transformed into more sand-like material. Victims have
+    been observed to exhibit symptoms of suffocation, intense fear, and eventual
+    psychological breakdown before full consumption.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

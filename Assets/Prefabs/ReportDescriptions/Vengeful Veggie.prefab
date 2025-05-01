@@ -65,28 +65,23 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Is a species of sentient carrot that exhibits no strange properties while
+  m_text: "Is a species of sentient carrot that exhibits no strange properties while
     underground. However, once an instance is forcibly removed from the soil, it
-    becomes immediately hostile toward the individual responsible.
-
-    Upon activation,
+    becomes immediately hostile toward the individual responsible.\r\nUpon activation,
     it will rapidly sprout small, root-like appendages and use them for locomotion,
     moving at speeds of up to 10 km/h. It will then launch itself at its perceived
-    aggressor, using sharpened root tendrils to lash at exposed skin and eyes. In
-    recorded instances, it has demonstrated surprising agility, capable of leaping
-    up to two meters to reach its target. It does not exhibit hostility toward individuals
-    who handle the soil but will react only when an instance is physically removed.
-    Attempts to slice or consume the veggie will result in extreme nausea and auditory
-    hallucinations, often described as "whispering voices cursing the consumer."
-
-    Aggression
-    persists until one of the following conditions is met: The target is incapacitated
-    or otherwise neutralized. The Instance is returned to the soil, at which point
-    it will immediately cease movement and re-root itself. If the vengeful veggie
-    is sufficiently damaged, it releases a high-pitched squealing noise before going
-    inert.
-
-'
+    aggressor, using sharpened root tendrils to lash at exposed skin and face leaving
+    shallow lacerations and hives even if not allergic. In recorded instances, it
+    has demonstrated surprising agility, capable of leaping up to two meters to reach
+    its target. It does not exhibit hostility toward individuals who handle the soil
+    but will react only when an instance is physically removed. Attempts to slice
+    or consume the veggie will result in extreme nausea and auditory hallucinations,
+    often described as \"whispering voices cursing the consumer.\"\r\nAggression
+    persists until one of the following conditions is met: \r\nThe target is incapacitated
+    or otherwise neutralized\r\nThe veggie instance is returned to the soil, at which
+    point it will immediately cease movement and re-root itself\r\nIf the vengeful
+    veggie is sufficiently damaged, it releases a high-pitched squealing noise before
+    going inert.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

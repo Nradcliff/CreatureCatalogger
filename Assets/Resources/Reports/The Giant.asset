@@ -15,7 +15,7 @@ MonoBehaviour:
   name: The Giant
   description: {fileID: 509575570654444755, guid: 3ce2c7a0a266d9c408431fa4499ad205, type: 3}
   artwork: {fileID: 2989235007666249066, guid: 48ef7fb709838cf41b2c122a933b2dff, type: 3}
-  id: 59
+  id: 58
   threat: 3
   type: 1
   isUsed: 0

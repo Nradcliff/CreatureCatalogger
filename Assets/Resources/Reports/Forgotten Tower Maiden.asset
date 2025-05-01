@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Forgotten Tower Maiden
   description: {fileID: 509575570654444755, guid: 573bd4fcf514699428f6c1f13d30b608, type: 3}
   artwork: {fileID: 7426971896248334721, guid: a215e930221ca5940a2de0fef08e2f2e, type: 3}
-  id: 21
+  id: 20
   threat: 2
   type: 1
   isUsed: 0

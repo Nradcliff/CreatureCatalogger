@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Chupacabra
   description: {fileID: 509575570654444755, guid: 90c791ebd56e7344099c4c0e319ce03a, type: 3}
   artwork: {fileID: 3600692559463535173, guid: d033cc259ecb95f4491af8dc95414d1d, type: 3}
-  id: 5
+  id: 6
   threat: 1
   type: 0
   isUsed: 0

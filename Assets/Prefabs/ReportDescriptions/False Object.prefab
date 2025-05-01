@@ -67,19 +67,18 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Is a seemingly ordinary domestic artifact. At first glance, it presents
     itself as an object that could belong in any average home, appearing as an unremarkable
-    item\u2014such as a vase, an old book, or a chair\u2014though its exact form
-    appears to change depending on who is observing it. The object is approximately
-    40 cm in height and 30 cm in width, though its shape, texture, and material composition
-    will adapt according to the expectations or desires of the observer, making it
-    highly unpredictable. They are known for making gentle buzzing sounds that can
-    usually be heard by very young human children or small animals. \r\nThe false
-    object's most notable property is its ability to change both in appearance and
-    function when an individual directly interacts with or simply observes it. This
-    change is subtle at first, with no immediate indication that the object has transformed.
-    Should a child or pet be left alone with a False Object, they are at risk of
-    being entrapped within. Once encased, no noise made by the prey can be heard.
-    While digestion can take upwards of several years to complete, starvation can
-    be a more pressing concern."
+    item\u2014such as a vase, a nightstand, or a old tube tv\u2014though its exact
+    form appears to change depending on who is observing it. Its shape, texture,
+    and material composition will adapt according to the expectations or desires
+    of the observer, making it highly unpredictable. They are known for making gentle
+    buzzing sounds that can usually be heard by very young human children or small
+    animals. \r\nThe false object's most notable property is its ability to change
+    both in appearance and function when an individual directly interacts with or
+    simply observes it. This change is subtle at first, with no immediate indication
+    that the object has transformed. Should a child or pet be left alone with a False
+    Object, they are at risk of being entrapped within. Once encased, no noise made
+    by the prey can be heard. While digestion can take upwards of several years to
+    complete, starvation can be a more pressing concern."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

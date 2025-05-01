@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Specter Moose
   description: {fileID: 509575570654444755, guid: f7b0d9338fec3da4da1a4c8cee0574f9, type: 3}
-  artwork: {fileID: 1030421470159954706, guid: e4929baa245c1b84f9e6489d99f2243c, type: 3}
-  id: 54
+  artwork: {fileID: 1030421470159954706, guid: aed7f5e0e850a4743bdd21bf28bc58a8, type: 3}
+  id: 53
   threat: 1
   type: 3
   isUsed: 0

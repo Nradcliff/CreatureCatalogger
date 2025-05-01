@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Rotting Mother
   description: {fileID: 509575570654444755, guid: 29995261df9a2ca49a78323172d31406, type: 3}
   artwork: {fileID: -3249425371354982132, guid: c9dca6a861e388c4d9fb50054f5f4728, type: 3}
-  id: 48
+  id: 47
   threat: 0
   type: 1
   isUsed: 0
