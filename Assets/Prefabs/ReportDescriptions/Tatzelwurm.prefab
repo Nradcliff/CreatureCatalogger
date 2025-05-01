@@ -75,18 +75,18 @@ MonoBehaviour:
     the night. Its diet consists primarily of small mammals, including rodents, rabbits,
     and other small forest animals. It has been observed to employ a stalking technique
     similar to that of felines, sneaking up on its prey and ambushing it with a combination
-    of quick movements and a leap.It exhibits a degree of intelligence, often observing
+    of quick movements and a leap. It exhibits a degree of intelligence, often observing
     its surroundings for extended periods before acting. It will avoid direct confrontation
     with larger creatures, using its stealth and agility to evade capture rather
     than fight.\r\nIt's behavior is generally non-aggressive unless it is threatened
     or feels cornered. It has been observed to emit a low, growling sound when agitated,
     which serves as a warning to potential threats. In rare instances, when severely
     provoked, it will lash out with its claws and bite. However, the creature is
-    not known to be a significant threat to humans, though it can cause injury through
-    defensive strikes. The creature\u2019s temperament is generally calm, especially
-    when it has access to its preferred environments, such as trees or rocks. It
-    has been shown to seek out cool, shaded areas during the warmer months and will
-    often rest in these spots for hours at a time.\r\n"
+    not known to be a significant threat to humans. The creature\u2019s temperament
+    is generally calm, especially when it has access to its preferred environments,
+    such as trees or rocks, and can even be tamed if provided with its preferred
+    forms of prey. It has been shown to seek out cool, shaded areas during the warmer
+    months and will often rest in these spots for hours at a time.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Pope Lick Monster
   description: {fileID: 509575570654444755, guid: 07ad27d16861da14fbec9db670c7d191, type: 3}
   artwork: {fileID: -8671578006073173422, guid: 44d316d541fc7f748bea0423651171a1, type: 3}
-  id: 0
+  id: 44
   threat: 3
   type: 1
   isUsed: 0

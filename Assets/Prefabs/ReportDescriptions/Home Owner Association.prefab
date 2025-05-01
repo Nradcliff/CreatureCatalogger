@@ -76,17 +76,18 @@ MonoBehaviour:
     until the affected individuals fully transform into a HOA member.\r\nAssimilation
     Process:\r\nInitial Contact \u2013 Members introduce themselves to new residents
     with an excessive level of hospitality, often bringing identical welcome baskets
-    containing baked goods of unknown origin.\r\n\r\n\r\nSubtle Indoctrination \u2013
-    Victims report an increasing compulsion to conform to \u201Ccommunity rules,\u201D
-    such as maintaining pristine lawns, adhering to strict curfews, and wearing muted
-    clothing.\r\n\r\n\r\nPhysical Changes \u2013 Over time, affected individuals
-    begin losing hair, experiencing skin pallor, and exhibiting monotone speech patterns.\r\n\r\n\r\nFull
-    Conversion \u2013 The final stage occurs when the individual forgets their previous
-    identity entirely, fully embracing the HOA ideology. At this point, reversal
-    is impossible.\r\nOnce converted, individuals express complete devotion to the
-    \u201Cbetterment of the neighborhood\u201D and actively participate in recruiting
-    new residents. Those who resist assimilation face increasing pressure, social
-    isolation, and eventual disappearance.\r\n"
+    containing baked goods of unknown origin which the consumed materials are believed
+    to be what starts the physical transformation process.\r\n\r\n\r\nSubtle Indoctrination
+    \u2013 Victims report an increasing compulsion to conform to \u201Ccommunity
+    rules,\u201D such as maintaining pristine lawns, adhering to strict curfews,
+    and wearing muted clothing.\r\n\r\n\r\nPhysical Changes \u2013 Over time, affected
+    individuals begin losing hair, experiencing skin pallor, and exhibiting monotone
+    speech patterns.\r\n\r\n\r\nFull Conversion \u2013 The final stage occurs when
+    the individual forgets their previous identity entirely, fully embracing the
+    HOA ideology. At this point, reversal is impossible.\r\nOnce converted, individuals
+    express complete devotion to the \u201Cbetterment of the neighborhood\u201D and
+    actively participate in recruiting new residents. Those who resist assimilation
+    face increasing pressure, social isolation, and eventual disappearance.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

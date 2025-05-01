@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Tatzelwurm
   description: {fileID: 509575570654444755, guid: 39e8aad8cdf350e4d923968d2671d701, type: 3}
-  artwork: {fileID: 0}
-  id: 0
+  artwork: {fileID: -623599151443343605, guid: e129fa0575e28fa4580806054c81e941, type: 3}
+  id: 54
   threat: 0
   type: 0
   isUsed: 0

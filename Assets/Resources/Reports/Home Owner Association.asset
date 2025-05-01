@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Home Owner Association
   description: {fileID: 509575570654444755, guid: adebbfba93407194ab4f6a4a52cfa1da, type: 3}
   artwork: {fileID: 3799865487483331498, guid: 7f9daf9e75ae09345bfb154234679d2f, type: 3}
-  id: 0
+  id: 26
   threat: 3
   type: 1
   isUsed: 0

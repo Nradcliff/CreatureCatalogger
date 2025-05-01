@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: The Fridge
   description: {fileID: 509575570654444755, guid: 53e16906618518a48b579312b5c333c6, type: 3}
-  artwork: {fileID: 0}
-  id: 2
+  artwork: {fileID: -5541448371322344312, guid: 54197af9964da18488f9b554e1eda97d, type: 3}
+  id: 57
   threat: 0
   type: 3
   isUsed: 0

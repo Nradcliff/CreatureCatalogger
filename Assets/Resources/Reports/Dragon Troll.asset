@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Dragon Troll
   description: {fileID: 509575570654444755, guid: b5686ab126de415409af1b6956b6f41c, type: 3}
   artwork: {fileID: 4328930402709051604, guid: 23870748910f9b94c952776510150510, type: 3}
-  id: 0
+  id: 12
   threat: 0
   type: 3
   isUsed: 0

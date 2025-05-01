@@ -85,9 +85,10 @@ MonoBehaviour:
     to pry open food or attack prey. \r\nIn certain instances, it has demonstrated
     the ability to use discarded objects or materials in its environment to create
     rudimentary shelters, indicating a level of self-preservation instinct. It does
-    not appear to attack humans unless provoked or threatened. It is known to stalk
-    individuals who venture too deeply into its territory, often making itself visible
-    only at the edge of the field of vision before retreating back into the trees.\r\n"
+    not appear to attack humans unless provoked or threatened usually leaving surface
+    incisions and scratches on its victims. It is known to stalk individuals who
+    venture too deeply into its territory, often making itself visible only at the
+    edge of the field of vision before retreating back into the trees.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

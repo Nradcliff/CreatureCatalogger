@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Gleipnir
   description: {fileID: 509575570654444755, guid: 9344b504afdbdc741a6f4d1bc13f0261, type: 3}
   artwork: {fileID: -3977973620585323808, guid: a9e147b9765f91244a5f16ca361bda2a, type: 3}
-  id: 0
+  id: 22
   threat: 1
   type: 2
   isUsed: 0

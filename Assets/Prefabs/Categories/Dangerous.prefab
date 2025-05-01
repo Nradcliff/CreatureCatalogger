@@ -65,11 +65,22 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "- Is territorial and has a set hunting ground, or it activates consistently
-    under certain conditions\r\n- Attacks on sight or stalks its prey\r\n- Can cause
-    serious bodily harm, physical/mental alterations, or death\r\n- Can cause severe
-    property damage\r\n- Is known to kidnap small individuals \r\n- Can manipulate
-    very specific environments or objects."
+  m_text: '- Is territorial, has a set hunting ground, or activates consistently
+    under certain conditions.
+
+    - Attacks on sight, stalks its prey, or uses
+    luring tactics when too close
+
+    - May cause major physical injuries, mental
+    damage, or even death
+
+    - May cause severe property damage (e.g. building
+    destruction, terrain alteration)
+
+    - Is known to kidnap small individuals.
+
+    -
+    Can manipulate very specific environments or objects.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

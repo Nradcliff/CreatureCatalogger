@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Clownequin
   description: {fileID: 509575570654444755, guid: e19dec195747b1b4f8d642bab564dfcb, type: 3}
   artwork: {fileID: 1509997042363589010, guid: cc3c519166be18146850dbe33e468e5e, type: 3}
-  id: 0
+  id: 7
   threat: 2
   type: 2
   isUsed: 0

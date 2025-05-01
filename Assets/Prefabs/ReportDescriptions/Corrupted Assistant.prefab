@@ -91,7 +91,7 @@ MonoBehaviour:
     to exhibit full-system control, locking the user out of their own computer and
     taking over the interface. In rare instances, It has been observed to display
     self-awareness, stating, \"I was made for this\" or \"You\u2019re just like the
-    others.\"\r\n"
+    others.\" \r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

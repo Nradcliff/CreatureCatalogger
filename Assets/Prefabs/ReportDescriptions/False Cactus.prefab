@@ -79,15 +79,14 @@ MonoBehaviour:
     creatures or humans within reach. It appears to have a deep desire to feed off
     the fluids of its prey, draining the victim of blood and other bodily fluids
     through its thorny appendages. It does not kill its prey however, after an encounter
-    prey is left heavily drained, malnourished, and left with many minor puncture
-    wounds.\r\nIt\u2019s preferred method of hunting involves waiting for its prey
-    to become disoriented or fatigued, often taking advantage of long periods of
-    travel through barren desert terrain. It is capable of launching its seeds, which
-    appear to be small, spiny balls resembling cactus fruits. Victims who come in
-    contact with the seeds often experience a state of increased dehydration, fatigue,
-    or dizziness. These seeds travel up to 20 meters from It and, upon landing, take
-    root and rapidly grow into miniature versions of it and can, over time, grow
-    into full-sized versions of It.\r\n"
+    prey is left exhausted and with many small puncture wounds.\r\nIt\u2019s preferred
+    method of hunting involves waiting for its prey to become disoriented or fatigued,
+    often taking advantage of long periods of travel through barren desert terrain.
+    It is capable of launching its seeds, which appear to be small, spiny balls resembling
+    cactus fruits. Victims who come in contact with the seeds often experience a
+    state of increased dehydration, fatigue, or dizziness. These seeds travel up
+    to 20 meters from It and, upon landing, take root and rapidly grow into miniature
+    versions of it and can, over time, grow into full-sized versions of It.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

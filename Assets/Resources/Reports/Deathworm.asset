@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Deathworm
   description: {fileID: 509575570654444755, guid: 93ec040a917a2a544ae670456d6a3173, type: 3}
   artwork: {fileID: 6805556852262836034, guid: b8254b95369045f4ea6757a2ea4f733a, type: 3}
-  id: 0
+  id: 10
   threat: 3
   type: 0
   isUsed: 0

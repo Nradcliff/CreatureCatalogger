@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Luring Balloon
   description: {fileID: 509575570654444755, guid: b98ebbd018bfe3e4a807c901ff64893d, type: 3}
   artwork: {fileID: -4090335491600129668, guid: 1ef92b66b246a75498119a6bcf461a33, type: 3}
-  id: 0
+  id: 32
   threat: 1
   type: 2
   isUsed: 0
