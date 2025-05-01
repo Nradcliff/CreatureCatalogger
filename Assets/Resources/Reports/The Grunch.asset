@@ -15,7 +15,7 @@ MonoBehaviour:
   name: The Grunch
   description: {fileID: 509575570654444755, guid: 9e79787392a699246be44441d86d355b, type: 3}
   artwork: {fileID: 6309428513644568754, guid: 5b180bc28891de74287e851a92561cce, type: 3}
-  id: 59
+  id: 60
   threat: 1
   type: 0
   isUsed: 0

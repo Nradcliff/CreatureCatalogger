@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Past Employee
   description: {fileID: 509575570654444755, guid: baf36b7c1c5e7d643bbdf14e2d0d0fdf, type: 3}
   artwork: {fileID: 7270967797702434932, guid: 6e9c08ee0ead1b442b69e8c4575b32c1, type: 3}
-  id: 42
+  id: 43
   threat: 0
   type: 1
   isUsed: 0

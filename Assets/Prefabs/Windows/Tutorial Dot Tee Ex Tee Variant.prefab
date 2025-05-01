@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -138.91, y: 208}
+  m_AnchoredPosition: {x: -138.91, y: 17.999985}
   m_SizeDelta: {x: 224.2, y: 144.18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2205535424074340014
@@ -116,7 +116,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -356.5}
+  m_AnchoredPosition: {x: 0, y: 356.49997}
   m_SizeDelta: {x: 0, y: 713}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8155385714237668617
@@ -191,7 +191,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -138.91, y: 365}
+  m_AnchoredPosition: {x: -138.91, y: 345}
   m_SizeDelta: {x: 224.2, y: 144.18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1112796286033011927
@@ -266,7 +266,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -69.8, y: -113.99999}
+  m_AnchoredPosition: {x: -193, y: -110}
   m_SizeDelta: {x: 95.71, y: 90.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8394918190523228267
@@ -427,8 +427,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4966326449846447909}
   m_HandleRect: {fileID: 3650303876621510600}
   m_Direction: 3
-  m_Value: 1
-  m_Size: 0.144979
+  m_Value: 0.000000010700414
+  m_Size: 0.14054593
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -467,7 +467,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -138.91, y: 31.000006}
+  m_AnchoredPosition: {x: -138.91, y: 166.99998}
   m_SizeDelta: {x: 224.2, y: 144.18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2158928099576954394
@@ -617,7 +617,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -154.17, y: -321.2}
+  m_AnchoredPosition: {x: -155, y: -271}
   m_SizeDelta: {x: 193.67, y: 183.07}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2184234119188544034
@@ -692,8 +692,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -190, y: -145}
-  m_SizeDelta: {x: 95.71, y: 153.92}
+  m_AnchoredPosition: {x: -172, y: -515}
+  m_SizeDelta: {x: 161.14, y: 259.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3683334287898376972
 CanvasRenderer:
@@ -798,49 +798,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Welcome to the Company!
-
-
-
-
-
-    Here the Psyence Corporation we hunt
+  m_text: "Welcome to the Company!\n\n\n\n\nHere the Psyence Corporation we hunt
     down and contain entities we call Psy-Crets. Psy-cret are entities that evade
-    the public eye and are not confirmed to exist, and we aim to keep it that way.
-
-
-
-
-
-    Your
+    the public eye and are not confirmed to exist, and we aim to keep it that way.\n\n\n\n\nYour
     task will include looking through the active reports for the day under the reports
     application. Based on the info provided you will open the Sorting application,
     select which report you are looking at, and verify based on info from the checklist
-    application.
-
-
-
-
-
-    Here at the company, we recommend you try to match at least
-    2 to 3 of the requirements of each category under threat and type before submitting.
-
-
-
-
-
-    Please
+    application.\n\n\n\n\nHere at the company, we recommend you try to match at least
+    2 to 3 of the requirements of each category under threat and type before submitting.\n\n\n\n\nPlease
     be warned that false/incorrect submissions can cause anomolies in the system.
-    Please make sure any applications not needed are closed, and if the wifi goes
-    out, check the sticky notes on your desk.
-
-
-
-
-
-    Thank You,
-
-    Management'
+    \n\n\n\nThere are some programs at your disposal to make sorting easier, however,
+    the publisher of the program has since confirmed there to be a virus.\n\n\nPlease
+    make sure any applications not needed are closed, and if the wifi goes out, check
+    the sticky notes on your desk.\n\n\n\nYour shift ends at 12:00, be sure to have
+    everything done by that time.\n\n\n\nThank You,\nManagement"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 942596a294ef481479944182a7a72797, type: 2}
   m_sharedMaterial: {fileID: 2525731494604184698, guid: 942596a294ef481479944182a7a72797, type: 2}
@@ -981,7 +952,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 551360363390338428, guid: 208025896aeaac34aabaaa3259055304, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -4.54
+      value: -4.43
       objectReference: {fileID: 0}
     - target: {fileID: 800876703030191724, guid: 208025896aeaac34aabaaa3259055304, type: 3}
       propertyPath: m_AnchoredPosition.x

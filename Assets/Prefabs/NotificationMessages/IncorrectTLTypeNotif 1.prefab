@@ -623,7 +623,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Error: Incorrect Psy-Cret Type, \nIncorrect Threat Level\nPay Deducted"
+  m_text: "Error: Incorrect Morphology, \nIncorrect Threat Level\nPay Deducted"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 942596a294ef481479944182a7a72797, type: 2}
   m_sharedMaterial: {fileID: 2525731494604184698, guid: 942596a294ef481479944182a7a72797, type: 2}
@@ -815,8 +815,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 7006415269286476611}
-        m_TargetAssemblyTypeName: PopupScript, Assembly-CSharp
-        m_MethodName: deletePopup
+        m_TargetAssemblyTypeName: DelNotification, Assembly-CSharp
+        m_MethodName: fancyDelete
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1046,6 +1046,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5462579808925919958}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a5172f75eb2c0749bea153886a275f9, type: 3}
+  m_Script: {fileID: 11500000, guid: 63b17cd40fe96f14094329d5b23de1ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 25

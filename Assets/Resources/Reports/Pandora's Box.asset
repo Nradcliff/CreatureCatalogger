@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Pandora's Box
   description: {fileID: 509575570654444755, guid: 9eca29dc409407649878e3f621087b7f, type: 3}
   artwork: {fileID: 3832890765427456003, guid: a3ba5fd6715c4134b96bd637a44a3270, type: 3}
-  id: 41
+  id: 42
   threat: 3
   type: 3
   isUsed: 0

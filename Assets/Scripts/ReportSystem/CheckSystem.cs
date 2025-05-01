@@ -72,6 +72,8 @@ public class CheckSystem : MonoBehaviour
                 submission = true;
                 Debug.Log("Correct Answer!");
 
+                progressTracker.reportDisallowedToAppear[activeReport.id] = true;
+
                 progressTracker.correctReports += 2;
 
                 Destroy(display.createdDuplicates[reportIndex]);

@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Elaphocentaur
   description: {fileID: 509575570654444755, guid: fcf657ffb10dc9c418ef5c271e7ce994, type: 3}
   artwork: {fileID: -2575560443611247586, guid: 5507a0f299b7bf44687847b6ebbe70d6, type: 3}
-  id: 13
+  id: 12
   threat: 0
   type: 1
   isUsed: 0

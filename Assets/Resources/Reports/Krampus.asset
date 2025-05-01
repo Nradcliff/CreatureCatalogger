@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Krampus
   description: {fileID: 509575570654444755, guid: decc61e4c0bf2254397b12afb0758531, type: 3}
   artwork: {fileID: -604934674181481706, guid: 9c33bd48ad6f9d34fa990d555386e981, type: 3}
-  id: 30
+  id: 31
   threat: 2
   type: 1
   isUsed: 0

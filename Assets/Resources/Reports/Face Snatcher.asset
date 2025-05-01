@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Face Snatcher
   description: {fileID: 509575570654444755, guid: 6199a01d77568b84cbfbfa15d5352291, type: 3}
   artwork: {fileID: 9157535496261740375, guid: 611b822e882d4224fa2ea4e01bac0e4d, type: 3}
-  id: 17
-  threat: 3
+  id: 16
+  threat: 2
   type: 1
   isUsed: 0

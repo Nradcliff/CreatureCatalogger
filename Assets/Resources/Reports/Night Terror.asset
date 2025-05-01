@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Night Terror
   description: {fileID: 509575570654444755, guid: 31de675d7b0d6da4da1c0edc411c5bc6, type: 3}
   artwork: {fileID: -1776948411502817291, guid: 0c8d2fd18b9e97c489b3ea68e947d5f1, type: 3}
-  id: 39
+  id: 40
   threat: 1
   type: 3
   isUsed: 0

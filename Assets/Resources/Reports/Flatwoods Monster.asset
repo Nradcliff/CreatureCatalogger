@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Flatwoods Monsters
   description: {fileID: 509575570654444755, guid: 4f5530816586b1745bb8ec0e6bc78d09, type: 3}
   artwork: {fileID: 2400475177820403417, guid: 18d45b54fcc256a4182886e8a0e46bc8, type: 3}
-  id: 0
+  id: 19
   threat: 1
   type: 3
   isUsed: 0

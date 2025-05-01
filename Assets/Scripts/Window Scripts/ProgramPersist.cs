@@ -1,9 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Runtime.Serialization.Formatters.Binary;
 using TMPro;
 using UnityEngine;
+using static UnityEngine.Rendering.DebugUI;
 
 public class ProgramPersist : MonoBehaviour
 {
@@ -27,8 +29,11 @@ public class ProgramPersist : MonoBehaviour
     public float totalTime;
     public int errorsMade;
 
+    public List<bool> reportDisallowedToAppear;
+
     public void Start()
     {
+        reportDisallowedToAppear.AddRange(Enumerable.Repeat(false, 69));
         loadVol();
         //Randomly generates a wifi password
         randPass = "";
@@ -76,7 +81,7 @@ public class ProgramPersist : MonoBehaviour
         else file = File.Create(destination);
 
         SaveDays data = new SaveDays();
-        data.saveCurrentData(programBool, notepadText, DayNum,backgroundIndex,totalTime,errorsMade);
+        data.saveCurrentData(programBool, notepadText, DayNum,backgroundIndex,totalTime,errorsMade,reportDisallowedToAppear);
         BinaryFormatter bf = new BinaryFormatter();
         bf.Serialize(file, data);
         file.Close();
@@ -104,6 +109,7 @@ public class ProgramPersist : MonoBehaviour
         backgroundIndex = data.savedImage;
         errorsMade = data.savedErrors;
         totalTime = data.savedTime;
+        reportDisallowedToAppear = data.savedReportBools;
         return true;
     }
 
@@ -117,6 +123,10 @@ public class ProgramPersist : MonoBehaviour
         notepadText = string.Empty;
         DayNum = 0;
         backgroundIndex = 0;
+        errorsMade = 0;
+        totalTime = 0;
+        reportDisallowedToAppear.Clear();
+        reportDisallowedToAppear.AddRange(Enumerable.Repeat(false, 69));
     }
 
     public void saveVol()

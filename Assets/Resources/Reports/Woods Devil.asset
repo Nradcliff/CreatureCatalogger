@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Woods Devil
   description: {fileID: 509575570654444755, guid: d492dcbe758c38c48bfd14afe3611e27, type: 3}
-  artwork: {fileID: 3383117716855147711, guid: 9e9bec7dba5d88e4e810ea7d91181c1b, type: 3}
-  id: 67
+  artwork: {fileID: 3383117716855147711, guid: b6a2ecc7d949a284f8deaf3657991927, type: 3}
+  id: 68
   threat: 0
   type: 1
   isUsed: 0

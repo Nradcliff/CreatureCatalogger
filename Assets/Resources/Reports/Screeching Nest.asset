@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Screeching Nest
   description: {fileID: 509575570654444755, guid: 2d9f440625c51e440b3a7679d7d5ab44, type: 3}
   artwork: {fileID: -5498106196687234438, guid: 10a915a63cd8a9344be2c8db7dc0db87, type: 3}
-  id: 48
+  id: 49
   threat: 3
   type: 0
   isUsed: 0

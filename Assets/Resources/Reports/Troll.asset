@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Troll
   description: {fileID: 509575570654444755, guid: b7a2a15735e3ef447816767a574444a0, type: 3}
   artwork: {fileID: -4141237505901376896, guid: a072013db6ee3cb4c85611433d7cb909, type: 3}
-  id: 61
+  id: 62
   threat: 3
   type: 1
   isUsed: 0

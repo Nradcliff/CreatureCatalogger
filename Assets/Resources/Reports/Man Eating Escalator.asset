@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Man Eating Escalator
   description: {fileID: 509575570654444755, guid: 9509e1a0975f61f42bc390d493ed20c5, type: 3}
   artwork: {fileID: 2014914226425114695, guid: f60b62d466dba574d9ac1830ee198b27, type: 3}
-  id: 33
+  id: 34
   threat: 2
   type: 2
   isUsed: 0
