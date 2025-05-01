@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpecterMoose_0: 1030421470159954706
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

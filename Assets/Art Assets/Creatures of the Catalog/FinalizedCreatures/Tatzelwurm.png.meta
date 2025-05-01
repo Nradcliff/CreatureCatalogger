@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tatzelwurm_0: -623599151443343605
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
