@@ -115,7 +115,8 @@ public class TerminalInterpreter : MonoBehaviour
         if (args[0].ToLower() == "quit")
         {
             response.Add("C:\\Psyence\\System32>del");
-            Application.Quit();
+            //Application.Quit();
+            response.Add("Error: Connection unable to terminate - you're stuck with us");
             return response;
         }
         if (args[0].ToLower() == "reboot")

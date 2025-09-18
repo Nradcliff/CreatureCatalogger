@@ -667,6 +667,9 @@ MonoBehaviour:
   ambienceVol: 0.5
   backgroundIndex: 0
   dead: 0
+  totalTime: 0
+  errorsMade: 0
+  reportDisallowedToAppear: 
 --- !u!4 &707008104
 Transform:
   m_ObjectHideFlags: 0
